@@ -1,0 +1,156 @@
+:root {
+  color-scheme: light;
+  --bg: #f6f1e5;
+  --ink: #1f2933;
+  --muted: #617080;
+  --line: #c8c0af;
+  --brand: #1f6fd1;
+  --positive: #168a3a;
+  --negative: #cc3030;
+  --panel: #fffaf0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.page {
+  width: min(1040px, calc(100vw - 32px));
+  margin: 0 auto;
+  padding: 28px 0 48px;
+}
+
+.topbar {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 20px;
+  border-bottom: 2px solid var(--line);
+  padding-bottom: 18px;
+}
+
+.eyebrow {
+  margin: 0 0 6px;
+  color: var(--brand);
+  font-weight: 700;
+  font-size: 13px;
+}
+
+h1 {
+  margin: 0;
+  font-size: 36px;
+}
+
+.updated {
+  margin: 8px 0 0;
+  color: var(--muted);
+}
+
+.segments {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.segments a {
+  border: 1px solid var(--brand);
+  border-radius: 8px;
+  color: var(--brand);
+  font-weight: 700;
+  padding: 10px 14px;
+  text-decoration: none;
+}
+
+.segments a.active {
+  background: var(--brand);
+  color: white;
+}
+
+.warning {
+  margin-top: 18px;
+  padding: 12px 14px;
+  border: 1px solid #d6a000;
+  background: #fff4c7;
+  border-radius: 8px;
+}
+
+.tableWrap {
+  margin-top: 24px;
+  overflow-x: auto;
+  border: 1px solid var(--line);
+  background: var(--panel);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 760px;
+}
+
+th {
+  background: var(--brand);
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+td {
+  border-top: 1px solid var(--line);
+  padding: 12px;
+  text-align: center;
+  font-size: 18px;
+}
+
+td:first-child,
+td:nth-child(2) {
+  text-align: left;
+  font-size: 15px;
+}
+
+td strong,
+td span,
+td small {
+  display: block;
+}
+
+td small {
+  color: var(--muted);
+  margin-top: 4px;
+}
+
+.positive {
+  color: var(--positive);
+  font-weight: 700;
+}
+
+.negative {
+  color: var(--negative);
+  font-weight: 700;
+}
+
+.neutral {
+  color: var(--ink);
+}
+
+@media (max-width: 720px) {
+  .topbar {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  h1 {
+    font-size: 30px;
+  }
+
+  .segments a {
+    flex: 1 1 auto;
+    text-align: center;
+  }
+}
