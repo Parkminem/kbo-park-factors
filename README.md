@@ -22,3 +22,14 @@ The Next.js app renders the latest available daily artifact.
 ## Public Scope
 
 This project shows stadium and weather environment factors only. It does not publish betting odds, payouts, market movement, or recommendations.
+
+## MVP Verification
+
+```bash
+pytest
+npm run typecheck
+npm run build
+python pipeline/generate_daily_factors.py --date 2026-07-07
+```
+
+The app reads `data/daily-factors/2026-07-07.json` and renders the public factor table.
