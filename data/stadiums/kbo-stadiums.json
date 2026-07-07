@@ -1,0 +1,30 @@
+[
+  {
+    "id": "jamsil",
+    "name_ko": "잠실야구장",
+    "name_en": "Jamsil Baseball Stadium",
+    "city": "서울",
+    "home_teams": ["두산", "LG"],
+    "latitude": 37.5122,
+    "longitude": 127.0719,
+    "type": "outdoor",
+    "altitude_m": 25,
+    "outfield_size": "large",
+    "orientation_deg": 45,
+    "baseline_factors": { "hr_pct": -8, "xbh_pct": 3, "single_pct": 1, "runs_pct": -2 }
+  },
+  {
+    "id": "gocheok",
+    "name_ko": "고척스카이돔",
+    "name_en": "Gocheok Sky Dome",
+    "city": "서울",
+    "home_teams": ["키움"],
+    "latitude": 37.4982,
+    "longitude": 126.8671,
+    "type": "dome",
+    "altitude_m": 20,
+    "outfield_size": "neutral",
+    "orientation_deg": 45,
+    "baseline_factors": { "hr_pct": 1, "xbh_pct": 0, "single_pct": 0, "runs_pct": 0 }
+  }
+]
