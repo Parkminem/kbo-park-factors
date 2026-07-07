@@ -13,7 +13,7 @@ type Game = {
   start_time_local: string;
   away_team: string;
   home_team: string;
-  stadium: { id: string; name_ko: string; city: string; type: string };
+  stadium: { id: string; name_ko: string; city: string | null; type: string };
   weather: null | {
     label: string;
     temperature_c: number;
