@@ -1,13 +1,16 @@
 {
   "date": "2026-07-07",
   "timezone": "Asia/Seoul",
-  "generated_at": "2026-07-07T20:02:41+09:00",
+  "generated_at": "2026-07-07T20:30:00+09:00",
   "sources": {
     "schedule": "KBO official Daily Schedule",
     "weather": "open-meteo",
     "stadiums": "local-catalog"
   },
-  "warnings": [],
+  "warnings": [
+    "weather_missing:2026-07-07-LG-KIWOOM:sample fixture null weather",
+    "stadium_missing:2026-07-07-NC-LOTTE:unknown-marsballpark"
+  ],
   "games": [
     {
       "game_id": "2026-07-07-SSG-DOOSAN",
@@ -21,14 +24,14 @@
         "type": "outdoor"
       },
       "weather": {
-        "label": "구름",
-        "temperature_c": 27.9,
-        "humidity_pct": 83,
-        "pressure_hpa": 1003.5,
-        "precipitation_probability_pct": 39,
-        "weather_code": 2,
-        "wind_speed_mps": 0.94,
-        "wind_direction_deg": 122
+        "label": "맑음",
+        "temperature_c": 29.4,
+        "humidity_pct": 62,
+        "pressure_hpa": 1001.0,
+        "precipitation_probability_pct": 20,
+        "weather_code": 1,
+        "wind_speed_mps": 4.2,
+        "wind_direction_deg": 45
       },
       "factors": {
         "stadium_only": {
@@ -38,22 +41,98 @@
           "runs_pct": -2
         },
         "weather_only": {
+          "hr_pct": 10,
+          "xbh_pct": 3,
+          "single_pct": 0,
+          "runs_pct": 5
+        },
+        "combined": {
+          "hr_pct": 2,
+          "xbh_pct": 6,
+          "single_pct": 1,
+          "runs_pct": 3
+        }
+      },
+      "explanations": [
+        "따뜻한 기온이 비거리와 득점 환경을 올림",
+        "낮은 기압이 타구 비거리에 우호적",
+        "외야 방향 바람이 장타를 도움"
+      ],
+      "data_status": "complete"
+    },
+    {
+      "game_id": "2026-07-07-LG-KIWOOM",
+      "start_time_local": "18:30",
+      "away_team": "LG",
+      "home_team": "키움",
+      "stadium": {
+        "id": "gocheok",
+        "name_ko": "고척스카이돔",
+        "city": "서울",
+        "type": "dome"
+      },
+      "weather": null,
+      "factors": {
+        "stadium_only": {
+          "hr_pct": 1,
+          "xbh_pct": 0,
+          "single_pct": 0,
+          "runs_pct": 0
+        },
+        "weather_only": {
           "hr_pct": 0,
           "xbh_pct": 0,
           "single_pct": 0,
           "runs_pct": 0
         },
         "combined": {
-          "hr_pct": -8,
-          "xbh_pct": 3,
-          "single_pct": 1,
-          "runs_pct": -2
+          "hr_pct": 1,
+          "xbh_pct": 0,
+          "single_pct": 0,
+          "runs_pct": 0
         }
       },
       "explanations": [
-        "날씨 영향은 중립에 가까움"
+        "날씨 데이터가 없어 구장 기준값만 반영"
       ],
-      "data_status": "complete"
+      "data_status": "weather_missing"
+    },
+    {
+      "game_id": "2026-07-07-NC-LOTTE",
+      "start_time_local": "18:30",
+      "away_team": "NC",
+      "home_team": "롯데",
+      "stadium": {
+        "id": "unknown-marsballpark",
+        "name_ko": "구장 정보 없음",
+        "city": null,
+        "type": "unknown"
+      },
+      "weather": null,
+      "factors": {
+        "stadium_only": {
+          "hr_pct": 0,
+          "xbh_pct": 0,
+          "single_pct": 0,
+          "runs_pct": 0
+        },
+        "weather_only": {
+          "hr_pct": 0,
+          "xbh_pct": 0,
+          "single_pct": 0,
+          "runs_pct": 0
+        },
+        "combined": {
+          "hr_pct": 0,
+          "xbh_pct": 0,
+          "single_pct": 0,
+          "runs_pct": 0
+        }
+      },
+      "explanations": [
+        "구장 메타데이터가 없어 중립 기준값으로 표시"
+      ],
+      "data_status": "stadium_missing"
     }
   ]
 }

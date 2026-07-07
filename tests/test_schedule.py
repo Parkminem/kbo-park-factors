@@ -27,6 +27,33 @@ def test_parse_daily_schedule_html_deduplicates_repeated_schedule_rows():
     assert games[0].game_id == "2026-07-07-LG-KIWOOM"
 
 
+def test_parse_daily_schedule_html_preserves_unmapped_stadium_location():
+    html = """
+    <table>
+      <tr><td>07.07(TUE)</td><td>REGULAR</td><td>18:30</td><td>NC 0:0 LOTTE</td><td>MARS BALLPARK</td></tr>
+    </table>
+    """
+
+    games = parse_daily_schedule_html(html, "2026-07-07")
+
+    assert len(games) == 1
+    assert games[0].game_id == "2026-07-07-NC-LOTTE"
+    assert games[0].stadium_id == "unknown-marsballpark"
+
+
+def test_parse_daily_schedule_html_preserves_missing_stadium_location():
+    html = """
+    <table>
+      <tr><td>07.07(TUE)</td><td>REGULAR</td><td>18:30</td><td>NC 0:0 LOTTE</td></tr>
+    </table>
+    """
+
+    games = parse_daily_schedule_html(html, "2026-07-07")
+
+    assert len(games) == 1
+    assert games[0].stadium_id == "unknown-missing-location"
+
+
 def test_parse_daily_schedule_html_ignores_games_from_other_dates():
     html = """
     <table>

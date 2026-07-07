@@ -40,13 +40,14 @@ class GameSchedule:
 
 def parse_daily_schedule_html(html: str, date: str) -> list[GameSchedule]:
     soup = BeautifulSoup(html, "html.parser")
-    text_rows = [" ".join(row.stripped_strings) for row in soup.find_all("tr")]
     games: list[GameSchedule] = []
     seen_game_ids: set[str] = set()
     team_pattern = "|".join(TEAM_MAP)
     _, month, day = date.split("-")
     date_token = f"{month}.{day}"
-    for row in text_rows:
+    for table_row in soup.find_all("tr"):
+        cells = [" ".join(cell.stripped_strings) for cell in table_row.find_all(["td", "th"])]
+        row = " ".join(table_row.stripped_strings)
         compact_row = row.replace(" ", "")
         if date_token not in compact_row:
             continue
@@ -54,8 +55,7 @@ def parse_daily_schedule_html(html: str, date: str) -> list[GameSchedule]:
         if not time_match:
             continue
         team_matches = list(re.finditer(rf"\b({team_pattern})\b", row))
-        stadium = next((code for code in STADIUM_MAP if code in compact_row), None)
-        if len(team_matches) < 2 or stadium is None:
+        if len(team_matches) < 2:
             continue
 
         away_code = team_matches[0].group(1)
@@ -71,11 +71,33 @@ def parse_daily_schedule_html(html: str, date: str) -> list[GameSchedule]:
                 start_time_local=time_match.group(1),
                 away_team=TEAM_MAP[away_code],
                 home_team=TEAM_MAP[home_code],
-                stadium_id=STADIUM_MAP[stadium],
+                stadium_id=_resolve_stadium_id(_extract_location(cells), compact_row),
                 status="scheduled",
             )
         )
     return games
+
+
+def _extract_location(cells: list[str]) -> str:
+    if len(cells) < 5:
+        return ""
+    return cells[-1]
+
+
+def _resolve_stadium_id(location: str, compact_row: str) -> str:
+    compact_location = location.replace(" ", "").upper()
+    compact_row = compact_row.upper()
+    stadium = next(
+        (code for code in STADIUM_MAP if code in compact_location or code in compact_row),
+        None,
+    )
+    if stadium is not None:
+        return STADIUM_MAP[stadium]
+
+    normalized_location = re.sub(r"[^a-z0-9]+", "", location.lower())
+    if not normalized_location:
+        normalized_location = "missing-location"
+    return f"unknown-{normalized_location}"
 
 
 def fetch_kbo_daily_schedule(date: str) -> list[GameSchedule]:
