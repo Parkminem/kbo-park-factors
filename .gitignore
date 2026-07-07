@@ -1,0 +1,9 @@
+node_modules/
+.next/
+out/
+.vercel/
+.venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+.DS_Store
