@@ -27,6 +27,29 @@ def test_parse_daily_schedule_html_deduplicates_repeated_schedule_rows():
     assert games[0].game_id == "2026-07-07-LG-KIWOOM"
 
 
+def test_parse_daily_schedule_html_maps_current_kbo_stadium_locations():
+    rows = [
+        ("SSG 0:0 DOOSAN", "JAMSIL", "jamsil"),
+        ("LG 0:0 KIWOOM", "GOCHEOK SKY", "gocheok"),
+        ("NC 0:0 LOTTE", "SAJIK", "sajik"),
+        ("KIA 0:0 SAMSUNG", "DAEGU", "daegu-lions-park"),
+        ("KT 0:0 HANWHA", "DAEJEON", "hanwha-life-ballpark"),
+        ("DOOSAN 0:0 NC", "CHANGWON", "changwon-nc-park"),
+        ("SAMSUNG 0:0 KIA", "GWANGJU", "gwangju-kia-champions-field"),
+        ("HANWHA 0:0 KT", "SUWON", "suwon-kt-wiz-park"),
+        ("LOTTE 0:0 SSG", "SSG LANDERS FIELD", "incheon-ssg-landers-field"),
+        ("KIWOOM 0:0 SSG", "INCHEON", "incheon-ssg-landers-field"),
+    ]
+    html = "<table>" + "".join(
+        f"<tr><td>07.07(TUE)</td><td>REGULAR</td><td>18:30</td><td>{game}</td><td>{location}</td></tr>"
+        for game, location, _expected in rows
+    ) + "</table>"
+
+    games = parse_daily_schedule_html(html, "2026-07-07")
+
+    assert [game.stadium_id for game in games] == [expected for _game, _location, expected in rows]
+
+
 def test_parse_daily_schedule_html_preserves_unmapped_stadium_location():
     html = """
     <table>

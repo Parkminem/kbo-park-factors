@@ -22,8 +22,29 @@ TEAM_MAP = {
 
 STADIUM_MAP = {
     "JAMSIL": "jamsil",
+    "JAMSILBASEBALLSTADIUM": "jamsil",
     "GOCHEOKSKY": "gocheok",
+    "GOCHEOKSKYDOME": "gocheok",
     "GOCHEOK": "gocheok",
+    "SAJIKBASEBALLSTADIUM": "sajik",
+    "SAJIK": "sajik",
+    "DAEGUSAMSUNGLIONSPARK": "daegu-lions-park",
+    "DAEGULIONSPARK": "daegu-lions-park",
+    "DAEGU": "daegu-lions-park",
+    "DAEJEONHANWHALIFEBALLPARK": "hanwha-life-ballpark",
+    "HANWHALIFEBALLPARK": "hanwha-life-ballpark",
+    "DAEJEON": "hanwha-life-ballpark",
+    "CHANGWONNCPARK": "changwon-nc-park",
+    "CHANGWON": "changwon-nc-park",
+    "GWANGJUKIACHAMPIONSFIELD": "gwangju-kia-champions-field",
+    "KIACHAMPIONSFIELD": "gwangju-kia-champions-field",
+    "GWANGJU": "gwangju-kia-champions-field",
+    "SUWONKTWIZPARK": "suwon-kt-wiz-park",
+    "KTWIZPARK": "suwon-kt-wiz-park",
+    "SUWON": "suwon-kt-wiz-park",
+    "INCHEONSSGLANDERSFIELD": "incheon-ssg-landers-field",
+    "SSGLANDERSFIELD": "incheon-ssg-landers-field",
+    "INCHEON": "incheon-ssg-landers-field",
 }
 
 
@@ -85,8 +106,8 @@ def _extract_location(cells: list[str]) -> str:
 
 
 def _resolve_stadium_id(location: str, compact_row: str) -> str:
-    compact_location = location.replace(" ", "").upper()
-    compact_row = compact_row.upper()
+    compact_location = re.sub(r"[^A-Z0-9]+", "", location.upper())
+    compact_row = re.sub(r"[^A-Z0-9]+", "", compact_row.upper())
     stadium = next(
         (code for code in STADIUM_MAP if code in compact_location or code in compact_row),
         None,

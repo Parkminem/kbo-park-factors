@@ -54,6 +54,7 @@ def select_nearest_hour(payload: dict[str, Any], game_time_local: str) -> Weathe
 
 
 def fetch_open_meteo(latitude: float, longitude: float, game_time_local: str) -> WeatherSnapshot:
+    game_date = datetime.fromisoformat(game_time_local).date().isoformat()
     params = {
         "latitude": latitude,
         "longitude": longitude,
@@ -70,6 +71,8 @@ def fetch_open_meteo(latitude: float, longitude: float, game_time_local: str) ->
         ),
         "timezone": "Asia/Seoul",
         "wind_speed_unit": "ms",
+        "start_date": game_date,
+        "end_date": game_date,
     }
     response = requests.get("https://api.open-meteo.com/v1/forecast", params=params, timeout=20)
     response.raise_for_status()

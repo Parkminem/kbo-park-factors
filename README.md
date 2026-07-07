@@ -17,7 +17,7 @@ python pipeline/generate_daily_factors.py --date 2026-07-07
 ## Data Flow
 
 Python pipeline writes `data/daily-factors/YYYY-MM-DD.json`.
-The Next.js app renders the latest available daily artifact.
+The Next.js app reads `data/daily-factors/<date>.json` from the `date` query parameter and defaults to the MVP sample date, `2026-07-07`, when no date is provided.
 
 ## Public Scope
 
@@ -32,4 +32,4 @@ npm run build
 python pipeline/generate_daily_factors.py --date 2026-07-07
 ```
 
-The app reads `data/daily-factors/2026-07-07.json` and renders the public factor table.
+Open `/?date=2026-07-07` to render a specific daily artifact. Missing artifacts render a visible no-data state instead of crashing.
