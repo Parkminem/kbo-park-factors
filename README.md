@@ -7,6 +7,8 @@ Public KBO park-factor site inspired by daily ballpark/weather factor pages.
 ```bash
 npm install
 npm run dev
+python3 -m venv .venv
+source .venv/bin/activate
 python -m pip install -e ".[test]"
 pytest
 python pipeline/generate_daily_factors.py --date 2026-07-07
