@@ -5,5 +5,6 @@ out/
 .venv/
 __pycache__/
 .pytest_cache/
+tsconfig.tsbuildinfo
 *.pyc
 .DS_Store
