@@ -35,6 +35,30 @@ def test_dome_uses_stadium_only_for_combined_weather_effect():
     assert groups.combined.hr_pct == 1
 
 
+def test_outdoor_missing_weather_keeps_stadium_baseline_and_explains_missing_data():
+    stadium = Stadium(
+        id="jamsil",
+        name_ko="잠실야구장",
+        name_en="Jamsil Baseball Stadium",
+        city="서울",
+        home_teams=["두산", "LG"],
+        latitude=37.5122,
+        longitude=127.0719,
+        type="outdoor",
+        altitude_m=25,
+        outfield_size="large",
+        orientation_deg=45,
+        baseline_factors=FactorSet(hr_pct=-8, xbh_pct=3, single_pct=1, runs_pct=-2),
+    )
+
+    groups = calculate_factor_groups(stadium, None)
+
+    assert groups.weather_only == FactorSet(hr_pct=0, xbh_pct=0, single_pct=0, runs_pct=0)
+    assert groups.combined == stadium.baseline_factors
+    assert any("날씨 데이터" in explanation for explanation in groups.explanations)
+    assert all("돔 구장" not in explanation for explanation in groups.explanations)
+
+
 def test_hot_low_pressure_outdoor_weather_boosts_hr():
     stadium = Stadium(
         id="jamsil",

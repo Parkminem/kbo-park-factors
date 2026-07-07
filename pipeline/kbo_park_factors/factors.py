@@ -15,7 +15,16 @@ class FactorGroups(BaseModel):
 
 def calculate_factor_groups(stadium: Stadium, weather: WeatherSnapshot | None) -> FactorGroups:
     stadium_only = stadium.baseline_factors
-    if weather is None or stadium.type == "dome":
+    if weather is None:
+        weather_only = FactorSet(hr_pct=0, xbh_pct=0, single_pct=0, runs_pct=0)
+        return FactorGroups(
+            stadium_only=stadium_only,
+            weather_only=weather_only,
+            combined=_combine(stadium_only, weather_only),
+            explanations=["날씨 데이터가 없어 구장 기준값만 반영"],
+        )
+
+    if stadium.type == "dome":
         weather_only = FactorSet(hr_pct=0, xbh_pct=0, single_pct=0, runs_pct=0)
         explanation = "돔 구장이라 외부 날씨 영향 제한"
         return FactorGroups(
