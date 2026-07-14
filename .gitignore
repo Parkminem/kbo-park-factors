@@ -1,7 +1,9 @@
 node_modules/
 .next/
+dist/
 out/
 .vercel/
+.wrangler/
 .venv/
 __pycache__/
 .pytest_cache/

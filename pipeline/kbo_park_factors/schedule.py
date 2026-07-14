@@ -6,6 +6,7 @@ from dataclasses import dataclass
 import requests
 from bs4 import BeautifulSoup
 
+NAVER_SCHEDULE_URL = "https://api-gw.sports.naver.com/schedule/games"
 
 TEAM_MAP = {
     "DOOSAN": "두산",
@@ -16,6 +17,19 @@ TEAM_MAP = {
     "SAMSUNG": "삼성",
     "HANWHA": "한화",
     "KIWOOM": "키움",
+    "KT": "KT",
+    "NC": "NC",
+}
+
+NAVER_TEAM_MAP = {
+    "두산": "DOOSAN",
+    "LG": "LG",
+    "SSG": "SSG",
+    "KIA": "KIA",
+    "롯데": "LOTTE",
+    "삼성": "SAMSUNG",
+    "한화": "HANWHA",
+    "키움": "KIWOOM",
     "KT": "KT",
     "NC": "NC",
 }
@@ -45,6 +59,19 @@ STADIUM_MAP = {
     "INCHEONSSGLANDERSFIELD": "incheon-ssg-landers-field",
     "SSGLANDERSFIELD": "incheon-ssg-landers-field",
     "INCHEON": "incheon-ssg-landers-field",
+}
+
+NAVER_STADIUM_MAP = {
+    "잠실": "jamsil",
+    "고척": "gocheok",
+    "사직": "sajik",
+    "대구": "daegu-lions-park",
+    "대전": "hanwha-life-ballpark",
+    "창원": "changwon-nc-park",
+    "광주": "gwangju-kia-champions-field",
+    "수원": "suwon-kt-wiz-park",
+    "문학": "incheon-ssg-landers-field",
+    "인천": "incheon-ssg-landers-field",
 }
 
 
@@ -99,6 +126,31 @@ def parse_daily_schedule_html(html: str, date: str) -> list[GameSchedule]:
     return games
 
 
+def parse_naver_schedule_payload(payload: dict, date: str) -> list[GameSchedule]:
+    games: list[GameSchedule] = []
+    for game in payload.get("result", {}).get("games", []):
+        if game.get("gameDate") != date or game.get("cancel") is True:
+            continue
+        away_team_name = str(game["awayTeamName"])
+        home_team_name = str(game["homeTeamName"])
+        if _is_naver_all_star_matchup(away_team_name, home_team_name):
+            continue
+        away_code = _naver_team_code(away_team_name)
+        home_code = _naver_team_code(home_team_name)
+        games.append(
+            GameSchedule(
+                game_id=f"{date}-{away_code}-{home_code}",
+                date=date,
+                start_time_local=str(game["gameDateTime"])[11:16],
+                away_team=TEAM_MAP[away_code],
+                home_team=TEAM_MAP[home_code],
+                stadium_id=_resolve_naver_stadium_id(str(game.get("stadium", ""))),
+                status=str(game.get("statusCode", "scheduled")).lower(),
+            )
+        )
+    return games
+
+
 def _extract_location(cells: list[str]) -> str:
     if len(cells) < 5:
         return ""
@@ -122,6 +174,13 @@ def _resolve_stadium_id(location: str, compact_row: str) -> str:
 
 
 def fetch_kbo_daily_schedule(date: str) -> list[GameSchedule]:
+    try:
+        games = fetch_naver_kbo_daily_schedule(date)
+        if games:
+            return games
+    except requests.RequestException:
+        pass
+
     year, month, day = date.split("-")
     response = requests.get(
         "https://eng.koreabaseball.com/Schedule/DailySchedule.aspx",
@@ -130,3 +189,39 @@ def fetch_kbo_daily_schedule(date: str) -> list[GameSchedule]:
     )
     response.raise_for_status()
     return parse_daily_schedule_html(response.text, date)
+
+
+def fetch_naver_kbo_daily_schedule(date: str) -> list[GameSchedule]:
+    response = requests.get(
+        NAVER_SCHEDULE_URL,
+        params={
+            "categoryId": "kbo",
+            "date": date,
+            "fields": "basic,schedule",
+        },
+        headers={
+            "Origin": "https://m.sports.naver.com",
+            "Referer": "https://m.sports.naver.com/",
+        },
+        timeout=20,
+    )
+    response.raise_for_status()
+    return parse_naver_schedule_payload(response.json(), date)
+
+
+def _naver_team_code(name: str) -> str:
+    try:
+        return NAVER_TEAM_MAP[name]
+    except KeyError as exc:
+        raise ValueError(f"unknown Naver KBO team name: {name}") from exc
+
+
+def _is_naver_all_star_matchup(away_team_name: str, home_team_name: str) -> bool:
+    return {away_team_name, home_team_name} == {"나눔", "드림"}
+
+
+def _resolve_naver_stadium_id(name: str) -> str:
+    normalized = name.strip()
+    if normalized in NAVER_STADIUM_MAP:
+        return NAVER_STADIUM_MAP[normalized]
+    return _resolve_stadium_id(normalized, normalized)

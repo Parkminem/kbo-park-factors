@@ -13,6 +13,13 @@ class FactorSet(BaseModel):
     runs_pct: int
 
 
+class BaselineEvidence(BaseModel):
+    games: int
+    prior_games: int
+    raw_factors: FactorSet
+    adjusted_factors: FactorSet
+
+
 class Stadium(BaseModel):
     id: str
     name_ko: str
@@ -26,6 +33,7 @@ class Stadium(BaseModel):
     outfield_size: str
     orientation_deg: int
     baseline_factors: FactorSet
+    baseline_evidence: BaselineEvidence | None = None
 
 
 def load_stadium_catalog(path: Path) -> dict[str, Stadium]:

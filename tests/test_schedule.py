@@ -1,4 +1,4 @@
-from kbo_park_factors.schedule import parse_daily_schedule_html
+from kbo_park_factors.schedule import parse_daily_schedule_html, parse_naver_schedule_payload
 
 
 def test_parse_daily_schedule_html_extracts_game():
@@ -88,3 +88,122 @@ def test_parse_daily_schedule_html_ignores_games_from_other_dates():
     games = parse_daily_schedule_html(html, "2026-07-07")
 
     assert [game.game_id for game in games] == ["2026-07-07-SSG-DOOSAN"]
+
+
+def test_parse_naver_schedule_payload_extracts_all_kbo_games_for_date():
+    payload = {
+        "result": {
+            "games": [
+                {
+                    "gameId": "20260707NCHH02026",
+                    "gameDate": "2026-07-07",
+                    "gameDateTime": "2026-07-07T18:30:00",
+                    "stadium": "대전",
+                    "homeTeamName": "한화",
+                    "awayTeamName": "NC",
+                    "statusCode": "STARTED",
+                    "cancel": False,
+                },
+                {
+                    "gameId": "20260707HTLT02026",
+                    "gameDate": "2026-07-07",
+                    "gameDateTime": "2026-07-07T18:30:00",
+                    "stadium": "사직",
+                    "homeTeamName": "롯데",
+                    "awayTeamName": "KIA",
+                    "statusCode": "RESULT",
+                    "cancel": False,
+                },
+                {
+                    "gameId": "20260707LGSS02026",
+                    "gameDate": "2026-07-07",
+                    "gameDateTime": "2026-07-07T18:30:00",
+                    "stadium": "대구",
+                    "homeTeamName": "삼성",
+                    "awayTeamName": "LG",
+                    "statusCode": "RESULT",
+                    "cancel": False,
+                },
+                {
+                    "gameId": "20260707SKOB02026",
+                    "gameDate": "2026-07-07",
+                    "gameDateTime": "2026-07-07T18:30:00",
+                    "stadium": "잠실",
+                    "homeTeamName": "두산",
+                    "awayTeamName": "SSG",
+                    "statusCode": "RESULT",
+                    "cancel": False,
+                },
+                {
+                    "gameId": "20260707WOKT02026",
+                    "gameDate": "2026-07-07",
+                    "gameDateTime": "2026-07-07T18:30:00",
+                    "stadium": "수원",
+                    "homeTeamName": "KT",
+                    "awayTeamName": "키움",
+                    "statusCode": "RESULT",
+                    "cancel": False,
+                },
+            ]
+        }
+    }
+
+    games = parse_naver_schedule_payload(payload, "2026-07-07")
+
+    assert [game.game_id for game in games] == [
+        "2026-07-07-NC-HANWHA",
+        "2026-07-07-KIA-LOTTE",
+        "2026-07-07-LG-SAMSUNG",
+        "2026-07-07-SSG-DOOSAN",
+        "2026-07-07-KIWOOM-KT",
+    ]
+    assert [game.stadium_id for game in games] == [
+        "hanwha-life-ballpark",
+        "sajik",
+        "daegu-lions-park",
+        "jamsil",
+        "suwon-kt-wiz-park",
+    ]
+    assert all(game.start_time_local == "18:30" for game in games)
+
+
+def test_parse_naver_schedule_payload_skips_cancelled_games():
+    payload = {
+        "result": {
+            "games": [
+                {
+                    "gameId": "20260707NCHH02026",
+                    "gameDate": "2026-07-07",
+                    "gameDateTime": "2026-07-07T18:30:00",
+                    "stadium": "대전",
+                    "homeTeamName": "한화",
+                    "awayTeamName": "NC",
+                    "statusCode": "BEFORE",
+                    "cancel": True,
+                }
+            ]
+        }
+    }
+
+    assert parse_naver_schedule_payload(payload, "2026-07-07") == []
+
+
+def test_parse_naver_schedule_payload_skips_all_star_games():
+    payload = {
+        "result": {
+            "games": [
+                {
+                    "gameId": "20260711ND0002026",
+                    "gameDate": "2026-07-11",
+                    "gameDateTime": "2026-07-11T18:00:00",
+                    "stadium": "잠실",
+                    "homeTeamName": "드림",
+                    "awayTeamName": "나눔",
+                    "statusCode": "BEFORE",
+                    "cancel": False,
+                }
+            ]
+        }
+    }
+
+    assert parse_naver_schedule_payload(payload, "2026-07-11") == []

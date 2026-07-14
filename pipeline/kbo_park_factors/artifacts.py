@@ -18,9 +18,10 @@ def write_daily_artifact(
         "timezone": "Asia/Seoul",
         "generated_at": datetime.now().astimezone().isoformat(timespec="seconds"),
         "sources": {
-            "schedule": "KBO official Daily Schedule",
+            "schedule": "Naver Sports schedule API",
             "weather": "open-meteo",
             "stadiums": "local-catalog",
+            "baselines": "KBO official GameCenter",
         },
         "warnings": warnings,
         "games": [_serialize_game(game) for game in games],
