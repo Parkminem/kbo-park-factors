@@ -599,13 +599,13 @@ export default async function Home({
     <main className="page">
       <header className="topbar">
         <div className="brandBlock">
-          <a className="brandLink" href="/" aria-label="KBO Park Factors home">
+          <a className="brandLink" href="/" aria-label="Korea Baseball Park Factors home">
             <span className="brandMark" aria-hidden="true">
               <span className="brandDiamond" />
               <span className="brandSun" />
             </span>
             <span className="brandText">
-              <span className="eyebrow">KBO PARK FACTORS</span>
+              <span className="eyebrow">Korea Baseball Park Factors</span>
               <span>Park + Weather Edge</span>
             </span>
           </a>
@@ -698,16 +698,17 @@ export default async function Home({
 
       <footer className="siteFooter">
         <div>
-          <a className="footerBrand" href="/" aria-label="KBO Park Factors home">
+          <a className="footerBrand" href="/" aria-label="Korea Baseball Park Factors home">
             <span className="footerMark" aria-hidden="true" />
-            <span>KBO Park Factors</span>
+            <span>Korea Baseball Park Factors</span>
           </a>
-          <p>Stadium and weather context for daily KBO run environments.</p>
+          <p>Stadium and weather context for daily Korea baseball run environments.</p>
+          <p className="footerNotice">Unofficial analytics project. Not affiliated with or endorsed by KBO or its clubs.</p>
         </div>
         <div className="footerMeta">
           <span>{artifact ? `Updated ${new Date(artifact.generated_at).toLocaleString("ko-KR")}` : `No data for ${displayDate}`}</span>
           <span>{visibleGames.length} rows shown</span>
-          <span>KBO official records · Weather model inputs</span>
+          <span>Official records · Weather model inputs</span>
         </div>
       </footer>
     </main>

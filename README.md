@@ -1,4 +1,4 @@
-# KBO Park Factors
+# Korea Baseball Park Factors
 
 Public KBO park-factor site inspired by daily ballpark/weather factor pages.
 

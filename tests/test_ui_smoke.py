@@ -1,4 +1,8 @@
+from pathlib import Path
+
 from kbo_park_factors.ui_smoke import assert_game_day_html
+
+PROJECT_ROOT = Path(__file__).resolve().parents[1]
 
 
 def test_assert_game_day_html_accepts_real_game_screen():
@@ -27,3 +31,15 @@ def test_assert_game_day_html_rejects_empty_state():
         assert "empty state" in str(exc)
     else:
         raise AssertionError("smoke assertion should reject empty-state pages")
+
+
+def test_public_branding_uses_unofficial_korea_baseball_name():
+    page_source = (PROJECT_ROOT / "app" / "page.tsx").read_text(encoding="utf-8")
+    layout_source = (PROJECT_ROOT / "app" / "layout.tsx").read_text(encoding="utf-8")
+
+    combined_source = page_source + layout_source
+
+    assert "Korea Baseball Park Factors" in combined_source
+    assert "Unofficial analytics project. Not affiliated with or endorsed by KBO or its clubs." in page_source
+    assert "KBO PARK FACTORS" not in combined_source
+    assert "KBO Park Factors" not in combined_source

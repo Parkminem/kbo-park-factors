@@ -831,6 +831,11 @@ h1 {
   margin: 7px 0 0;
 }
 
+.siteFooter .footerNotice {
+  color: #7a8794;
+  max-width: 420px;
+}
+
 .footerMeta {
   display: flex;
   flex-wrap: wrap;
