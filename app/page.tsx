@@ -490,72 +490,91 @@ function ValidationHistoryCard({ history }: { history: ValidationHistory }) {
   const summary = history.summary;
   const calibration = summary.calibration;
   return (
-    <section className="historyCard" aria-label="validation history">
-      <div className="historyHeader">
-        <div>
+    <details className="historyCard" aria-label="validation history">
+      <summary className="historyTabSummary">
+        <div className="historyTabTitle">
           <span>검증 히스토리</span>
           <strong>{summary.days}일 누적</strong>
         </div>
-        <p>
-          완료 {summary.completed_games}/{summary.predicted_games}경기 · HR {summary.total_home_runs} · Runs {summary.total_runs}
-        </p>
-      </div>
-      <div className="historyStats">
-        <div>
-          <span>Pending</span>
-          <strong>{summary.pending_games}</strong>
+        <div className="historyPreviewMetrics">
+          <span>
+            <small>Done</small>
+            <strong>{summary.completed_games}/{summary.predicted_games}</strong>
+          </span>
+          <span>
+            <small>HR Error</small>
+            <strong>{formatNullablePct(calibration.hr_mae_pct)}</strong>
+          </span>
+          <span>
+            <small>Runs Error</small>
+            <strong>{formatNullablePct(calibration.runs_mae_pct)}</strong>
+          </span>
         </div>
-        <div>
-          <span>Avg Pred HR</span>
-          <strong>{formatNullablePct(summary.avg_predicted_hr_pct)}</strong>
+        <span className="historyOpenCue" aria-hidden="true" />
+      </summary>
+      <div className="historyPanel">
+        <div className="historyHeader">
+          <p>
+            완료 {summary.completed_games}/{summary.predicted_games}경기 · HR {summary.total_home_runs} · Runs {summary.total_runs}
+          </p>
         </div>
-        <div>
-          <span>Avg Pred Runs</span>
-          <strong>{formatNullablePct(summary.avg_predicted_runs_pct)}</strong>
-        </div>
-      </div>
-      <div className="calibrationStrip" aria-label="calibration metrics">
-        <div>
-          <span>HR Error</span>
-          <strong>{formatNullablePct(calibration.hr_mae_pct)}</strong>
-          <small>예측 vs 실제 기준 대비 오차</small>
-        </div>
-        <div>
-          <span>Runs Error</span>
-          <strong>{formatNullablePct(calibration.runs_mae_pct)}</strong>
-          <small>예측 vs 실제 기준 대비 오차</small>
-        </div>
-        <div>
-          <span>Actual Baseline</span>
-          <strong>
-            {formatNullableNumber(calibration.baseline_home_runs_per_game, 2)} HR · {formatNullableNumber(calibration.baseline_runs_per_game, 1)} R
-          </strong>
-          <small>{calibration.completed_days}일 완료 경기 기준</small>
-        </div>
-      </div>
-      <div className="historyTable" role="table" aria-label="recent validation days">
-        <div className="historyTableHead" role="row">
-          <span role="columnheader">Date</span>
-          <span role="columnheader">Done</span>
-          <span role="columnheader">HR</span>
-          <span role="columnheader">Runs</span>
-          <span role="columnheader">Pred HR</span>
-          <span role="columnheader">Pred Runs</span>
-        </div>
-        {history.recentDays.map((day) => (
-          <div className="historyTableRow" role="row" key={day.date}>
-            <span role="cell">{day.date}</span>
-            <span role="cell">
-              {day.summary.completed_games}/{day.summary.predicted_games}
-            </span>
-            <span role="cell">{day.summary.total_home_runs}</span>
-            <span role="cell">{day.summary.total_runs}</span>
-            <span role="cell">{formatNullablePct(day.summary.avg_predicted_hr_pct)}</span>
-            <span role="cell">{formatNullablePct(day.summary.avg_predicted_runs_pct)}</span>
+        <div className="historyStats">
+          <div>
+            <span>Pending</span>
+            <strong>{summary.pending_games}</strong>
           </div>
-        ))}
+          <div>
+            <span>Avg Pred HR</span>
+            <strong>{formatNullablePct(summary.avg_predicted_hr_pct)}</strong>
+          </div>
+          <div>
+            <span>Avg Pred Runs</span>
+            <strong>{formatNullablePct(summary.avg_predicted_runs_pct)}</strong>
+          </div>
+        </div>
+        <div className="calibrationStrip" aria-label="calibration metrics">
+          <div>
+            <span>HR Error</span>
+            <strong>{formatNullablePct(calibration.hr_mae_pct)}</strong>
+            <small>예측 vs 실제 기준 대비 오차</small>
+          </div>
+          <div>
+            <span>Runs Error</span>
+            <strong>{formatNullablePct(calibration.runs_mae_pct)}</strong>
+            <small>예측 vs 실제 기준 대비 오차</small>
+          </div>
+          <div>
+            <span>Actual Baseline</span>
+            <strong>
+              {formatNullableNumber(calibration.baseline_home_runs_per_game, 2)} HR · {formatNullableNumber(calibration.baseline_runs_per_game, 1)} R
+            </strong>
+            <small>{calibration.completed_days}일 완료 경기 기준</small>
+          </div>
+        </div>
+        <div className="historyTable" role="table" aria-label="recent validation days">
+          <div className="historyTableHead" role="row">
+            <span role="columnheader">Date</span>
+            <span role="columnheader">Done</span>
+            <span role="columnheader">HR</span>
+            <span role="columnheader">Runs</span>
+            <span role="columnheader">Pred HR</span>
+            <span role="columnheader">Pred Runs</span>
+          </div>
+          {history.recentDays.map((day) => (
+            <div className="historyTableRow" role="row" key={day.date}>
+              <span role="cell">{day.date}</span>
+              <span role="cell">
+                {day.summary.completed_games}/{day.summary.predicted_games}
+              </span>
+              <span role="cell">{day.summary.total_home_runs}</span>
+              <span role="cell">{day.summary.total_runs}</span>
+              <span role="cell">{formatNullablePct(day.summary.avg_predicted_hr_pct)}</span>
+              <span role="cell">{formatNullablePct(day.summary.avg_predicted_runs_pct)}</span>
+            </div>
+          ))}
+        </div>
       </div>
-    </section>
+    </details>
   );
 }
 

@@ -182,9 +182,88 @@ h1 {
   background: #ffffff;
   border: 1px solid var(--line);
   border-radius: 8px;
+  margin-top: 12px;
+  overflow: hidden;
+}
+
+.historyTabSummary {
+  align-items: center;
+  cursor: pointer;
   display: grid;
   gap: 14px;
-  margin-top: 12px;
+  grid-template-columns: minmax(150px, 1fr) minmax(300px, 1.6fr) auto;
+  list-style: none;
+  padding: 14px;
+}
+
+.historyTabSummary::-webkit-details-marker {
+  display: none;
+}
+
+.historyTabSummary:focus-visible {
+  outline: 3px solid rgba(31, 111, 209, 0.28);
+  outline-offset: -3px;
+}
+
+.historyTabTitle span,
+.historyPreviewMetrics small {
+  color: var(--muted);
+  display: block;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.historyTabTitle strong {
+  display: block;
+  font-size: 22px;
+  margin-top: 3px;
+}
+
+.historyPreviewMetrics {
+  display: grid;
+  gap: 8px;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.historyPreviewMetrics span {
+  background: #f8fafc;
+  border-radius: 8px;
+  display: block;
+  min-width: 0;
+  padding: 8px 10px;
+}
+
+.historyPreviewMetrics strong {
+  display: block;
+  font-size: 18px;
+  margin-top: 2px;
+}
+
+.historyOpenCue {
+  align-items: center;
+  background: var(--ink);
+  border-radius: 999px;
+  color: #ffffff;
+  display: inline-flex;
+  font-size: 12px;
+  font-weight: 700;
+  justify-content: center;
+  min-width: 54px;
+  padding: 7px 10px;
+}
+
+.historyOpenCue::before {
+  content: "열기";
+}
+
+.historyCard[open] .historyOpenCue::before {
+  content: "접기";
+}
+
+.historyPanel {
+  border-top: 1px solid #e2e8ef;
+  display: grid;
+  gap: 14px;
   padding: 14px;
 }
 
@@ -665,6 +744,18 @@ h1 {
   .validationCard div:first-child,
   .validationCard div:nth-child(2) {
     border-top: 0;
+  }
+
+  .historyTabSummary {
+    grid-template-columns: 1fr;
+  }
+
+  .historyPreviewMetrics {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .historyOpenCue {
+    justify-self: stretch;
   }
 
   .historyHeader {
