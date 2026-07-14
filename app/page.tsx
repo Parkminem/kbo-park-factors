@@ -1,5 +1,6 @@
 import fs from "node:fs";
 import path from "node:path";
+import { dailyArtifacts, validationArtifacts } from "./generated-data";
 
 type FactorSet = {
   hr_pct: number;
@@ -111,6 +112,9 @@ function resolveDate(value: string | undefined, fallbackDate: string): string | 
 }
 
 function loadArtifact(date: string): DailyArtifact | null {
+  const bundled = (dailyArtifacts as Record<string, DailyArtifact>)[date];
+  if (bundled) return bundled;
+
   try {
     const filePath = path.join(process.cwd(), "data", "daily-factors", `${date}.json`);
     return JSON.parse(fs.readFileSync(filePath, "utf-8")) as DailyArtifact;
@@ -120,6 +124,9 @@ function loadArtifact(date: string): DailyArtifact | null {
 }
 
 function loadValidation(date: string): ValidationArtifact | null {
+  const bundled = (validationArtifacts as Record<string, ValidationArtifact>)[date];
+  if (bundled) return bundled;
+
   try {
     const filePath = path.join(process.cwd(), "data", "validations", `${date}.json`);
     return JSON.parse(fs.readFileSync(filePath, "utf-8")) as ValidationArtifact;
@@ -130,12 +137,15 @@ function loadValidation(date: string): ValidationArtifact | null {
 
 function loadValidationHistory(limit = 7): ValidationHistory | null {
   try {
-    const dirPath = path.join(process.cwd(), "data", "validations");
-    const validations = fs
-      .readdirSync(dirPath)
-      .filter((fileName) => fileName.endsWith(".json"))
-      .map((fileName) => JSON.parse(fs.readFileSync(path.join(dirPath, fileName), "utf-8")) as ValidationArtifact)
-      .sort((a, b) => b.date.localeCompare(a.date));
+    const bundledValidations = Object.values(validationArtifacts as Record<string, ValidationArtifact>);
+    const validations =
+      bundledValidations.length > 0
+        ? bundledValidations.sort((a, b) => b.date.localeCompare(a.date))
+        : fs
+            .readdirSync(path.join(process.cwd(), "data", "validations"))
+            .filter((fileName) => fileName.endsWith(".json"))
+            .map((fileName) => JSON.parse(fs.readFileSync(path.join(process.cwd(), "data", "validations", fileName), "utf-8")) as ValidationArtifact)
+            .sort((a, b) => b.date.localeCompare(a.date));
 
     if (validations.length === 0) return null;
 
