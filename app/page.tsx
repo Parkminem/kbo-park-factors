@@ -695,6 +695,21 @@ export default async function Home({
           })}
         </section>
       ) : null}
+
+      <footer className="siteFooter">
+        <div>
+          <a className="footerBrand" href="/" aria-label="KBO Park Factors home">
+            <span className="footerMark" aria-hidden="true" />
+            <span>KBO Park Factors</span>
+          </a>
+          <p>Stadium and weather context for daily KBO run environments.</p>
+        </div>
+        <div className="footerMeta">
+          <span>{artifact ? `Updated ${new Date(artifact.generated_at).toLocaleString("ko-KR")}` : `No data for ${displayDate}`}</span>
+          <span>{visibleGames.length} rows shown</span>
+          <span>KBO official records · Weather model inputs</span>
+        </div>
+      </footer>
     </main>
   );
 }
