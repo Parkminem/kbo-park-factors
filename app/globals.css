@@ -40,11 +40,85 @@ body {
   padding-bottom: 18px;
 }
 
+.brandBlock {
+  min-width: 0;
+}
+
+.brandLink {
+  align-items: center;
+  color: inherit;
+  display: inline-flex;
+  gap: 10px;
+  margin-bottom: 10px;
+  text-decoration: none;
+}
+
+.brandLink:focus-visible {
+  border-radius: 8px;
+  outline: 3px solid rgba(31, 111, 209, 0.28);
+  outline-offset: 4px;
+}
+
+.brandMark {
+  background: linear-gradient(145deg, #1f6fd1, #174f95);
+  border-radius: 8px;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3), 0 8px 18px rgba(31, 111, 209, 0.2);
+  display: inline-grid;
+  flex: 0 0 auto;
+  height: 42px;
+  place-items: center;
+  position: relative;
+  width: 42px;
+}
+
+.brandDiamond {
+  border: 2px solid rgba(255, 255, 255, 0.92);
+  height: 19px;
+  position: relative;
+  transform: rotate(45deg) translateY(2px);
+  width: 19px;
+}
+
+.brandDiamond::after {
+  background: rgba(255, 255, 255, 0.88);
+  border-radius: 999px;
+  content: "";
+  height: 5px;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 5px;
+}
+
+.brandSun {
+  background: #f5c84b;
+  border: 2px solid #ffffff;
+  border-radius: 999px;
+  height: 11px;
+  position: absolute;
+  right: 7px;
+  top: 7px;
+  width: 11px;
+}
+
+.brandText {
+  display: grid;
+  gap: 1px;
+}
+
+.brandText > span:last-child {
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 700;
+}
+
 .eyebrow {
-  margin: 0 0 6px;
   color: var(--brand);
+  display: block;
   font-weight: 700;
   font-size: 13px;
+  margin: 0;
 }
 
 h1 {

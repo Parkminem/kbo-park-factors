@@ -598,8 +598,17 @@ export default async function Home({
   return (
     <main className="page">
       <header className="topbar">
-        <div>
-          <p className="eyebrow">KBO PARK FACTORS</p>
+        <div className="brandBlock">
+          <a className="brandLink" href="/" aria-label="KBO Park Factors home">
+            <span className="brandMark" aria-hidden="true">
+              <span className="brandDiamond" />
+              <span className="brandSun" />
+            </span>
+            <span className="brandText">
+              <span className="eyebrow">KBO PARK FACTORS</span>
+              <span>Park + Weather Edge</span>
+            </span>
+          </a>
           <h1>{displayDate}</h1>
           {artifact ? <p className="updated">Last updated {new Date(artifact.generated_at).toLocaleString("ko-KR")}</p> : null}
         </div>
