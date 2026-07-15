@@ -1,5 +1,6 @@
 import fs from "node:fs";
 import path from "node:path";
+import { formatSeoulDateTime } from "./date-time";
 import { dailyArtifacts, validationArtifacts } from "./generated-data";
 
 type FactorSet = {
@@ -455,7 +456,7 @@ function ValidationSummary({ validation }: { validation: ValidationArtifact }) {
       <div>
         <span>검증 결과</span>
         <strong>{summary.completed_games}/{summary.predicted_games}</strong>
-        <small>완료 경기 · Last checked {new Date(validation.generated_at).toLocaleString("ko-KR")}</small>
+        <small>완료 경기 · Last checked {formatSeoulDateTime(validation.generated_at)}</small>
       </div>
       <div>
         <span>Pending</span>
@@ -610,7 +611,7 @@ export default async function Home({
             </span>
           </a>
           <h1>{displayDate}</h1>
-          {artifact ? <p className="updated">Last updated {new Date(artifact.generated_at).toLocaleString("ko-KR")}</p> : null}
+          {artifact ? <p className="updated">Last updated {formatSeoulDateTime(artifact.generated_at)}</p> : null}
         </div>
         <nav className="segments" aria-label="factor view">
           {views.map(([key, label]) => (
@@ -706,7 +707,7 @@ export default async function Home({
           <p className="footerNotice">Unofficial analytics project. Not affiliated with or endorsed by KBO or its clubs.</p>
         </div>
         <div className="footerMeta">
-          <span>{artifact ? `Updated ${new Date(artifact.generated_at).toLocaleString("ko-KR")}` : `No data for ${displayDate}`}</span>
+          <span>{artifact ? `Updated ${formatSeoulDateTime(artifact.generated_at)}` : `No data for ${displayDate}`}</span>
           <span>{visibleGames.length} rows shown</span>
           <span>Official records · Weather model inputs</span>
         </div>

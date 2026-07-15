@@ -1,3 +1,5 @@
+import os
+import subprocess
 from pathlib import Path
 
 from kbo_park_factors.ui_smoke import assert_game_day_html
@@ -43,3 +45,35 @@ def test_public_branding_uses_unofficial_korea_baseball_name():
     assert "Unofficial analytics project. Not affiliated with or endorsed by KBO or its clubs." in page_source
     assert "KBO PARK FACTORS" not in combined_source
     assert "KBO Park Factors" not in combined_source
+
+
+def test_seoul_date_time_formatter_is_stable_under_utc_runtime():
+    result = subprocess.run(
+        [
+            "node",
+            "--experimental-strip-types",
+            "--input-type=module",
+            "--eval",
+            (
+                'import { formatSeoulDateTime } from "./app/date-time.ts"; '
+                'process.stdout.write(formatSeoulDateTime("2026-07-15T15:46:49+09:00"));'
+            ),
+        ],
+        cwd=PROJECT_ROOT,
+        env={**os.environ, "TZ": "UTC"},
+        capture_output=True,
+        text=True,
+        check=False,
+    )
+
+    assert result.returncode == 0, result.stderr
+    assert result.stdout == "2026. 7. 15. 오후 3:46:49"
+
+
+def test_display_timestamps_use_seoul_formatter():
+    page_source = (PROJECT_ROOT / "app" / "page.tsx").read_text(encoding="utf-8")
+
+    assert "Last checked {formatSeoulDateTime(validation.generated_at)}" in page_source
+    assert "Last updated {formatSeoulDateTime(artifact.generated_at)}" in page_source
+    assert "Updated ${formatSeoulDateTime(artifact.generated_at)}" in page_source
+    assert '.toLocaleString("ko-KR")' not in page_source
