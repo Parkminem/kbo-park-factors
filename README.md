@@ -103,14 +103,14 @@ After games finish, the validator matches predictions with official completed-ga
 - Added explicit fallback states for missing weather, schedules, stadium metadata, and no-game days.
 - Added a real game-day smoke path in addition to unit tests for parsers and factor calculations.
 - Built a responsive wind/field visualization that uses each stadium's orientation.
-- An external scheduled job, configured outside this repository, refreshes daily artifacts, builds and deploys the site, and verifies the live page.
+- An external scheduled production job, configured outside this repository, refreshes daily artifacts, builds and deploys the site, and verifies the live page.
 
 - 데이터 수집, 보정치 계산, 산출물, UI, 검증 책임을 모듈별로 분리했습니다.
 - Worker 런타임의 파일시스템에 의존하지 않도록 일일 JSON을 운영 빌드에 포함했습니다.
 - 날씨·일정·구장 정보 누락과 무경기 날짜를 명시적인 상태로 처리했습니다.
 - 파서와 계산 로직의 단위 테스트 외에 실제 경기 화면 경로를 확인하는 스모크 테스트를 구성했습니다.
 - 구장별 방위각을 사용하는 반응형 바람·구장 시각화를 구현했습니다.
-- 이 저장소 외부에서 구성한 예약 작업이 일일 산출물 갱신, 운영 빌드·배포, 공개 페이지 확인을 수행합니다.
+- 이 저장소 외부에서 구성한 운영 예약 작업이 일일 산출물 갱신, 운영 빌드·배포, 공개 페이지 확인을 수행합니다.
 
 ## Tech Stack · 기술 스택
 
