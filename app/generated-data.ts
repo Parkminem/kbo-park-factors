@@ -3,6 +3,7 @@
 import dailyArtifact0 from "../data/daily-factors/2026-07-16.json";
 import validationArtifact0 from "../data/validations/2026-07-14.json";
 import validationArtifact1 from "../data/validations/2026-07-15.json";
+import validationArtifact2 from "../data/validations/2026-07-16.json";
 
 export const dailyArtifacts = {
   "2026-07-16": dailyArtifact0,
@@ -11,4 +12,5 @@ export const dailyArtifacts = {
 export const validationArtifacts = {
   "2026-07-14": validationArtifact0,
   "2026-07-15": validationArtifact1,
+  "2026-07-16": validationArtifact2,
 } as const;
