@@ -2,10 +2,10 @@
   "date": "2026-07-16",
   "summary": {
     "predicted_games": 5,
-    "completed_games": 0,
-    "pending_games": 5,
-    "total_home_runs": 0,
-    "total_runs": 0,
+    "completed_games": 5,
+    "pending_games": 0,
+    "total_home_runs": 12,
+    "total_runs": 43,
     "avg_predicted_hr_pct": 7,
     "avg_predicted_runs_pct": 1
   },
@@ -43,8 +43,12 @@
         "hr_pct": 16,
         "runs_pct": 2
       },
-      "actual": null,
-      "status": "pending"
+      "actual": {
+        "official_game_id": "20260716HTSK0",
+        "home_runs": 2,
+        "runs": 6
+      },
+      "status": "completed"
     },
     {
       "game_id": "2026-07-16-KT-LG",
@@ -76,11 +80,15 @@
         }
       },
       "predicted": {
-        "hr_pct": -13,
-        "runs_pct": -2
+        "hr_pct": -17,
+        "runs_pct": -3
       },
-      "actual": null,
-      "status": "pending"
+      "actual": {
+        "official_game_id": "20260716KTLG0",
+        "home_runs": 3,
+        "runs": 7
+      },
+      "status": "completed"
     },
     {
       "game_id": "2026-07-16-LOTTE-SAMSUNG",
@@ -112,11 +120,15 @@
         }
       },
       "predicted": {
-        "hr_pct": 19,
-        "runs_pct": 3
+        "hr_pct": 24,
+        "runs_pct": 4
       },
-      "actual": null,
-      "status": "pending"
+      "actual": {
+        "official_game_id": "20260716LTSS0",
+        "home_runs": 2,
+        "runs": 5
+      },
+      "status": "completed"
     },
     {
       "game_id": "2026-07-16-DOOSAN-NC",
@@ -151,8 +163,12 @@
         "hr_pct": 18,
         "runs_pct": 3
       },
-      "actual": null,
-      "status": "pending"
+      "actual": {
+        "official_game_id": "20260716OBNC0",
+        "home_runs": 2,
+        "runs": 6
+      },
+      "status": "completed"
     },
     {
       "game_id": "2026-07-16-KIWOOM-HANWHA",
@@ -187,12 +203,16 @@
         "hr_pct": -4,
         "runs_pct": -1
       },
-      "actual": null,
-      "status": "pending"
+      "actual": {
+        "official_game_id": "20260716WOHH0",
+        "home_runs": 3,
+        "runs": 19
+      },
+      "status": "completed"
     }
   ],
   "timezone": "Asia/Seoul",
-  "generated_at": "2026-07-16T21:02:04+09:00",
+  "generated_at": "2026-07-16T23:31:39+09:00",
   "sources": {
     "predictions": "data/daily-factors/2026-07-16.json",
     "actuals": "KBO official GameCenter"
