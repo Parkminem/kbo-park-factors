@@ -1,7 +1,7 @@
 {
   "date": "2026-07-18",
   "timezone": "Asia/Seoul",
-  "generated_at": "2026-07-18T17:03:14+09:00",
+  "generated_at": "2026-07-18T18:01:48+09:00",
   "sources": {
     "schedule": "Naver Sports schedule API",
     "weather": "open-meteo",
@@ -10,6 +10,71 @@
   },
   "warnings": [],
   "games": [
+    {
+      "game_id": "2026-07-18-KIWOOM-HANWHA",
+      "start_time_local": "18:00",
+      "away_team": "키움",
+      "home_team": "한화",
+      "stadium": {
+        "id": "hanwha-life-ballpark",
+        "name_ko": "대전한화생명볼파크",
+        "city": "대전",
+        "type": "outdoor",
+        "orientation_deg": 44,
+        "baseline_evidence": {
+          "games": 114,
+          "prior_games": 150,
+          "raw_factors": {
+            "hr_pct": -10,
+            "xbh_pct": 0,
+            "single_pct": 0,
+            "runs_pct": 2
+          },
+          "adjusted_factors": {
+            "hr_pct": -4,
+            "xbh_pct": 0,
+            "single_pct": 0,
+            "runs_pct": 1
+          }
+        }
+      },
+      "weather": {
+        "label": "비 가능",
+        "temperature_c": 26.9,
+        "humidity_pct": 93,
+        "pressure_hpa": 992.6,
+        "precipitation_probability_pct": 92,
+        "weather_code": 3,
+        "wind_speed_mps": 2.12,
+        "wind_direction_deg": 251
+      },
+      "factors": {
+        "stadium_only": {
+          "hr_pct": -4,
+          "xbh_pct": 0,
+          "single_pct": 0,
+          "runs_pct": 1
+        },
+        "weather_only": {
+          "hr_pct": 0,
+          "xbh_pct": 0,
+          "single_pct": -1,
+          "runs_pct": 0
+        },
+        "combined": {
+          "hr_pct": -4,
+          "xbh_pct": 0,
+          "single_pct": -1,
+          "runs_pct": -1
+        }
+      },
+      "explanations": [
+        "평균 환경 대비 타구 결과 확률 합산으로 산출",
+        "낮은 기압이 타구 비거리에 우호적",
+        "강수 가능성이 타구 질과 경기 흐름을 낮춤"
+      ],
+      "data_status": "complete"
+    },
     {
       "game_id": "2026-07-18-KIA-SSG",
       "start_time_local": "18:00",
@@ -267,71 +332,6 @@
         "평균 환경 대비 타구 결과 확률 합산으로 산출",
         "낮은 기압이 타구 비거리에 우호적",
         "외야 방향 바람이 장타를 도움"
-      ],
-      "data_status": "complete"
-    },
-    {
-      "game_id": "2026-07-18-KIWOOM-HANWHA",
-      "start_time_local": "18:00",
-      "away_team": "키움",
-      "home_team": "한화",
-      "stadium": {
-        "id": "hanwha-life-ballpark",
-        "name_ko": "대전한화생명볼파크",
-        "city": "대전",
-        "type": "outdoor",
-        "orientation_deg": 44,
-        "baseline_evidence": {
-          "games": 114,
-          "prior_games": 150,
-          "raw_factors": {
-            "hr_pct": -10,
-            "xbh_pct": 0,
-            "single_pct": 0,
-            "runs_pct": 2
-          },
-          "adjusted_factors": {
-            "hr_pct": -4,
-            "xbh_pct": 0,
-            "single_pct": 0,
-            "runs_pct": 1
-          }
-        }
-      },
-      "weather": {
-        "label": "비 가능",
-        "temperature_c": 26.9,
-        "humidity_pct": 93,
-        "pressure_hpa": 992.6,
-        "precipitation_probability_pct": 92,
-        "weather_code": 3,
-        "wind_speed_mps": 2.12,
-        "wind_direction_deg": 251
-      },
-      "factors": {
-        "stadium_only": {
-          "hr_pct": -4,
-          "xbh_pct": 0,
-          "single_pct": 0,
-          "runs_pct": 1
-        },
-        "weather_only": {
-          "hr_pct": 0,
-          "xbh_pct": 0,
-          "single_pct": -1,
-          "runs_pct": 0
-        },
-        "combined": {
-          "hr_pct": -4,
-          "xbh_pct": 0,
-          "single_pct": -1,
-          "runs_pct": -1
-        }
-      },
-      "explanations": [
-        "평균 환경 대비 타구 결과 확률 합산으로 산출",
-        "낮은 기압이 타구 비거리에 우호적",
-        "강수 가능성이 타구 질과 경기 흐름을 낮춤"
       ],
       "data_status": "complete"
     },
