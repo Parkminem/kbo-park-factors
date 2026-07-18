@@ -1,7 +1,7 @@
 {
   "date": "2026-07-18",
   "timezone": "Asia/Seoul",
-  "generated_at": "2026-07-18T20:02:09+09:00",
+  "generated_at": "2026-07-18T21:02:33+09:00",
   "sources": {
     "schedule": "Naver Sports schedule API",
     "weather": "open-meteo",
@@ -40,13 +40,13 @@
       },
       "weather": {
         "label": "맑음",
-        "temperature_c": 25.3,
-        "humidity_pct": 83,
-        "pressure_hpa": 996.2,
+        "temperature_c": 24.9,
+        "humidity_pct": 87,
+        "pressure_hpa": 995.9,
         "precipitation_probability_pct": 8,
         "weather_code": 1,
-        "wind_speed_mps": 2.06,
-        "wind_direction_deg": 219
+        "wind_speed_mps": 2.94,
+        "wind_direction_deg": 190
       },
       "factors": {
         "stadium_only": {
@@ -105,12 +105,12 @@
       "weather": {
         "label": "맑음",
         "temperature_c": 27.4,
-        "humidity_pct": 78,
-        "pressure_hpa": 997.7,
+        "humidity_pct": 77,
+        "pressure_hpa": 997.4,
         "precipitation_probability_pct": 35,
-        "weather_code": 0,
-        "wind_speed_mps": 1.25,
-        "wind_direction_deg": 209
+        "weather_code": 1,
+        "wind_speed_mps": 0.58,
+        "wind_direction_deg": 149
       },
       "factors": {
         "stadium_only": {
@@ -135,73 +135,6 @@
       "explanations": [
         "평균 환경 대비 타구 결과 확률 합산으로 산출",
         "낮은 기압이 타구 비거리에 우호적"
-      ],
-      "data_status": "complete"
-    },
-    {
-      "game_id": "2026-07-18-LOTTE-SAMSUNG",
-      "start_time_local": "18:00",
-      "away_team": "롯데",
-      "home_team": "삼성",
-      "stadium": {
-        "id": "daegu-lions-park",
-        "name_ko": "대구삼성라이온즈파크",
-        "city": "대구",
-        "type": "outdoor",
-        "orientation_deg": 42,
-        "baseline_evidence": {
-          "games": 108,
-          "prior_games": 150,
-          "raw_factors": {
-            "hr_pct": 38,
-            "xbh_pct": 0,
-            "single_pct": 0,
-            "runs_pct": 10
-          },
-          "adjusted_factors": {
-            "hr_pct": 16,
-            "xbh_pct": 0,
-            "single_pct": 0,
-            "runs_pct": 4
-          }
-        }
-      },
-      "weather": {
-        "label": "비 가능",
-        "temperature_c": 29.2,
-        "humidity_pct": 84,
-        "pressure_hpa": 992.9,
-        "precipitation_probability_pct": 61,
-        "weather_code": 2,
-        "wind_speed_mps": 3.08,
-        "wind_direction_deg": 193
-      },
-      "factors": {
-        "stadium_only": {
-          "hr_pct": 16,
-          "xbh_pct": 0,
-          "single_pct": 0,
-          "runs_pct": 4
-        },
-        "weather_only": {
-          "hr_pct": 8,
-          "xbh_pct": 3,
-          "single_pct": -1,
-          "runs_pct": 4
-        },
-        "combined": {
-          "hr_pct": 26,
-          "xbh_pct": 2,
-          "single_pct": -1,
-          "runs_pct": 4
-        }
-      },
-      "explanations": [
-        "평균 환경 대비 타구 결과 확률 합산으로 산출",
-        "따뜻한 기온이 비거리와 득점 환경을 올림",
-        "낮은 기압이 타구 비거리에 우호적",
-        "외야 방향 바람이 장타를 도움",
-        "강수 가능성이 타구 질과 경기 흐름을 낮춤"
       ],
       "data_status": "complete"
     },
@@ -235,13 +168,13 @@
       },
       "weather": {
         "label": "구름",
-        "temperature_c": 27.3,
-        "humidity_pct": 93,
+        "temperature_c": 26.9,
+        "humidity_pct": 94,
         "pressure_hpa": 999.9,
         "precipitation_probability_pct": 18,
-        "weather_code": 2,
-        "wind_speed_mps": 3.04,
-        "wind_direction_deg": 189
+        "weather_code": 3,
+        "wind_speed_mps": 3.4,
+        "wind_direction_deg": 194
       },
       "factors": {
         "stadium_only": {
@@ -267,6 +200,73 @@
         "평균 환경 대비 타구 결과 확률 합산으로 산출",
         "낮은 기압이 타구 비거리에 우호적",
         "외야 방향 바람이 장타를 도움"
+      ],
+      "data_status": "complete"
+    },
+    {
+      "game_id": "2026-07-18-LOTTE-SAMSUNG",
+      "start_time_local": "18:00",
+      "away_team": "롯데",
+      "home_team": "삼성",
+      "stadium": {
+        "id": "daegu-lions-park",
+        "name_ko": "대구삼성라이온즈파크",
+        "city": "대구",
+        "type": "outdoor",
+        "orientation_deg": 42,
+        "baseline_evidence": {
+          "games": 108,
+          "prior_games": 150,
+          "raw_factors": {
+            "hr_pct": 38,
+            "xbh_pct": 0,
+            "single_pct": 0,
+            "runs_pct": 10
+          },
+          "adjusted_factors": {
+            "hr_pct": 16,
+            "xbh_pct": 0,
+            "single_pct": 0,
+            "runs_pct": 4
+          }
+        }
+      },
+      "weather": {
+        "label": "비 가능",
+        "temperature_c": 28.6,
+        "humidity_pct": 87,
+        "pressure_hpa": 992.9,
+        "precipitation_probability_pct": 61,
+        "weather_code": 1,
+        "wind_speed_mps": 3.35,
+        "wind_direction_deg": 190
+      },
+      "factors": {
+        "stadium_only": {
+          "hr_pct": 16,
+          "xbh_pct": 0,
+          "single_pct": 0,
+          "runs_pct": 4
+        },
+        "weather_only": {
+          "hr_pct": 8,
+          "xbh_pct": 3,
+          "single_pct": -1,
+          "runs_pct": 4
+        },
+        "combined": {
+          "hr_pct": 26,
+          "xbh_pct": 2,
+          "single_pct": -1,
+          "runs_pct": 4
+        }
+      },
+      "explanations": [
+        "평균 환경 대비 타구 결과 확률 합산으로 산출",
+        "따뜻한 기온이 비거리와 득점 환경을 올림",
+        "낮은 기압이 타구 비거리에 우호적",
+        "외야 방향 바람이 장타를 도움",
+        "강수 가능성이 타구 질과 경기 흐름을 낮춤"
       ],
       "data_status": "complete"
     },
@@ -300,13 +300,13 @@
       },
       "weather": {
         "label": "비 가능",
-        "temperature_c": 26.9,
-        "humidity_pct": 93,
+        "temperature_c": 27.1,
+        "humidity_pct": 91,
         "pressure_hpa": 992.6,
         "precipitation_probability_pct": 82,
-        "weather_code": 3,
-        "wind_speed_mps": 2.12,
-        "wind_direction_deg": 251
+        "weather_code": 2,
+        "wind_speed_mps": 1.92,
+        "wind_direction_deg": 242
       },
       "factors": {
         "stadium_only": {
@@ -419,12 +419,12 @@
       },
       "weather": {
         "label": "구름",
-        "temperature_c": 27.3,
-        "humidity_pct": 94,
+        "temperature_c": 26.9,
+        "humidity_pct": 95,
         "pressure_hpa": 998.9,
         "precipitation_probability_pct": 2,
         "weather_code": 2,
-        "wind_speed_mps": 2.61,
+        "wind_speed_mps": 2.83,
         "wind_direction_deg": 212
       },
       "factors": {
@@ -482,13 +482,13 @@
       },
       "weather": {
         "label": "비 가능",
-        "temperature_c": 28.2,
-        "humidity_pct": 91,
+        "temperature_c": 27.4,
+        "humidity_pct": 95,
         "pressure_hpa": 997.1,
         "precipitation_probability_pct": 96,
         "weather_code": 51,
-        "wind_speed_mps": 2.48,
-        "wind_direction_deg": 220
+        "wind_speed_mps": 2.19,
+        "wind_direction_deg": 223
       },
       "factors": {
         "stadium_only": {
@@ -498,16 +498,16 @@
           "runs_pct": -1
         },
         "weather_only": {
-          "hr_pct": 4,
-          "xbh_pct": 1,
+          "hr_pct": 0,
+          "xbh_pct": 0,
           "single_pct": -1,
-          "runs_pct": 2
+          "runs_pct": 0
         },
         "combined": {
-          "hr_pct": 10,
-          "xbh_pct": 1,
+          "hr_pct": 6,
+          "xbh_pct": 0,
           "single_pct": -1,
-          "runs_pct": 1
+          "runs_pct": 0
         }
       },
       "explanations": [
@@ -546,12 +546,12 @@
       "weather": {
         "label": "맑음",
         "temperature_c": 25.9,
-        "humidity_pct": 82,
-        "pressure_hpa": 992.8,
+        "humidity_pct": 83,
+        "pressure_hpa": 992.5,
         "precipitation_probability_pct": 22,
-        "weather_code": 0,
-        "wind_speed_mps": 1.84,
-        "wind_direction_deg": 229
+        "weather_code": 1,
+        "wind_speed_mps": 1.75,
+        "wind_direction_deg": 204
       },
       "factors": {
         "stadium_only": {
