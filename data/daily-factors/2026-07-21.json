@@ -1,7 +1,7 @@
 {
   "date": "2026-07-21",
   "timezone": "Asia/Seoul",
-  "generated_at": "2026-07-21T21:03:29+09:00",
+  "generated_at": "2026-07-21T22:01:47+09:00",
   "sources": {
     "schedule": "Naver Sports schedule API",
     "weather": "open-meteo",
@@ -10,6 +10,71 @@
   },
   "warnings": [],
   "games": [
+    {
+      "game_id": "2026-07-21-DOOSAN-KT",
+      "start_time_local": "18:30",
+      "away_team": "두산",
+      "home_team": "KT",
+      "stadium": {
+        "id": "suwon-kt-wiz-park",
+        "name_ko": "수원KT위즈파크",
+        "city": "수원",
+        "type": "outdoor",
+        "orientation_deg": 39,
+        "baseline_evidence": {
+          "games": 118,
+          "prior_games": 150,
+          "raw_factors": {
+            "hr_pct": -13,
+            "xbh_pct": 0,
+            "single_pct": 0,
+            "runs_pct": 2
+          },
+          "adjusted_factors": {
+            "hr_pct": -6,
+            "xbh_pct": 0,
+            "single_pct": 0,
+            "runs_pct": 1
+          }
+        }
+      },
+      "weather": {
+        "label": "비 가능",
+        "temperature_c": 25.3,
+        "humidity_pct": 98,
+        "pressure_hpa": 998.8,
+        "precipitation_probability_pct": 92,
+        "weather_code": 2,
+        "wind_speed_mps": 2.64,
+        "wind_direction_deg": 233
+      },
+      "factors": {
+        "stadium_only": {
+          "hr_pct": -6,
+          "xbh_pct": 0,
+          "single_pct": 0,
+          "runs_pct": 1
+        },
+        "weather_only": {
+          "hr_pct": 0,
+          "xbh_pct": 0,
+          "single_pct": -1,
+          "runs_pct": 0
+        },
+        "combined": {
+          "hr_pct": -6,
+          "xbh_pct": 0,
+          "single_pct": -1,
+          "runs_pct": -1
+        }
+      },
+      "explanations": [
+        "평균 환경 대비 타구 결과 확률 합산으로 산출",
+        "낮은 기압이 타구 비거리에 우호적",
+        "강수 가능성이 타구 질과 경기 흐름을 낮춤"
+      ],
+      "data_status": "complete"
+    },
     {
       "game_id": "2026-07-21-HANWHA-KIA",
       "start_time_local": "18:30",
@@ -42,11 +107,11 @@
         "label": "맑음",
         "temperature_c": 29.5,
         "humidity_pct": 80,
-        "pressure_hpa": 1003.7,
+        "pressure_hpa": 1003.2,
         "precipitation_probability_pct": 43,
         "weather_code": 1,
-        "wind_speed_mps": 3.22,
-        "wind_direction_deg": 216
+        "wind_speed_mps": 3.26,
+        "wind_direction_deg": 220
       },
       "factors": {
         "stadium_only": {
@@ -105,13 +170,13 @@
       },
       "weather": {
         "label": "비 가능",
-        "temperature_c": 26.1,
+        "temperature_c": 26.0,
         "humidity_pct": 93,
         "pressure_hpa": 1003.7,
         "precipitation_probability_pct": 69,
-        "weather_code": 2,
-        "wind_speed_mps": 2.2,
-        "wind_direction_deg": 219
+        "weather_code": 1,
+        "wind_speed_mps": 2.48,
+        "wind_direction_deg": 230
       },
       "factors": {
         "stadium_only": {
@@ -136,136 +201,6 @@
       "explanations": [
         "평균 환경 대비 타구 결과 확률 합산으로 산출",
         "강수 가능성이 타구 질과 경기 흐름을 낮춤"
-      ],
-      "data_status": "complete"
-    },
-    {
-      "game_id": "2026-07-21-DOOSAN-KT",
-      "start_time_local": "18:30",
-      "away_team": "두산",
-      "home_team": "KT",
-      "stadium": {
-        "id": "suwon-kt-wiz-park",
-        "name_ko": "수원KT위즈파크",
-        "city": "수원",
-        "type": "outdoor",
-        "orientation_deg": 39,
-        "baseline_evidence": {
-          "games": 118,
-          "prior_games": 150,
-          "raw_factors": {
-            "hr_pct": -13,
-            "xbh_pct": 0,
-            "single_pct": 0,
-            "runs_pct": 2
-          },
-          "adjusted_factors": {
-            "hr_pct": -6,
-            "xbh_pct": 0,
-            "single_pct": 0,
-            "runs_pct": 1
-          }
-        }
-      },
-      "weather": {
-        "label": "비 가능",
-        "temperature_c": 25.5,
-        "humidity_pct": 98,
-        "pressure_hpa": 998.9,
-        "precipitation_probability_pct": 92,
-        "weather_code": 2,
-        "wind_speed_mps": 2.5,
-        "wind_direction_deg": 217
-      },
-      "factors": {
-        "stadium_only": {
-          "hr_pct": -6,
-          "xbh_pct": 0,
-          "single_pct": 0,
-          "runs_pct": 1
-        },
-        "weather_only": {
-          "hr_pct": 0,
-          "xbh_pct": 0,
-          "single_pct": -1,
-          "runs_pct": 0
-        },
-        "combined": {
-          "hr_pct": -6,
-          "xbh_pct": 0,
-          "single_pct": -1,
-          "runs_pct": -1
-        }
-      },
-      "explanations": [
-        "평균 환경 대비 타구 결과 확률 합산으로 산출",
-        "낮은 기압이 타구 비거리에 우호적",
-        "강수 가능성이 타구 질과 경기 흐름을 낮춤"
-      ],
-      "data_status": "complete"
-    },
-    {
-      "game_id": "2026-07-21-SSG-LOTTE",
-      "start_time_local": "18:30",
-      "away_team": "SSG",
-      "home_team": "롯데",
-      "stadium": {
-        "id": "sajik",
-        "name_ko": "사직야구장",
-        "city": "부산",
-        "type": "outdoor",
-        "orientation_deg": 45,
-        "baseline_evidence": {
-          "games": 114,
-          "prior_games": 150,
-          "raw_factors": {
-            "hr_pct": -17,
-            "xbh_pct": 0,
-            "single_pct": 0,
-            "runs_pct": 8
-          },
-          "adjusted_factors": {
-            "hr_pct": -7,
-            "xbh_pct": 0,
-            "single_pct": 0,
-            "runs_pct": 3
-          }
-        }
-      },
-      "weather": {
-        "label": "맑음",
-        "temperature_c": 28.4,
-        "humidity_pct": 86,
-        "pressure_hpa": 1005.7,
-        "precipitation_probability_pct": 2,
-        "weather_code": 0,
-        "wind_speed_mps": 3.08,
-        "wind_direction_deg": 216
-      },
-      "factors": {
-        "stadium_only": {
-          "hr_pct": -7,
-          "xbh_pct": 0,
-          "single_pct": 0,
-          "runs_pct": 3
-        },
-        "weather_only": {
-          "hr_pct": 8,
-          "xbh_pct": 3,
-          "single_pct": 0,
-          "runs_pct": 4
-        },
-        "combined": {
-          "hr_pct": 0,
-          "xbh_pct": 2,
-          "single_pct": 0,
-          "runs_pct": 1
-        }
-      },
-      "explanations": [
-        "평균 환경 대비 타구 결과 확률 합산으로 산출",
-        "따뜻한 기온이 비거리와 득점 환경을 올림",
-        "외야 방향 바람이 장타를 도움"
       ],
       "data_status": "complete"
     },
@@ -299,13 +234,13 @@
       },
       "weather": {
         "label": "비 가능",
-        "temperature_c": 25.4,
-        "humidity_pct": 95,
-        "pressure_hpa": 1004.0,
+        "temperature_c": 24.9,
+        "humidity_pct": 97,
+        "pressure_hpa": 1004.1,
         "precipitation_probability_pct": 65,
         "weather_code": 2,
-        "wind_speed_mps": 2.08,
-        "wind_direction_deg": 215
+        "wind_speed_mps": 2.06,
+        "wind_direction_deg": 219
       },
       "factors": {
         "stadium_only": {
@@ -329,6 +264,71 @@
       },
       "explanations": [
         "돔 구장이라 외부 날씨 영향 제한"
+      ],
+      "data_status": "complete"
+    },
+    {
+      "game_id": "2026-07-21-SSG-LOTTE",
+      "start_time_local": "18:30",
+      "away_team": "SSG",
+      "home_team": "롯데",
+      "stadium": {
+        "id": "sajik",
+        "name_ko": "사직야구장",
+        "city": "부산",
+        "type": "outdoor",
+        "orientation_deg": 45,
+        "baseline_evidence": {
+          "games": 114,
+          "prior_games": 150,
+          "raw_factors": {
+            "hr_pct": -17,
+            "xbh_pct": 0,
+            "single_pct": 0,
+            "runs_pct": 8
+          },
+          "adjusted_factors": {
+            "hr_pct": -7,
+            "xbh_pct": 0,
+            "single_pct": 0,
+            "runs_pct": 3
+          }
+        }
+      },
+      "weather": {
+        "label": "맑음",
+        "temperature_c": 28.3,
+        "humidity_pct": 86,
+        "pressure_hpa": 1005.0,
+        "precipitation_probability_pct": 2,
+        "weather_code": 0,
+        "wind_speed_mps": 3.5,
+        "wind_direction_deg": 211
+      },
+      "factors": {
+        "stadium_only": {
+          "hr_pct": -7,
+          "xbh_pct": 0,
+          "single_pct": 0,
+          "runs_pct": 3
+        },
+        "weather_only": {
+          "hr_pct": 8,
+          "xbh_pct": 3,
+          "single_pct": 0,
+          "runs_pct": 4
+        },
+        "combined": {
+          "hr_pct": 0,
+          "xbh_pct": 2,
+          "single_pct": 0,
+          "runs_pct": 1
+        }
+      },
+      "explanations": [
+        "평균 환경 대비 타구 결과 확률 합산으로 산출",
+        "따뜻한 기온이 비거리와 득점 환경을 올림",
+        "외야 방향 바람이 장타를 도움"
       ],
       "data_status": "complete"
     },
@@ -361,14 +361,14 @@
         }
       },
       "weather": {
-        "label": "맑음",
-        "temperature_c": 29.9,
+        "label": "더움",
+        "temperature_c": 30.3,
         "humidity_pct": 79,
-        "pressure_hpa": 999.7,
+        "pressure_hpa": 998.8,
         "precipitation_probability_pct": 8,
         "weather_code": 1,
-        "wind_speed_mps": 3.8,
-        "wind_direction_deg": 207
+        "wind_speed_mps": 3.89,
+        "wind_direction_deg": 206
       },
       "factors": {
         "stadium_only": {
@@ -425,9 +425,9 @@
       },
       "weather": {
         "label": "비 가능",
-        "temperature_c": 28.1,
-        "humidity_pct": 87,
-        "pressure_hpa": 999.3,
+        "temperature_c": 28.4,
+        "humidity_pct": 85,
+        "pressure_hpa": 998.7,
         "precipitation_probability_pct": 94,
         "weather_code": 51,
         "wind_speed_mps": 2.24,
@@ -490,11 +490,11 @@
         "label": "맑음",
         "temperature_c": 28.4,
         "humidity_pct": 86,
-        "pressure_hpa": 1006.8,
+        "pressure_hpa": 1006.1,
         "precipitation_probability_pct": 2,
         "weather_code": 1,
-        "wind_speed_mps": 3.06,
-        "wind_direction_deg": 191
+        "wind_speed_mps": 3.55,
+        "wind_direction_deg": 190
       },
       "factors": {
         "stadium_only": {
@@ -551,13 +551,13 @@
       },
       "weather": {
         "label": "비 가능",
-        "temperature_c": 24.4,
-        "humidity_pct": 97,
+        "temperature_c": 23.9,
+        "humidity_pct": 98,
         "pressure_hpa": 1002.3,
         "precipitation_probability_pct": 65,
-        "weather_code": 2,
-        "wind_speed_mps": 3.52,
-        "wind_direction_deg": 215
+        "weather_code": 3,
+        "wind_speed_mps": 3.4,
+        "wind_direction_deg": 223
       },
       "factors": {
         "stadium_only": {
