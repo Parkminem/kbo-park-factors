@@ -6,10 +6,46 @@
     "pending_games": 5,
     "total_home_runs": 0,
     "total_runs": 0,
-    "avg_predicted_hr_pct": -6,
-    "avg_predicted_runs_pct": -2
+    "avg_predicted_hr_pct": -3,
+    "avg_predicted_runs_pct": -1
   },
   "games": [
+    {
+      "game_id": "2026-07-21-DOOSAN-KT",
+      "matchup": {
+        "away_team": "두산",
+        "home_team": "KT"
+      },
+      "stadium": {
+        "id": "suwon-kt-wiz-park",
+        "name_ko": "수원KT위즈파크",
+        "city": "수원",
+        "type": "outdoor",
+        "orientation_deg": 39,
+        "baseline_evidence": {
+          "games": 118,
+          "prior_games": 150,
+          "raw_factors": {
+            "hr_pct": -13,
+            "xbh_pct": 0,
+            "single_pct": 0,
+            "runs_pct": 2
+          },
+          "adjusted_factors": {
+            "hr_pct": -6,
+            "xbh_pct": 0,
+            "single_pct": 0,
+            "runs_pct": 1
+          }
+        }
+      },
+      "predicted": {
+        "hr_pct": -6,
+        "runs_pct": -1
+      },
+      "actual": null,
+      "status": "pending"
+    },
     {
       "game_id": "2026-07-21-HANWHA-KIA",
       "matchup": {
@@ -40,8 +76,8 @@
         }
       },
       "predicted": {
-        "hr_pct": 6,
-        "runs_pct": -1
+        "hr_pct": 15,
+        "runs_pct": 3
       },
       "actual": null,
       "status": "pending"
@@ -83,42 +119,6 @@
       "status": "pending"
     },
     {
-      "game_id": "2026-07-21-DOOSAN-KT",
-      "matchup": {
-        "away_team": "두산",
-        "home_team": "KT"
-      },
-      "stadium": {
-        "id": "suwon-kt-wiz-park",
-        "name_ko": "수원KT위즈파크",
-        "city": "수원",
-        "type": "outdoor",
-        "orientation_deg": 39,
-        "baseline_evidence": {
-          "games": 118,
-          "prior_games": 150,
-          "raw_factors": {
-            "hr_pct": -13,
-            "xbh_pct": 0,
-            "single_pct": 0,
-            "runs_pct": 2
-          },
-          "adjusted_factors": {
-            "hr_pct": -6,
-            "xbh_pct": 0,
-            "single_pct": 0,
-            "runs_pct": 1
-          }
-        }
-      },
-      "predicted": {
-        "hr_pct": -6,
-        "runs_pct": -1
-      },
-      "actual": null,
-      "status": "pending"
-    },
-    {
       "game_id": "2026-07-21-SSG-LOTTE",
       "matchup": {
         "away_team": "SSG",
@@ -148,8 +148,8 @@
         }
       },
       "predicted": {
-        "hr_pct": -3,
-        "runs_pct": 0
+        "hr_pct": 0,
+        "runs_pct": 1
       },
       "actual": null,
       "status": "pending"
@@ -192,7 +192,7 @@
     }
   ],
   "timezone": "Asia/Seoul",
-  "generated_at": "2026-07-21T05:49:53+09:00",
+  "generated_at": "2026-07-21T23:32:32+09:00",
   "sources": {
     "predictions": "data/daily-factors/2026-07-21.json",
     "actuals": "KBO official GameCenter"
