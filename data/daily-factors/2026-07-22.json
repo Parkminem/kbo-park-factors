@@ -1,7 +1,7 @@
 {
   "date": "2026-07-22",
   "timezone": "Asia/Seoul",
-  "generated_at": "2026-07-22T19:02:48+09:00",
+  "generated_at": "2026-07-22T20:02:52+09:00",
   "sources": {
     "schedule": "Naver Sports schedule API",
     "weather": "open-meteo",
@@ -72,70 +72,6 @@
         "평균 환경 대비 타구 결과 확률 합산으로 산출",
         "따뜻한 기온이 비거리와 득점 환경을 올림",
         "외야 방향 바람이 장타를 도움"
-      ],
-      "data_status": "complete"
-    },
-    {
-      "game_id": "2026-07-22-NC-LG",
-      "start_time_local": "18:30",
-      "away_team": "NC",
-      "home_team": "LG",
-      "stadium": {
-        "id": "jamsil",
-        "name_ko": "잠실야구장",
-        "city": "서울",
-        "type": "outdoor",
-        "orientation_deg": 45,
-        "baseline_evidence": {
-          "games": 230,
-          "prior_games": 150,
-          "raw_factors": {
-            "hr_pct": -29,
-            "xbh_pct": 0,
-            "single_pct": 0,
-            "runs_pct": -8
-          },
-          "adjusted_factors": {
-            "hr_pct": -18,
-            "xbh_pct": 0,
-            "single_pct": 0,
-            "runs_pct": -5
-          }
-        }
-      },
-      "weather": {
-        "label": "비 가능",
-        "temperature_c": 27.9,
-        "humidity_pct": 90,
-        "pressure_hpa": 1005.1,
-        "precipitation_probability_pct": 94,
-        "weather_code": 51,
-        "wind_speed_mps": 1.84,
-        "wind_direction_deg": 241
-      },
-      "factors": {
-        "stadium_only": {
-          "hr_pct": -18,
-          "xbh_pct": 0,
-          "single_pct": 0,
-          "runs_pct": -5
-        },
-        "weather_only": {
-          "hr_pct": -2,
-          "xbh_pct": 0,
-          "single_pct": -1,
-          "runs_pct": -1
-        },
-        "combined": {
-          "hr_pct": -20,
-          "xbh_pct": 0,
-          "single_pct": -1,
-          "runs_pct": -3
-        }
-      },
-      "explanations": [
-        "평균 환경 대비 타구 결과 확률 합산으로 산출",
-        "강수 가능성이 타구 질과 경기 흐름을 낮춤"
       ],
       "data_status": "complete"
     },
@@ -265,6 +201,69 @@
         "돔 구장이라 외부 날씨 영향 제한"
       ],
       "data_status": "complete"
+    },
+    {
+      "game_id": "2026-07-22-jamsil-REFERENCE",
+      "start_time_local": "18:30",
+      "away_team": "",
+      "home_team": "잠실야구장",
+      "stadium": {
+        "id": "jamsil",
+        "name_ko": "잠실야구장",
+        "city": "서울",
+        "type": "outdoor",
+        "orientation_deg": 45,
+        "baseline_evidence": {
+          "games": 230,
+          "prior_games": 150,
+          "raw_factors": {
+            "hr_pct": -29,
+            "xbh_pct": 0,
+            "single_pct": 0,
+            "runs_pct": -8
+          },
+          "adjusted_factors": {
+            "hr_pct": -18,
+            "xbh_pct": 0,
+            "single_pct": 0,
+            "runs_pct": -5
+          }
+        }
+      },
+      "weather": {
+        "label": "비 가능",
+        "temperature_c": 27.9,
+        "humidity_pct": 90,
+        "pressure_hpa": 1005.1,
+        "precipitation_probability_pct": 94,
+        "weather_code": 51,
+        "wind_speed_mps": 1.84,
+        "wind_direction_deg": 241
+      },
+      "factors": {
+        "stadium_only": {
+          "hr_pct": -18,
+          "xbh_pct": 0,
+          "single_pct": 0,
+          "runs_pct": -5
+        },
+        "weather_only": {
+          "hr_pct": -2,
+          "xbh_pct": 0,
+          "single_pct": -1,
+          "runs_pct": -1
+        },
+        "combined": {
+          "hr_pct": -20,
+          "xbh_pct": 0,
+          "single_pct": -1,
+          "runs_pct": -3
+        }
+      },
+      "explanations": [
+        "해당 날짜 경기 없음 · 현행 홈구장 기준 표시"
+      ],
+      "data_status": "stadium_reference"
     },
     {
       "game_id": "2026-07-22-daegu-lions-park-REFERENCE",
