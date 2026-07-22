@@ -1,7 +1,7 @@
 {
   "date": "2026-07-22",
   "timezone": "Asia/Seoul",
-  "generated_at": "2026-07-22T10:02:09+09:00",
+  "generated_at": "2026-07-22T17:01:39+09:00",
   "sources": {
     "schedule": "Naver Sports schedule API",
     "weather": "open-meteo",
@@ -39,14 +39,14 @@
         }
       },
       "weather": {
-        "label": "비 가능",
-        "temperature_c": 29.0,
-        "humidity_pct": 79,
-        "pressure_hpa": 1004.3,
-        "precipitation_probability_pct": 57,
-        "weather_code": 51,
-        "wind_speed_mps": 2.92,
-        "wind_direction_deg": 218
+        "label": "맑음",
+        "temperature_c": 29.2,
+        "humidity_pct": 78,
+        "pressure_hpa": 1004.5,
+        "precipitation_probability_pct": 41,
+        "weather_code": 1,
+        "wind_speed_mps": 3.04,
+        "wind_direction_deg": 224
       },
       "factors": {
         "stadium_only": {
@@ -56,22 +56,22 @@
           "runs_pct": -1
         },
         "weather_only": {
-          "hr_pct": 2,
-          "xbh_pct": 1,
-          "single_pct": -1,
-          "runs_pct": 1
+          "hr_pct": 8,
+          "xbh_pct": 3,
+          "single_pct": 0,
+          "runs_pct": 4
         },
         "combined": {
-          "hr_pct": 8,
-          "xbh_pct": 1,
-          "single_pct": -1,
-          "runs_pct": 1
+          "hr_pct": 15,
+          "xbh_pct": 2,
+          "single_pct": 0,
+          "runs_pct": 3
         }
       },
       "explanations": [
         "평균 환경 대비 타구 결과 확률 합산으로 산출",
         "따뜻한 기온이 비거리와 득점 환경을 올림",
-        "강수 가능성이 타구 질과 경기 흐름을 낮춤"
+        "외야 방향 바람이 장타를 도움"
       ],
       "data_status": "complete"
     },
@@ -105,13 +105,13 @@
       },
       "weather": {
         "label": "비 가능",
-        "temperature_c": 27.3,
-        "humidity_pct": 94,
-        "pressure_hpa": 1004.7,
-        "precipitation_probability_pct": 84,
-        "weather_code": 55,
-        "wind_speed_mps": 0.32,
-        "wind_direction_deg": 252
+        "temperature_c": 27.9,
+        "humidity_pct": 90,
+        "pressure_hpa": 1005.1,
+        "precipitation_probability_pct": 94,
+        "weather_code": 51,
+        "wind_speed_mps": 1.84,
+        "wind_direction_deg": 241
       },
       "factors": {
         "stadium_only": {
@@ -135,71 +135,6 @@
       },
       "explanations": [
         "평균 환경 대비 타구 결과 확률 합산으로 산출",
-        "강수 가능성이 타구 질과 경기 흐름을 낮춤"
-      ],
-      "data_status": "complete"
-    },
-    {
-      "game_id": "2026-07-22-DOOSAN-KT",
-      "start_time_local": "18:30",
-      "away_team": "두산",
-      "home_team": "KT",
-      "stadium": {
-        "id": "suwon-kt-wiz-park",
-        "name_ko": "수원KT위즈파크",
-        "city": "수원",
-        "type": "outdoor",
-        "orientation_deg": 39,
-        "baseline_evidence": {
-          "games": 118,
-          "prior_games": 150,
-          "raw_factors": {
-            "hr_pct": -13,
-            "xbh_pct": 0,
-            "single_pct": 0,
-            "runs_pct": 2
-          },
-          "adjusted_factors": {
-            "hr_pct": -6,
-            "xbh_pct": 0,
-            "single_pct": 0,
-            "runs_pct": 1
-          }
-        }
-      },
-      "weather": {
-        "label": "비 가능",
-        "temperature_c": 26.9,
-        "humidity_pct": 96,
-        "pressure_hpa": 999.8,
-        "precipitation_probability_pct": 98,
-        "weather_code": 61,
-        "wind_speed_mps": 1.52,
-        "wind_direction_deg": 203
-      },
-      "factors": {
-        "stadium_only": {
-          "hr_pct": -6,
-          "xbh_pct": 0,
-          "single_pct": 0,
-          "runs_pct": 1
-        },
-        "weather_only": {
-          "hr_pct": 0,
-          "xbh_pct": 0,
-          "single_pct": -1,
-          "runs_pct": 0
-        },
-        "combined": {
-          "hr_pct": -6,
-          "xbh_pct": 0,
-          "single_pct": -1,
-          "runs_pct": -1
-        }
-      },
-      "explanations": [
-        "평균 환경 대비 타구 결과 확률 합산으로 산출",
-        "낮은 기압이 타구 비거리에 우호적",
         "강수 가능성이 타구 질과 경기 흐름을 낮춤"
       ],
       "data_status": "complete"
@@ -235,8 +170,8 @@
       "weather": {
         "label": "맑음",
         "temperature_c": 29.5,
-        "humidity_pct": 79,
-        "pressure_hpa": 1005.4,
+        "humidity_pct": 78,
+        "pressure_hpa": 1005.5,
         "precipitation_probability_pct": 0,
         "weather_code": 0,
         "wind_speed_mps": 2.82,
@@ -297,14 +232,14 @@
         }
       },
       "weather": {
-        "label": "흐림",
-        "temperature_c": 27.2,
-        "humidity_pct": 94,
-        "pressure_hpa": 1005.0,
-        "precipitation_probability_pct": 37,
-        "weather_code": 61,
-        "wind_speed_mps": 1.08,
-        "wind_direction_deg": 202
+        "label": "비 가능",
+        "temperature_c": 27.5,
+        "humidity_pct": 89,
+        "pressure_hpa": 1005.4,
+        "precipitation_probability_pct": 63,
+        "weather_code": 1,
+        "wind_speed_mps": 1.63,
+        "wind_direction_deg": 227
       },
       "factors": {
         "stadium_only": {
@@ -360,14 +295,14 @@
         }
       },
       "weather": {
-        "label": "비 가능",
+        "label": "더움",
         "temperature_c": 30.6,
-        "humidity_pct": 75,
+        "humidity_pct": 76,
         "pressure_hpa": 999.6,
-        "precipitation_probability_pct": 55,
+        "precipitation_probability_pct": 47,
         "weather_code": 1,
-        "wind_speed_mps": 3.44,
-        "wind_direction_deg": 216
+        "wind_speed_mps": 3.38,
+        "wind_direction_deg": 214
       },
       "factors": {
         "stadium_only": {
@@ -377,16 +312,16 @@
           "runs_pct": 4
         },
         "weather_only": {
-          "hr_pct": 8,
+          "hr_pct": 10,
           "xbh_pct": 3,
-          "single_pct": -1,
-          "runs_pct": 4
+          "single_pct": 0,
+          "runs_pct": 5
         },
         "combined": {
-          "hr_pct": 26,
+          "hr_pct": 28,
           "xbh_pct": 2,
-          "single_pct": -1,
-          "runs_pct": 4
+          "single_pct": 0,
+          "runs_pct": 5
         }
       },
       "explanations": [
@@ -424,13 +359,13 @@
       },
       "weather": {
         "label": "비 가능",
-        "temperature_c": 27.7,
-        "humidity_pct": 91,
-        "pressure_hpa": 1000.1,
-        "precipitation_probability_pct": 98,
+        "temperature_c": 28.0,
+        "humidity_pct": 88,
+        "pressure_hpa": 1000.2,
+        "precipitation_probability_pct": 96,
         "weather_code": 51,
-        "wind_speed_mps": 1.49,
-        "wind_direction_deg": 250
+        "wind_speed_mps": 1.87,
+        "wind_direction_deg": 254
       },
       "factors": {
         "stadium_only": {
@@ -440,16 +375,16 @@
           "runs_pct": 1
         },
         "weather_only": {
-          "hr_pct": 0,
-          "xbh_pct": 0,
+          "hr_pct": 4,
+          "xbh_pct": 1,
           "single_pct": -1,
-          "runs_pct": 0
+          "runs_pct": 2
         },
         "combined": {
-          "hr_pct": -4,
-          "xbh_pct": 0,
+          "hr_pct": 0,
+          "xbh_pct": 1,
           "single_pct": -1,
-          "runs_pct": -1
+          "runs_pct": 0
         }
       },
       "explanations": [
@@ -489,10 +424,10 @@
         "label": "맑음",
         "temperature_c": 29.3,
         "humidity_pct": 79,
-        "pressure_hpa": 1006.6,
-        "precipitation_probability_pct": 4,
+        "pressure_hpa": 1006.7,
+        "precipitation_probability_pct": 2,
         "weather_code": 0,
-        "wind_speed_mps": 2.73,
+        "wind_speed_mps": 2.95,
         "wind_direction_deg": 208
       },
       "factors": {
@@ -513,6 +448,69 @@
           "xbh_pct": 1,
           "single_pct": 0,
           "runs_pct": 3
+        }
+      },
+      "explanations": [
+        "해당 날짜 경기 없음 · 현행 홈구장 기준 표시"
+      ],
+      "data_status": "stadium_reference"
+    },
+    {
+      "game_id": "2026-07-22-suwon-kt-wiz-park-REFERENCE",
+      "start_time_local": "18:30",
+      "away_team": "",
+      "home_team": "수원KT위즈파크",
+      "stadium": {
+        "id": "suwon-kt-wiz-park",
+        "name_ko": "수원KT위즈파크",
+        "city": "수원",
+        "type": "outdoor",
+        "orientation_deg": 39,
+        "baseline_evidence": {
+          "games": 118,
+          "prior_games": 150,
+          "raw_factors": {
+            "hr_pct": -13,
+            "xbh_pct": 0,
+            "single_pct": 0,
+            "runs_pct": 2
+          },
+          "adjusted_factors": {
+            "hr_pct": -6,
+            "xbh_pct": 0,
+            "single_pct": 0,
+            "runs_pct": 1
+          }
+        }
+      },
+      "weather": {
+        "label": "비 가능",
+        "temperature_c": 27.0,
+        "humidity_pct": 95,
+        "pressure_hpa": 1000.1,
+        "precipitation_probability_pct": 98,
+        "weather_code": 55,
+        "wind_speed_mps": 1.63,
+        "wind_direction_deg": 259
+      },
+      "factors": {
+        "stadium_only": {
+          "hr_pct": -6,
+          "xbh_pct": 0,
+          "single_pct": 0,
+          "runs_pct": 1
+        },
+        "weather_only": {
+          "hr_pct": 0,
+          "xbh_pct": 0,
+          "single_pct": -1,
+          "runs_pct": 0
+        },
+        "combined": {
+          "hr_pct": -6,
+          "xbh_pct": 0,
+          "single_pct": -1,
+          "runs_pct": -1
         }
       },
       "explanations": [
@@ -549,14 +547,14 @@
         }
       },
       "weather": {
-        "label": "흐림",
-        "temperature_c": 26.9,
-        "humidity_pct": 96,
-        "pressure_hpa": 1003.1,
-        "precipitation_probability_pct": 37,
+        "label": "비 가능",
+        "temperature_c": 26.8,
+        "humidity_pct": 94,
+        "pressure_hpa": 1003.6,
+        "precipitation_probability_pct": 63,
         "weather_code": 51,
-        "wind_speed_mps": 2.16,
-        "wind_direction_deg": 193
+        "wind_speed_mps": 1.66,
+        "wind_direction_deg": 213
       },
       "factors": {
         "stadium_only": {
@@ -566,16 +564,16 @@
           "runs_pct": -2
         },
         "weather_only": {
-          "hr_pct": 0,
+          "hr_pct": -2,
           "xbh_pct": 0,
-          "single_pct": 0,
-          "runs_pct": 0
+          "single_pct": -1,
+          "runs_pct": -1
         },
         "combined": {
-          "hr_pct": 13,
+          "hr_pct": 11,
           "xbh_pct": 0,
-          "single_pct": 0,
-          "runs_pct": 2
+          "single_pct": -1,
+          "runs_pct": 1
         }
       },
       "explanations": [
