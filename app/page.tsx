@@ -307,8 +307,8 @@ function windImpact(game: Game) {
   const orientation = game.stadium.orientation_deg ?? 45;
   const windTo = (game.weather.wind_direction_deg + 180) % 360;
   const diff = Math.abs((((windTo - orientation + 540) % 360) - 180));
-  if (diff <= 35) return { label: "OUT", detail: "외야 방향", className: "boostImpact" };
-  if (diff >= 145) return { label: "IN", detail: "홈 방향", className: "dragImpact" };
+  if (diff <= 45) return { label: "OUT", detail: "외야 방향", className: "boostImpact" };
+  if (diff >= 135) return { label: "IN", detail: "홈 방향", className: "dragImpact" };
   return { label: "CROSS", detail: diff < 90 ? "대각 외야" : "대각 홈", className: "neutralImpact" };
 }
 

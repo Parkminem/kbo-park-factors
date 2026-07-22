@@ -1,7 +1,7 @@
 {
   "date": "2026-07-22",
   "timezone": "Asia/Seoul",
-  "generated_at": "2026-07-22T22:01:58+09:00",
+  "generated_at": "2026-07-22T22:19:41+09:00",
   "sources": {
     "schedule": "Naver Sports schedule API",
     "weather": "open-meteo",
@@ -20,7 +20,7 @@
         "name_ko": "광주-KIA챔피언스필드",
         "city": "광주",
         "type": "outdoor",
-        "orientation_deg": 33,
+        "orientation_deg": 56,
         "baseline_evidence": {
           "games": 113,
           "prior_games": 150,
@@ -86,7 +86,7 @@
         "name_ko": "사직야구장",
         "city": "부산",
         "type": "outdoor",
-        "orientation_deg": 45,
+        "orientation_deg": 166,
         "baseline_evidence": {
           "games": 114,
           "prior_games": 150,
@@ -122,22 +122,21 @@
           "runs_pct": 3
         },
         "weather_only": {
-          "hr_pct": 8,
-          "xbh_pct": 3,
+          "hr_pct": 4,
+          "xbh_pct": 1,
           "single_pct": 0,
-          "runs_pct": 4
+          "runs_pct": 2
         },
         "combined": {
-          "hr_pct": 0,
-          "xbh_pct": 2,
+          "hr_pct": -3,
+          "xbh_pct": 1,
           "single_pct": 0,
-          "runs_pct": 1
+          "runs_pct": 0
         }
       },
       "explanations": [
         "평균 환경 대비 타구 결과 확률 합산으로 산출",
-        "따뜻한 기온이 비거리와 득점 환경을 올림",
-        "외야 방향 바람이 장타를 도움"
+        "따뜻한 기온이 비거리와 득점 환경을 올림"
       ],
       "data_status": "complete"
     },
@@ -214,7 +213,7 @@
         "name_ko": "잠실야구장",
         "city": "서울",
         "type": "outdoor",
-        "orientation_deg": 45,
+        "orientation_deg": 195,
         "baseline_evidence": {
           "games": 230,
           "prior_games": 150,
@@ -277,7 +276,7 @@
         "name_ko": "대구삼성라이온즈파크",
         "city": "대구",
         "type": "outdoor",
-        "orientation_deg": 42,
+        "orientation_deg": 345,
         "baseline_evidence": {
           "games": 108,
           "prior_games": 150,
@@ -313,16 +312,16 @@
           "runs_pct": 4
         },
         "weather_only": {
-          "hr_pct": 8,
-          "xbh_pct": 3,
+          "hr_pct": 4,
+          "xbh_pct": 1,
           "single_pct": -1,
-          "runs_pct": 4
+          "runs_pct": 2
         },
         "combined": {
-          "hr_pct": 26,
-          "xbh_pct": 2,
+          "hr_pct": 21,
+          "xbh_pct": 1,
           "single_pct": -1,
-          "runs_pct": 4
+          "runs_pct": 3
         }
       },
       "explanations": [
@@ -340,7 +339,7 @@
         "name_ko": "대전한화생명볼파크",
         "city": "대전",
         "type": "outdoor",
-        "orientation_deg": 44,
+        "orientation_deg": 109,
         "baseline_evidence": {
           "games": 114,
           "prior_games": 150,
@@ -360,9 +359,9 @@
       },
       "weather": {
         "label": "비 가능",
-        "temperature_c": 28.4,
+        "temperature_c": 28.5,
         "humidity_pct": 85,
-        "pressure_hpa": 999.6,
+        "pressure_hpa": 1000.2,
         "precipitation_probability_pct": 100,
         "weather_code": 51,
         "wind_speed_mps": 1.94,
@@ -403,7 +402,7 @@
         "name_ko": "창원NC파크",
         "city": "창원",
         "type": "outdoor",
-        "orientation_deg": 37,
+        "orientation_deg": 142,
         "baseline_evidence": {
           "games": 103,
           "prior_games": 150,
@@ -439,16 +438,16 @@
           "runs_pct": 7
         },
         "weather_only": {
-          "hr_pct": 8,
-          "xbh_pct": 3,
+          "hr_pct": 4,
+          "xbh_pct": 1,
           "single_pct": 0,
-          "runs_pct": 4
+          "runs_pct": 2
         },
         "combined": {
-          "hr_pct": 25,
-          "xbh_pct": 2,
+          "hr_pct": 20,
+          "xbh_pct": 1,
           "single_pct": 0,
-          "runs_pct": 5
+          "runs_pct": 3
         }
       },
       "explanations": [
@@ -466,7 +465,7 @@
         "name_ko": "수원KT위즈파크",
         "city": "수원",
         "type": "outdoor",
-        "orientation_deg": 39,
+        "orientation_deg": 172,
         "baseline_evidence": {
           "games": 118,
           "prior_games": 150,
@@ -529,7 +528,7 @@
         "name_ko": "인천SSG랜더스필드",
         "city": "인천",
         "type": "outdoor",
-        "orientation_deg": 48,
+        "orientation_deg": 173,
         "baseline_evidence": {
           "games": 112,
           "prior_games": 150,

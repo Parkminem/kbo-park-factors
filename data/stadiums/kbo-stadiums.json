@@ -13,7 +13,7 @@
     "type": "outdoor",
     "altitude_m": 25,
     "outfield_size": "large",
-    "orientation_deg": 45,
+    "orientation_deg": 195,
     "baseline_factors": {
       "hr_pct": -18,
       "xbh_pct": 0,
@@ -87,7 +87,7 @@
     "type": "outdoor",
     "altitude_m": 13,
     "outfield_size": "neutral",
-    "orientation_deg": 45,
+    "orientation_deg": 166,
     "baseline_factors": {
       "hr_pct": -7,
       "xbh_pct": 0,
@@ -124,7 +124,7 @@
     "type": "outdoor",
     "altitude_m": 70,
     "outfield_size": "hitter",
-    "orientation_deg": 42,
+    "orientation_deg": 345,
     "baseline_factors": {
       "hr_pct": 16,
       "xbh_pct": 0,
@@ -156,12 +156,12 @@
     "home_teams": [
       "한화"
     ],
-    "latitude": 36.317,
-    "longitude": 127.429,
+    "latitude": 36.3163,
+    "longitude": 127.4313,
     "type": "outdoor",
     "altitude_m": 55,
     "outfield_size": "neutral",
-    "orientation_deg": 44,
+    "orientation_deg": 109,
     "baseline_factors": {
       "hr_pct": -4,
       "xbh_pct": 0,
@@ -198,7 +198,7 @@
     "type": "outdoor",
     "altitude_m": 15,
     "outfield_size": "neutral",
-    "orientation_deg": 37,
+    "orientation_deg": 142,
     "baseline_factors": {
       "hr_pct": 15,
       "xbh_pct": 0,
@@ -235,7 +235,7 @@
     "type": "outdoor",
     "altitude_m": 31,
     "outfield_size": "neutral",
-    "orientation_deg": 33,
+    "orientation_deg": 56,
     "baseline_factors": {
       "hr_pct": 6,
       "xbh_pct": 0,
@@ -272,7 +272,7 @@
     "type": "outdoor",
     "altitude_m": 45,
     "outfield_size": "hitter",
-    "orientation_deg": 39,
+    "orientation_deg": 172,
     "baseline_factors": {
       "hr_pct": -6,
       "xbh_pct": 0,
@@ -309,7 +309,7 @@
     "type": "outdoor",
     "altitude_m": 28,
     "outfield_size": "hitter",
-    "orientation_deg": 48,
+    "orientation_deg": 173,
     "baseline_factors": {
       "hr_pct": 13,
       "xbh_pct": 0,

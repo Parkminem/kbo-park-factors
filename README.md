@@ -187,7 +187,11 @@ npm run smoke:game-day
 - **Schedule:** Naver Sports schedule API
 - **Stadium outcomes:** completed regular-season game records and box scores
 - **Weather:** Open-Meteo hourly forecast
-- **Stadium metadata:** repository-managed catalog with coordinates and field orientation
+- **Stadium metadata:** repository-managed catalog with coordinates and map-verified field orientation
+
+`orientation_deg` is the true-north clockwise bearing from home plate toward center field. Outdoor-park bearings were measured from mapped field geometry and are documented in [`data/stadiums/README.md`](data/stadiums/README.md).
+
+`orientation_deg`는 정북을 0°로 두고 홈플레이트에서 중견수 방향으로 시계방향 측정한 방위각입니다. 야외 구장 값은 지도상 필드 형상으로 검증했으며 [`data/stadiums/README.md`](data/stadiums/README.md)에 근거를 기록합니다.
 
 Weather adjustments are transparent heuristics, and the reference batted-ball portfolio is not a Statcast-level physical simulation. Team strength, starting pitchers, bullpen quality, lineups, handedness, and player-specific contact profiles are intentionally outside the current scope.
 
