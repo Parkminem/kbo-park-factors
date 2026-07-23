@@ -394,6 +394,7 @@ function WeatherSummary({ game }: { game: Game }) {
     <div className="weatherLine">
       <WeatherMark game={game} />
       <strong>{Math.round(game.weather.temperature_c)}°</strong>
+      <span>습도 {game.weather.humidity_pct}%</span>
       <span>{game.weather.precipitation_probability_pct}% rain</span>
       <span>{compassPoint(game.weather.wind_direction_deg)} {game.weather.wind_speed_mps.toFixed(1)} m/s</span>
     </div>
@@ -433,7 +434,8 @@ function FactorEvidence({ game, factors }: { game: Game; factors: FactorSet }) {
         )}
         {game.weather ? (
           <p>
-            날씨는 {Math.round(game.weather.temperature_c)}도, {game.weather.precipitation_probability_pct}% rain,{" "}
+            날씨는 {Math.round(game.weather.temperature_c)}도, 습도 {game.weather.humidity_pct}%,{" "}
+            {game.weather.precipitation_probability_pct}% rain,{" "}
             {compassPoint(game.weather.wind_direction_deg)} {game.weather.wind_speed_mps.toFixed(1)} m/s를 반영합니다.
           </p>
         ) : (
