@@ -1,7 +1,7 @@
 {
   "date": "2026-07-24",
   "timezone": "Asia/Seoul",
-  "generated_at": "2026-07-24T07:03:00+09:00",
+  "generated_at": "2026-07-24T08:01:48+09:00",
   "sources": {
     "schedule": "Naver Sports schedule API",
     "weather": "open-meteo",
@@ -107,7 +107,7 @@
         "temperature_c": 30.9,
         "humidity_pct": 71,
         "pressure_hpa": 1002.9,
-        "precipitation_probability_pct": 29,
+        "precipitation_probability_pct": 27,
         "weather_code": 1,
         "wind_speed_mps": 2.04,
         "wind_direction_deg": 259
@@ -171,7 +171,7 @@
         "temperature_c": 28.4,
         "humidity_pct": 82,
         "pressure_hpa": 1006.7,
-        "precipitation_probability_pct": 6,
+        "precipitation_probability_pct": 8,
         "weather_code": 1,
         "wind_speed_mps": 2.16,
         "wind_direction_deg": 257
@@ -235,7 +235,7 @@
         "temperature_c": 30.0,
         "humidity_pct": 74,
         "pressure_hpa": 1008.0,
-        "precipitation_probability_pct": 16,
+        "precipitation_probability_pct": 14,
         "weather_code": 1,
         "wind_speed_mps": 2.32,
         "wind_direction_deg": 263
@@ -299,7 +299,7 @@
         "temperature_c": 31.2,
         "humidity_pct": 72,
         "pressure_hpa": 1006.5,
-        "precipitation_probability_pct": 39,
+        "precipitation_probability_pct": 24,
         "weather_code": 0,
         "wind_speed_mps": 2.55,
         "wind_direction_deg": 228
@@ -480,7 +480,7 @@
         "temperature_c": 29.7,
         "humidity_pct": 80,
         "pressure_hpa": 1008.9,
-        "precipitation_probability_pct": 20,
+        "precipitation_probability_pct": 14,
         "weather_code": 0,
         "wind_speed_mps": 2.53,
         "wind_direction_deg": 189
@@ -543,7 +543,7 @@
         "temperature_c": 28.9,
         "humidity_pct": 80,
         "pressure_hpa": 1002.9,
-        "precipitation_probability_pct": 6,
+        "precipitation_probability_pct": 14,
         "weather_code": 1,
         "wind_speed_mps": 2.83,
         "wind_direction_deg": 278
