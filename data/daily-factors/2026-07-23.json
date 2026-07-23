@@ -1,7 +1,7 @@
 {
   "date": "2026-07-23",
   "timezone": "Asia/Seoul",
-  "generated_at": "2026-07-23T22:02:35+09:00",
+  "generated_at": "2026-07-23T23:01:43+09:00",
   "sources": {
     "schedule": "Naver Sports schedule API",
     "weather": "open-meteo",
@@ -11,65 +11,67 @@
   "warnings": [],
   "games": [
     {
-      "game_id": "2026-07-23-SAMSUNG-KIWOOM",
+      "game_id": "2026-07-23-HANWHA-KIA",
       "start_time_local": "18:30",
-      "away_team": "삼성",
-      "home_team": "키움",
+      "away_team": "한화",
+      "home_team": "KIA",
       "stadium": {
-        "id": "gocheok",
-        "name_ko": "고척스카이돔",
-        "city": "서울",
-        "type": "dome",
-        "orientation_deg": 45,
+        "id": "gwangju-kia-champions-field",
+        "name_ko": "광주-KIA챔피언스필드",
+        "city": "광주",
+        "type": "outdoor",
+        "orientation_deg": 56,
         "baseline_evidence": {
-          "games": 119,
+          "games": 113,
           "prior_games": 150,
           "raw_factors": {
-            "hr_pct": -13,
+            "hr_pct": 14,
             "xbh_pct": 0,
             "single_pct": 0,
-            "runs_pct": -10
+            "runs_pct": -3
           },
           "adjusted_factors": {
-            "hr_pct": -6,
+            "hr_pct": 6,
             "xbh_pct": 0,
             "single_pct": 0,
-            "runs_pct": -4
+            "runs_pct": -1
           }
         }
       },
       "weather": {
-        "label": "비 가능",
-        "temperature_c": 26.3,
-        "humidity_pct": 95,
-        "pressure_hpa": 1005.6,
-        "precipitation_probability_pct": 78,
-        "weather_code": 51,
-        "wind_speed_mps": 2.0,
+        "label": "맑음",
+        "temperature_c": 29.3,
+        "humidity_pct": 79,
+        "pressure_hpa": 1004.8,
+        "precipitation_probability_pct": 37,
+        "weather_code": 1,
+        "wind_speed_mps": 3.36,
         "wind_direction_deg": 217
       },
       "factors": {
         "stadium_only": {
-          "hr_pct": -6,
+          "hr_pct": 6,
           "xbh_pct": 0,
           "single_pct": 0,
-          "runs_pct": -4
+          "runs_pct": -1
         },
         "weather_only": {
-          "hr_pct": 0,
-          "xbh_pct": 0,
+          "hr_pct": 8,
+          "xbh_pct": 3,
           "single_pct": 0,
-          "runs_pct": 0
+          "runs_pct": 4
         },
         "combined": {
-          "hr_pct": -6,
-          "xbh_pct": 0,
+          "hr_pct": 15,
+          "xbh_pct": 2,
           "single_pct": 0,
-          "runs_pct": -4
+          "runs_pct": 3
         }
       },
       "explanations": [
-        "돔 구장이라 외부 날씨 영향 제한"
+        "평균 환경 대비 타구 결과 확률 합산으로 산출",
+        "따뜻한 기온이 비거리와 득점 환경을 올림",
+        "외야 방향 바람이 장타를 도움"
       ],
       "data_status": "complete"
     },
@@ -138,71 +140,6 @@
       "data_status": "complete"
     },
     {
-      "game_id": "2026-07-23-HANWHA-KIA",
-      "start_time_local": "18:30",
-      "away_team": "한화",
-      "home_team": "KIA",
-      "stadium": {
-        "id": "gwangju-kia-champions-field",
-        "name_ko": "광주-KIA챔피언스필드",
-        "city": "광주",
-        "type": "outdoor",
-        "orientation_deg": 56,
-        "baseline_evidence": {
-          "games": 113,
-          "prior_games": 150,
-          "raw_factors": {
-            "hr_pct": 14,
-            "xbh_pct": 0,
-            "single_pct": 0,
-            "runs_pct": -3
-          },
-          "adjusted_factors": {
-            "hr_pct": 6,
-            "xbh_pct": 0,
-            "single_pct": 0,
-            "runs_pct": -1
-          }
-        }
-      },
-      "weather": {
-        "label": "맑음",
-        "temperature_c": 29.3,
-        "humidity_pct": 79,
-        "pressure_hpa": 1004.8,
-        "precipitation_probability_pct": 37,
-        "weather_code": 1,
-        "wind_speed_mps": 3.36,
-        "wind_direction_deg": 217
-      },
-      "factors": {
-        "stadium_only": {
-          "hr_pct": 6,
-          "xbh_pct": 0,
-          "single_pct": 0,
-          "runs_pct": -1
-        },
-        "weather_only": {
-          "hr_pct": 8,
-          "xbh_pct": 3,
-          "single_pct": 0,
-          "runs_pct": 4
-        },
-        "combined": {
-          "hr_pct": 15,
-          "xbh_pct": 2,
-          "single_pct": 0,
-          "runs_pct": 3
-        }
-      },
-      "explanations": [
-        "평균 환경 대비 타구 결과 확률 합산으로 산출",
-        "따뜻한 기온이 비거리와 득점 환경을 올림",
-        "외야 방향 바람이 장타를 도움"
-      ],
-      "data_status": "complete"
-    },
-    {
       "game_id": "2026-07-23-SSG-LOTTE",
       "start_time_local": "18:30",
       "away_team": "SSG",
@@ -263,6 +200,69 @@
       "explanations": [
         "평균 환경 대비 타구 결과 확률 합산으로 산출",
         "따뜻한 기온이 비거리와 득점 환경을 올림"
+      ],
+      "data_status": "complete"
+    },
+    {
+      "game_id": "2026-07-23-SAMSUNG-KIWOOM",
+      "start_time_local": "18:30",
+      "away_team": "삼성",
+      "home_team": "키움",
+      "stadium": {
+        "id": "gocheok",
+        "name_ko": "고척스카이돔",
+        "city": "서울",
+        "type": "dome",
+        "orientation_deg": 45,
+        "baseline_evidence": {
+          "games": 119,
+          "prior_games": 150,
+          "raw_factors": {
+            "hr_pct": -13,
+            "xbh_pct": 0,
+            "single_pct": 0,
+            "runs_pct": -10
+          },
+          "adjusted_factors": {
+            "hr_pct": -6,
+            "xbh_pct": 0,
+            "single_pct": 0,
+            "runs_pct": -4
+          }
+        }
+      },
+      "weather": {
+        "label": "비 가능",
+        "temperature_c": 26.3,
+        "humidity_pct": 95,
+        "pressure_hpa": 1005.6,
+        "precipitation_probability_pct": 78,
+        "weather_code": 51,
+        "wind_speed_mps": 2.0,
+        "wind_direction_deg": 217
+      },
+      "factors": {
+        "stadium_only": {
+          "hr_pct": -6,
+          "xbh_pct": 0,
+          "single_pct": 0,
+          "runs_pct": -4
+        },
+        "weather_only": {
+          "hr_pct": 0,
+          "xbh_pct": 0,
+          "single_pct": 0,
+          "runs_pct": 0
+        },
+        "combined": {
+          "hr_pct": -6,
+          "xbh_pct": 0,
+          "single_pct": 0,
+          "runs_pct": -4
+        }
+      },
+      "explanations": [
+        "돔 구장이라 외부 날씨 영향 제한"
       ],
       "data_status": "complete"
     },
