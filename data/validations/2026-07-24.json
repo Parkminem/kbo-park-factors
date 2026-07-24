@@ -1,0 +1,220 @@
+{
+  "date": "2026-07-24",
+  "summary": {
+    "predicted_games": 5,
+    "completed_games": 5,
+    "pending_games": 0,
+    "total_home_runs": 8,
+    "total_runs": 63,
+    "avg_predicted_hr_pct": 2,
+    "avg_predicted_runs_pct": 1
+  },
+  "games": [
+    {
+      "game_id": "2026-07-24-KT-LOTTE",
+      "matchup": {
+        "away_team": "KT",
+        "home_team": "롯데"
+      },
+      "stadium": {
+        "id": "sajik",
+        "name_ko": "사직야구장",
+        "city": "부산",
+        "type": "outdoor",
+        "orientation_deg": 166,
+        "baseline_evidence": {
+          "games": 114,
+          "prior_games": 150,
+          "raw_factors": {
+            "hr_pct": -17,
+            "xbh_pct": 0,
+            "single_pct": 0,
+            "runs_pct": 8
+          },
+          "adjusted_factors": {
+            "hr_pct": -7,
+            "xbh_pct": 0,
+            "single_pct": 0,
+            "runs_pct": 3
+          }
+        }
+      },
+      "predicted": {
+        "hr_pct": -3,
+        "runs_pct": 0
+      },
+      "actual": {
+        "official_game_id": "20260724KTLT0",
+        "home_runs": 3,
+        "runs": 9
+      },
+      "status": "completed"
+    },
+    {
+      "game_id": "2026-07-24-LG-HANWHA",
+      "matchup": {
+        "away_team": "LG",
+        "home_team": "한화"
+      },
+      "stadium": {
+        "id": "hanwha-life-ballpark",
+        "name_ko": "대전한화생명볼파크",
+        "city": "대전",
+        "type": "outdoor",
+        "orientation_deg": 109,
+        "baseline_evidence": {
+          "games": 114,
+          "prior_games": 150,
+          "raw_factors": {
+            "hr_pct": -10,
+            "xbh_pct": 0,
+            "single_pct": 0,
+            "runs_pct": 2
+          },
+          "adjusted_factors": {
+            "hr_pct": -4,
+            "xbh_pct": 0,
+            "single_pct": 0,
+            "runs_pct": 1
+          }
+        }
+      },
+      "predicted": {
+        "hr_pct": -2,
+        "runs_pct": 0
+      },
+      "actual": {
+        "official_game_id": "20260724LGHH0",
+        "home_runs": 0,
+        "runs": 12
+      },
+      "status": "completed"
+    },
+    {
+      "game_id": "2026-07-24-NC-SSG",
+      "matchup": {
+        "away_team": "NC",
+        "home_team": "SSG"
+      },
+      "stadium": {
+        "id": "incheon-ssg-landers-field",
+        "name_ko": "인천SSG랜더스필드",
+        "city": "인천",
+        "type": "outdoor",
+        "orientation_deg": 173,
+        "baseline_evidence": {
+          "games": 112,
+          "prior_games": 150,
+          "raw_factors": {
+            "hr_pct": 30,
+            "xbh_pct": 0,
+            "single_pct": 0,
+            "runs_pct": -5
+          },
+          "adjusted_factors": {
+            "hr_pct": 13,
+            "xbh_pct": 0,
+            "single_pct": 0,
+            "runs_pct": -2
+          }
+        }
+      },
+      "predicted": {
+        "hr_pct": 18,
+        "runs_pct": 3
+      },
+      "actual": {
+        "official_game_id": "20260724NCSK0",
+        "home_runs": 0,
+        "runs": 10
+      },
+      "status": "completed"
+    },
+    {
+      "game_id": "2026-07-24-SAMSUNG-DOOSAN",
+      "matchup": {
+        "away_team": "삼성",
+        "home_team": "두산"
+      },
+      "stadium": {
+        "id": "jamsil",
+        "name_ko": "잠실야구장",
+        "city": "서울",
+        "type": "outdoor",
+        "orientation_deg": 195,
+        "baseline_evidence": {
+          "games": 230,
+          "prior_games": 150,
+          "raw_factors": {
+            "hr_pct": -29,
+            "xbh_pct": 0,
+            "single_pct": 0,
+            "runs_pct": -8
+          },
+          "adjusted_factors": {
+            "hr_pct": -18,
+            "xbh_pct": 0,
+            "single_pct": 0,
+            "runs_pct": -5
+          }
+        }
+      },
+      "predicted": {
+        "hr_pct": -15,
+        "runs_pct": -2
+      },
+      "actual": {
+        "official_game_id": "20260724SSOB0",
+        "home_runs": 0,
+        "runs": 19
+      },
+      "status": "completed"
+    },
+    {
+      "game_id": "2026-07-24-KIWOOM-KIA",
+      "matchup": {
+        "away_team": "키움",
+        "home_team": "KIA"
+      },
+      "stadium": {
+        "id": "gwangju-kia-champions-field",
+        "name_ko": "광주-KIA챔피언스필드",
+        "city": "광주",
+        "type": "outdoor",
+        "orientation_deg": 56,
+        "baseline_evidence": {
+          "games": 113,
+          "prior_games": 150,
+          "raw_factors": {
+            "hr_pct": 14,
+            "xbh_pct": 0,
+            "single_pct": 0,
+            "runs_pct": -3
+          },
+          "adjusted_factors": {
+            "hr_pct": 6,
+            "xbh_pct": 0,
+            "single_pct": 0,
+            "runs_pct": -1
+          }
+        }
+      },
+      "predicted": {
+        "hr_pct": 10,
+        "runs_pct": 2
+      },
+      "actual": {
+        "official_game_id": "20260724WOHT0",
+        "home_runs": 5,
+        "runs": 13
+      },
+      "status": "completed"
+    }
+  ],
+  "timezone": "Asia/Seoul",
+  "generated_at": "2026-07-24T23:32:04+09:00",
+  "sources": {
+    "predictions": "data/daily-factors/2026-07-24.json",
+    "actuals": "KBO official GameCenter"
+  }
+}
