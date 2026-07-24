@@ -1,7 +1,7 @@
 {
   "date": "2026-07-25",
   "timezone": "Asia/Seoul",
-  "generated_at": "2026-07-25T07:02:10+09:00",
+  "generated_at": "2026-07-25T08:02:51+09:00",
   "sources": {
     "schedule": "Naver Sports schedule API",
     "weather": "open-meteo",
@@ -43,7 +43,7 @@
         "temperature_c": 30.6,
         "humidity_pct": 78,
         "pressure_hpa": 1007.1,
-        "precipitation_probability_pct": 10,
+        "precipitation_probability_pct": 12,
         "weather_code": 0,
         "wind_speed_mps": 1.92,
         "wind_direction_deg": 231
@@ -107,7 +107,7 @@
         "temperature_c": 30.9,
         "humidity_pct": 71,
         "pressure_hpa": 1003.0,
-        "precipitation_probability_pct": 4,
+        "precipitation_probability_pct": 2,
         "weather_code": 0,
         "wind_speed_mps": 1.87,
         "wind_direction_deg": 254
@@ -171,7 +171,7 @@
         "temperature_c": 27.9,
         "humidity_pct": 89,
         "pressure_hpa": 1006.4,
-        "precipitation_probability_pct": 53,
+        "precipitation_probability_pct": 67,
         "weather_code": 1,
         "wind_speed_mps": 1.7,
         "wind_direction_deg": 242
@@ -235,7 +235,7 @@
         "temperature_c": 29.2,
         "humidity_pct": 80,
         "pressure_hpa": 1007.8,
-        "precipitation_probability_pct": 75,
+        "precipitation_probability_pct": 88,
         "weather_code": 1,
         "wind_speed_mps": 2.15,
         "wind_direction_deg": 248
@@ -418,7 +418,7 @@
         "temperature_c": 32.0,
         "humidity_pct": 70,
         "pressure_hpa": 1002.0,
-        "precipitation_probability_pct": 14,
+        "precipitation_probability_pct": 24,
         "weather_code": 0,
         "wind_speed_mps": 1.02,
         "wind_direction_deg": 349
@@ -481,7 +481,7 @@
         "temperature_c": 30.1,
         "humidity_pct": 81,
         "pressure_hpa": 1008.4,
-        "precipitation_probability_pct": 0,
+        "precipitation_probability_pct": 12,
         "weather_code": 1,
         "wind_speed_mps": 2.22,
         "wind_direction_deg": 188
@@ -544,7 +544,7 @@
         "temperature_c": 28.7,
         "humidity_pct": 84,
         "pressure_hpa": 1002.9,
-        "precipitation_probability_pct": 63,
+        "precipitation_probability_pct": 82,
         "weather_code": 1,
         "wind_speed_mps": 2.41,
         "wind_direction_deg": 265
