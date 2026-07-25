@@ -1,7 +1,7 @@
 {
   "date": "2026-07-25",
   "timezone": "Asia/Seoul",
-  "generated_at": "2026-07-25T19:02:05+09:00",
+  "generated_at": "2026-07-25T20:02:02+09:00",
   "sources": {
     "schedule": "Naver Sports schedule API",
     "weather": "open-meteo",
@@ -43,7 +43,7 @@
         "temperature_c": 30.6,
         "humidity_pct": 78,
         "pressure_hpa": 1006.9,
-        "precipitation_probability_pct": 43,
+        "precipitation_probability_pct": 14,
         "weather_code": 1,
         "wind_speed_mps": 2.05,
         "wind_direction_deg": 227
@@ -107,7 +107,7 @@
         "temperature_c": 30.8,
         "humidity_pct": 69,
         "pressure_hpa": 1003.2,
-        "precipitation_probability_pct": 4,
+        "precipitation_probability_pct": 2,
         "weather_code": 0,
         "wind_speed_mps": 2.06,
         "wind_direction_deg": 256
@@ -171,7 +171,7 @@
         "temperature_c": 27.8,
         "humidity_pct": 88,
         "pressure_hpa": 1006.5,
-        "precipitation_probability_pct": 35,
+        "precipitation_probability_pct": 22,
         "weather_code": 1,
         "wind_speed_mps": 1.78,
         "wind_direction_deg": 218
@@ -231,11 +231,11 @@
         }
       },
       "weather": {
-        "label": "비 가능",
+        "label": "맑음",
         "temperature_c": 28.7,
         "humidity_pct": 82,
         "pressure_hpa": 1008.1,
-        "precipitation_probability_pct": 55,
+        "precipitation_probability_pct": 27,
         "weather_code": 1,
         "wind_speed_mps": 1.9,
         "wind_direction_deg": 252
@@ -248,22 +248,21 @@
           "runs_pct": -5
         },
         "weather_only": {
-          "hr_pct": 2,
+          "hr_pct": 4,
           "xbh_pct": 1,
-          "single_pct": -1,
-          "runs_pct": 1
+          "single_pct": 0,
+          "runs_pct": 2
         },
         "combined": {
-          "hr_pct": -17,
+          "hr_pct": -15,
           "xbh_pct": 1,
-          "single_pct": -1,
-          "runs_pct": -3
+          "single_pct": 0,
+          "runs_pct": -2
         }
       },
       "explanations": [
         "평균 환경 대비 타구 결과 확률 합산으로 산출",
-        "따뜻한 기온이 비거리와 득점 환경을 올림",
-        "강수 가능성이 타구 질과 경기 흐름을 낮춤"
+        "따뜻한 기온이 비거리와 득점 환경을 올림"
       ],
       "data_status": "complete"
     },
@@ -300,7 +299,7 @@
         "temperature_c": 30.8,
         "humidity_pct": 72,
         "pressure_hpa": 1006.8,
-        "precipitation_probability_pct": 4,
+        "precipitation_probability_pct": 22,
         "weather_code": 0,
         "wind_speed_mps": 2.65,
         "wind_direction_deg": 259
@@ -414,11 +413,11 @@
         }
       },
       "weather": {
-        "label": "비 가능",
+        "label": "더움",
         "temperature_c": 32.2,
         "humidity_pct": 70,
         "pressure_hpa": 1001.8,
-        "precipitation_probability_pct": 57,
+        "precipitation_probability_pct": 18,
         "weather_code": 0,
         "wind_speed_mps": 1.66,
         "wind_direction_deg": 335
@@ -431,16 +430,16 @@
           "runs_pct": 4
         },
         "weather_only": {
-          "hr_pct": 4,
+          "hr_pct": 6,
           "xbh_pct": 1,
-          "single_pct": -1,
-          "runs_pct": 2
+          "single_pct": 0,
+          "runs_pct": 3
         },
         "combined": {
-          "hr_pct": 21,
+          "hr_pct": 24,
           "xbh_pct": 1,
-          "single_pct": -1,
-          "runs_pct": 3
+          "single_pct": 0,
+          "runs_pct": 4
         }
       },
       "explanations": [
@@ -481,7 +480,7 @@
         "temperature_c": 30.9,
         "humidity_pct": 78,
         "pressure_hpa": 1008.0,
-        "precipitation_probability_pct": 43,
+        "precipitation_probability_pct": 14,
         "weather_code": 1,
         "wind_speed_mps": 2.26,
         "wind_direction_deg": 193
@@ -544,7 +543,7 @@
         "temperature_c": 28.2,
         "humidity_pct": 84,
         "pressure_hpa": 1003.1,
-        "precipitation_probability_pct": 65,
+        "precipitation_probability_pct": 69,
         "weather_code": 3,
         "wind_speed_mps": 2.16,
         "wind_direction_deg": 257
