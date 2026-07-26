@@ -6,10 +6,46 @@
     "pending_games": 5,
     "total_home_runs": 0,
     "total_runs": 0,
-    "avg_predicted_hr_pct": 0,
+    "avg_predicted_hr_pct": 1,
     "avg_predicted_runs_pct": 0
   },
   "games": [
+    {
+      "game_id": "2026-07-26-NC-SSG",
+      "matchup": {
+        "away_team": "NC",
+        "home_team": "SSG"
+      },
+      "stadium": {
+        "id": "incheon-ssg-landers-field",
+        "name_ko": "인천SSG랜더스필드",
+        "city": "인천",
+        "type": "outdoor",
+        "orientation_deg": 173,
+        "baseline_evidence": {
+          "games": 112,
+          "prior_games": 150,
+          "raw_factors": {
+            "hr_pct": 30,
+            "xbh_pct": 0,
+            "single_pct": 0,
+            "runs_pct": -5
+          },
+          "adjusted_factors": {
+            "hr_pct": 13,
+            "xbh_pct": 0,
+            "single_pct": 0,
+            "runs_pct": -2
+          }
+        }
+      },
+      "predicted": {
+        "hr_pct": 16,
+        "runs_pct": 2
+      },
+      "actual": null,
+      "status": "pending"
+    },
     {
       "game_id": "2026-07-26-KT-LOTTE",
       "matchup": {
@@ -78,42 +114,6 @@
       "predicted": {
         "hr_pct": 0,
         "runs_pct": 0
-      },
-      "actual": null,
-      "status": "pending"
-    },
-    {
-      "game_id": "2026-07-26-NC-SSG",
-      "matchup": {
-        "away_team": "NC",
-        "home_team": "SSG"
-      },
-      "stadium": {
-        "id": "incheon-ssg-landers-field",
-        "name_ko": "인천SSG랜더스필드",
-        "city": "인천",
-        "type": "outdoor",
-        "orientation_deg": 173,
-        "baseline_evidence": {
-          "games": 112,
-          "prior_games": 150,
-          "raw_factors": {
-            "hr_pct": 30,
-            "xbh_pct": 0,
-            "single_pct": 0,
-            "runs_pct": -5
-          },
-          "adjusted_factors": {
-            "hr_pct": 13,
-            "xbh_pct": 0,
-            "single_pct": 0,
-            "runs_pct": -2
-          }
-        }
-      },
-      "predicted": {
-        "hr_pct": 11,
-        "runs_pct": 1
       },
       "actual": null,
       "status": "pending"
@@ -192,7 +192,7 @@
     }
   ],
   "timezone": "Asia/Seoul",
-  "generated_at": "2026-07-26T18:03:31+09:00",
+  "generated_at": "2026-07-26T22:02:14+09:00",
   "sources": {
     "predictions": "data/daily-factors/2026-07-26.json",
     "actuals": "KBO official GameCenter"
