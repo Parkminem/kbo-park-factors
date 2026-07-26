@@ -2,50 +2,14 @@
   "date": "2026-07-26",
   "summary": {
     "predicted_games": 5,
-    "completed_games": 0,
-    "pending_games": 5,
-    "total_home_runs": 0,
-    "total_runs": 0,
+    "completed_games": 5,
+    "pending_games": 0,
+    "total_home_runs": 15,
+    "total_runs": 62,
     "avg_predicted_hr_pct": 1,
     "avg_predicted_runs_pct": 0
   },
   "games": [
-    {
-      "game_id": "2026-07-26-NC-SSG",
-      "matchup": {
-        "away_team": "NC",
-        "home_team": "SSG"
-      },
-      "stadium": {
-        "id": "incheon-ssg-landers-field",
-        "name_ko": "인천SSG랜더스필드",
-        "city": "인천",
-        "type": "outdoor",
-        "orientation_deg": 173,
-        "baseline_evidence": {
-          "games": 112,
-          "prior_games": 150,
-          "raw_factors": {
-            "hr_pct": 30,
-            "xbh_pct": 0,
-            "single_pct": 0,
-            "runs_pct": -5
-          },
-          "adjusted_factors": {
-            "hr_pct": 13,
-            "xbh_pct": 0,
-            "single_pct": 0,
-            "runs_pct": -2
-          }
-        }
-      },
-      "predicted": {
-        "hr_pct": 16,
-        "runs_pct": 2
-      },
-      "actual": null,
-      "status": "pending"
-    },
     {
       "game_id": "2026-07-26-KT-LOTTE",
       "matchup": {
@@ -79,8 +43,12 @@
         "hr_pct": -5,
         "runs_pct": -1
       },
-      "actual": null,
-      "status": "pending"
+      "actual": {
+        "official_game_id": "20260726KTLT0",
+        "home_runs": 3,
+        "runs": 16
+      },
+      "status": "completed"
     },
     {
       "game_id": "2026-07-26-LG-HANWHA",
@@ -115,8 +83,52 @@
         "hr_pct": 0,
         "runs_pct": 0
       },
-      "actual": null,
-      "status": "pending"
+      "actual": {
+        "official_game_id": "20260726LGHH0",
+        "home_runs": 4,
+        "runs": 18
+      },
+      "status": "completed"
+    },
+    {
+      "game_id": "2026-07-26-NC-SSG",
+      "matchup": {
+        "away_team": "NC",
+        "home_team": "SSG"
+      },
+      "stadium": {
+        "id": "incheon-ssg-landers-field",
+        "name_ko": "인천SSG랜더스필드",
+        "city": "인천",
+        "type": "outdoor",
+        "orientation_deg": 173,
+        "baseline_evidence": {
+          "games": 112,
+          "prior_games": 150,
+          "raw_factors": {
+            "hr_pct": 30,
+            "xbh_pct": 0,
+            "single_pct": 0,
+            "runs_pct": -5
+          },
+          "adjusted_factors": {
+            "hr_pct": 13,
+            "xbh_pct": 0,
+            "single_pct": 0,
+            "runs_pct": -2
+          }
+        }
+      },
+      "predicted": {
+        "hr_pct": 16,
+        "runs_pct": 2
+      },
+      "actual": {
+        "official_game_id": "20260726NCSK0",
+        "home_runs": 3,
+        "runs": 10
+      },
+      "status": "completed"
     },
     {
       "game_id": "2026-07-26-SAMSUNG-DOOSAN",
@@ -151,8 +163,12 @@
         "hr_pct": -17,
         "runs_pct": -3
       },
-      "actual": null,
-      "status": "pending"
+      "actual": {
+        "official_game_id": "20260726SSOB0",
+        "home_runs": 0,
+        "runs": 7
+      },
+      "status": "completed"
     },
     {
       "game_id": "2026-07-26-KIWOOM-KIA",
@@ -187,12 +203,16 @@
         "hr_pct": 10,
         "runs_pct": 2
       },
-      "actual": null,
-      "status": "pending"
+      "actual": {
+        "official_game_id": "20260726WOHT0",
+        "home_runs": 5,
+        "runs": 11
+      },
+      "status": "completed"
     }
   ],
   "timezone": "Asia/Seoul",
-  "generated_at": "2026-07-26T22:02:14+09:00",
+  "generated_at": "2026-07-26T23:32:21+09:00",
   "sources": {
     "predictions": "data/daily-factors/2026-07-26.json",
     "actuals": "KBO official GameCenter"
