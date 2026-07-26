@@ -1,7 +1,7 @@
 {
   "date": "2026-07-26",
   "timezone": "Asia/Seoul",
-  "generated_at": "2026-07-26T19:01:33+09:00",
+  "generated_at": "2026-07-26T20:02:22+09:00",
   "sources": {
     "schedule": "Naver Sports schedule API",
     "weather": "open-meteo",
@@ -43,7 +43,7 @@
         "temperature_c": 31.4,
         "humidity_pct": 75,
         "pressure_hpa": 1006.8,
-        "precipitation_probability_pct": 73,
+        "precipitation_probability_pct": 92,
         "weather_code": 0,
         "wind_speed_mps": 1.26,
         "wind_direction_deg": 198
@@ -104,11 +104,11 @@
         }
       },
       "weather": {
-        "label": "더움",
+        "label": "비 가능",
         "temperature_c": 31.4,
         "humidity_pct": 69,
         "pressure_hpa": 1002.6,
-        "precipitation_probability_pct": 39,
+        "precipitation_probability_pct": 63,
         "weather_code": 0,
         "wind_speed_mps": 1.92,
         "wind_direction_deg": 261
@@ -121,21 +121,22 @@
           "runs_pct": 1
         },
         "weather_only": {
-          "hr_pct": 4,
+          "hr_pct": 2,
           "xbh_pct": 1,
-          "single_pct": 0,
-          "runs_pct": 2
+          "single_pct": -1,
+          "runs_pct": 1
         },
         "combined": {
-          "hr_pct": 0,
+          "hr_pct": -2,
           "xbh_pct": 1,
-          "single_pct": 0,
+          "single_pct": -1,
           "runs_pct": 0
         }
       },
       "explanations": [
         "평균 환경 대비 타구 결과 확률 합산으로 산출",
-        "따뜻한 기온이 비거리와 득점 환경을 올림"
+        "따뜻한 기온이 비거리와 득점 환경을 올림",
+        "강수 가능성이 타구 질과 경기 흐름을 낮춤"
       ],
       "data_status": "complete"
     },
@@ -172,7 +173,7 @@
         "temperature_c": 27.8,
         "humidity_pct": 90,
         "pressure_hpa": 1006.2,
-        "precipitation_probability_pct": 84,
+        "precipitation_probability_pct": 78,
         "weather_code": 1,
         "wind_speed_mps": 2.73,
         "wind_direction_deg": 246
@@ -236,7 +237,7 @@
         "temperature_c": 29.3,
         "humidity_pct": 83,
         "pressure_hpa": 1007.5,
-        "precipitation_probability_pct": 86,
+        "precipitation_probability_pct": 92,
         "weather_code": 1,
         "wind_speed_mps": 2.75,
         "wind_direction_deg": 260
@@ -301,7 +302,7 @@
         "temperature_c": 31.2,
         "humidity_pct": 71,
         "pressure_hpa": 1006.2,
-        "precipitation_probability_pct": 6,
+        "precipitation_probability_pct": 22,
         "weather_code": 0,
         "wind_speed_mps": 2.51,
         "wind_direction_deg": 241
@@ -419,7 +420,7 @@
         "temperature_c": 32.6,
         "humidity_pct": 69,
         "pressure_hpa": 1001.6,
-        "precipitation_probability_pct": 84,
+        "precipitation_probability_pct": 92,
         "weather_code": 1,
         "wind_speed_mps": 0.51,
         "wind_direction_deg": 349
@@ -482,7 +483,7 @@
         "temperature_c": 31.4,
         "humidity_pct": 78,
         "pressure_hpa": 1007.9,
-        "precipitation_probability_pct": 55,
+        "precipitation_probability_pct": 80,
         "weather_code": 0,
         "wind_speed_mps": 1.73,
         "wind_direction_deg": 190
