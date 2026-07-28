@@ -11,6 +11,42 @@
   },
   "games": [
     {
+      "game_id": "2026-07-28-LOTTE-HANWHA",
+      "matchup": {
+        "away_team": "롯데",
+        "home_team": "한화"
+      },
+      "stadium": {
+        "id": "hanwha-life-ballpark",
+        "name_ko": "대전한화생명볼파크",
+        "city": "대전",
+        "type": "outdoor",
+        "orientation_deg": 109,
+        "baseline_evidence": {
+          "games": 114,
+          "prior_games": 150,
+          "raw_factors": {
+            "hr_pct": -10,
+            "xbh_pct": 0,
+            "single_pct": 0,
+            "runs_pct": 2
+          },
+          "adjusted_factors": {
+            "hr_pct": -4,
+            "xbh_pct": 0,
+            "single_pct": 0,
+            "runs_pct": 1
+          }
+        }
+      },
+      "predicted": {
+        "hr_pct": 0,
+        "runs_pct": 0
+      },
+      "actual": null,
+      "status": "pending"
+    },
+    {
       "game_id": "2026-07-28-KIA-SAMSUNG",
       "matchup": {
         "away_team": "KIA",
@@ -78,42 +114,6 @@
       "predicted": {
         "hr_pct": 20,
         "runs_pct": 3
-      },
-      "actual": null,
-      "status": "pending"
-    },
-    {
-      "game_id": "2026-07-28-LOTTE-HANWHA",
-      "matchup": {
-        "away_team": "롯데",
-        "home_team": "한화"
-      },
-      "stadium": {
-        "id": "hanwha-life-ballpark",
-        "name_ko": "대전한화생명볼파크",
-        "city": "대전",
-        "type": "outdoor",
-        "orientation_deg": 109,
-        "baseline_evidence": {
-          "games": 114,
-          "prior_games": 150,
-          "raw_factors": {
-            "hr_pct": -10,
-            "xbh_pct": 0,
-            "single_pct": 0,
-            "runs_pct": 2
-          },
-          "adjusted_factors": {
-            "hr_pct": -4,
-            "xbh_pct": 0,
-            "single_pct": 0,
-            "runs_pct": 1
-          }
-        }
-      },
-      "predicted": {
-        "hr_pct": 0,
-        "runs_pct": 0
       },
       "actual": null,
       "status": "pending"
@@ -192,7 +192,7 @@
     }
   ],
   "timezone": "Asia/Seoul",
-  "generated_at": "2026-07-28T12:04:28+09:00",
+  "generated_at": "2026-07-28T22:03:13+09:00",
   "sources": {
     "predictions": "data/daily-factors/2026-07-28.json",
     "actuals": "KBO official GameCenter"
