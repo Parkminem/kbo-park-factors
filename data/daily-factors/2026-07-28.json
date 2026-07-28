@@ -1,7 +1,7 @@
 {
   "date": "2026-07-28",
   "timezone": "Asia/Seoul",
-  "generated_at": "2026-07-28T22:02:34+09:00",
+  "generated_at": "2026-07-28T23:02:06+09:00",
   "sources": {
     "schedule": "Naver Sports schedule API",
     "weather": "open-meteo",
@@ -10,70 +10,6 @@
   },
   "warnings": [],
   "games": [
-    {
-      "game_id": "2026-07-28-LOTTE-HANWHA",
-      "start_time_local": "18:30",
-      "away_team": "롯데",
-      "home_team": "한화",
-      "stadium": {
-        "id": "hanwha-life-ballpark",
-        "name_ko": "대전한화생명볼파크",
-        "city": "대전",
-        "type": "outdoor",
-        "orientation_deg": 109,
-        "baseline_evidence": {
-          "games": 114,
-          "prior_games": 150,
-          "raw_factors": {
-            "hr_pct": -10,
-            "xbh_pct": 0,
-            "single_pct": 0,
-            "runs_pct": 2
-          },
-          "adjusted_factors": {
-            "hr_pct": -4,
-            "xbh_pct": 0,
-            "single_pct": 0,
-            "runs_pct": 1
-          }
-        }
-      },
-      "weather": {
-        "label": "구름",
-        "temperature_c": 29.1,
-        "humidity_pct": 80,
-        "pressure_hpa": 1006.4,
-        "precipitation_probability_pct": 25,
-        "weather_code": 2,
-        "wind_speed_mps": 2.63,
-        "wind_direction_deg": 279
-      },
-      "factors": {
-        "stadium_only": {
-          "hr_pct": -4,
-          "xbh_pct": 0,
-          "single_pct": 0,
-          "runs_pct": 1
-        },
-        "weather_only": {
-          "hr_pct": 4,
-          "xbh_pct": 1,
-          "single_pct": 0,
-          "runs_pct": 2
-        },
-        "combined": {
-          "hr_pct": 0,
-          "xbh_pct": 1,
-          "single_pct": 0,
-          "runs_pct": 0
-        }
-      },
-      "explanations": [
-        "평균 환경 대비 타구 결과 확률 합산으로 산출",
-        "따뜻한 기온이 비거리와 득점 환경을 올림"
-      ],
-      "data_status": "complete"
-    },
     {
       "game_id": "2026-07-28-KIA-SAMSUNG",
       "start_time_local": "18:30",
@@ -195,6 +131,70 @@
           "xbh_pct": 1,
           "single_pct": 0,
           "runs_pct": 3
+        }
+      },
+      "explanations": [
+        "평균 환경 대비 타구 결과 확률 합산으로 산출",
+        "따뜻한 기온이 비거리와 득점 환경을 올림"
+      ],
+      "data_status": "complete"
+    },
+    {
+      "game_id": "2026-07-28-LOTTE-HANWHA",
+      "start_time_local": "18:30",
+      "away_team": "롯데",
+      "home_team": "한화",
+      "stadium": {
+        "id": "hanwha-life-ballpark",
+        "name_ko": "대전한화생명볼파크",
+        "city": "대전",
+        "type": "outdoor",
+        "orientation_deg": 109,
+        "baseline_evidence": {
+          "games": 114,
+          "prior_games": 150,
+          "raw_factors": {
+            "hr_pct": -10,
+            "xbh_pct": 0,
+            "single_pct": 0,
+            "runs_pct": 2
+          },
+          "adjusted_factors": {
+            "hr_pct": -4,
+            "xbh_pct": 0,
+            "single_pct": 0,
+            "runs_pct": 1
+          }
+        }
+      },
+      "weather": {
+        "label": "구름",
+        "temperature_c": 29.1,
+        "humidity_pct": 80,
+        "pressure_hpa": 1006.4,
+        "precipitation_probability_pct": 25,
+        "weather_code": 2,
+        "wind_speed_mps": 2.63,
+        "wind_direction_deg": 279
+      },
+      "factors": {
+        "stadium_only": {
+          "hr_pct": -4,
+          "xbh_pct": 0,
+          "single_pct": 0,
+          "runs_pct": 1
+        },
+        "weather_only": {
+          "hr_pct": 4,
+          "xbh_pct": 1,
+          "single_pct": 0,
+          "runs_pct": 2
+        },
+        "combined": {
+          "hr_pct": 0,
+          "xbh_pct": 1,
+          "single_pct": 0,
+          "runs_pct": 0
         }
       },
       "explanations": [

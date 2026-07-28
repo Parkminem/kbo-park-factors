@@ -2,50 +2,14 @@
   "date": "2026-07-28",
   "summary": {
     "predicted_games": 5,
-    "completed_games": 0,
-    "pending_games": 5,
-    "total_home_runs": 0,
-    "total_runs": 0,
+    "completed_games": 5,
+    "pending_games": 0,
+    "total_home_runs": 7,
+    "total_runs": 50,
     "avg_predicted_hr_pct": 7,
     "avg_predicted_runs_pct": 1
   },
   "games": [
-    {
-      "game_id": "2026-07-28-LOTTE-HANWHA",
-      "matchup": {
-        "away_team": "롯데",
-        "home_team": "한화"
-      },
-      "stadium": {
-        "id": "hanwha-life-ballpark",
-        "name_ko": "대전한화생명볼파크",
-        "city": "대전",
-        "type": "outdoor",
-        "orientation_deg": 109,
-        "baseline_evidence": {
-          "games": 114,
-          "prior_games": 150,
-          "raw_factors": {
-            "hr_pct": -10,
-            "xbh_pct": 0,
-            "single_pct": 0,
-            "runs_pct": 2
-          },
-          "adjusted_factors": {
-            "hr_pct": -4,
-            "xbh_pct": 0,
-            "single_pct": 0,
-            "runs_pct": 1
-          }
-        }
-      },
-      "predicted": {
-        "hr_pct": 0,
-        "runs_pct": 0
-      },
-      "actual": null,
-      "status": "pending"
-    },
     {
       "game_id": "2026-07-28-KIA-SAMSUNG",
       "matchup": {
@@ -79,8 +43,12 @@
         "hr_pct": 16,
         "runs_pct": 2
       },
-      "actual": null,
-      "status": "pending"
+      "actual": {
+        "official_game_id": "20260728HTSS0",
+        "home_runs": 3,
+        "runs": 17
+      },
+      "status": "completed"
     },
     {
       "game_id": "2026-07-28-KT-NC",
@@ -115,8 +83,52 @@
         "hr_pct": 20,
         "runs_pct": 3
       },
-      "actual": null,
-      "status": "pending"
+      "actual": {
+        "official_game_id": "20260728KTNC0",
+        "home_runs": 1,
+        "runs": 10
+      },
+      "status": "completed"
+    },
+    {
+      "game_id": "2026-07-28-LOTTE-HANWHA",
+      "matchup": {
+        "away_team": "롯데",
+        "home_team": "한화"
+      },
+      "stadium": {
+        "id": "hanwha-life-ballpark",
+        "name_ko": "대전한화생명볼파크",
+        "city": "대전",
+        "type": "outdoor",
+        "orientation_deg": 109,
+        "baseline_evidence": {
+          "games": 114,
+          "prior_games": 150,
+          "raw_factors": {
+            "hr_pct": -10,
+            "xbh_pct": 0,
+            "single_pct": 0,
+            "runs_pct": 2
+          },
+          "adjusted_factors": {
+            "hr_pct": -4,
+            "xbh_pct": 0,
+            "single_pct": 0,
+            "runs_pct": 1
+          }
+        }
+      },
+      "predicted": {
+        "hr_pct": 0,
+        "runs_pct": 0
+      },
+      "actual": {
+        "official_game_id": "20260728LTHH0",
+        "home_runs": 0,
+        "runs": 12
+      },
+      "status": "completed"
     },
     {
       "game_id": "2026-07-28-DOOSAN-SSG",
@@ -151,8 +163,12 @@
         "hr_pct": 13,
         "runs_pct": 2
       },
-      "actual": null,
-      "status": "pending"
+      "actual": {
+        "official_game_id": "20260728OBSK0",
+        "home_runs": 1,
+        "runs": 3
+      },
+      "status": "completed"
     },
     {
       "game_id": "2026-07-28-KIWOOM-LG",
@@ -187,12 +203,16 @@
         "hr_pct": -15,
         "runs_pct": -2
       },
-      "actual": null,
-      "status": "pending"
+      "actual": {
+        "official_game_id": "20260728WOLG0",
+        "home_runs": 2,
+        "runs": 8
+      },
+      "status": "completed"
     }
   ],
   "timezone": "Asia/Seoul",
-  "generated_at": "2026-07-28T22:03:13+09:00",
+  "generated_at": "2026-07-28T23:34:56+09:00",
   "sources": {
     "predictions": "data/daily-factors/2026-07-28.json",
     "actuals": "KBO official GameCenter"
