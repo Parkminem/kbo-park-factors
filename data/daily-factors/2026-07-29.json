@@ -1,7 +1,7 @@
 {
   "date": "2026-07-29",
   "timezone": "Asia/Seoul",
-  "generated_at": "2026-07-29T21:01:46+09:00",
+  "generated_at": "2026-07-29T22:02:33+09:00",
   "sources": {
     "schedule": "Naver Sports schedule API",
     "weather": "open-meteo",
@@ -40,13 +40,13 @@
       },
       "weather": {
         "label": "더움",
-        "temperature_c": 31.2,
+        "temperature_c": 31.4,
         "humidity_pct": 70,
-        "pressure_hpa": 1000.8,
+        "pressure_hpa": 1000.5,
         "precipitation_probability_pct": 0,
         "weather_code": 0,
-        "wind_speed_mps": 3.67,
-        "wind_direction_deg": 299
+        "wind_speed_mps": 4.08,
+        "wind_direction_deg": 306
       },
       "factors": {
         "stadium_only": {
@@ -56,22 +56,23 @@
           "runs_pct": 4
         },
         "weather_only": {
-          "hr_pct": 6,
-          "xbh_pct": 1,
+          "hr_pct": 2,
+          "xbh_pct": 0,
           "single_pct": 0,
-          "runs_pct": 3
+          "runs_pct": 1
         },
         "combined": {
-          "hr_pct": 24,
-          "xbh_pct": 1,
+          "hr_pct": 19,
+          "xbh_pct": 0,
           "single_pct": 0,
-          "runs_pct": 4
+          "runs_pct": 3
         }
       },
       "explanations": [
         "평균 환경 대비 타구 결과 확률 합산으로 산출",
         "따뜻한 기온이 비거리와 득점 환경을 올림",
-        "낮은 기압이 타구 비거리에 우호적"
+        "낮은 기압이 타구 비거리에 우호적",
+        "홈 방향 바람이 장타를 억제"
       ],
       "data_status": "complete"
     },
@@ -105,13 +106,13 @@
       },
       "weather": {
         "label": "더움",
-        "temperature_c": 33.9,
-        "humidity_pct": 59,
-        "pressure_hpa": 1006.4,
+        "temperature_c": 34.7,
+        "humidity_pct": 54,
+        "pressure_hpa": 1005.7,
         "precipitation_probability_pct": 2,
         "weather_code": 0,
-        "wind_speed_mps": 0.81,
-        "wind_direction_deg": 173
+        "wind_speed_mps": 0.36,
+        "wind_direction_deg": 236
       },
       "factors": {
         "stadium_only": {
@@ -131,6 +132,70 @@
           "xbh_pct": 1,
           "single_pct": 0,
           "runs_pct": 3
+        }
+      },
+      "explanations": [
+        "평균 환경 대비 타구 결과 확률 합산으로 산출",
+        "따뜻한 기온이 비거리와 득점 환경을 올림"
+      ],
+      "data_status": "complete"
+    },
+    {
+      "game_id": "2026-07-29-KIWOOM-LG",
+      "start_time_local": "18:30",
+      "away_team": "키움",
+      "home_team": "LG",
+      "stadium": {
+        "id": "jamsil",
+        "name_ko": "잠실야구장",
+        "city": "서울",
+        "type": "outdoor",
+        "orientation_deg": 195,
+        "baseline_evidence": {
+          "games": 230,
+          "prior_games": 150,
+          "raw_factors": {
+            "hr_pct": -29,
+            "xbh_pct": 0,
+            "single_pct": 0,
+            "runs_pct": -8
+          },
+          "adjusted_factors": {
+            "hr_pct": -18,
+            "xbh_pct": 0,
+            "single_pct": 0,
+            "runs_pct": -5
+          }
+        }
+      },
+      "weather": {
+        "label": "맑음",
+        "temperature_c": 28.3,
+        "humidity_pct": 81,
+        "pressure_hpa": 1007.6,
+        "precipitation_probability_pct": 0,
+        "weather_code": 1,
+        "wind_speed_mps": 3.73,
+        "wind_direction_deg": 262
+      },
+      "factors": {
+        "stadium_only": {
+          "hr_pct": -18,
+          "xbh_pct": 0,
+          "single_pct": 0,
+          "runs_pct": -5
+        },
+        "weather_only": {
+          "hr_pct": 4,
+          "xbh_pct": 1,
+          "single_pct": 0,
+          "runs_pct": 2
+        },
+        "combined": {
+          "hr_pct": -15,
+          "xbh_pct": 1,
+          "single_pct": 0,
+          "runs_pct": -2
         }
       },
       "explanations": [
@@ -169,13 +234,13 @@
       },
       "weather": {
         "label": "더움",
-        "temperature_c": 30.4,
+        "temperature_c": 30.3,
         "humidity_pct": 67,
-        "pressure_hpa": 1002.7,
+        "pressure_hpa": 1002.6,
         "precipitation_probability_pct": 0,
         "weather_code": 0,
-        "wind_speed_mps": 2.77,
-        "wind_direction_deg": 283
+        "wind_speed_mps": 2.88,
+        "wind_direction_deg": 290
       },
       "factors": {
         "stadium_only": {
@@ -233,13 +298,13 @@
       },
       "weather": {
         "label": "맑음",
-        "temperature_c": 27.0,
-        "humidity_pct": 86,
-        "pressure_hpa": 1006.2,
+        "temperature_c": 27.3,
+        "humidity_pct": 87,
+        "pressure_hpa": 1006.4,
         "precipitation_probability_pct": 0,
         "weather_code": 0,
-        "wind_speed_mps": 4.28,
-        "wind_direction_deg": 259
+        "wind_speed_mps": 3.93,
+        "wind_direction_deg": 255
       },
       "factors": {
         "stadium_only": {
@@ -264,70 +329,6 @@
       "explanations": [
         "평균 환경 대비 타구 결과 확률 합산으로 산출",
         "날씨 영향은 중립에 가까움"
-      ],
-      "data_status": "complete"
-    },
-    {
-      "game_id": "2026-07-29-KIWOOM-LG",
-      "start_time_local": "18:30",
-      "away_team": "키움",
-      "home_team": "LG",
-      "stadium": {
-        "id": "jamsil",
-        "name_ko": "잠실야구장",
-        "city": "서울",
-        "type": "outdoor",
-        "orientation_deg": 195,
-        "baseline_evidence": {
-          "games": 230,
-          "prior_games": 150,
-          "raw_factors": {
-            "hr_pct": -29,
-            "xbh_pct": 0,
-            "single_pct": 0,
-            "runs_pct": -8
-          },
-          "adjusted_factors": {
-            "hr_pct": -18,
-            "xbh_pct": 0,
-            "single_pct": 0,
-            "runs_pct": -5
-          }
-        }
-      },
-      "weather": {
-        "label": "맑음",
-        "temperature_c": 28.1,
-        "humidity_pct": 81,
-        "pressure_hpa": 1007.4,
-        "precipitation_probability_pct": 0,
-        "weather_code": 1,
-        "wind_speed_mps": 3.73,
-        "wind_direction_deg": 262
-      },
-      "factors": {
-        "stadium_only": {
-          "hr_pct": -18,
-          "xbh_pct": 0,
-          "single_pct": 0,
-          "runs_pct": -5
-        },
-        "weather_only": {
-          "hr_pct": 4,
-          "xbh_pct": 1,
-          "single_pct": 0,
-          "runs_pct": 2
-        },
-        "combined": {
-          "hr_pct": -15,
-          "xbh_pct": 1,
-          "single_pct": 0,
-          "runs_pct": -2
-        }
-      },
-      "explanations": [
-        "평균 환경 대비 타구 결과 확률 합산으로 산출",
-        "따뜻한 기온이 비거리와 득점 환경을 올림"
       ],
       "data_status": "complete"
     },
@@ -415,9 +416,9 @@
       },
       "weather": {
         "label": "더움",
-        "temperature_c": 33.4,
+        "temperature_c": 33.5,
         "humidity_pct": 62,
-        "pressure_hpa": 1005.1,
+        "pressure_hpa": 1004.6,
         "precipitation_probability_pct": 0,
         "weather_code": 0,
         "wind_speed_mps": 1.86,
@@ -478,13 +479,13 @@
       },
       "weather": {
         "label": "맑음",
-        "temperature_c": 29.2,
-        "humidity_pct": 75,
-        "pressure_hpa": 1007.2,
+        "temperature_c": 29.4,
+        "humidity_pct": 74,
+        "pressure_hpa": 1006.7,
         "precipitation_probability_pct": 0,
         "weather_code": 0,
-        "wind_speed_mps": 3.16,
-        "wind_direction_deg": 305
+        "wind_speed_mps": 3.41,
+        "wind_direction_deg": 310
       },
       "factors": {
         "stadium_only": {
@@ -541,13 +542,13 @@
       },
       "weather": {
         "label": "맑음",
-        "temperature_c": 26.8,
+        "temperature_c": 27.1,
         "humidity_pct": 86,
-        "pressure_hpa": 1002.7,
+        "pressure_hpa": 1002.8,
         "precipitation_probability_pct": 0,
-        "weather_code": 0,
-        "wind_speed_mps": 4.01,
-        "wind_direction_deg": 274
+        "weather_code": 1,
+        "wind_speed_mps": 4.02,
+        "wind_direction_deg": 276
       },
       "factors": {
         "stadium_only": {
