@@ -2,10 +2,10 @@
   "date": "2026-07-30",
   "summary": {
     "predicted_games": 5,
-    "completed_games": 0,
-    "pending_games": 5,
-    "total_home_runs": 0,
-    "total_runs": 0,
+    "completed_games": 5,
+    "pending_games": 0,
+    "total_home_runs": 12,
+    "total_runs": 48,
     "avg_predicted_hr_pct": 8,
     "avg_predicted_runs_pct": 1
   },
@@ -43,8 +43,12 @@
         "hr_pct": 19,
         "runs_pct": 3
       },
-      "actual": null,
-      "status": "pending"
+      "actual": {
+        "official_game_id": "20260730HTSS0",
+        "home_runs": 4,
+        "runs": 15
+      },
+      "status": "completed"
     },
     {
       "game_id": "2026-07-30-KT-NC",
@@ -79,8 +83,12 @@
         "hr_pct": 20,
         "runs_pct": 3
       },
-      "actual": null,
-      "status": "pending"
+      "actual": {
+        "official_game_id": "20260730KTNC0",
+        "home_runs": 3,
+        "runs": 12
+      },
+      "status": "completed"
     },
     {
       "game_id": "2026-07-30-LOTTE-HANWHA",
@@ -115,8 +123,12 @@
         "hr_pct": 2,
         "runs_pct": 1
       },
-      "actual": null,
-      "status": "pending"
+      "actual": {
+        "official_game_id": "20260730LTHH0",
+        "home_runs": 2,
+        "runs": 5
+      },
+      "status": "completed"
     },
     {
       "game_id": "2026-07-30-DOOSAN-SSG",
@@ -151,8 +163,12 @@
         "hr_pct": 13,
         "runs_pct": 2
       },
-      "actual": null,
-      "status": "pending"
+      "actual": {
+        "official_game_id": "20260730OBSK0",
+        "home_runs": 1,
+        "runs": 8
+      },
+      "status": "completed"
     },
     {
       "game_id": "2026-07-30-KIWOOM-LG",
@@ -187,12 +203,16 @@
         "hr_pct": -15,
         "runs_pct": -2
       },
-      "actual": null,
-      "status": "pending"
+      "actual": {
+        "official_game_id": "20260730WOLG0",
+        "home_runs": 2,
+        "runs": 8
+      },
+      "status": "completed"
     }
   ],
   "timezone": "Asia/Seoul",
-  "generated_at": "2026-07-30T18:04:45+09:00",
+  "generated_at": "2026-07-30T23:32:36+09:00",
   "sources": {
     "predictions": "data/daily-factors/2026-07-30.json",
     "actuals": "KBO official GameCenter"
