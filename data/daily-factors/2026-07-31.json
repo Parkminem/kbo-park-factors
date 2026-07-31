@@ -1,7 +1,7 @@
 {
   "date": "2026-07-31",
   "timezone": "Asia/Seoul",
-  "generated_at": "2026-07-31T12:01:36+09:00",
+  "generated_at": "2026-07-31T13:02:30+09:00",
   "sources": {
     "schedule": "Naver Sports schedule API",
     "weather": "open-meteo",
@@ -43,7 +43,7 @@
         "temperature_c": 28.6,
         "humidity_pct": 87,
         "pressure_hpa": 999.0,
-        "precipitation_probability_pct": 12,
+        "precipitation_probability_pct": 20,
         "weather_code": 1,
         "wind_speed_mps": 3.61,
         "wind_direction_deg": 256
@@ -108,7 +108,7 @@
         "temperature_c": 31.7,
         "humidity_pct": 72,
         "pressure_hpa": 1004.0,
-        "precipitation_probability_pct": 4,
+        "precipitation_probability_pct": 2,
         "weather_code": 1,
         "wind_speed_mps": 1.84,
         "wind_direction_deg": 202
@@ -172,7 +172,7 @@
         "temperature_c": 29.3,
         "humidity_pct": 84,
         "pressure_hpa": 1003.7,
-        "precipitation_probability_pct": 2,
+        "precipitation_probability_pct": 4,
         "weather_code": 1,
         "wind_speed_mps": 3.31,
         "wind_direction_deg": 241
@@ -236,7 +236,7 @@
         "temperature_c": 29.0,
         "humidity_pct": 85,
         "pressure_hpa": 1004.0,
-        "precipitation_probability_pct": 6,
+        "precipitation_probability_pct": 16,
         "weather_code": 1,
         "wind_speed_mps": 2.5,
         "wind_direction_deg": 233
@@ -426,7 +426,7 @@
         "temperature_c": 31.1,
         "humidity_pct": 70,
         "pressure_hpa": 999.6,
-        "precipitation_probability_pct": 4,
+        "precipitation_probability_pct": 8,
         "weather_code": 1,
         "wind_speed_mps": 2.57,
         "wind_direction_deg": 257
@@ -552,7 +552,7 @@
         "temperature_c": 28.4,
         "humidity_pct": 90,
         "pressure_hpa": 1002.3,
-        "precipitation_probability_pct": 6,
+        "precipitation_probability_pct": 16,
         "weather_code": 1,
         "wind_speed_mps": 3.4,
         "wind_direction_deg": 223
