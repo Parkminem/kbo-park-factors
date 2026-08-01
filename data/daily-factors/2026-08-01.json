@@ -1,7 +1,7 @@
 {
   "date": "2026-08-01",
   "timezone": "Asia/Seoul",
-  "generated_at": "2026-08-01T14:03:04+09:00",
+  "generated_at": "2026-08-01T15:02:31+09:00",
   "sources": {
     "schedule": "Naver Sports schedule API",
     "weather": "open-meteo",
@@ -40,12 +40,12 @@
       },
       "weather": {
         "label": "맑음",
-        "temperature_c": 29.2,
-        "humidity_pct": 85,
-        "pressure_hpa": 998.9,
+        "temperature_c": 29.3,
+        "humidity_pct": 84,
+        "pressure_hpa": 999.2,
         "precipitation_probability_pct": 0,
         "weather_code": 0,
-        "wind_speed_mps": 3.51,
+        "wind_speed_mps": 3.61,
         "wind_direction_deg": 265
       },
       "factors": {
@@ -72,70 +72,6 @@
         "평균 환경 대비 타구 결과 확률 합산으로 산출",
         "따뜻한 기온이 비거리와 득점 환경을 올림",
         "낮은 기압이 타구 비거리에 우호적"
-      ],
-      "data_status": "complete"
-    },
-    {
-      "game_id": "2026-08-01-KIA-NC",
-      "start_time_local": "18:00",
-      "away_team": "KIA",
-      "home_team": "NC",
-      "stadium": {
-        "id": "changwon-nc-park",
-        "name_ko": "창원NC파크",
-        "city": "창원",
-        "type": "outdoor",
-        "orientation_deg": 142,
-        "baseline_evidence": {
-          "games": 103,
-          "prior_games": 150,
-          "raw_factors": {
-            "hr_pct": 37,
-            "xbh_pct": 0,
-            "single_pct": 0,
-            "runs_pct": 16
-          },
-          "adjusted_factors": {
-            "hr_pct": 15,
-            "xbh_pct": 0,
-            "single_pct": 0,
-            "runs_pct": 7
-          }
-        }
-      },
-      "weather": {
-        "label": "더움",
-        "temperature_c": 31.9,
-        "humidity_pct": 78,
-        "pressure_hpa": 1003.7,
-        "precipitation_probability_pct": 0,
-        "weather_code": 0,
-        "wind_speed_mps": 1.6,
-        "wind_direction_deg": 176
-      },
-      "factors": {
-        "stadium_only": {
-          "hr_pct": 15,
-          "xbh_pct": 0,
-          "single_pct": 0,
-          "runs_pct": 7
-        },
-        "weather_only": {
-          "hr_pct": 4,
-          "xbh_pct": 1,
-          "single_pct": 0,
-          "runs_pct": 2
-        },
-        "combined": {
-          "hr_pct": 20,
-          "xbh_pct": 1,
-          "single_pct": 0,
-          "runs_pct": 3
-        }
-      },
-      "explanations": [
-        "평균 환경 대비 타구 결과 확률 합산으로 산출",
-        "따뜻한 기온이 비거리와 득점 환경을 올림"
       ],
       "data_status": "complete"
     },
@@ -171,11 +107,11 @@
         "label": "더움",
         "temperature_c": 30.5,
         "humidity_pct": 79,
-        "pressure_hpa": 1003.5,
+        "pressure_hpa": 1003.8,
         "precipitation_probability_pct": 0,
         "weather_code": 0,
-        "wind_speed_mps": 3.32,
-        "wind_direction_deg": 249
+        "wind_speed_mps": 3.45,
+        "wind_direction_deg": 248
       },
       "factors": {
         "stadium_only": {
@@ -233,13 +169,13 @@
       },
       "weather": {
         "label": "더움",
-        "temperature_c": 30.1,
+        "temperature_c": 30.0,
         "humidity_pct": 80,
-        "pressure_hpa": 1003.9,
+        "pressure_hpa": 1004.2,
         "precipitation_probability_pct": 0,
         "weather_code": 0,
-        "wind_speed_mps": 2.51,
-        "wind_direction_deg": 241
+        "wind_speed_mps": 2.56,
+        "wind_direction_deg": 239
       },
       "factors": {
         "stadium_only": {
@@ -267,10 +203,10 @@
       "data_status": "complete"
     },
     {
-      "game_id": "2026-08-01-SAMSUNG-LOTTE",
-      "start_time_local": "18:00",
-      "away_team": "삼성",
-      "home_team": "롯데",
+      "game_id": "2026-08-01-sajik-REFERENCE",
+      "start_time_local": "18:30",
+      "away_team": "",
+      "home_team": "사직야구장",
       "stadium": {
         "id": "sajik",
         "name_ko": "사직야구장",
@@ -296,13 +232,13 @@
       },
       "weather": {
         "label": "더움",
-        "temperature_c": 32.4,
-        "humidity_pct": 72,
-        "pressure_hpa": 1002.4,
+        "temperature_c": 32.6,
+        "humidity_pct": 71,
+        "pressure_hpa": 1002.5,
         "precipitation_probability_pct": 8,
         "weather_code": 0,
-        "wind_speed_mps": 1.92,
-        "wind_direction_deg": 231
+        "wind_speed_mps": 1.94,
+        "wind_direction_deg": 235
       },
       "factors": {
         "stadium_only": {
@@ -325,10 +261,9 @@
         }
       },
       "explanations": [
-        "평균 환경 대비 타구 결과 확률 합산으로 산출",
-        "따뜻한 기온이 비거리와 득점 환경을 올림"
+        "해당 날짜 경기 없음 · 현행 홈구장 기준 표시"
       ],
-      "data_status": "complete"
+      "data_status": "stadium_reference"
     },
     {
       "game_id": "2026-08-01-daegu-lions-park-REFERENCE",
@@ -362,11 +297,11 @@
         "label": "더움",
         "temperature_c": 32.7,
         "humidity_pct": 69,
-        "pressure_hpa": 997.9,
+        "pressure_hpa": 998.0,
         "precipitation_probability_pct": 0,
         "weather_code": 0,
-        "wind_speed_mps": 3.02,
-        "wind_direction_deg": 304
+        "wind_speed_mps": 3.28,
+        "wind_direction_deg": 301
       },
       "factors": {
         "stadium_only": {
@@ -425,11 +360,11 @@
         "label": "더움",
         "temperature_c": 32.3,
         "humidity_pct": 68,
-        "pressure_hpa": 999.1,
+        "pressure_hpa": 999.4,
         "precipitation_probability_pct": 4,
         "weather_code": 0,
-        "wind_speed_mps": 2.42,
-        "wind_direction_deg": 263
+        "wind_speed_mps": 2.43,
+        "wind_direction_deg": 261
       },
       "factors": {
         "stadium_only": {
@@ -449,6 +384,69 @@
           "xbh_pct": 1,
           "single_pct": 0,
           "runs_pct": 1
+        }
+      },
+      "explanations": [
+        "해당 날짜 경기 없음 · 현행 홈구장 기준 표시"
+      ],
+      "data_status": "stadium_reference"
+    },
+    {
+      "game_id": "2026-08-01-changwon-nc-park-REFERENCE",
+      "start_time_local": "18:30",
+      "away_team": "",
+      "home_team": "창원NC파크",
+      "stadium": {
+        "id": "changwon-nc-park",
+        "name_ko": "창원NC파크",
+        "city": "창원",
+        "type": "outdoor",
+        "orientation_deg": 142,
+        "baseline_evidence": {
+          "games": 103,
+          "prior_games": 150,
+          "raw_factors": {
+            "hr_pct": 37,
+            "xbh_pct": 0,
+            "single_pct": 0,
+            "runs_pct": 16
+          },
+          "adjusted_factors": {
+            "hr_pct": 15,
+            "xbh_pct": 0,
+            "single_pct": 0,
+            "runs_pct": 7
+          }
+        }
+      },
+      "weather": {
+        "label": "더움",
+        "temperature_c": 31.9,
+        "humidity_pct": 78,
+        "pressure_hpa": 1003.9,
+        "precipitation_probability_pct": 0,
+        "weather_code": 0,
+        "wind_speed_mps": 1.5,
+        "wind_direction_deg": 180
+      },
+      "factors": {
+        "stadium_only": {
+          "hr_pct": 15,
+          "xbh_pct": 0,
+          "single_pct": 0,
+          "runs_pct": 7
+        },
+        "weather_only": {
+          "hr_pct": 4,
+          "xbh_pct": 1,
+          "single_pct": 0,
+          "runs_pct": 2
+        },
+        "combined": {
+          "hr_pct": 20,
+          "xbh_pct": 1,
+          "single_pct": 0,
+          "runs_pct": 3
         }
       },
       "explanations": [
@@ -486,9 +484,9 @@
       },
       "weather": {
         "label": "더움",
-        "temperature_c": 31.9,
-        "humidity_pct": 68,
-        "pressure_hpa": 1003.2,
+        "temperature_c": 31.8,
+        "humidity_pct": 69,
+        "pressure_hpa": 1003.4,
         "precipitation_probability_pct": 0,
         "weather_code": 0,
         "wind_speed_mps": 2.6,
@@ -551,11 +549,11 @@
         "label": "맑음",
         "temperature_c": 29.1,
         "humidity_pct": 87,
-        "pressure_hpa": 1002.3,
+        "pressure_hpa": 1002.6,
         "precipitation_probability_pct": 0,
         "weather_code": 0,
-        "wind_speed_mps": 3.12,
-        "wind_direction_deg": 230
+        "wind_speed_mps": 3.19,
+        "wind_direction_deg": 229
       },
       "factors": {
         "stadium_only": {
