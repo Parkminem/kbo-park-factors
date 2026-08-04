@@ -1,7 +1,7 @@
 {
   "date": "2026-08-04",
   "timezone": "Asia/Seoul",
-  "generated_at": "2026-08-04T21:01:30+09:00",
+  "generated_at": "2026-08-04T22:02:45+09:00",
   "sources": {
     "schedule": "Naver Sports schedule API",
     "weather": "open-meteo",
@@ -10,70 +10,6 @@
   },
   "warnings": [],
   "games": [
-    {
-      "game_id": "2026-08-04-HANWHA-SAMSUNG",
-      "start_time_local": "18:30",
-      "away_team": "한화",
-      "home_team": "삼성",
-      "stadium": {
-        "id": "daegu-lions-park",
-        "name_ko": "대구삼성라이온즈파크",
-        "city": "대구",
-        "type": "outdoor",
-        "orientation_deg": 354,
-        "baseline_evidence": {
-          "games": 108,
-          "prior_games": 150,
-          "raw_factors": {
-            "hr_pct": 38,
-            "xbh_pct": 0,
-            "single_pct": 0,
-            "runs_pct": 10
-          },
-          "adjusted_factors": {
-            "hr_pct": 16,
-            "xbh_pct": 0,
-            "single_pct": 0,
-            "runs_pct": 4
-          }
-        }
-      },
-      "weather": {
-        "label": "맑음",
-        "temperature_c": 28.8,
-        "humidity_pct": 83,
-        "pressure_hpa": 1003.2,
-        "precipitation_probability_pct": 12,
-        "weather_code": 0,
-        "wind_speed_mps": 4.32,
-        "wind_direction_deg": 85
-      },
-      "factors": {
-        "stadium_only": {
-          "hr_pct": 16,
-          "xbh_pct": 0,
-          "single_pct": 0,
-          "runs_pct": 4
-        },
-        "weather_only": {
-          "hr_pct": 4,
-          "xbh_pct": 1,
-          "single_pct": 0,
-          "runs_pct": 2
-        },
-        "combined": {
-          "hr_pct": 21,
-          "xbh_pct": 1,
-          "single_pct": 0,
-          "runs_pct": 3
-        }
-      },
-      "explanations": [
-        "평균 환경 대비 타구 결과 확률 합산으로 산출",
-        "따뜻한 기온이 비거리와 득점 환경을 올림"
-      ],
-      "data_status": "complete"
-    },
     {
       "game_id": "2026-08-04-LG-SSG",
       "start_time_local": "18:30",
@@ -104,13 +40,13 @@
       },
       "weather": {
         "label": "비 가능",
-        "temperature_c": 31.6,
-        "humidity_pct": 77,
-        "pressure_hpa": 1005.8,
+        "temperature_c": 32.2,
+        "humidity_pct": 76,
+        "pressure_hpa": 1004.9,
         "precipitation_probability_pct": 84,
-        "weather_code": 1,
-        "wind_speed_mps": 1.46,
-        "wind_direction_deg": 286
+        "weather_code": 0,
+        "wind_speed_mps": 1.84,
+        "wind_direction_deg": 292
       },
       "factors": {
         "stadium_only": {
@@ -136,6 +72,70 @@
         "평균 환경 대비 타구 결과 확률 합산으로 산출",
         "따뜻한 기온이 비거리와 득점 환경을 올림",
         "강수 가능성이 타구 질과 경기 흐름을 낮춤"
+      ],
+      "data_status": "complete"
+    },
+    {
+      "game_id": "2026-08-04-HANWHA-SAMSUNG",
+      "start_time_local": "18:30",
+      "away_team": "한화",
+      "home_team": "삼성",
+      "stadium": {
+        "id": "daegu-lions-park",
+        "name_ko": "대구삼성라이온즈파크",
+        "city": "대구",
+        "type": "outdoor",
+        "orientation_deg": 354,
+        "baseline_evidence": {
+          "games": 108,
+          "prior_games": 150,
+          "raw_factors": {
+            "hr_pct": 38,
+            "xbh_pct": 0,
+            "single_pct": 0,
+            "runs_pct": 10
+          },
+          "adjusted_factors": {
+            "hr_pct": 16,
+            "xbh_pct": 0,
+            "single_pct": 0,
+            "runs_pct": 4
+          }
+        }
+      },
+      "weather": {
+        "label": "맑음",
+        "temperature_c": 29.3,
+        "humidity_pct": 82,
+        "pressure_hpa": 1002.2,
+        "precipitation_probability_pct": 12,
+        "weather_code": 0,
+        "wind_speed_mps": 4.44,
+        "wind_direction_deg": 82
+      },
+      "factors": {
+        "stadium_only": {
+          "hr_pct": 16,
+          "xbh_pct": 0,
+          "single_pct": 0,
+          "runs_pct": 4
+        },
+        "weather_only": {
+          "hr_pct": 4,
+          "xbh_pct": 1,
+          "single_pct": 0,
+          "runs_pct": 2
+        },
+        "combined": {
+          "hr_pct": 21,
+          "xbh_pct": 1,
+          "single_pct": 0,
+          "runs_pct": 3
+        }
+      },
+      "explanations": [
+        "평균 환경 대비 타구 결과 확률 합산으로 산출",
+        "따뜻한 기온이 비거리와 득점 환경을 올림"
       ],
       "data_status": "complete"
     },
@@ -168,14 +168,14 @@
         }
       },
       "weather": {
-        "label": "맑음",
-        "temperature_c": 29.6,
+        "label": "더움",
+        "temperature_c": 30.1,
         "humidity_pct": 79,
-        "pressure_hpa": 1007.2,
+        "pressure_hpa": 1006.2,
         "precipitation_probability_pct": 6,
-        "weather_code": 1,
-        "wind_speed_mps": 3.12,
-        "wind_direction_deg": 50
+        "weather_code": 0,
+        "wind_speed_mps": 3.06,
+        "wind_direction_deg": 52
       },
       "factors": {
         "stadium_only": {
@@ -233,13 +233,13 @@
       },
       "weather": {
         "label": "비 가능",
-        "temperature_c": 33.9,
-        "humidity_pct": 64,
-        "pressure_hpa": 1007.0,
+        "temperature_c": 34.4,
+        "humidity_pct": 63,
+        "pressure_hpa": 1006.3,
         "precipitation_probability_pct": 90,
-        "weather_code": 0,
-        "wind_speed_mps": 1.21,
-        "wind_direction_deg": 294
+        "weather_code": 1,
+        "wind_speed_mps": 0.99,
+        "wind_direction_deg": 315
       },
       "factors": {
         "stadium_only": {
@@ -351,12 +351,12 @@
       "weather": {
         "label": "비 가능",
         "temperature_c": 32.3,
-        "humidity_pct": 70,
-        "pressure_hpa": 1002.4,
+        "humidity_pct": 74,
+        "pressure_hpa": 1001.6,
         "precipitation_probability_pct": 94,
         "weather_code": 1,
-        "wind_speed_mps": 2.43,
-        "wind_direction_deg": 99
+        "wind_speed_mps": 1.93,
+        "wind_direction_deg": 111
       },
       "factors": {
         "stadium_only": {
@@ -366,13 +366,13 @@
           "runs_pct": 1
         },
         "weather_only": {
-          "hr_pct": 2,
+          "hr_pct": 4,
           "xbh_pct": 1,
           "single_pct": -1,
-          "runs_pct": 1
+          "runs_pct": 2
         },
         "combined": {
-          "hr_pct": -2,
+          "hr_pct": 0,
           "xbh_pct": 1,
           "single_pct": -1,
           "runs_pct": 0
@@ -413,13 +413,13 @@
       },
       "weather": {
         "label": "비 가능",
-        "temperature_c": 31.0,
-        "humidity_pct": 74,
-        "pressure_hpa": 1008.3,
+        "temperature_c": 31.5,
+        "humidity_pct": 73,
+        "pressure_hpa": 1007.3,
         "precipitation_probability_pct": 98,
         "weather_code": 1,
-        "wind_speed_mps": 2.01,
-        "wind_direction_deg": 63
+        "wind_speed_mps": 1.84,
+        "wind_direction_deg": 68
       },
       "factors": {
         "stadium_only": {
@@ -476,13 +476,13 @@
       },
       "weather": {
         "label": "비 가능",
-        "temperature_c": 29.6,
-        "humidity_pct": 89,
-        "pressure_hpa": 1006.0,
+        "temperature_c": 29.8,
+        "humidity_pct": 88,
+        "pressure_hpa": 1005.7,
         "precipitation_probability_pct": 96,
         "weather_code": 55,
-        "wind_speed_mps": 1.3,
-        "wind_direction_deg": 266
+        "wind_speed_mps": 1.62,
+        "wind_direction_deg": 338
       },
       "factors": {
         "stadium_only": {
@@ -539,13 +539,13 @@
       },
       "weather": {
         "label": "비 가능",
-        "temperature_c": 32.3,
-        "humidity_pct": 77,
-        "pressure_hpa": 1002.1,
+        "temperature_c": 32.9,
+        "humidity_pct": 75,
+        "pressure_hpa": 1001.3,
         "precipitation_probability_pct": 78,
         "weather_code": 0,
-        "wind_speed_mps": 1.7,
-        "wind_direction_deg": 298
+        "wind_speed_mps": 1.84,
+        "wind_direction_deg": 315
       },
       "factors": {
         "stadium_only": {
@@ -555,13 +555,13 @@
           "runs_pct": 1
         },
         "weather_only": {
-          "hr_pct": 2,
+          "hr_pct": 4,
           "xbh_pct": 1,
           "single_pct": -1,
-          "runs_pct": 1
+          "runs_pct": 2
         },
         "combined": {
-          "hr_pct": -4,
+          "hr_pct": -2,
           "xbh_pct": 1,
           "single_pct": -1,
           "runs_pct": -1
