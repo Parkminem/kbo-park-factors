@@ -1,7 +1,7 @@
 {
   "date": "2026-08-04",
   "timezone": "Asia/Seoul",
-  "generated_at": "2026-08-04T18:02:41+09:00",
+  "generated_at": "2026-08-04T18:43:31+09:00",
   "sources": {
     "schedule": "Naver Sports schedule API",
     "weather": "open-meteo",
@@ -20,7 +20,7 @@
         "name_ko": "대구삼성라이온즈파크",
         "city": "대구",
         "type": "outdoor",
-        "orientation_deg": 345,
+        "orientation_deg": 354,
         "baseline_evidence": {
           "games": 108,
           "prior_games": 150,

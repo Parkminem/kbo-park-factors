@@ -124,7 +124,7 @@
     "type": "outdoor",
     "altitude_m": 70,
     "outfield_size": "hitter",
-    "orientation_deg": 345,
+    "orientation_deg": 354,
     "baseline_factors": {
       "hr_pct": 16,
       "xbh_pct": 0,

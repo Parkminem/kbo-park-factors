@@ -8,7 +8,7 @@ The outdoor-park values below were measured on 2026-07-22 from north-up OpenStre
 | --- | ---: | --- |
 | Jamsil Baseball Stadium | 195° | [OpenStreetMap](https://www.openstreetmap.org/?mlat=37.5122&mlon=127.0719#map=18/37.5122/127.0719) |
 | Sajik Baseball Stadium | 166° | [OpenStreetMap](https://www.openstreetmap.org/?mlat=35.1940&mlon=129.0615#map=18/35.1940/129.0615) |
-| Daegu Samsung Lions Park | 345° | [OpenStreetMap](https://www.openstreetmap.org/?mlat=35.8410&mlon=128.6816#map=18/35.8410/128.6816) |
+| Daegu Samsung Lions Park | 354° | [OpenStreetMap](https://www.openstreetmap.org/?mlat=35.8410&mlon=128.6816#map=18/35.8410/128.6816) |
 | Daejeon Hanwha Life Ballpark | 109° | [OpenStreetMap](https://www.openstreetmap.org/?mlat=36.3163&mlon=127.4313#map=18/36.3163/127.4313) |
 | Changwon NC Park | 142° | [OpenStreetMap](https://www.openstreetmap.org/?mlat=35.2226&mlon=128.5826#map=18/35.2226/128.5826) |
 | Gwangju-KIA Champions Field | 56° | [OpenStreetMap](https://www.openstreetmap.org/?mlat=35.1683&mlon=126.8891#map=18/35.1683/126.8891) |

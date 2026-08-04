@@ -511,12 +511,12 @@ h1 {
   align-items: center;
   display: grid;
   gap: 12px;
-  grid-template-columns: 88px 1fr;
+  grid-template-columns: 112px minmax(0, 1fr);
 }
 
 .impactBadge {
   border-radius: 8px;
-  padding: 10px;
+  padding: 10px 6px;
   text-align: center;
 }
 
@@ -531,8 +531,9 @@ h1 {
 }
 
 .impactBadge span {
-  font-size: 12px;
+  font-size: 11px;
   margin-top: 3px;
+  white-space: nowrap;
 }
 
 .boostImpact {
@@ -968,7 +969,7 @@ h1 {
   }
 
   .conditionBlock {
-    grid-template-columns: 86px 1fr;
+    grid-template-columns: 112px minmax(0, 1fr);
   }
 
   .factorBlock {

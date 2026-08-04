@@ -306,9 +306,14 @@ function windImpact(game: Game) {
   }
   const orientation = game.stadium.orientation_deg ?? 45;
   const windTo = (game.weather.wind_direction_deg + 180) % 360;
-  const diff = Math.abs((((windTo - orientation + 540) % 360) - 180));
+  const relative = ((windTo - orientation + 540) % 360) - 180;
+  const diff = Math.abs(relative);
   if (diff <= 45) return { label: "OUT", detail: "외야 방향", className: "boostImpact" };
   if (diff >= 135) return { label: "IN", detail: "홈 방향", className: "dragImpact" };
+  if (Math.abs(diff - 90) <= 15) {
+    const crosswindDirection = relative < 0 ? "1루→3루" : "3루→1루";
+    return { label: "CROSS", detail: `횡풍 · ${crosswindDirection}`, className: "neutralImpact" };
+  }
   return { label: "CROSS", detail: diff < 90 ? "대각 외야" : "대각 홈", className: "neutralImpact" };
 }
 
@@ -348,7 +353,7 @@ function BallparkWind({ game }: { game: Game }) {
   const orientation = game.stadium.orientation_deg ?? 45;
   const windFrom = game.weather?.wind_direction_deg ?? orientation;
   const windTo = (windFrom + 180) % 360;
-  const relativeWindTo = windTo - orientation;
+  const relativeWindTo = ((windTo - orientation + 540) % 360) - 180;
   const hasWeather = game.weather !== null && game.stadium.type !== "dome";
 
   return (

@@ -46,7 +46,7 @@ def test_outdoor_stadium_orientations_match_verified_field_bearings():
     } == {
         "jamsil": 195,
         "sajik": 166,
-        "daegu-lions-park": 345,
+        "daegu-lions-park": 354,
         "hanwha-life-ballpark": 109,
         "changwon-nc-park": 142,
         "gwangju-kia-champions-field": 56,
