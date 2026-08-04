@@ -21,7 +21,7 @@
         "name_ko": "대구삼성라이온즈파크",
         "city": "대구",
         "type": "outdoor",
-        "orientation_deg": 345,
+        "orientation_deg": 354,
         "baseline_evidence": {
           "games": 108,
           "prior_games": 150,
@@ -120,7 +120,7 @@
     }
   ],
   "timezone": "Asia/Seoul",
-  "generated_at": "2026-08-04T17:02:18+09:00",
+  "generated_at": "2026-08-04T20:02:37+09:00",
   "sources": {
     "predictions": "data/daily-factors/2026-08-04.json",
     "actuals": "KBO official GameCenter"
