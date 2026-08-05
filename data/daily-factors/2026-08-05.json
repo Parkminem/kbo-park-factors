@@ -1,7 +1,7 @@
 {
   "date": "2026-08-05",
   "timezone": "Asia/Seoul",
-  "generated_at": "2026-08-05T22:01:52+09:00",
+  "generated_at": "2026-08-05T23:01:11+09:00",
   "sources": {
     "schedule": "Naver Sports schedule API",
     "weather": "open-meteo",
