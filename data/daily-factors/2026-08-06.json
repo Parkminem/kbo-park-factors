@@ -1,7 +1,7 @@
 {
   "date": "2026-08-06",
   "timezone": "Asia/Seoul",
-  "generated_at": "2026-08-06T03:01:27+09:00",
+  "generated_at": "2026-08-06T04:13:16+09:00",
   "sources": {
     "schedule": "Naver Sports schedule API",
     "weather": "open-meteo",
@@ -40,13 +40,13 @@
       },
       "weather": {
         "label": "더움",
-        "temperature_c": 34.0,
+        "temperature_c": 34.1,
         "humidity_pct": 56,
         "pressure_hpa": 1001.8,
         "precipitation_probability_pct": 2,
         "weather_code": 0,
-        "wind_speed_mps": 0.5,
-        "wind_direction_deg": 180
+        "wind_speed_mps": 0.71,
+        "wind_direction_deg": 188
       },
       "factors": {
         "stadium_only": {
@@ -159,13 +159,13 @@
       },
       "weather": {
         "label": "맑음",
-        "temperature_c": 29.1,
-        "humidity_pct": 78,
-        "pressure_hpa": 1001.5,
+        "temperature_c": 29.0,
+        "humidity_pct": 77,
+        "pressure_hpa": 1001.6,
         "precipitation_probability_pct": 0,
         "weather_code": 0,
-        "wind_speed_mps": 3.33,
-        "wind_direction_deg": 49
+        "wind_speed_mps": 3.26,
+        "wind_direction_deg": 50
       },
       "factors": {
         "stadium_only": {
@@ -222,13 +222,13 @@
       },
       "weather": {
         "label": "맑음",
-        "temperature_c": 28.4,
+        "temperature_c": 28.3,
         "humidity_pct": 81,
-        "pressure_hpa": 998.0,
+        "pressure_hpa": 998.1,
         "precipitation_probability_pct": 0,
         "weather_code": 0,
-        "wind_speed_mps": 4.13,
-        "wind_direction_deg": 83
+        "wind_speed_mps": 4.39,
+        "wind_direction_deg": 78
       },
       "factors": {
         "stadium_only": {
@@ -285,13 +285,13 @@
       },
       "weather": {
         "label": "더움",
-        "temperature_c": 32.2,
+        "temperature_c": 32.3,
         "humidity_pct": 64,
-        "pressure_hpa": 997.1,
+        "pressure_hpa": 997.2,
         "precipitation_probability_pct": 0,
         "weather_code": 0,
-        "wind_speed_mps": 2.3,
-        "wind_direction_deg": 88
+        "wind_speed_mps": 2.2,
+        "wind_direction_deg": 90
       },
       "factors": {
         "stadium_only": {
@@ -353,8 +353,8 @@
         "pressure_hpa": 1002.7,
         "precipitation_probability_pct": 0,
         "weather_code": 0,
-        "wind_speed_mps": 2.02,
-        "wind_direction_deg": 57
+        "wind_speed_mps": 2.08,
+        "wind_direction_deg": 55
       },
       "factors": {
         "stadium_only": {
@@ -411,13 +411,13 @@
       },
       "weather": {
         "label": "더움",
-        "temperature_c": 32.7,
+        "temperature_c": 32.9,
         "humidity_pct": 66,
-        "pressure_hpa": 999.6,
+        "pressure_hpa": 999.5,
         "precipitation_probability_pct": 2,
-        "weather_code": 2,
-        "wind_speed_mps": 1.12,
-        "wind_direction_deg": 260
+        "weather_code": 1,
+        "wind_speed_mps": 1.36,
+        "wind_direction_deg": 253
       },
       "factors": {
         "stadium_only": {
@@ -474,13 +474,13 @@
       },
       "weather": {
         "label": "더움",
-        "temperature_c": 32.6,
-        "humidity_pct": 64,
+        "temperature_c": 32.7,
+        "humidity_pct": 63,
         "pressure_hpa": 997.0,
         "precipitation_probability_pct": 0,
         "weather_code": 0,
-        "wind_speed_mps": 0.82,
-        "wind_direction_deg": 76
+        "wind_speed_mps": 0.7,
+        "wind_direction_deg": 90
       },
       "factors": {
         "stadium_only": {
@@ -537,13 +537,13 @@
       },
       "weather": {
         "label": "더움",
-        "temperature_c": 31.9,
-        "humidity_pct": 71,
-        "pressure_hpa": 1000.4,
+        "temperature_c": 31.6,
+        "humidity_pct": 73,
+        "pressure_hpa": 1000.5,
         "precipitation_probability_pct": 14,
         "weather_code": 0,
-        "wind_speed_mps": 1.57,
-        "wind_direction_deg": 297
+        "wind_speed_mps": 1.75,
+        "wind_direction_deg": 301
       },
       "factors": {
         "stadium_only": {
