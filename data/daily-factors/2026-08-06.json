@@ -1,7 +1,7 @@
 {
   "date": "2026-08-06",
   "timezone": "Asia/Seoul",
-  "generated_at": "2026-08-06T14:01:32+09:00",
+  "generated_at": "2026-08-06T15:01:18+09:00",
   "sources": {
     "schedule": "Naver Sports schedule API",
     "weather": "open-meteo",
@@ -40,13 +40,13 @@
       },
       "weather": {
         "label": "더움",
-        "temperature_c": 34.1,
-        "humidity_pct": 57,
-        "pressure_hpa": 1001.8,
+        "temperature_c": 34.3,
+        "humidity_pct": 56,
+        "pressure_hpa": 1002.0,
         "precipitation_probability_pct": 4,
         "weather_code": 0,
-        "wind_speed_mps": 0.95,
-        "wind_direction_deg": 198
+        "wind_speed_mps": 0.73,
+        "wind_direction_deg": 196
       },
       "factors": {
         "stadium_only": {
@@ -159,13 +159,13 @@
       },
       "weather": {
         "label": "맑음",
-        "temperature_c": 29.1,
-        "humidity_pct": 78,
-        "pressure_hpa": 1001.6,
+        "temperature_c": 28.9,
+        "humidity_pct": 76,
+        "pressure_hpa": 1001.9,
         "precipitation_probability_pct": 0,
         "weather_code": 0,
-        "wind_speed_mps": 3.19,
-        "wind_direction_deg": 49
+        "wind_speed_mps": 3.18,
+        "wind_direction_deg": 46
       },
       "factors": {
         "stadium_only": {
@@ -222,12 +222,12 @@
       },
       "weather": {
         "label": "맑음",
-        "temperature_c": 28.3,
-        "humidity_pct": 80,
-        "pressure_hpa": 998.1,
+        "temperature_c": 28.5,
+        "humidity_pct": 79,
+        "pressure_hpa": 998.3,
         "precipitation_probability_pct": 0,
         "weather_code": 0,
-        "wind_speed_mps": 4.26,
+        "wind_speed_mps": 4.46,
         "wind_direction_deg": 81
       },
       "factors": {
@@ -285,13 +285,13 @@
       },
       "weather": {
         "label": "더움",
-        "temperature_c": 32.3,
-        "humidity_pct": 64,
-        "pressure_hpa": 997.2,
+        "temperature_c": 32.7,
+        "humidity_pct": 62,
+        "pressure_hpa": 997.3,
         "precipitation_probability_pct": 0,
         "weather_code": 0,
-        "wind_speed_mps": 2.2,
-        "wind_direction_deg": 93
+        "wind_speed_mps": 2.0,
+        "wind_direction_deg": 90
       },
       "factors": {
         "stadium_only": {
@@ -348,9 +348,9 @@
       },
       "weather": {
         "label": "더움",
-        "temperature_c": 31.1,
-        "humidity_pct": 72,
-        "pressure_hpa": 1002.7,
+        "temperature_c": 31.5,
+        "humidity_pct": 69,
+        "pressure_hpa": 1002.9,
         "precipitation_probability_pct": 2,
         "weather_code": 0,
         "wind_speed_mps": 1.92,
@@ -411,13 +411,13 @@
       },
       "weather": {
         "label": "더움",
-        "temperature_c": 32.5,
-        "humidity_pct": 67,
-        "pressure_hpa": 999.8,
+        "temperature_c": 31.9,
+        "humidity_pct": 73,
+        "pressure_hpa": 1000.2,
         "precipitation_probability_pct": 14,
         "weather_code": 1,
-        "wind_speed_mps": 1.84,
-        "wind_direction_deg": 167
+        "wind_speed_mps": 1.58,
+        "wind_direction_deg": 252
       },
       "factors": {
         "stadium_only": {
@@ -474,13 +474,13 @@
       },
       "weather": {
         "label": "더움",
-        "temperature_c": 32.7,
-        "humidity_pct": 63,
-        "pressure_hpa": 997.0,
+        "temperature_c": 32.9,
+        "humidity_pct": 62,
+        "pressure_hpa": 997.2,
         "precipitation_probability_pct": 0,
         "weather_code": 0,
-        "wind_speed_mps": 0.63,
-        "wind_direction_deg": 108
+        "wind_speed_mps": 0.6,
+        "wind_direction_deg": 90
       },
       "factors": {
         "stadium_only": {
@@ -537,9 +537,9 @@
       },
       "weather": {
         "label": "더움",
-        "temperature_c": 31.6,
-        "humidity_pct": 73,
-        "pressure_hpa": 1000.6,
+        "temperature_c": 31.8,
+        "humidity_pct": 72,
+        "pressure_hpa": 1000.7,
         "precipitation_probability_pct": 27,
         "weather_code": 0,
         "wind_speed_mps": 1.75,
