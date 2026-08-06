@@ -1,20 +1,20 @@
 {
-  "date": "2026-08-06",
+  "date": "2026-08-07",
   "summary": {
     "predicted_games": 1,
     "completed_games": 0,
     "pending_games": 1,
     "total_home_runs": 0,
     "total_runs": 0,
-    "avg_predicted_hr_pct": -15,
+    "avg_predicted_hr_pct": -13,
     "avg_predicted_runs_pct": -2
   },
   "games": [
     {
-      "game_id": "2026-08-06-NC-DOOSAN",
+      "game_id": "2026-08-07-KIA-LG",
       "matchup": {
-        "away_team": "NC",
-        "home_team": "두산"
+        "away_team": "KIA",
+        "home_team": "LG"
       },
       "stadium": {
         "id": "jamsil",
@@ -40,7 +40,7 @@
         }
       },
       "predicted": {
-        "hr_pct": -15,
+        "hr_pct": -13,
         "runs_pct": -2
       },
       "actual": null,
@@ -48,9 +48,9 @@
     }
   ],
   "timezone": "Asia/Seoul",
-  "generated_at": "2026-08-06T23:32:09+09:00",
+  "generated_at": "2026-08-07T00:03:19+09:00",
   "sources": {
-    "predictions": "data/daily-factors/2026-08-06.json",
+    "predictions": "data/daily-factors/2026-08-07.json",
     "actuals": "KBO official GameCenter"
   }
 }
