@@ -1,7 +1,7 @@
 {
   "date": "2026-08-07",
   "timezone": "Asia/Seoul",
-  "generated_at": "2026-08-07T00:02:44+09:00",
+  "generated_at": "2026-08-07T01:03:10+09:00",
   "sources": {
     "schedule": "Naver Sports schedule API",
     "weather": "open-meteo",
@@ -43,7 +43,7 @@
         "temperature_c": 35.2,
         "humidity_pct": 51,
         "pressure_hpa": 1000.0,
-        "precipitation_probability_pct": 8,
+        "precipitation_probability_pct": 24,
         "weather_code": 0,
         "wind_speed_mps": 0.71,
         "wind_direction_deg": 352
@@ -225,7 +225,7 @@
         "temperature_c": 29.8,
         "humidity_pct": 80,
         "pressure_hpa": 996.0,
-        "precipitation_probability_pct": 6,
+        "precipitation_probability_pct": 2,
         "weather_code": 0,
         "wind_speed_mps": 4.08,
         "wind_direction_deg": 79
@@ -288,7 +288,7 @@
         "temperature_c": 33.7,
         "humidity_pct": 60,
         "pressure_hpa": 995.1,
-        "precipitation_probability_pct": 16,
+        "precipitation_probability_pct": 18,
         "weather_code": 0,
         "wind_speed_mps": 2.12,
         "wind_direction_deg": 98
@@ -351,7 +351,7 @@
         "temperature_c": 31.4,
         "humidity_pct": 69,
         "pressure_hpa": 1001.1,
-        "precipitation_probability_pct": 6,
+        "precipitation_probability_pct": 0,
         "weather_code": 0,
         "wind_speed_mps": 2.2,
         "wind_direction_deg": 51
@@ -414,7 +414,7 @@
         "temperature_c": 34.4,
         "humidity_pct": 56,
         "pressure_hpa": 997.5,
-        "precipitation_probability_pct": 31,
+        "precipitation_probability_pct": 25,
         "weather_code": 1,
         "wind_speed_mps": 2.53,
         "wind_direction_deg": 99
@@ -540,7 +540,7 @@
         "temperature_c": 32.5,
         "humidity_pct": 69,
         "pressure_hpa": 998.6,
-        "precipitation_probability_pct": 16,
+        "precipitation_probability_pct": 18,
         "weather_code": 0,
         "wind_speed_mps": 1.86,
         "wind_direction_deg": 306
