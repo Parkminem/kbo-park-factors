@@ -24,6 +24,7 @@ import validationArtifact19 from "../data/validations/2026-08-05.json";
 import validationArtifact20 from "../data/validations/2026-08-06.json";
 import validationArtifact21 from "../data/validations/2026-08-07.json";
 import validationArtifact22 from "../data/validations/2026-08-08.json";
+import validationArtifact23 from "../data/validations/2026-08-09.json";
 
 export const dailyArtifacts = {
   "2026-08-09": dailyArtifact0,
@@ -53,4 +54,5 @@ export const validationArtifacts = {
   "2026-08-06": validationArtifact20,
   "2026-08-07": validationArtifact21,
   "2026-08-08": validationArtifact22,
+  "2026-08-09": validationArtifact23,
 } as const;
