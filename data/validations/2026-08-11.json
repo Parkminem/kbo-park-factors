@@ -2,50 +2,14 @@
   "date": "2026-08-11",
   "summary": {
     "predicted_games": 5,
-    "completed_games": 0,
-    "pending_games": 5,
-    "total_home_runs": 0,
-    "total_runs": 0,
+    "completed_games": 5,
+    "pending_games": 0,
+    "total_home_runs": 10,
+    "total_runs": 46,
     "avg_predicted_hr_pct": 3,
     "avg_predicted_runs_pct": 0
   },
   "games": [
-    {
-      "game_id": "2026-08-11-HANWHA-DOOSAN",
-      "matchup": {
-        "away_team": "한화",
-        "home_team": "두산"
-      },
-      "stadium": {
-        "id": "jamsil",
-        "name_ko": "잠실야구장",
-        "city": "서울",
-        "type": "outdoor",
-        "orientation_deg": 195,
-        "baseline_evidence": {
-          "games": 230,
-          "prior_games": 150,
-          "raw_factors": {
-            "hr_pct": -29,
-            "xbh_pct": 0,
-            "single_pct": 0,
-            "runs_pct": -8
-          },
-          "adjusted_factors": {
-            "hr_pct": -18,
-            "xbh_pct": 0,
-            "single_pct": 0,
-            "runs_pct": -5
-          }
-        }
-      },
-      "predicted": {
-        "hr_pct": -15,
-        "runs_pct": -2
-      },
-      "actual": null,
-      "status": "pending"
-    },
     {
       "game_id": "2026-08-11-KT-NC",
       "matchup": {
@@ -79,8 +43,12 @@
         "hr_pct": 15,
         "runs_pct": 2
       },
-      "actual": null,
-      "status": "pending"
+      "actual": {
+        "official_game_id": "20260811KTNC0",
+        "home_runs": 1,
+        "runs": 10
+      },
+      "status": "completed"
     },
     {
       "game_id": "2026-08-11-LG-KIWOOM",
@@ -115,8 +83,52 @@
         "hr_pct": -6,
         "runs_pct": -4
       },
-      "actual": null,
-      "status": "pending"
+      "actual": {
+        "official_game_id": "20260811LGWO0",
+        "home_runs": 3,
+        "runs": 11
+      },
+      "status": "completed"
+    },
+    {
+      "game_id": "2026-08-11-HANWHA-DOOSAN",
+      "matchup": {
+        "away_team": "한화",
+        "home_team": "두산"
+      },
+      "stadium": {
+        "id": "jamsil",
+        "name_ko": "잠실야구장",
+        "city": "서울",
+        "type": "outdoor",
+        "orientation_deg": 195,
+        "baseline_evidence": {
+          "games": 230,
+          "prior_games": 150,
+          "raw_factors": {
+            "hr_pct": -29,
+            "xbh_pct": 0,
+            "single_pct": 0,
+            "runs_pct": -8
+          },
+          "adjusted_factors": {
+            "hr_pct": -18,
+            "xbh_pct": 0,
+            "single_pct": 0,
+            "runs_pct": -5
+          }
+        }
+      },
+      "predicted": {
+        "hr_pct": -15,
+        "runs_pct": -2
+      },
+      "actual": {
+        "official_game_id": "20260811HHOB0",
+        "home_runs": 4,
+        "runs": 9
+      },
+      "status": "completed"
     },
     {
       "game_id": "2026-08-11-LOTTE-SSG",
@@ -151,8 +163,12 @@
         "hr_pct": 13,
         "runs_pct": 2
       },
-      "actual": null,
-      "status": "pending"
+      "actual": {
+        "official_game_id": "20260811LTSK0",
+        "home_runs": 2,
+        "runs": 12
+      },
+      "status": "completed"
     },
     {
       "game_id": "2026-08-11-SAMSUNG-KIA",
@@ -184,15 +200,19 @@
         }
       },
       "predicted": {
-        "hr_pct": 8,
+        "hr_pct": 6,
         "runs_pct": 1
       },
-      "actual": null,
-      "status": "pending"
+      "actual": {
+        "official_game_id": "20260811SSHT0",
+        "home_runs": 0,
+        "runs": 4
+      },
+      "status": "completed"
     }
   ],
   "timezone": "Asia/Seoul",
-  "generated_at": "2026-08-11T09:03:25+09:00",
+  "generated_at": "2026-08-11T23:38:20+09:00",
   "sources": {
     "predictions": "data/daily-factors/2026-08-11.json",
     "actuals": "KBO official GameCenter"
