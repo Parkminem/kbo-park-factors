@@ -2,10 +2,10 @@
   "date": "2026-08-12",
   "summary": {
     "predicted_games": 5,
-    "completed_games": 0,
-    "pending_games": 5,
-    "total_home_runs": 0,
-    "total_runs": 0,
+    "completed_games": 5,
+    "pending_games": 0,
+    "total_home_runs": 7,
+    "total_runs": 36,
     "avg_predicted_hr_pct": 4,
     "avg_predicted_runs_pct": 0
   },
@@ -43,8 +43,12 @@
         "hr_pct": -15,
         "runs_pct": -2
       },
-      "actual": null,
-      "status": "pending"
+      "actual": {
+        "official_game_id": "20260812HHOB0",
+        "home_runs": 1,
+        "runs": 7
+      },
+      "status": "completed"
     },
     {
       "game_id": "2026-08-12-KT-NC",
@@ -79,8 +83,12 @@
         "hr_pct": 15,
         "runs_pct": 2
       },
-      "actual": null,
-      "status": "pending"
+      "actual": {
+        "official_game_id": "20260812KTNC0",
+        "home_runs": 1,
+        "runs": 3
+      },
+      "status": "completed"
     },
     {
       "game_id": "2026-08-12-LG-KIWOOM",
@@ -115,8 +123,12 @@
         "hr_pct": -6,
         "runs_pct": -4
       },
-      "actual": null,
-      "status": "pending"
+      "actual": {
+        "official_game_id": "20260812LGWO0",
+        "home_runs": 1,
+        "runs": 7
+      },
+      "status": "completed"
     },
     {
       "game_id": "2026-08-12-LOTTE-SSG",
@@ -151,8 +163,12 @@
         "hr_pct": 16,
         "runs_pct": 2
       },
-      "actual": null,
-      "status": "pending"
+      "actual": {
+        "official_game_id": "20260812LTSK0",
+        "home_runs": 1,
+        "runs": 10
+      },
+      "status": "completed"
     },
     {
       "game_id": "2026-08-12-SAMSUNG-KIA",
@@ -187,12 +203,16 @@
         "hr_pct": 8,
         "runs_pct": 1
       },
-      "actual": null,
-      "status": "pending"
+      "actual": {
+        "official_game_id": "20260812SSHT0",
+        "home_runs": 3,
+        "runs": 9
+      },
+      "status": "completed"
     }
   ],
   "timezone": "Asia/Seoul",
-  "generated_at": "2026-08-12T16:02:15+09:00",
+  "generated_at": "2026-08-12T23:32:43+09:00",
   "sources": {
     "predictions": "data/daily-factors/2026-08-12.json",
     "actuals": "KBO official GameCenter"
