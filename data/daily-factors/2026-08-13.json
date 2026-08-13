@@ -1,7 +1,7 @@
 {
   "date": "2026-08-13",
   "timezone": "Asia/Seoul",
-  "generated_at": "2026-08-13T21:02:52+09:00",
+  "generated_at": "2026-08-13T22:02:50+09:00",
   "sources": {
     "schedule": "Naver Sports schedule API",
     "weather": "open-meteo",
@@ -40,13 +40,13 @@
       },
       "weather": {
         "label": "맑음",
-        "temperature_c": 26.8,
+        "temperature_c": 26.9,
         "humidity_pct": 77,
-        "pressure_hpa": 1001.4,
+        "pressure_hpa": 1001.6,
         "precipitation_probability_pct": 23,
         "weather_code": 1,
-        "wind_speed_mps": 2.38,
-        "wind_direction_deg": 22
+        "wind_speed_mps": 2.2,
+        "wind_direction_deg": 39
       },
       "factors": {
         "stadium_only": {
@@ -104,13 +104,13 @@
       },
       "weather": {
         "label": "구름",
-        "temperature_c": 26.6,
+        "temperature_c": 26.4,
         "humidity_pct": 79,
-        "pressure_hpa": 1002.1,
+        "pressure_hpa": 1002.2,
         "precipitation_probability_pct": 43,
         "weather_code": 2,
-        "wind_speed_mps": 2.01,
-        "wind_direction_deg": 186
+        "wind_speed_mps": 2.18,
+        "wind_direction_deg": 196
       },
       "factors": {
         "stadium_only": {
@@ -168,13 +168,13 @@
       },
       "weather": {
         "label": "맑음",
-        "temperature_c": 27.0,
-        "humidity_pct": 71,
-        "pressure_hpa": 1001.8,
+        "temperature_c": 27.1,
+        "humidity_pct": 72,
+        "pressure_hpa": 1001.9,
         "precipitation_probability_pct": 9,
         "weather_code": 1,
-        "wind_speed_mps": 1.41,
-        "wind_direction_deg": 8
+        "wind_speed_mps": 1.33,
+        "wind_direction_deg": 13
       },
       "factors": {
         "stadium_only": {
@@ -198,6 +198,70 @@
       },
       "explanations": [
         "돔 구장이라 외부 날씨 영향 제한"
+      ],
+      "data_status": "complete"
+    },
+    {
+      "game_id": "2026-08-13-SAMSUNG-KIA",
+      "start_time_local": "19:00",
+      "away_team": "삼성",
+      "home_team": "KIA",
+      "stadium": {
+        "id": "gwangju-kia-champions-field",
+        "name_ko": "광주-KIA챔피언스필드",
+        "city": "광주",
+        "type": "outdoor",
+        "orientation_deg": 56,
+        "baseline_evidence": {
+          "games": 113,
+          "prior_games": 150,
+          "raw_factors": {
+            "hr_pct": 14,
+            "xbh_pct": 0,
+            "single_pct": 0,
+            "runs_pct": -3
+          },
+          "adjusted_factors": {
+            "hr_pct": 6,
+            "xbh_pct": 0,
+            "single_pct": 0,
+            "runs_pct": -1
+          }
+        }
+      },
+      "weather": {
+        "label": "구름",
+        "temperature_c": 26.5,
+        "humidity_pct": 76,
+        "pressure_hpa": 1000.1,
+        "precipitation_probability_pct": 0,
+        "weather_code": 2,
+        "wind_speed_mps": 1.8,
+        "wind_direction_deg": 304
+      },
+      "factors": {
+        "stadium_only": {
+          "hr_pct": 6,
+          "xbh_pct": 0,
+          "single_pct": 0,
+          "runs_pct": -1
+        },
+        "weather_only": {
+          "hr_pct": 2,
+          "xbh_pct": 0,
+          "single_pct": 0,
+          "runs_pct": 1
+        },
+        "combined": {
+          "hr_pct": 8,
+          "xbh_pct": 0,
+          "single_pct": 0,
+          "runs_pct": 1
+        }
+      },
+      "explanations": [
+        "평균 환경 대비 타구 결과 확률 합산으로 산출",
+        "낮은 기압이 타구 비거리에 우호적"
       ],
       "data_status": "complete"
     },
@@ -233,11 +297,11 @@
         "label": "맑음",
         "temperature_c": 26.2,
         "humidity_pct": 77,
-        "pressure_hpa": 999.9,
+        "pressure_hpa": 1000.1,
         "precipitation_probability_pct": 9,
         "weather_code": 1,
-        "wind_speed_mps": 3.1,
-        "wind_direction_deg": 15
+        "wind_speed_mps": 3.16,
+        "wind_direction_deg": 18
       },
       "factors": {
         "stadium_only": {
@@ -263,70 +327,6 @@
         "평균 환경 대비 타구 결과 확률 합산으로 산출",
         "낮은 기압이 타구 비거리에 우호적",
         "외야 방향 바람이 장타를 도움"
-      ],
-      "data_status": "complete"
-    },
-    {
-      "game_id": "2026-08-13-SAMSUNG-KIA",
-      "start_time_local": "19:00",
-      "away_team": "삼성",
-      "home_team": "KIA",
-      "stadium": {
-        "id": "gwangju-kia-champions-field",
-        "name_ko": "광주-KIA챔피언스필드",
-        "city": "광주",
-        "type": "outdoor",
-        "orientation_deg": 56,
-        "baseline_evidence": {
-          "games": 113,
-          "prior_games": 150,
-          "raw_factors": {
-            "hr_pct": 14,
-            "xbh_pct": 0,
-            "single_pct": 0,
-            "runs_pct": -3
-          },
-          "adjusted_factors": {
-            "hr_pct": 6,
-            "xbh_pct": 0,
-            "single_pct": 0,
-            "runs_pct": -1
-          }
-        }
-      },
-      "weather": {
-        "label": "구름",
-        "temperature_c": 26.7,
-        "humidity_pct": 76,
-        "pressure_hpa": 999.7,
-        "precipitation_probability_pct": 0,
-        "weather_code": 2,
-        "wind_speed_mps": 1.66,
-        "wind_direction_deg": 295
-      },
-      "factors": {
-        "stadium_only": {
-          "hr_pct": 6,
-          "xbh_pct": 0,
-          "single_pct": 0,
-          "runs_pct": -1
-        },
-        "weather_only": {
-          "hr_pct": 2,
-          "xbh_pct": 0,
-          "single_pct": 0,
-          "runs_pct": 1
-        },
-        "combined": {
-          "hr_pct": 8,
-          "xbh_pct": 0,
-          "single_pct": 0,
-          "runs_pct": 1
-        }
-      },
-      "explanations": [
-        "평균 환경 대비 타구 결과 확률 합산으로 산출",
-        "낮은 기압이 타구 비거리에 우호적"
       ],
       "data_status": "complete"
     },
@@ -360,13 +360,13 @@
       },
       "weather": {
         "label": "비 가능",
-        "temperature_c": 24.9,
-        "humidity_pct": 94,
-        "pressure_hpa": 1000.8,
+        "temperature_c": 25.3,
+        "humidity_pct": 93,
+        "pressure_hpa": 1000.5,
         "precipitation_probability_pct": 82,
         "weather_code": 61,
-        "wind_speed_mps": 1.02,
-        "wind_direction_deg": 101
+        "wind_speed_mps": 0.58,
+        "wind_direction_deg": 149
       },
       "factors": {
         "stadium_only": {
@@ -423,13 +423,13 @@
       },
       "weather": {
         "label": "비 가능",
-        "temperature_c": 26.5,
-        "humidity_pct": 88,
-        "pressure_hpa": 995.5,
+        "temperature_c": 26.9,
+        "humidity_pct": 87,
+        "pressure_hpa": 995.3,
         "precipitation_probability_pct": 75,
         "weather_code": 3,
-        "wind_speed_mps": 2.16,
-        "wind_direction_deg": 124
+        "wind_speed_mps": 1.9,
+        "wind_direction_deg": 108
       },
       "factors": {
         "stadium_only": {
@@ -491,8 +491,8 @@
         "pressure_hpa": 995.8,
         "precipitation_probability_pct": 71,
         "weather_code": 1,
-        "wind_speed_mps": 1.12,
-        "wind_direction_deg": 10
+        "wind_speed_mps": 1.0,
+        "wind_direction_deg": 6
       },
       "factors": {
         "stadium_only": {
@@ -549,13 +549,13 @@
       },
       "weather": {
         "label": "맑음",
-        "temperature_c": 26.8,
-        "humidity_pct": 78,
-        "pressure_hpa": 996.0,
+        "temperature_c": 27.3,
+        "humidity_pct": 77,
+        "pressure_hpa": 996.2,
         "precipitation_probability_pct": 41,
         "weather_code": 1,
-        "wind_speed_mps": 1.5,
-        "wind_direction_deg": 4
+        "wind_speed_mps": 1.75,
+        "wind_direction_deg": 24
       },
       "factors": {
         "stadium_only": {
