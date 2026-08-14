@@ -1,7 +1,7 @@
 {
   "date": "2026-08-14",
   "timezone": "Asia/Seoul",
-  "generated_at": "2026-08-14T22:01:25+09:00",
+  "generated_at": "2026-08-14T23:02:08+09:00",
   "sources": {
     "schedule": "Naver Sports schedule API",
     "weather": "open-meteo",
@@ -10,70 +10,6 @@
   },
   "warnings": [],
   "games": [
-    {
-      "game_id": "2026-08-14-HANWHA-SAMSUNG",
-      "start_time_local": "19:00",
-      "away_team": "한화",
-      "home_team": "삼성",
-      "stadium": {
-        "id": "daegu-lions-park",
-        "name_ko": "대구삼성라이온즈파크",
-        "city": "대구",
-        "type": "outdoor",
-        "orientation_deg": 354,
-        "baseline_evidence": {
-          "games": 108,
-          "prior_games": 150,
-          "raw_factors": {
-            "hr_pct": 38,
-            "xbh_pct": 0,
-            "single_pct": 0,
-            "runs_pct": 10
-          },
-          "adjusted_factors": {
-            "hr_pct": 16,
-            "xbh_pct": 0,
-            "single_pct": 0,
-            "runs_pct": 4
-          }
-        }
-      },
-      "weather": {
-        "label": "구름",
-        "temperature_c": 27.1,
-        "humidity_pct": 81,
-        "pressure_hpa": 997.5,
-        "precipitation_probability_pct": 1,
-        "weather_code": 2,
-        "wind_speed_mps": 1.82,
-        "wind_direction_deg": 189
-      },
-      "factors": {
-        "stadium_only": {
-          "hr_pct": 16,
-          "xbh_pct": 0,
-          "single_pct": 0,
-          "runs_pct": 4
-        },
-        "weather_only": {
-          "hr_pct": 2,
-          "xbh_pct": 0,
-          "single_pct": 0,
-          "runs_pct": 1
-        },
-        "combined": {
-          "hr_pct": 19,
-          "xbh_pct": 0,
-          "single_pct": 0,
-          "runs_pct": 3
-        }
-      },
-      "explanations": [
-        "평균 환경 대비 타구 결과 확률 합산으로 산출",
-        "낮은 기압이 타구 비거리에 우호적"
-      ],
-      "data_status": "complete"
-    },
     {
       "game_id": "2026-08-14-NC-LOTTE",
       "start_time_local": "19:00",
@@ -203,67 +139,66 @@
       "data_status": "complete"
     },
     {
-      "game_id": "2026-08-14-KIWOOM-KT",
+      "game_id": "2026-08-14-HANWHA-SAMSUNG",
       "start_time_local": "19:00",
-      "away_team": "키움",
-      "home_team": "KT",
+      "away_team": "한화",
+      "home_team": "삼성",
       "stadium": {
-        "id": "suwon-kt-wiz-park",
-        "name_ko": "수원KT위즈파크",
-        "city": "수원",
+        "id": "daegu-lions-park",
+        "name_ko": "대구삼성라이온즈파크",
+        "city": "대구",
         "type": "outdoor",
-        "orientation_deg": 172,
+        "orientation_deg": 354,
         "baseline_evidence": {
-          "games": 118,
+          "games": 108,
           "prior_games": 150,
           "raw_factors": {
-            "hr_pct": -13,
+            "hr_pct": 38,
             "xbh_pct": 0,
             "single_pct": 0,
-            "runs_pct": 2
+            "runs_pct": 10
           },
           "adjusted_factors": {
-            "hr_pct": -6,
+            "hr_pct": 16,
             "xbh_pct": 0,
             "single_pct": 0,
-            "runs_pct": 1
+            "runs_pct": 4
           }
         }
       },
       "weather": {
-        "label": "비 가능",
-        "temperature_c": 26.2,
-        "humidity_pct": 86,
-        "pressure_hpa": 998.0,
-        "precipitation_probability_pct": 51,
+        "label": "구름",
+        "temperature_c": 27.1,
+        "humidity_pct": 81,
+        "pressure_hpa": 997.5,
+        "precipitation_probability_pct": 1,
         "weather_code": 2,
-        "wind_speed_mps": 1.49,
-        "wind_direction_deg": 20
+        "wind_speed_mps": 1.82,
+        "wind_direction_deg": 189
       },
       "factors": {
         "stadium_only": {
-          "hr_pct": -6,
+          "hr_pct": 16,
+          "xbh_pct": 0,
+          "single_pct": 0,
+          "runs_pct": 4
+        },
+        "weather_only": {
+          "hr_pct": 2,
           "xbh_pct": 0,
           "single_pct": 0,
           "runs_pct": 1
         },
-        "weather_only": {
-          "hr_pct": 0,
-          "xbh_pct": 0,
-          "single_pct": -1,
-          "runs_pct": 0
-        },
         "combined": {
-          "hr_pct": -6,
+          "hr_pct": 19,
           "xbh_pct": 0,
-          "single_pct": -1,
-          "runs_pct": -1
+          "single_pct": 0,
+          "runs_pct": 3
         }
       },
       "explanations": [
         "평균 환경 대비 타구 결과 확률 합산으로 산출",
-        "낮은 기압이 타구 비거리에 우호적",
-        "강수 가능성이 타구 질과 경기 흐름을 낮춤"
+        "낮은 기압이 타구 비거리에 우호적"
       ],
       "data_status": "complete"
     },
@@ -327,6 +262,71 @@
       },
       "explanations": [
         "평균 환경 대비 타구 결과 확률 합산으로 산출",
+        "강수 가능성이 타구 질과 경기 흐름을 낮춤"
+      ],
+      "data_status": "complete"
+    },
+    {
+      "game_id": "2026-08-14-KIWOOM-KT",
+      "start_time_local": "19:00",
+      "away_team": "키움",
+      "home_team": "KT",
+      "stadium": {
+        "id": "suwon-kt-wiz-park",
+        "name_ko": "수원KT위즈파크",
+        "city": "수원",
+        "type": "outdoor",
+        "orientation_deg": 172,
+        "baseline_evidence": {
+          "games": 118,
+          "prior_games": 150,
+          "raw_factors": {
+            "hr_pct": -13,
+            "xbh_pct": 0,
+            "single_pct": 0,
+            "runs_pct": 2
+          },
+          "adjusted_factors": {
+            "hr_pct": -6,
+            "xbh_pct": 0,
+            "single_pct": 0,
+            "runs_pct": 1
+          }
+        }
+      },
+      "weather": {
+        "label": "비 가능",
+        "temperature_c": 26.2,
+        "humidity_pct": 86,
+        "pressure_hpa": 998.0,
+        "precipitation_probability_pct": 51,
+        "weather_code": 2,
+        "wind_speed_mps": 1.49,
+        "wind_direction_deg": 20
+      },
+      "factors": {
+        "stadium_only": {
+          "hr_pct": -6,
+          "xbh_pct": 0,
+          "single_pct": 0,
+          "runs_pct": 1
+        },
+        "weather_only": {
+          "hr_pct": 0,
+          "xbh_pct": 0,
+          "single_pct": -1,
+          "runs_pct": 0
+        },
+        "combined": {
+          "hr_pct": -6,
+          "xbh_pct": 0,
+          "single_pct": -1,
+          "runs_pct": -1
+        }
+      },
+      "explanations": [
+        "평균 환경 대비 타구 결과 확률 합산으로 산출",
+        "낮은 기압이 타구 비거리에 우호적",
         "강수 가능성이 타구 질과 경기 흐름을 낮춤"
       ],
       "data_status": "complete"
