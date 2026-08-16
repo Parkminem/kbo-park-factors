@@ -1,7 +1,7 @@
 {
   "date": "2026-08-16",
   "timezone": "Asia/Seoul",
-  "generated_at": "2026-08-16T18:02:47+09:00",
+  "generated_at": "2026-08-16T22:11:54+09:00",
   "sources": {
     "schedule": "Naver Sports schedule API",
     "weather": "open-meteo",
@@ -11,49 +11,49 @@
   "warnings": [],
   "games": [
     {
-      "game_id": "2026-08-16-DOOSAN-KIA",
+      "game_id": "2026-08-16-KIWOOM-KT",
       "start_time_local": "19:00",
-      "away_team": "두산",
-      "home_team": "KIA",
+      "away_team": "키움",
+      "home_team": "KT",
       "stadium": {
-        "id": "gwangju-kia-champions-field",
-        "name_ko": "광주-KIA챔피언스필드",
-        "city": "광주",
+        "id": "suwon-kt-wiz-park",
+        "name_ko": "수원KT위즈파크",
+        "city": "수원",
         "type": "outdoor",
-        "orientation_deg": 56,
+        "orientation_deg": 172,
         "baseline_evidence": {
-          "games": 113,
+          "games": 118,
           "prior_games": 150,
           "raw_factors": {
-            "hr_pct": 14,
+            "hr_pct": -13,
             "xbh_pct": 0,
             "single_pct": 0,
-            "runs_pct": -3
+            "runs_pct": 2
           },
           "adjusted_factors": {
-            "hr_pct": 6,
+            "hr_pct": -6,
             "xbh_pct": 0,
             "single_pct": 0,
-            "runs_pct": -1
+            "runs_pct": 1
           }
         }
       },
       "weather": {
         "label": "비 가능",
         "temperature_c": 24.9,
-        "humidity_pct": 88,
-        "pressure_hpa": 999.7,
-        "precipitation_probability_pct": 88,
+        "humidity_pct": 86,
+        "pressure_hpa": 997.3,
+        "precipitation_probability_pct": 54,
         "weather_code": 1,
-        "wind_speed_mps": 1.64,
-        "wind_direction_deg": 142
+        "wind_speed_mps": 2.62,
+        "wind_direction_deg": 108
       },
       "factors": {
         "stadium_only": {
-          "hr_pct": 6,
+          "hr_pct": -6,
           "xbh_pct": 0,
           "single_pct": 0,
-          "runs_pct": -1
+          "runs_pct": 1
         },
         "weather_only": {
           "hr_pct": 0,
@@ -62,10 +62,10 @@
           "runs_pct": 0
         },
         "combined": {
-          "hr_pct": 6,
+          "hr_pct": -6,
           "xbh_pct": 0,
           "single_pct": -1,
-          "runs_pct": 0
+          "runs_pct": -1
         }
       },
       "explanations": [
@@ -105,13 +105,13 @@
       },
       "weather": {
         "label": "비 가능",
-        "temperature_c": 25.1,
-        "humidity_pct": 87,
-        "pressure_hpa": 1002.6,
+        "temperature_c": 25.8,
+        "humidity_pct": 82,
+        "pressure_hpa": 1002.4,
         "precipitation_probability_pct": 50,
-        "weather_code": 2,
-        "wind_speed_mps": 2.94,
-        "wind_direction_deg": 100
+        "weather_code": 1,
+        "wind_speed_mps": 3.3,
+        "wind_direction_deg": 104
       },
       "factors": {
         "stadium_only": {
@@ -140,49 +140,49 @@
       "data_status": "complete"
     },
     {
-      "game_id": "2026-08-16-KIWOOM-KT",
+      "game_id": "2026-08-16-DOOSAN-KIA",
       "start_time_local": "19:00",
-      "away_team": "키움",
-      "home_team": "KT",
+      "away_team": "두산",
+      "home_team": "KIA",
       "stadium": {
-        "id": "suwon-kt-wiz-park",
-        "name_ko": "수원KT위즈파크",
-        "city": "수원",
+        "id": "gwangju-kia-champions-field",
+        "name_ko": "광주-KIA챔피언스필드",
+        "city": "광주",
         "type": "outdoor",
-        "orientation_deg": 172,
+        "orientation_deg": 56,
         "baseline_evidence": {
-          "games": 118,
+          "games": 113,
           "prior_games": 150,
           "raw_factors": {
-            "hr_pct": -13,
+            "hr_pct": 14,
             "xbh_pct": 0,
             "single_pct": 0,
-            "runs_pct": 2
+            "runs_pct": -3
           },
           "adjusted_factors": {
-            "hr_pct": -6,
+            "hr_pct": 6,
             "xbh_pct": 0,
             "single_pct": 0,
-            "runs_pct": 1
+            "runs_pct": -1
           }
         }
       },
       "weather": {
         "label": "비 가능",
-        "temperature_c": 24.7,
-        "humidity_pct": 87,
-        "pressure_hpa": 997.4,
-        "precipitation_probability_pct": 54,
-        "weather_code": 2,
-        "wind_speed_mps": 2.91,
-        "wind_direction_deg": 94
+        "temperature_c": 25.0,
+        "humidity_pct": 89,
+        "pressure_hpa": 999.7,
+        "precipitation_probability_pct": 88,
+        "weather_code": 1,
+        "wind_speed_mps": 1.78,
+        "wind_direction_deg": 142
       },
       "factors": {
         "stadium_only": {
-          "hr_pct": -6,
+          "hr_pct": 6,
           "xbh_pct": 0,
           "single_pct": 0,
-          "runs_pct": 1
+          "runs_pct": -1
         },
         "weather_only": {
           "hr_pct": 0,
@@ -191,10 +191,10 @@
           "runs_pct": 0
         },
         "combined": {
-          "hr_pct": -6,
+          "hr_pct": 6,
           "xbh_pct": 0,
           "single_pct": -1,
-          "runs_pct": -1
+          "runs_pct": 0
         }
       },
       "explanations": [
@@ -288,13 +288,13 @@
       },
       "weather": {
         "label": "비 가능",
-        "temperature_c": 23.4,
-        "humidity_pct": 93,
-        "pressure_hpa": 1002.8,
+        "temperature_c": 24.2,
+        "humidity_pct": 92,
+        "pressure_hpa": 1002.7,
         "precipitation_probability_pct": 100,
         "weather_code": 65,
-        "wind_speed_mps": 3.98,
-        "wind_direction_deg": 129
+        "wind_speed_mps": 3.72,
+        "wind_direction_deg": 126
       },
       "factors": {
         "stadium_only": {
@@ -352,12 +352,12 @@
       "weather": {
         "label": "비 가능",
         "temperature_c": 22.3,
-        "humidity_pct": 95,
+        "humidity_pct": 96,
         "pressure_hpa": 997.9,
         "precipitation_probability_pct": 98,
         "weather_code": 63,
-        "wind_speed_mps": 3.21,
-        "wind_direction_deg": 85
+        "wind_speed_mps": 3.6,
+        "wind_direction_deg": 90
       },
       "factors": {
         "stadium_only": {
@@ -415,12 +415,12 @@
       "weather": {
         "label": "비 가능",
         "temperature_c": 23.5,
-        "humidity_pct": 86,
-        "pressure_hpa": 997.4,
+        "humidity_pct": 85,
+        "pressure_hpa": 997.0,
         "precipitation_probability_pct": 69,
         "weather_code": 2,
-        "wind_speed_mps": 3.04,
-        "wind_direction_deg": 99
+        "wind_speed_mps": 3.01,
+        "wind_direction_deg": 105
       },
       "factors": {
         "stadium_only": {
@@ -478,12 +478,12 @@
       "weather": {
         "label": "비 가능",
         "temperature_c": 24.7,
-        "humidity_pct": 93,
-        "pressure_hpa": 1002.8,
+        "humidity_pct": 95,
+        "pressure_hpa": 1003.3,
         "precipitation_probability_pct": 100,
         "weather_code": 65,
-        "wind_speed_mps": 2.55,
-        "wind_direction_deg": 206
+        "wind_speed_mps": 5.19,
+        "wind_direction_deg": 152
       },
       "factors": {
         "stadium_only": {
@@ -493,16 +493,16 @@
           "runs_pct": 7
         },
         "weather_only": {
-          "hr_pct": -2,
-          "xbh_pct": 0,
+          "hr_pct": -6,
+          "xbh_pct": -1,
           "single_pct": -1,
-          "runs_pct": -1
+          "runs_pct": -3
         },
         "combined": {
-          "hr_pct": 13,
-          "xbh_pct": 0,
+          "hr_pct": 8,
+          "xbh_pct": -1,
           "single_pct": -1,
-          "runs_pct": 2
+          "runs_pct": 1
         }
       },
       "explanations": [
@@ -540,13 +540,13 @@
       },
       "weather": {
         "label": "비 가능",
-        "temperature_c": 25.2,
-        "humidity_pct": 86,
-        "pressure_hpa": 1000.6,
+        "temperature_c": 26.5,
+        "humidity_pct": 80,
+        "pressure_hpa": 1000.1,
         "precipitation_probability_pct": 51,
-        "weather_code": 3,
-        "wind_speed_mps": 3.51,
-        "wind_direction_deg": 87
+        "weather_code": 2,
+        "wind_speed_mps": 3.63,
+        "wind_direction_deg": 98
       },
       "factors": {
         "stadium_only": {
