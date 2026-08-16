@@ -1,87 +1,15 @@
 {
   "date": "2026-08-16",
   "summary": {
-    "predicted_games": 5,
+    "predicted_games": 3,
     "completed_games": 0,
-    "pending_games": 5,
+    "pending_games": 3,
     "total_home_runs": 0,
     "total_runs": 0,
-    "avg_predicted_hr_pct": -3,
+    "avg_predicted_hr_pct": -7,
     "avg_predicted_runs_pct": -1
   },
   "games": [
-    {
-      "game_id": "2026-08-16-HANWHA-SAMSUNG",
-      "matchup": {
-        "away_team": "한화",
-        "home_team": "삼성"
-      },
-      "stadium": {
-        "id": "daegu-lions-park",
-        "name_ko": "대구삼성라이온즈파크",
-        "city": "대구",
-        "type": "outdoor",
-        "orientation_deg": 354,
-        "baseline_evidence": {
-          "games": 108,
-          "prior_games": 150,
-          "raw_factors": {
-            "hr_pct": 38,
-            "xbh_pct": 0,
-            "single_pct": 0,
-            "runs_pct": 10
-          },
-          "adjusted_factors": {
-            "hr_pct": 16,
-            "xbh_pct": 0,
-            "single_pct": 0,
-            "runs_pct": 4
-          }
-        }
-      },
-      "predicted": {
-        "hr_pct": 16,
-        "runs_pct": 2
-      },
-      "actual": null,
-      "status": "pending"
-    },
-    {
-      "game_id": "2026-08-16-NC-LOTTE",
-      "matchup": {
-        "away_team": "NC",
-        "home_team": "롯데"
-      },
-      "stadium": {
-        "id": "sajik",
-        "name_ko": "사직야구장",
-        "city": "부산",
-        "type": "outdoor",
-        "orientation_deg": 166,
-        "baseline_evidence": {
-          "games": 114,
-          "prior_games": 150,
-          "raw_factors": {
-            "hr_pct": -17,
-            "xbh_pct": 0,
-            "single_pct": 0,
-            "runs_pct": 8
-          },
-          "adjusted_factors": {
-            "hr_pct": -7,
-            "xbh_pct": 0,
-            "single_pct": 0,
-            "runs_pct": 3
-          }
-        }
-      },
-      "predicted": {
-        "hr_pct": -11,
-        "runs_pct": -2
-      },
-      "actual": null,
-      "status": "pending"
-    },
     {
       "game_id": "2026-08-16-DOOSAN-KIA",
       "matchup": {
@@ -148,7 +76,7 @@
         }
       },
       "predicted": {
-        "hr_pct": -18,
+        "hr_pct": -20,
         "runs_pct": -3
       },
       "actual": null,
@@ -192,7 +120,7 @@
     }
   ],
   "timezone": "Asia/Seoul",
-  "generated_at": "2026-08-16T10:04:39+09:00",
+  "generated_at": "2026-08-16T17:20:05+09:00",
   "sources": {
     "predictions": "data/daily-factors/2026-08-16.json",
     "actuals": "KBO official GameCenter"
