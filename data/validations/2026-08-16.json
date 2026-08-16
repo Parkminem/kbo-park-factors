@@ -2,11 +2,11 @@
   "date": "2026-08-16",
   "summary": {
     "predicted_games": 3,
-    "completed_games": 0,
-    "pending_games": 3,
-    "total_home_runs": 0,
-    "total_runs": 0,
-    "avg_predicted_hr_pct": -7,
+    "completed_games": 3,
+    "pending_games": 0,
+    "total_home_runs": 4,
+    "total_runs": 17,
+    "avg_predicted_hr_pct": -5,
     "avg_predicted_runs_pct": -1
   },
   "games": [
@@ -43,8 +43,12 @@
         "hr_pct": 6,
         "runs_pct": 0
       },
-      "actual": null,
-      "status": "pending"
+      "actual": {
+        "official_game_id": "20260816OBHT0",
+        "home_runs": 1,
+        "runs": 3
+      },
+      "status": "completed"
     },
     {
       "game_id": "2026-08-16-SSG-LG",
@@ -76,11 +80,15 @@
         }
       },
       "predicted": {
-        "hr_pct": -20,
+        "hr_pct": -18,
         "runs_pct": -3
       },
-      "actual": null,
-      "status": "pending"
+      "actual": {
+        "official_game_id": "20260816SKLG0",
+        "home_runs": 2,
+        "runs": 6
+      },
+      "status": "completed"
     },
     {
       "game_id": "2026-08-16-KIWOOM-KT",
@@ -112,15 +120,19 @@
         }
       },
       "predicted": {
-        "hr_pct": -6,
+        "hr_pct": -4,
         "runs_pct": -1
       },
-      "actual": null,
-      "status": "pending"
+      "actual": {
+        "official_game_id": "20260816WOKT0",
+        "home_runs": 1,
+        "runs": 8
+      },
+      "status": "completed"
     }
   ],
   "timezone": "Asia/Seoul",
-  "generated_at": "2026-08-16T17:25:05+09:00",
+  "generated_at": "2026-08-16T23:30:51+09:00",
   "sources": {
     "predictions": "data/daily-factors/2026-08-16.json",
     "actuals": "KBO official GameCenter"
