@@ -1,7 +1,7 @@
 {
   "date": "2026-08-19",
   "timezone": "Asia/Seoul",
-  "generated_at": "2026-08-19T10:01:39+09:00",
+  "generated_at": "2026-08-19T11:02:12+09:00",
   "sources": {
     "schedule": "Naver Sports schedule API",
     "weather": "open-meteo",
@@ -39,11 +39,11 @@
         }
       },
       "weather": {
-        "label": "비 가능",
+        "label": "맑음",
         "temperature_c": 27.0,
         "humidity_pct": 82,
         "pressure_hpa": 1006.5,
-        "precipitation_probability_pct": 82,
+        "precipitation_probability_pct": 46,
         "weather_code": 1,
         "wind_speed_mps": 0.45,
         "wind_direction_deg": 207
@@ -56,21 +56,21 @@
           "runs_pct": 1
         },
         "weather_only": {
-          "hr_pct": -2,
+          "hr_pct": 0,
           "xbh_pct": 0,
-          "single_pct": -1,
-          "runs_pct": -1
+          "single_pct": 0,
+          "runs_pct": 0
         },
         "combined": {
-          "hr_pct": -6,
+          "hr_pct": -4,
           "xbh_pct": 0,
-          "single_pct": -1,
+          "single_pct": 0,
           "runs_pct": -1
         }
       },
       "explanations": [
         "평균 환경 대비 타구 결과 확률 합산으로 산출",
-        "강수 가능성이 타구 질과 경기 흐름을 낮춤"
+        "날씨 영향은 중립에 가까움"
       ],
       "data_status": "complete"
     },
@@ -107,7 +107,7 @@
         "temperature_c": 26.8,
         "humidity_pct": 83,
         "pressure_hpa": 1010.9,
-        "precipitation_probability_pct": 1,
+        "precipitation_probability_pct": 0,
         "weather_code": 3,
         "wind_speed_mps": 1.57,
         "wind_direction_deg": 243
@@ -167,11 +167,11 @@
         }
       },
       "weather": {
-        "label": "맑음",
+        "label": "비 가능",
         "temperature_c": 27.5,
         "humidity_pct": 85,
         "pressure_hpa": 1012.2,
-        "precipitation_probability_pct": 34,
+        "precipitation_probability_pct": 57,
         "weather_code": 1,
         "wind_speed_mps": 1.79,
         "wind_direction_deg": 207
@@ -184,21 +184,21 @@
           "runs_pct": 7
         },
         "weather_only": {
-          "hr_pct": 0,
+          "hr_pct": -2,
           "xbh_pct": 0,
-          "single_pct": 0,
-          "runs_pct": 0
+          "single_pct": -1,
+          "runs_pct": -1
         },
         "combined": {
-          "hr_pct": 15,
+          "hr_pct": 13,
           "xbh_pct": 0,
-          "single_pct": 0,
+          "single_pct": -1,
           "runs_pct": 2
         }
       },
       "explanations": [
         "평균 환경 대비 타구 결과 확률 합산으로 산출",
-        "날씨 영향은 중립에 가까움"
+        "강수 가능성이 타구 질과 경기 흐름을 낮춤"
       ],
       "data_status": "complete"
     },
@@ -235,7 +235,7 @@
         "temperature_c": 27.0,
         "humidity_pct": 91,
         "pressure_hpa": 1006.0,
-        "precipitation_probability_pct": 74,
+        "precipitation_probability_pct": 88,
         "weather_code": 1,
         "wind_speed_mps": 1.33,
         "wind_direction_deg": 193
@@ -299,7 +299,7 @@
         "temperature_c": 27.7,
         "humidity_pct": 84,
         "pressure_hpa": 1010.7,
-        "precipitation_probability_pct": 12,
+        "precipitation_probability_pct": 16,
         "weather_code": 1,
         "wind_speed_mps": 1.27,
         "wind_direction_deg": 225
@@ -417,7 +417,7 @@
         "temperature_c": 28.0,
         "humidity_pct": 85,
         "pressure_hpa": 1009.6,
-        "precipitation_probability_pct": 100,
+        "precipitation_probability_pct": 94,
         "weather_code": 1,
         "wind_speed_mps": 1.22,
         "wind_direction_deg": 171
@@ -480,7 +480,7 @@
         "temperature_c": 27.0,
         "humidity_pct": 80,
         "pressure_hpa": 1006.0,
-        "precipitation_probability_pct": 16,
+        "precipitation_probability_pct": 0,
         "weather_code": 3,
         "wind_speed_mps": 1.75,
         "wind_direction_deg": 283
@@ -543,7 +543,7 @@
         "temperature_c": 26.9,
         "humidity_pct": 81,
         "pressure_hpa": 1009.5,
-        "precipitation_probability_pct": 2,
+        "precipitation_probability_pct": 0,
         "weather_code": 2,
         "wind_speed_mps": 2.1,
         "wind_direction_deg": 273
