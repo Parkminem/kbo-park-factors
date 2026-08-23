@@ -1,7 +1,7 @@
 {
   "date": "2026-08-23",
   "timezone": "Asia/Seoul",
-  "generated_at": "2026-08-23T18:01:36+09:00",
+  "generated_at": "2026-08-23T19:02:16+09:00",
   "sources": {
     "schedule": "Naver Sports schedule API",
     "weather": "open-meteo",
@@ -70,6 +70,70 @@
       },
       "explanations": [
         "돔 구장이라 외부 날씨 영향 제한"
+      ],
+      "data_status": "complete"
+    },
+    {
+      "game_id": "2026-08-23-LOTTE-DOOSAN",
+      "start_time_local": "19:00",
+      "away_team": "롯데",
+      "home_team": "두산",
+      "stadium": {
+        "id": "jamsil",
+        "name_ko": "잠실야구장",
+        "city": "서울",
+        "type": "outdoor",
+        "orientation_deg": 195,
+        "baseline_evidence": {
+          "games": 230,
+          "prior_games": 150,
+          "raw_factors": {
+            "hr_pct": -29,
+            "xbh_pct": 0,
+            "single_pct": 0,
+            "runs_pct": -8
+          },
+          "adjusted_factors": {
+            "hr_pct": -18,
+            "xbh_pct": 0,
+            "single_pct": 0,
+            "runs_pct": -5
+          }
+        }
+      },
+      "weather": {
+        "label": "맑음",
+        "temperature_c": 28.9,
+        "humidity_pct": 78,
+        "pressure_hpa": 1010.9,
+        "precipitation_probability_pct": 7,
+        "weather_code": 0,
+        "wind_speed_mps": 1.99,
+        "wind_direction_deg": 252
+      },
+      "factors": {
+        "stadium_only": {
+          "hr_pct": -18,
+          "xbh_pct": 0,
+          "single_pct": 0,
+          "runs_pct": -5
+        },
+        "weather_only": {
+          "hr_pct": 4,
+          "xbh_pct": 1,
+          "single_pct": 0,
+          "runs_pct": 2
+        },
+        "combined": {
+          "hr_pct": -15,
+          "xbh_pct": 1,
+          "single_pct": 0,
+          "runs_pct": -2
+        }
+      },
+      "explanations": [
+        "평균 환경 대비 타구 결과 확률 합산으로 산출",
+        "따뜻한 기온이 비거리와 득점 환경을 올림"
       ],
       "data_status": "complete"
     },
@@ -193,70 +257,6 @@
           "xbh_pct": 1,
           "single_pct": 0,
           "runs_pct": 0
-        }
-      },
-      "explanations": [
-        "평균 환경 대비 타구 결과 확률 합산으로 산출",
-        "따뜻한 기온이 비거리와 득점 환경을 올림"
-      ],
-      "data_status": "complete"
-    },
-    {
-      "game_id": "2026-08-23-LOTTE-DOOSAN",
-      "start_time_local": "19:00",
-      "away_team": "롯데",
-      "home_team": "두산",
-      "stadium": {
-        "id": "jamsil",
-        "name_ko": "잠실야구장",
-        "city": "서울",
-        "type": "outdoor",
-        "orientation_deg": 195,
-        "baseline_evidence": {
-          "games": 230,
-          "prior_games": 150,
-          "raw_factors": {
-            "hr_pct": -29,
-            "xbh_pct": 0,
-            "single_pct": 0,
-            "runs_pct": -8
-          },
-          "adjusted_factors": {
-            "hr_pct": -18,
-            "xbh_pct": 0,
-            "single_pct": 0,
-            "runs_pct": -5
-          }
-        }
-      },
-      "weather": {
-        "label": "맑음",
-        "temperature_c": 28.9,
-        "humidity_pct": 78,
-        "pressure_hpa": 1010.9,
-        "precipitation_probability_pct": 7,
-        "weather_code": 0,
-        "wind_speed_mps": 1.99,
-        "wind_direction_deg": 252
-      },
-      "factors": {
-        "stadium_only": {
-          "hr_pct": -18,
-          "xbh_pct": 0,
-          "single_pct": 0,
-          "runs_pct": -5
-        },
-        "weather_only": {
-          "hr_pct": 4,
-          "xbh_pct": 1,
-          "single_pct": 0,
-          "runs_pct": 2
-        },
-        "combined": {
-          "hr_pct": -15,
-          "xbh_pct": 1,
-          "single_pct": 0,
-          "runs_pct": -2
         }
       },
       "explanations": [
