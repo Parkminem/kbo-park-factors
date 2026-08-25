@@ -1,7 +1,7 @@
 {
   "date": "2026-08-26",
   "timezone": "Asia/Seoul",
-  "generated_at": "2026-08-26T01:03:06+09:00",
+  "generated_at": "2026-08-26T02:23:10+09:00",
   "sources": {
     "schedule": "Naver Sports schedule API",
     "weather": "open-meteo",
@@ -40,13 +40,13 @@
       },
       "weather": {
         "label": "구름",
-        "temperature_c": 27.6,
-        "humidity_pct": 82,
-        "pressure_hpa": 1004.5,
+        "temperature_c": 27.4,
+        "humidity_pct": 83,
+        "pressure_hpa": 1004.3,
         "precipitation_probability_pct": 12,
-        "weather_code": 2,
-        "wind_speed_mps": 2.34,
-        "wind_direction_deg": 320
+        "weather_code": 3,
+        "wind_speed_mps": 1.49,
+        "wind_direction_deg": 318
       },
       "factors": {
         "stadium_only": {
@@ -104,13 +104,13 @@
       },
       "weather": {
         "label": "더움",
-        "temperature_c": 31.2,
+        "temperature_c": 30.9,
         "humidity_pct": 70,
-        "pressure_hpa": 1004.3,
+        "pressure_hpa": 1003.8,
         "precipitation_probability_pct": 49,
         "weather_code": 1,
-        "wind_speed_mps": 1.6,
-        "wind_direction_deg": 184
+        "wind_speed_mps": 2.24,
+        "wind_direction_deg": 170
       },
       "factors": {
         "stadium_only": {
@@ -168,13 +168,13 @@
       },
       "weather": {
         "label": "구름",
-        "temperature_c": 28.8,
-        "humidity_pct": 77,
-        "pressure_hpa": 1005.9,
+        "temperature_c": 28.4,
+        "humidity_pct": 78,
+        "pressure_hpa": 1005.6,
         "precipitation_probability_pct": 4,
         "weather_code": 2,
-        "wind_speed_mps": 0.71,
-        "wind_direction_deg": 352
+        "wind_speed_mps": 0.51,
+        "wind_direction_deg": 79
       },
       "factors": {
         "stadium_only": {
@@ -232,13 +232,13 @@
       },
       "weather": {
         "label": "구름",
-        "temperature_c": 28.0,
-        "humidity_pct": 83,
-        "pressure_hpa": 1000.9,
+        "temperature_c": 27.4,
+        "humidity_pct": 85,
+        "pressure_hpa": 1000.6,
         "precipitation_probability_pct": 0,
         "weather_code": 2,
-        "wind_speed_mps": 1.5,
-        "wind_direction_deg": 323
+        "wind_speed_mps": 0.61,
+        "wind_direction_deg": 9
       },
       "factors": {
         "stadium_only": {
@@ -248,21 +248,20 @@
           "runs_pct": 1
         },
         "weather_only": {
-          "hr_pct": 6,
-          "xbh_pct": 1,
+          "hr_pct": 2,
+          "xbh_pct": 0,
           "single_pct": 0,
-          "runs_pct": 3
+          "runs_pct": 1
         },
         "combined": {
-          "hr_pct": 0,
-          "xbh_pct": 1,
+          "hr_pct": -4,
+          "xbh_pct": 0,
           "single_pct": 0,
-          "runs_pct": 0
+          "runs_pct": -1
         }
       },
       "explanations": [
         "평균 환경 대비 타구 결과 확률 합산으로 산출",
-        "따뜻한 기온이 비거리와 득점 환경을 올림",
         "낮은 기압이 타구 비거리에 우호적"
       ],
       "data_status": "complete"
@@ -296,14 +295,14 @@
         }
       },
       "weather": {
-        "label": "맑음",
-        "temperature_c": 28.8,
-        "humidity_pct": 73,
-        "pressure_hpa": 1006.3,
+        "label": "구름",
+        "temperature_c": 28.3,
+        "humidity_pct": 74,
+        "pressure_hpa": 1006.0,
         "precipitation_probability_pct": 12,
-        "weather_code": 1,
-        "wind_speed_mps": 1.17,
-        "wind_direction_deg": 329
+        "weather_code": 3,
+        "wind_speed_mps": 0.72,
+        "wind_direction_deg": 326
       },
       "factors": {
         "stadium_only": {
@@ -359,14 +358,14 @@
         }
       },
       "weather": {
-        "label": "더움",
-        "temperature_c": 30.1,
-        "humidity_pct": 78,
-        "pressure_hpa": 1005.0,
+        "label": "구름",
+        "temperature_c": 29.6,
+        "humidity_pct": 81,
+        "pressure_hpa": 1005.1,
         "precipitation_probability_pct": 0,
-        "weather_code": 1,
-        "wind_speed_mps": 0.99,
-        "wind_direction_deg": 135
+        "weather_code": 2,
+        "wind_speed_mps": 1.3,
+        "wind_direction_deg": 122
       },
       "factors": {
         "stadium_only": {
@@ -423,12 +422,12 @@
       },
       "weather": {
         "label": "더움",
-        "temperature_c": 30.7,
-        "humidity_pct": 75,
-        "pressure_hpa": 1000.0,
+        "temperature_c": 30.3,
+        "humidity_pct": 77,
+        "pressure_hpa": 999.8,
         "precipitation_probability_pct": 16,
         "weather_code": 2,
-        "wind_speed_mps": 1.75,
+        "wind_speed_mps": 1.84,
         "wind_direction_deg": 167
       },
       "factors": {
@@ -486,13 +485,13 @@
       },
       "weather": {
         "label": "더움",
-        "temperature_c": 31.4,
-        "humidity_pct": 66,
-        "pressure_hpa": 1000.4,
+        "temperature_c": 31.5,
+        "humidity_pct": 69,
+        "pressure_hpa": 1000.3,
         "precipitation_probability_pct": 6,
-        "weather_code": 2,
-        "wind_speed_mps": 0.5,
-        "wind_direction_deg": 323
+        "weather_code": 1,
+        "wind_speed_mps": 0.67,
+        "wind_direction_deg": 333
       },
       "factors": {
         "stadium_only": {
@@ -550,12 +549,12 @@
       "weather": {
         "label": "맑음",
         "temperature_c": 29.5,
-        "humidity_pct": 82,
+        "humidity_pct": 81,
         "pressure_hpa": 1006.4,
         "precipitation_probability_pct": 12,
         "weather_code": 1,
-        "wind_speed_mps": 1.41,
-        "wind_direction_deg": 172
+        "wind_speed_mps": 1.63,
+        "wind_direction_deg": 169
       },
       "factors": {
         "stadium_only": {
