@@ -1,7 +1,7 @@
 {
   "date": "2026-08-25",
   "timezone": "Asia/Seoul",
-  "generated_at": "2026-08-25T21:02:24+09:00",
+  "generated_at": "2026-08-25T22:01:25+09:00",
   "sources": {
     "schedule": "Naver Sports schedule API",
     "weather": "open-meteo",
@@ -10,6 +10,133 @@
   },
   "warnings": [],
   "games": [
+    {
+      "game_id": "2026-08-25-NC-LG",
+      "start_time_local": "18:30",
+      "away_team": "NC",
+      "home_team": "LG",
+      "stadium": {
+        "id": "jamsil",
+        "name_ko": "잠실야구장",
+        "city": "서울",
+        "type": "outdoor",
+        "orientation_deg": 195,
+        "baseline_evidence": {
+          "games": 230,
+          "prior_games": 150,
+          "raw_factors": {
+            "hr_pct": -29,
+            "xbh_pct": 0,
+            "single_pct": 0,
+            "runs_pct": -8
+          },
+          "adjusted_factors": {
+            "hr_pct": -18,
+            "xbh_pct": 0,
+            "single_pct": 0,
+            "runs_pct": -5
+          }
+        }
+      },
+      "weather": {
+        "label": "맑음",
+        "temperature_c": 28.9,
+        "humidity_pct": 80,
+        "pressure_hpa": 1008.4,
+        "precipitation_probability_pct": 45,
+        "weather_code": 1,
+        "wind_speed_mps": 1.9,
+        "wind_direction_deg": 270
+      },
+      "factors": {
+        "stadium_only": {
+          "hr_pct": -18,
+          "xbh_pct": 0,
+          "single_pct": 0,
+          "runs_pct": -5
+        },
+        "weather_only": {
+          "hr_pct": 4,
+          "xbh_pct": 1,
+          "single_pct": 0,
+          "runs_pct": 2
+        },
+        "combined": {
+          "hr_pct": -15,
+          "xbh_pct": 1,
+          "single_pct": 0,
+          "runs_pct": -2
+        }
+      },
+      "explanations": [
+        "평균 환경 대비 타구 결과 확률 합산으로 산출",
+        "따뜻한 기온이 비거리와 득점 환경을 올림"
+      ],
+      "data_status": "complete"
+    },
+    {
+      "game_id": "2026-08-25-SAMSUNG-KIWOOM",
+      "start_time_local": "18:30",
+      "away_team": "삼성",
+      "home_team": "키움",
+      "stadium": {
+        "id": "gocheok",
+        "name_ko": "고척스카이돔",
+        "city": "서울",
+        "type": "dome",
+        "orientation_deg": 45,
+        "baseline_evidence": {
+          "games": 119,
+          "prior_games": 150,
+          "raw_factors": {
+            "hr_pct": -13,
+            "xbh_pct": 0,
+            "single_pct": 0,
+            "runs_pct": -10
+          },
+          "adjusted_factors": {
+            "hr_pct": -6,
+            "xbh_pct": 0,
+            "single_pct": 0,
+            "runs_pct": -4
+          }
+        }
+      },
+      "weather": {
+        "label": "맑음",
+        "temperature_c": 28.7,
+        "humidity_pct": 78,
+        "pressure_hpa": 1008.9,
+        "precipitation_probability_pct": 12,
+        "weather_code": 1,
+        "wind_speed_mps": 1.32,
+        "wind_direction_deg": 279
+      },
+      "factors": {
+        "stadium_only": {
+          "hr_pct": -6,
+          "xbh_pct": 0,
+          "single_pct": 0,
+          "runs_pct": -4
+        },
+        "weather_only": {
+          "hr_pct": 0,
+          "xbh_pct": 0,
+          "single_pct": 0,
+          "runs_pct": 0
+        },
+        "combined": {
+          "hr_pct": -6,
+          "xbh_pct": 0,
+          "single_pct": 0,
+          "runs_pct": -4
+        }
+      },
+      "explanations": [
+        "돔 구장이라 외부 날씨 영향 제한"
+      ],
+      "data_status": "complete"
+    },
     {
       "game_id": "2026-08-25-HANWHA-SSG",
       "start_time_local": "18:30",
@@ -40,13 +167,13 @@
       },
       "weather": {
         "label": "맑음",
-        "temperature_c": 27.7,
-        "humidity_pct": 84,
-        "pressure_hpa": 1007.3,
-        "precipitation_probability_pct": 18,
+        "temperature_c": 28.0,
+        "humidity_pct": 83,
+        "pressure_hpa": 1007.1,
+        "precipitation_probability_pct": 12,
         "weather_code": 1,
-        "wind_speed_mps": 2.14,
-        "wind_direction_deg": 281
+        "wind_speed_mps": 1.84,
+        "wind_direction_deg": 283
       },
       "factors": {
         "stadium_only": {
@@ -56,21 +183,21 @@
           "runs_pct": -2
         },
         "weather_only": {
-          "hr_pct": 0,
-          "xbh_pct": 0,
-          "single_pct": 0,
-          "runs_pct": 0
-        },
-        "combined": {
-          "hr_pct": 13,
-          "xbh_pct": 0,
+          "hr_pct": 4,
+          "xbh_pct": 1,
           "single_pct": 0,
           "runs_pct": 2
+        },
+        "combined": {
+          "hr_pct": 18,
+          "xbh_pct": 1,
+          "single_pct": 0,
+          "runs_pct": 3
         }
       },
       "explanations": [
         "평균 환경 대비 타구 결과 확률 합산으로 산출",
-        "날씨 영향은 중립에 가까움"
+        "따뜻한 기온이 비거리와 득점 환경을 올림"
       ],
       "data_status": "complete"
     },
@@ -104,13 +231,13 @@
       },
       "weather": {
         "label": "더움",
-        "temperature_c": 31.5,
-        "humidity_pct": 67,
-        "pressure_hpa": 1006.3,
-        "precipitation_probability_pct": 12,
+        "temperature_c": 31.2,
+        "humidity_pct": 69,
+        "pressure_hpa": 1006.1,
+        "precipitation_probability_pct": 39,
         "weather_code": 1,
-        "wind_speed_mps": 1.68,
-        "wind_direction_deg": 343
+        "wind_speed_mps": 2.06,
+        "wind_direction_deg": 331
       },
       "factors": {
         "stadium_only": {
@@ -130,70 +257,6 @@
           "xbh_pct": 1,
           "single_pct": 0,
           "runs_pct": 2
-        }
-      },
-      "explanations": [
-        "평균 환경 대비 타구 결과 확률 합산으로 산출",
-        "따뜻한 기온이 비거리와 득점 환경을 올림"
-      ],
-      "data_status": "complete"
-    },
-    {
-      "game_id": "2026-08-25-NC-LG",
-      "start_time_local": "18:30",
-      "away_team": "NC",
-      "home_team": "LG",
-      "stadium": {
-        "id": "jamsil",
-        "name_ko": "잠실야구장",
-        "city": "서울",
-        "type": "outdoor",
-        "orientation_deg": 195,
-        "baseline_evidence": {
-          "games": 230,
-          "prior_games": 150,
-          "raw_factors": {
-            "hr_pct": -29,
-            "xbh_pct": 0,
-            "single_pct": 0,
-            "runs_pct": -8
-          },
-          "adjusted_factors": {
-            "hr_pct": -18,
-            "xbh_pct": 0,
-            "single_pct": 0,
-            "runs_pct": -5
-          }
-        }
-      },
-      "weather": {
-        "label": "구름",
-        "temperature_c": 28.4,
-        "humidity_pct": 82,
-        "pressure_hpa": 1008.7,
-        "precipitation_probability_pct": 45,
-        "weather_code": 2,
-        "wind_speed_mps": 2.1,
-        "wind_direction_deg": 273
-      },
-      "factors": {
-        "stadium_only": {
-          "hr_pct": -18,
-          "xbh_pct": 0,
-          "single_pct": 0,
-          "runs_pct": -5
-        },
-        "weather_only": {
-          "hr_pct": 4,
-          "xbh_pct": 1,
-          "single_pct": 0,
-          "runs_pct": 2
-        },
-        "combined": {
-          "hr_pct": -15,
-          "xbh_pct": 1,
-          "single_pct": 0,
-          "runs_pct": -2
         }
       },
       "explanations": [
@@ -232,13 +295,13 @@
       },
       "weather": {
         "label": "맑음",
-        "temperature_c": 27.6,
-        "humidity_pct": 83,
-        "pressure_hpa": 1003.8,
-        "precipitation_probability_pct": 8,
+        "temperature_c": 28.0,
+        "humidity_pct": 82,
+        "pressure_hpa": 1003.6,
+        "precipitation_probability_pct": 12,
         "weather_code": 1,
-        "wind_speed_mps": 2.06,
-        "wind_direction_deg": 293
+        "wind_speed_mps": 1.87,
+        "wind_direction_deg": 286
       },
       "factors": {
         "stadium_only": {
@@ -248,84 +311,21 @@
           "runs_pct": 1
         },
         "weather_only": {
-          "hr_pct": 0,
-          "xbh_pct": 0,
+          "hr_pct": 4,
+          "xbh_pct": 1,
           "single_pct": 0,
-          "runs_pct": 0
+          "runs_pct": 2
         },
         "combined": {
-          "hr_pct": -6,
-          "xbh_pct": 0,
+          "hr_pct": -2,
+          "xbh_pct": 1,
           "single_pct": 0,
-          "runs_pct": -1
+          "runs_pct": 0
         }
       },
       "explanations": [
         "평균 환경 대비 타구 결과 확률 합산으로 산출",
-        "날씨 영향은 중립에 가까움"
-      ],
-      "data_status": "complete"
-    },
-    {
-      "game_id": "2026-08-25-SAMSUNG-KIWOOM",
-      "start_time_local": "18:30",
-      "away_team": "삼성",
-      "home_team": "키움",
-      "stadium": {
-        "id": "gocheok",
-        "name_ko": "고척스카이돔",
-        "city": "서울",
-        "type": "dome",
-        "orientation_deg": 45,
-        "baseline_evidence": {
-          "games": 119,
-          "prior_games": 150,
-          "raw_factors": {
-            "hr_pct": -13,
-            "xbh_pct": 0,
-            "single_pct": 0,
-            "runs_pct": -10
-          },
-          "adjusted_factors": {
-            "hr_pct": -6,
-            "xbh_pct": 0,
-            "single_pct": 0,
-            "runs_pct": -4
-          }
-        }
-      },
-      "weather": {
-        "label": "맑음",
-        "temperature_c": 28.3,
-        "humidity_pct": 79,
-        "pressure_hpa": 1009.1,
-        "precipitation_probability_pct": 18,
-        "weather_code": 1,
-        "wind_speed_mps": 1.41,
-        "wind_direction_deg": 278
-      },
-      "factors": {
-        "stadium_only": {
-          "hr_pct": -6,
-          "xbh_pct": 0,
-          "single_pct": 0,
-          "runs_pct": -4
-        },
-        "weather_only": {
-          "hr_pct": 0,
-          "xbh_pct": 0,
-          "single_pct": 0,
-          "runs_pct": 0
-        },
-        "combined": {
-          "hr_pct": -6,
-          "xbh_pct": 0,
-          "single_pct": 0,
-          "runs_pct": -4
-        }
-      },
-      "explanations": [
-        "돔 구장이라 외부 날씨 영향 제한"
+        "따뜻한 기온이 비거리와 득점 환경을 올림"
       ],
       "data_status": "complete"
     },
@@ -360,12 +360,12 @@
       "weather": {
         "label": "더움",
         "temperature_c": 30.1,
-        "humidity_pct": 77,
-        "pressure_hpa": 1007.4,
-        "precipitation_probability_pct": 0,
+        "humidity_pct": 76,
+        "pressure_hpa": 1007.2,
+        "precipitation_probability_pct": 18,
         "weather_code": 0,
-        "wind_speed_mps": 1.28,
-        "wind_direction_deg": 141
+        "wind_speed_mps": 1.3,
+        "wind_direction_deg": 148
       },
       "factors": {
         "stadium_only": {
@@ -422,13 +422,13 @@
       },
       "weather": {
         "label": "더움",
-        "temperature_c": 31.0,
-        "humidity_pct": 71,
-        "pressure_hpa": 1002.6,
-        "precipitation_probability_pct": 0,
+        "temperature_c": 31.3,
+        "humidity_pct": 72,
+        "pressure_hpa": 1002.3,
+        "precipitation_probability_pct": 12,
         "weather_code": 0,
-        "wind_speed_mps": 1.58,
-        "wind_direction_deg": 342
+        "wind_speed_mps": 1.3,
+        "wind_direction_deg": 356
       },
       "factors": {
         "stadium_only": {
@@ -484,11 +484,11 @@
         }
       },
       "weather": {
-        "label": "더움",
-        "temperature_c": 30.7,
-        "humidity_pct": 68,
-        "pressure_hpa": 1003.5,
-        "precipitation_probability_pct": 31,
+        "label": "비 가능",
+        "temperature_c": 30.6,
+        "humidity_pct": 69,
+        "pressure_hpa": 1003.3,
+        "precipitation_probability_pct": 73,
         "weather_code": 1,
         "wind_speed_mps": 1.04,
         "wind_direction_deg": 343
@@ -501,15 +501,15 @@
           "runs_pct": 1
         },
         "weather_only": {
-          "hr_pct": 4,
+          "hr_pct": 2,
           "xbh_pct": 1,
-          "single_pct": 0,
-          "runs_pct": 2
+          "single_pct": -1,
+          "runs_pct": 1
         },
         "combined": {
-          "hr_pct": 0,
+          "hr_pct": -2,
           "xbh_pct": 1,
-          "single_pct": 0,
+          "single_pct": -1,
           "runs_pct": 0
         }
       },
@@ -548,13 +548,13 @@
       },
       "weather": {
         "label": "더움",
-        "temperature_c": 31.6,
-        "humidity_pct": 69,
-        "pressure_hpa": 1008.5,
-        "precipitation_probability_pct": 0,
+        "temperature_c": 31.4,
+        "humidity_pct": 72,
+        "pressure_hpa": 1008.3,
+        "precipitation_probability_pct": 18,
         "weather_code": 0,
-        "wind_speed_mps": 1.32,
-        "wind_direction_deg": 171
+        "wind_speed_mps": 1.5,
+        "wind_direction_deg": 184
       },
       "factors": {
         "stadium_only": {
