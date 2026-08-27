@@ -1,9 +1,9 @@
 {
   "date": "2026-08-27",
   "summary": {
-    "predicted_games": 5,
+    "predicted_games": 4,
     "completed_games": 0,
-    "pending_games": 5,
+    "pending_games": 4,
     "total_home_runs": 0,
     "total_runs": 0,
     "avg_predicted_hr_pct": -1,
@@ -40,44 +40,8 @@
         }
       },
       "predicted": {
-        "hr_pct": 13,
-        "runs_pct": 2
-      },
-      "actual": null,
-      "status": "pending"
-    },
-    {
-      "game_id": "2026-08-27-LOTTE-KIA",
-      "matchup": {
-        "away_team": "롯데",
-        "home_team": "KIA"
-      },
-      "stadium": {
-        "id": "gwangju-kia-champions-field",
-        "name_ko": "광주-KIA챔피언스필드",
-        "city": "광주",
-        "type": "outdoor",
-        "orientation_deg": 56,
-        "baseline_evidence": {
-          "games": 113,
-          "prior_games": 150,
-          "raw_factors": {
-            "hr_pct": 14,
-            "xbh_pct": 0,
-            "single_pct": 0,
-            "runs_pct": -3
-          },
-          "adjusted_factors": {
-            "hr_pct": 6,
-            "xbh_pct": 0,
-            "single_pct": 0,
-            "runs_pct": -1
-          }
-        }
-      },
-      "predicted": {
-        "hr_pct": 8,
-        "runs_pct": 1
+        "hr_pct": 18,
+        "runs_pct": 3
       },
       "actual": null,
       "status": "pending"
@@ -148,8 +112,8 @@
         }
       },
       "predicted": {
-        "hr_pct": -4,
-        "runs_pct": -1
+        "hr_pct": 0,
+        "runs_pct": 0
       },
       "actual": null,
       "status": "pending"
@@ -192,7 +156,7 @@
     }
   ],
   "timezone": "Asia/Seoul",
-  "generated_at": "2026-08-27T08:02:29+09:00",
+  "generated_at": "2026-08-27T17:03:29+09:00",
   "sources": {
     "predictions": "data/daily-factors/2026-08-27.json",
     "actuals": "KBO official GameCenter"
