@@ -11,42 +11,6 @@
   },
   "games": [
     {
-      "game_id": "2026-09-01-HANWHA-KT",
-      "matchup": {
-        "away_team": "한화",
-        "home_team": "KT"
-      },
-      "stadium": {
-        "id": "suwon-kt-wiz-park",
-        "name_ko": "수원KT위즈파크",
-        "city": "수원",
-        "type": "outdoor",
-        "orientation_deg": 172,
-        "baseline_evidence": {
-          "games": 118,
-          "prior_games": 150,
-          "raw_factors": {
-            "hr_pct": -13,
-            "xbh_pct": 0,
-            "single_pct": 0,
-            "runs_pct": 2
-          },
-          "adjusted_factors": {
-            "hr_pct": -6,
-            "xbh_pct": 0,
-            "single_pct": 0,
-            "runs_pct": 1
-          }
-        }
-      },
-      "predicted": {
-        "hr_pct": -8,
-        "runs_pct": -2
-      },
-      "actual": null,
-      "status": "pending"
-    },
-    {
       "game_id": "2026-09-01-KIA-NC",
       "matchup": {
         "away_team": "KIA",
@@ -78,6 +42,42 @@
       "predicted": {
         "hr_pct": 20,
         "runs_pct": 3
+      },
+      "actual": null,
+      "status": "pending"
+    },
+    {
+      "game_id": "2026-09-01-HANWHA-KT",
+      "matchup": {
+        "away_team": "한화",
+        "home_team": "KT"
+      },
+      "stadium": {
+        "id": "suwon-kt-wiz-park",
+        "name_ko": "수원KT위즈파크",
+        "city": "수원",
+        "type": "outdoor",
+        "orientation_deg": 172,
+        "baseline_evidence": {
+          "games": 118,
+          "prior_games": 150,
+          "raw_factors": {
+            "hr_pct": -13,
+            "xbh_pct": 0,
+            "single_pct": 0,
+            "runs_pct": 2
+          },
+          "adjusted_factors": {
+            "hr_pct": -6,
+            "xbh_pct": 0,
+            "single_pct": 0,
+            "runs_pct": 1
+          }
+        }
+      },
+      "predicted": {
+        "hr_pct": -8,
+        "runs_pct": -2
       },
       "actual": null,
       "status": "pending"
@@ -192,7 +192,7 @@
     }
   ],
   "timezone": "Asia/Seoul",
-  "generated_at": "2026-09-01T21:01:53+09:00",
+  "generated_at": "2026-09-01T22:02:44+09:00",
   "sources": {
     "predictions": "data/daily-factors/2026-09-01.json",
     "actuals": "KBO official GameCenter"
