@@ -1,17 +1,17 @@
 {
-  "date": "2026-09-01",
+  "date": "2026-09-02",
   "summary": {
     "predicted_games": 5,
-    "completed_games": 5,
-    "pending_games": 0,
-    "total_home_runs": 6,
-    "total_runs": 27,
+    "completed_games": 0,
+    "pending_games": 5,
+    "total_home_runs": 0,
+    "total_runs": 0,
     "avg_predicted_hr_pct": 1,
-    "avg_predicted_runs_pct": -1
+    "avg_predicted_runs_pct": 0
   },
   "games": [
     {
-      "game_id": "2026-09-01-HANWHA-KT",
+      "game_id": "2026-09-02-HANWHA-KT",
       "matchup": {
         "away_team": "한화",
         "home_team": "KT"
@@ -40,18 +40,14 @@
         }
       },
       "predicted": {
-        "hr_pct": -8,
-        "runs_pct": -2
+        "hr_pct": -6,
+        "runs_pct": -1
       },
-      "actual": {
-        "official_game_id": "20260901HHKT0",
-        "home_runs": 1,
-        "runs": 7
-      },
-      "status": "completed"
+      "actual": null,
+      "status": "pending"
     },
     {
-      "game_id": "2026-09-01-KIA-NC",
+      "game_id": "2026-09-02-KIA-NC",
       "matchup": {
         "away_team": "KIA",
         "home_team": "NC"
@@ -80,18 +76,14 @@
         }
       },
       "predicted": {
-        "hr_pct": 20,
+        "hr_pct": 18,
         "runs_pct": 3
       },
-      "actual": {
-        "official_game_id": "20260901HTNC0",
-        "home_runs": 3,
-        "runs": 9
-      },
-      "status": "completed"
+      "actual": null,
+      "status": "pending"
     },
     {
-      "game_id": "2026-09-01-LG-DOOSAN",
+      "game_id": "2026-09-02-LG-DOOSAN",
       "matchup": {
         "away_team": "LG",
         "home_team": "두산"
@@ -120,18 +112,14 @@
         }
       },
       "predicted": {
-        "hr_pct": -20,
+        "hr_pct": -18,
         "runs_pct": -3
       },
-      "actual": {
-        "official_game_id": "20260901LGOB0",
-        "home_runs": 1,
-        "runs": 4
-      },
-      "status": "completed"
+      "actual": null,
+      "status": "pending"
     },
     {
-      "game_id": "2026-09-01-LOTTE-SAMSUNG",
+      "game_id": "2026-09-02-LOTTE-SAMSUNG",
       "matchup": {
         "away_team": "롯데",
         "home_team": "삼성"
@@ -163,15 +151,11 @@
         "hr_pct": 19,
         "runs_pct": 3
       },
-      "actual": {
-        "official_game_id": "20260901LTSS0",
-        "home_runs": 1,
-        "runs": 3
-      },
-      "status": "completed"
+      "actual": null,
+      "status": "pending"
     },
     {
-      "game_id": "2026-09-01-SSG-KIWOOM",
+      "game_id": "2026-09-02-SSG-KIWOOM",
       "matchup": {
         "away_team": "SSG",
         "home_team": "키움"
@@ -203,18 +187,14 @@
         "hr_pct": -6,
         "runs_pct": -4
       },
-      "actual": {
-        "official_game_id": "20260901SKWO0",
-        "home_runs": 0,
-        "runs": 4
-      },
-      "status": "completed"
+      "actual": null,
+      "status": "pending"
     }
   ],
   "timezone": "Asia/Seoul",
-  "generated_at": "2026-09-01T23:31:19+09:00",
+  "generated_at": "2026-09-02T00:01:55+09:00",
   "sources": {
-    "predictions": "data/daily-factors/2026-09-01.json",
+    "predictions": "data/daily-factors/2026-09-02.json",
     "actuals": "KBO official GameCenter"
   }
 }
