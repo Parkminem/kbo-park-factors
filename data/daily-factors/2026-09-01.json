@@ -1,7 +1,7 @@
 {
   "date": "2026-09-01",
   "timezone": "Asia/Seoul",
-  "generated_at": "2026-09-01T22:02:18+09:00",
+  "generated_at": "2026-09-01T23:02:03+09:00",
   "sources": {
     "schedule": "Naver Sports schedule API",
     "weather": "open-meteo",
@@ -10,70 +10,6 @@
   },
   "warnings": [],
   "games": [
-    {
-      "game_id": "2026-09-01-KIA-NC",
-      "start_time_local": "18:30",
-      "away_team": "KIA",
-      "home_team": "NC",
-      "stadium": {
-        "id": "changwon-nc-park",
-        "name_ko": "창원NC파크",
-        "city": "창원",
-        "type": "outdoor",
-        "orientation_deg": 142,
-        "baseline_evidence": {
-          "games": 103,
-          "prior_games": 150,
-          "raw_factors": {
-            "hr_pct": 37,
-            "xbh_pct": 0,
-            "single_pct": 0,
-            "runs_pct": 16
-          },
-          "adjusted_factors": {
-            "hr_pct": 15,
-            "xbh_pct": 0,
-            "single_pct": 0,
-            "runs_pct": 7
-          }
-        }
-      },
-      "weather": {
-        "label": "맑음",
-        "temperature_c": 28.7,
-        "humidity_pct": 77,
-        "pressure_hpa": 1009.4,
-        "precipitation_probability_pct": 33,
-        "weather_code": 1,
-        "wind_speed_mps": 2.66,
-        "wind_direction_deg": 200
-      },
-      "factors": {
-        "stadium_only": {
-          "hr_pct": 15,
-          "xbh_pct": 0,
-          "single_pct": 0,
-          "runs_pct": 7
-        },
-        "weather_only": {
-          "hr_pct": 4,
-          "xbh_pct": 1,
-          "single_pct": 0,
-          "runs_pct": 2
-        },
-        "combined": {
-          "hr_pct": 20,
-          "xbh_pct": 1,
-          "single_pct": 0,
-          "runs_pct": 3
-        }
-      },
-      "explanations": [
-        "평균 환경 대비 타구 결과 확률 합산으로 산출",
-        "따뜻한 기온이 비거리와 득점 환경을 올림"
-      ],
-      "data_status": "complete"
-    },
     {
       "game_id": "2026-09-01-HANWHA-KT",
       "start_time_local": "18:30",
@@ -135,6 +71,70 @@
       "explanations": [
         "평균 환경 대비 타구 결과 확률 합산으로 산출",
         "강수 가능성이 타구 질과 경기 흐름을 낮춤"
+      ],
+      "data_status": "complete"
+    },
+    {
+      "game_id": "2026-09-01-KIA-NC",
+      "start_time_local": "18:30",
+      "away_team": "KIA",
+      "home_team": "NC",
+      "stadium": {
+        "id": "changwon-nc-park",
+        "name_ko": "창원NC파크",
+        "city": "창원",
+        "type": "outdoor",
+        "orientation_deg": 142,
+        "baseline_evidence": {
+          "games": 103,
+          "prior_games": 150,
+          "raw_factors": {
+            "hr_pct": 37,
+            "xbh_pct": 0,
+            "single_pct": 0,
+            "runs_pct": 16
+          },
+          "adjusted_factors": {
+            "hr_pct": 15,
+            "xbh_pct": 0,
+            "single_pct": 0,
+            "runs_pct": 7
+          }
+        }
+      },
+      "weather": {
+        "label": "맑음",
+        "temperature_c": 28.7,
+        "humidity_pct": 77,
+        "pressure_hpa": 1009.4,
+        "precipitation_probability_pct": 33,
+        "weather_code": 1,
+        "wind_speed_mps": 2.66,
+        "wind_direction_deg": 200
+      },
+      "factors": {
+        "stadium_only": {
+          "hr_pct": 15,
+          "xbh_pct": 0,
+          "single_pct": 0,
+          "runs_pct": 7
+        },
+        "weather_only": {
+          "hr_pct": 4,
+          "xbh_pct": 1,
+          "single_pct": 0,
+          "runs_pct": 2
+        },
+        "combined": {
+          "hr_pct": 20,
+          "xbh_pct": 1,
+          "single_pct": 0,
+          "runs_pct": 3
+        }
+      },
+      "explanations": [
+        "평균 환경 대비 타구 결과 확률 합산으로 산출",
+        "따뜻한 기온이 비거리와 득점 환경을 올림"
       ],
       "data_status": "complete"
     },
