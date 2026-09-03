@@ -40,8 +40,8 @@
         }
       },
       "predicted": {
-        "hr_pct": -2,
-        "runs_pct": 0
+        "hr_pct": -6,
+        "runs_pct": -1
       },
       "actual": null,
       "status": "pending"
@@ -76,7 +76,7 @@
         }
       },
       "predicted": {
-        "hr_pct": 13,
+        "hr_pct": 15,
         "runs_pct": 2
       },
       "actual": null,
@@ -112,8 +112,8 @@
         }
       },
       "predicted": {
-        "hr_pct": -15,
-        "runs_pct": -2
+        "hr_pct": -12,
+        "runs_pct": -1
       },
       "actual": null,
       "status": "pending"
@@ -192,7 +192,7 @@
     }
   ],
   "timezone": "Asia/Seoul",
-  "generated_at": "2026-09-03T14:03:45+09:00",
+  "generated_at": "2026-09-03T16:03:29+09:00",
   "sources": {
     "predictions": "data/daily-factors/2026-09-03.json",
     "actuals": "KBO official GameCenter"
