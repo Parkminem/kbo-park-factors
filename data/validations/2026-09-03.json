@@ -2,10 +2,10 @@
   "date": "2026-09-03",
   "summary": {
     "predicted_games": 4,
-    "completed_games": 0,
-    "pending_games": 4,
-    "total_home_runs": 0,
-    "total_runs": 0,
+    "completed_games": 4,
+    "pending_games": 0,
+    "total_home_runs": 6,
+    "total_runs": 35,
     "avg_predicted_hr_pct": -3,
     "avg_predicted_runs_pct": -1
   },
@@ -43,44 +43,12 @@
         "hr_pct": -6,
         "runs_pct": -1
       },
-      "actual": null,
-      "status": "pending"
-    },
-    {
-      "game_id": "2026-09-03-SSG-KIWOOM",
-      "matchup": {
-        "away_team": "SSG",
-        "home_team": "키움"
+      "actual": {
+        "official_game_id": "20260903HHKT0",
+        "home_runs": 4,
+        "runs": 24
       },
-      "stadium": {
-        "id": "gocheok",
-        "name_ko": "고척스카이돔",
-        "city": "서울",
-        "type": "dome",
-        "orientation_deg": 45,
-        "baseline_evidence": {
-          "games": 119,
-          "prior_games": 150,
-          "raw_factors": {
-            "hr_pct": -13,
-            "xbh_pct": 0,
-            "single_pct": 0,
-            "runs_pct": -10
-          },
-          "adjusted_factors": {
-            "hr_pct": -6,
-            "xbh_pct": 0,
-            "single_pct": 0,
-            "runs_pct": -4
-          }
-        }
-      },
-      "predicted": {
-        "hr_pct": -6,
-        "runs_pct": -4
-      },
-      "actual": null,
-      "status": "pending"
+      "status": "completed"
     },
     {
       "game_id": "2026-09-03-LG-DOOSAN",
@@ -115,8 +83,12 @@
         "hr_pct": -15,
         "runs_pct": -2
       },
-      "actual": null,
-      "status": "pending"
+      "actual": {
+        "official_game_id": "20260903LGOB0",
+        "home_runs": 1,
+        "runs": 1
+      },
+      "status": "completed"
     },
     {
       "game_id": "2026-09-03-LOTTE-SAMSUNG",
@@ -151,12 +123,56 @@
         "hr_pct": 16,
         "runs_pct": 2
       },
-      "actual": null,
-      "status": "pending"
+      "actual": {
+        "official_game_id": "20260903LTSS0",
+        "home_runs": 1,
+        "runs": 5
+      },
+      "status": "completed"
+    },
+    {
+      "game_id": "2026-09-03-SSG-KIWOOM",
+      "matchup": {
+        "away_team": "SSG",
+        "home_team": "키움"
+      },
+      "stadium": {
+        "id": "gocheok",
+        "name_ko": "고척스카이돔",
+        "city": "서울",
+        "type": "dome",
+        "orientation_deg": 45,
+        "baseline_evidence": {
+          "games": 119,
+          "prior_games": 150,
+          "raw_factors": {
+            "hr_pct": -13,
+            "xbh_pct": 0,
+            "single_pct": 0,
+            "runs_pct": -10
+          },
+          "adjusted_factors": {
+            "hr_pct": -6,
+            "xbh_pct": 0,
+            "single_pct": 0,
+            "runs_pct": -4
+          }
+        }
+      },
+      "predicted": {
+        "hr_pct": -6,
+        "runs_pct": -4
+      },
+      "actual": {
+        "official_game_id": "20260903SKWO0",
+        "home_runs": 0,
+        "runs": 5
+      },
+      "status": "completed"
     }
   ],
   "timezone": "Asia/Seoul",
-  "generated_at": "2026-09-03T22:02:52+09:00",
+  "generated_at": "2026-09-03T23:02:37+09:00",
   "sources": {
     "predictions": "data/daily-factors/2026-09-03.json",
     "actuals": "KBO official GameCenter"
