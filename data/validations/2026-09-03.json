@@ -76,7 +76,7 @@
         }
       },
       "predicted": {
-        "hr_pct": 15,
+        "hr_pct": 13,
         "runs_pct": 2
       },
       "actual": null,
@@ -192,7 +192,7 @@
     }
   ],
   "timezone": "Asia/Seoul",
-  "generated_at": "2026-09-03T08:05:57+09:00",
+  "generated_at": "2026-09-03T09:03:50+09:00",
   "sources": {
     "predictions": "data/daily-factors/2026-09-03.json",
     "actuals": "KBO official GameCenter"
