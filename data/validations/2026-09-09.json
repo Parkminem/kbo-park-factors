@@ -6,10 +6,46 @@
     "pending_games": 4,
     "total_home_runs": 0,
     "total_runs": 0,
-    "avg_predicted_hr_pct": 1,
+    "avg_predicted_hr_pct": -1,
     "avg_predicted_runs_pct": 0
   },
   "games": [
+    {
+      "game_id": "2026-09-09-LG-HANWHA",
+      "matchup": {
+        "away_team": "LG",
+        "home_team": "한화"
+      },
+      "stadium": {
+        "id": "hanwha-life-ballpark",
+        "name_ko": "대전한화생명볼파크",
+        "city": "대전",
+        "type": "outdoor",
+        "orientation_deg": 109,
+        "baseline_evidence": {
+          "games": 114,
+          "prior_games": 150,
+          "raw_factors": {
+            "hr_pct": -10,
+            "xbh_pct": 0,
+            "single_pct": 0,
+            "runs_pct": 2
+          },
+          "adjusted_factors": {
+            "hr_pct": -4,
+            "xbh_pct": 0,
+            "single_pct": 0,
+            "runs_pct": 1
+          }
+        }
+      },
+      "predicted": {
+        "hr_pct": -8,
+        "runs_pct": -1
+      },
+      "actual": null,
+      "status": "pending"
+    },
     {
       "game_id": "2026-09-09-KT-SAMSUNG",
       "matchup": {
@@ -42,42 +78,6 @@
       "predicted": {
         "hr_pct": 16,
         "runs_pct": 2
-      },
-      "actual": null,
-      "status": "pending"
-    },
-    {
-      "game_id": "2026-09-09-LG-HANWHA",
-      "matchup": {
-        "away_team": "LG",
-        "home_team": "한화"
-      },
-      "stadium": {
-        "id": "hanwha-life-ballpark",
-        "name_ko": "대전한화생명볼파크",
-        "city": "대전",
-        "type": "outdoor",
-        "orientation_deg": 109,
-        "baseline_evidence": {
-          "games": 114,
-          "prior_games": 150,
-          "raw_factors": {
-            "hr_pct": -10,
-            "xbh_pct": 0,
-            "single_pct": 0,
-            "runs_pct": 2
-          },
-          "adjusted_factors": {
-            "hr_pct": -4,
-            "xbh_pct": 0,
-            "single_pct": 0,
-            "runs_pct": 1
-          }
-        }
-      },
-      "predicted": {
-        "hr_pct": -4,
-        "runs_pct": -1
       },
       "actual": null,
       "status": "pending"
@@ -148,15 +148,15 @@
         }
       },
       "predicted": {
-        "hr_pct": -15,
-        "runs_pct": -2
+        "hr_pct": -18,
+        "runs_pct": -3
       },
       "actual": null,
       "status": "pending"
     }
   ],
   "timezone": "Asia/Seoul",
-  "generated_at": "2026-09-09T18:03:13+09:00",
+  "generated_at": "2026-09-09T22:03:17+09:00",
   "sources": {
     "predictions": "data/daily-factors/2026-09-09.json",
     "actuals": "KBO official GameCenter"
