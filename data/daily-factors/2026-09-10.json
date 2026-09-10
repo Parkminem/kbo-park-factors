@@ -1,7 +1,7 @@
 {
   "date": "2026-09-10",
   "timezone": "Asia/Seoul",
-  "generated_at": "2026-09-10T22:02:30+09:00",
+  "generated_at": "2026-09-10T23:01:33+09:00",
   "sources": {
     "schedule": "Naver Sports schedule API",
     "weather": "open-meteo",
@@ -11,49 +11,49 @@
   "warnings": [],
   "games": [
     {
-      "game_id": "2026-09-10-NC-KIA",
+      "game_id": "2026-09-10-HANWHA-SSG",
       "start_time_local": "18:30",
-      "away_team": "NC",
-      "home_team": "KIA",
+      "away_team": "한화",
+      "home_team": "SSG",
       "stadium": {
-        "id": "gwangju-kia-champions-field",
-        "name_ko": "광주-KIA챔피언스필드",
-        "city": "광주",
+        "id": "incheon-ssg-landers-field",
+        "name_ko": "인천SSG랜더스필드",
+        "city": "인천",
         "type": "outdoor",
-        "orientation_deg": 56,
+        "orientation_deg": 173,
         "baseline_evidence": {
-          "games": 113,
+          "games": 112,
           "prior_games": 150,
           "raw_factors": {
-            "hr_pct": 14,
+            "hr_pct": 30,
             "xbh_pct": 0,
             "single_pct": 0,
-            "runs_pct": -3
+            "runs_pct": -5
           },
           "adjusted_factors": {
-            "hr_pct": 6,
+            "hr_pct": 13,
             "xbh_pct": 0,
             "single_pct": 0,
-            "runs_pct": -1
+            "runs_pct": -2
           }
         }
       },
       "weather": {
         "label": "구름",
-        "temperature_c": 22.3,
-        "humidity_pct": 72,
-        "pressure_hpa": 1014.1,
+        "temperature_c": 20.7,
+        "humidity_pct": 63,
+        "pressure_hpa": 1016.1,
         "precipitation_probability_pct": 0,
         "weather_code": 3,
-        "wind_speed_mps": 1.87,
-        "wind_direction_deg": 344
+        "wind_speed_mps": 2.01,
+        "wind_direction_deg": 27
       },
       "factors": {
         "stadium_only": {
-          "hr_pct": 6,
+          "hr_pct": 13,
           "xbh_pct": 0,
           "single_pct": 0,
-          "runs_pct": -1
+          "runs_pct": -2
         },
         "weather_only": {
           "hr_pct": 0,
@@ -62,10 +62,10 @@
           "runs_pct": 0
         },
         "combined": {
-          "hr_pct": 6,
+          "hr_pct": 13,
           "xbh_pct": 0,
           "single_pct": 0,
-          "runs_pct": 1
+          "runs_pct": 2
         }
       },
       "explanations": [
@@ -139,49 +139,49 @@
       "data_status": "complete"
     },
     {
-      "game_id": "2026-09-10-HANWHA-SSG",
+      "game_id": "2026-09-10-NC-KIA",
       "start_time_local": "18:30",
-      "away_team": "한화",
-      "home_team": "SSG",
+      "away_team": "NC",
+      "home_team": "KIA",
       "stadium": {
-        "id": "incheon-ssg-landers-field",
-        "name_ko": "인천SSG랜더스필드",
-        "city": "인천",
+        "id": "gwangju-kia-champions-field",
+        "name_ko": "광주-KIA챔피언스필드",
+        "city": "광주",
         "type": "outdoor",
-        "orientation_deg": 173,
+        "orientation_deg": 56,
         "baseline_evidence": {
-          "games": 112,
+          "games": 113,
           "prior_games": 150,
           "raw_factors": {
-            "hr_pct": 30,
+            "hr_pct": 14,
             "xbh_pct": 0,
             "single_pct": 0,
-            "runs_pct": -5
+            "runs_pct": -3
           },
           "adjusted_factors": {
-            "hr_pct": 13,
+            "hr_pct": 6,
             "xbh_pct": 0,
             "single_pct": 0,
-            "runs_pct": -2
+            "runs_pct": -1
           }
         }
       },
       "weather": {
         "label": "구름",
-        "temperature_c": 20.7,
-        "humidity_pct": 63,
-        "pressure_hpa": 1016.1,
+        "temperature_c": 22.3,
+        "humidity_pct": 72,
+        "pressure_hpa": 1014.1,
         "precipitation_probability_pct": 0,
         "weather_code": 3,
-        "wind_speed_mps": 2.01,
-        "wind_direction_deg": 27
+        "wind_speed_mps": 1.87,
+        "wind_direction_deg": 344
       },
       "factors": {
         "stadium_only": {
-          "hr_pct": 13,
+          "hr_pct": 6,
           "xbh_pct": 0,
           "single_pct": 0,
-          "runs_pct": -2
+          "runs_pct": -1
         },
         "weather_only": {
           "hr_pct": 0,
@@ -190,10 +190,10 @@
           "runs_pct": 0
         },
         "combined": {
-          "hr_pct": 13,
+          "hr_pct": 6,
           "xbh_pct": 0,
           "single_pct": 0,
-          "runs_pct": 2
+          "runs_pct": 1
         }
       },
       "explanations": [
