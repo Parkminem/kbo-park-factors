@@ -1,7 +1,7 @@
 {
   "date": "2026-09-11",
   "timezone": "Asia/Seoul",
-  "generated_at": "2026-09-11T21:02:43+09:00",
+  "generated_at": "2026-09-11T22:03:00+09:00",
   "sources": {
     "schedule": "Naver Sports schedule API",
     "weather": "open-meteo",
@@ -10,70 +10,6 @@
   },
   "warnings": [],
   "games": [
-    {
-      "game_id": "2026-09-11-KT-LOTTE",
-      "start_time_local": "18:30",
-      "away_team": "KT",
-      "home_team": "롯데",
-      "stadium": {
-        "id": "sajik",
-        "name_ko": "사직야구장",
-        "city": "부산",
-        "type": "outdoor",
-        "orientation_deg": 166,
-        "baseline_evidence": {
-          "games": 114,
-          "prior_games": 150,
-          "raw_factors": {
-            "hr_pct": -17,
-            "xbh_pct": 0,
-            "single_pct": 0,
-            "runs_pct": 8
-          },
-          "adjusted_factors": {
-            "hr_pct": -7,
-            "xbh_pct": 0,
-            "single_pct": 0,
-            "runs_pct": 3
-          }
-        }
-      },
-      "weather": {
-        "label": "맑음",
-        "temperature_c": 23.7,
-        "humidity_pct": 74,
-        "pressure_hpa": 1017.3,
-        "precipitation_probability_pct": 0,
-        "weather_code": 0,
-        "wind_speed_mps": 2.61,
-        "wind_direction_deg": 58
-      },
-      "factors": {
-        "stadium_only": {
-          "hr_pct": -7,
-          "xbh_pct": 0,
-          "single_pct": 0,
-          "runs_pct": 3
-        },
-        "weather_only": {
-          "hr_pct": 0,
-          "xbh_pct": 0,
-          "single_pct": 0,
-          "runs_pct": 0
-        },
-        "combined": {
-          "hr_pct": -7,
-          "xbh_pct": 0,
-          "single_pct": 0,
-          "runs_pct": -1
-        }
-      },
-      "explanations": [
-        "평균 환경 대비 타구 결과 확률 합산으로 산출",
-        "날씨 영향은 중립에 가까움"
-      ],
-      "data_status": "complete"
-    },
     {
       "game_id": "2026-09-11-NC-HANWHA",
       "start_time_local": "18:30",
@@ -104,13 +40,13 @@
       },
       "weather": {
         "label": "맑음",
-        "temperature_c": 22.7,
-        "humidity_pct": 62,
-        "pressure_hpa": 1013.9,
+        "temperature_c": 22.6,
+        "humidity_pct": 61,
+        "pressure_hpa": 1013.5,
         "precipitation_probability_pct": 0,
         "weather_code": 1,
-        "wind_speed_mps": 1.12,
-        "wind_direction_deg": 350
+        "wind_speed_mps": 1.0,
+        "wind_direction_deg": 360
       },
       "factors": {
         "stadium_only": {
@@ -127,6 +63,70 @@
         },
         "combined": {
           "hr_pct": -4,
+          "xbh_pct": 0,
+          "single_pct": 0,
+          "runs_pct": -1
+        }
+      },
+      "explanations": [
+        "평균 환경 대비 타구 결과 확률 합산으로 산출",
+        "날씨 영향은 중립에 가까움"
+      ],
+      "data_status": "complete"
+    },
+    {
+      "game_id": "2026-09-11-KT-LOTTE",
+      "start_time_local": "18:30",
+      "away_team": "KT",
+      "home_team": "롯데",
+      "stadium": {
+        "id": "sajik",
+        "name_ko": "사직야구장",
+        "city": "부산",
+        "type": "outdoor",
+        "orientation_deg": 166,
+        "baseline_evidence": {
+          "games": 114,
+          "prior_games": 150,
+          "raw_factors": {
+            "hr_pct": -17,
+            "xbh_pct": 0,
+            "single_pct": 0,
+            "runs_pct": 8
+          },
+          "adjusted_factors": {
+            "hr_pct": -7,
+            "xbh_pct": 0,
+            "single_pct": 0,
+            "runs_pct": 3
+          }
+        }
+      },
+      "weather": {
+        "label": "맑음",
+        "temperature_c": 23.8,
+        "humidity_pct": 73,
+        "pressure_hpa": 1016.9,
+        "precipitation_probability_pct": 0,
+        "weather_code": 0,
+        "wind_speed_mps": 2.68,
+        "wind_direction_deg": 63
+      },
+      "factors": {
+        "stadium_only": {
+          "hr_pct": -7,
+          "xbh_pct": 0,
+          "single_pct": 0,
+          "runs_pct": 3
+        },
+        "weather_only": {
+          "hr_pct": 0,
+          "xbh_pct": 0,
+          "single_pct": 0,
+          "runs_pct": 0
+        },
+        "combined": {
+          "hr_pct": -7,
           "xbh_pct": 0,
           "single_pct": 0,
           "runs_pct": -1
@@ -168,13 +168,13 @@
       },
       "weather": {
         "label": "맑음",
-        "temperature_c": 24.4,
-        "humidity_pct": 63,
-        "pressure_hpa": 1016.3,
+        "temperature_c": 24.2,
+        "humidity_pct": 62,
+        "pressure_hpa": 1015.9,
         "precipitation_probability_pct": 0,
         "weather_code": 1,
-        "wind_speed_mps": 2.6,
-        "wind_direction_deg": 344
+        "wind_speed_mps": 2.53,
+        "wind_direction_deg": 351
       },
       "factors": {
         "stadium_only": {
@@ -232,13 +232,13 @@
       },
       "weather": {
         "label": "맑음",
-        "temperature_c": 23.1,
-        "humidity_pct": 79,
-        "pressure_hpa": 1012.7,
+        "temperature_c": 23.2,
+        "humidity_pct": 78,
+        "pressure_hpa": 1012.3,
         "precipitation_probability_pct": 0,
         "weather_code": 1,
-        "wind_speed_mps": 3.13,
-        "wind_direction_deg": 73
+        "wind_speed_mps": 2.94,
+        "wind_direction_deg": 72
       },
       "factors": {
         "stadium_only": {
@@ -296,13 +296,13 @@
       },
       "weather": {
         "label": "맑음",
-        "temperature_c": 23.0,
-        "humidity_pct": 58,
-        "pressure_hpa": 1018.8,
+        "temperature_c": 23.1,
+        "humidity_pct": 57,
+        "pressure_hpa": 1018.5,
         "precipitation_probability_pct": 0,
         "weather_code": 1,
-        "wind_speed_mps": 1.84,
-        "wind_direction_deg": 319
+        "wind_speed_mps": 1.94,
+        "wind_direction_deg": 325
       },
       "factors": {
         "stadium_only": {
@@ -413,13 +413,13 @@
       },
       "weather": {
         "label": "구름",
-        "temperature_c": 24.6,
-        "humidity_pct": 72,
-        "pressure_hpa": 1018.4,
+        "temperature_c": 24.8,
+        "humidity_pct": 70,
+        "pressure_hpa": 1018.1,
         "precipitation_probability_pct": 0,
         "weather_code": 2,
-        "wind_speed_mps": 1.82,
-        "wind_direction_deg": 189
+        "wind_speed_mps": 1.77,
+        "wind_direction_deg": 196
       },
       "factors": {
         "stadium_only": {
@@ -477,12 +477,12 @@
       "weather": {
         "label": "맑음",
         "temperature_c": 21.2,
-        "humidity_pct": 68,
-        "pressure_hpa": 1013.6,
+        "humidity_pct": 69,
+        "pressure_hpa": 1013.3,
         "precipitation_probability_pct": 0,
         "weather_code": 1,
-        "wind_speed_mps": 1.75,
-        "wind_direction_deg": 336
+        "wind_speed_mps": 1.68,
+        "wind_direction_deg": 343
       },
       "factors": {
         "stadium_only": {
@@ -539,13 +539,13 @@
       },
       "weather": {
         "label": "맑음",
-        "temperature_c": 22.7,
+        "temperature_c": 22.8,
         "humidity_pct": 58,
-        "pressure_hpa": 1017.2,
+        "pressure_hpa": 1017.0,
         "precipitation_probability_pct": 0,
         "weather_code": 1,
-        "wind_speed_mps": 2.33,
-        "wind_direction_deg": 329
+        "wind_speed_mps": 2.51,
+        "wind_direction_deg": 331
       },
       "factors": {
         "stadium_only": {
