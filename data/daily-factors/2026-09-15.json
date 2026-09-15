@@ -1,7 +1,7 @@
 {
   "date": "2026-09-15",
   "timezone": "Asia/Seoul",
-  "generated_at": "2026-09-15T12:01:25+09:00",
+  "generated_at": "2026-09-15T13:01:41+09:00",
   "sources": {
     "schedule": "Naver Sports schedule API",
     "weather": "open-meteo",
@@ -107,7 +107,7 @@
         "temperature_c": 23.2,
         "humidity_pct": 51,
         "pressure_hpa": 1009.1,
-        "precipitation_probability_pct": 0,
+        "precipitation_probability_pct": 2,
         "weather_code": 0,
         "wind_speed_mps": 1.97,
         "wind_direction_deg": 336
@@ -171,7 +171,7 @@
         "temperature_c": 24.7,
         "humidity_pct": 75,
         "pressure_hpa": 1013.9,
-        "precipitation_probability_pct": 2,
+        "precipitation_probability_pct": 24,
         "weather_code": 1,
         "wind_speed_mps": 1.79,
         "wind_direction_deg": 153
@@ -235,7 +235,7 @@
         "temperature_c": 22.9,
         "humidity_pct": 81,
         "pressure_hpa": 1008.3,
-        "precipitation_probability_pct": 8,
+        "precipitation_probability_pct": 45,
         "weather_code": 2,
         "wind_speed_mps": 2.53,
         "wind_direction_deg": 81
@@ -412,11 +412,11 @@
         }
       },
       "weather": {
-        "label": "흐림",
+        "label": "비 가능",
         "temperature_c": 22.7,
         "humidity_pct": 88,
         "pressure_hpa": 1012.7,
-        "precipitation_probability_pct": 29,
+        "precipitation_probability_pct": 59,
         "weather_code": 53,
         "wind_speed_mps": 1.92,
         "wind_direction_deg": 62
@@ -429,16 +429,16 @@
           "runs_pct": 3
         },
         "weather_only": {
-          "hr_pct": 0,
+          "hr_pct": -2,
           "xbh_pct": 0,
-          "single_pct": 0,
-          "runs_pct": 0
+          "single_pct": -1,
+          "runs_pct": -1
         },
         "combined": {
-          "hr_pct": -7,
+          "hr_pct": -9,
           "xbh_pct": 0,
-          "single_pct": 0,
-          "runs_pct": -1
+          "single_pct": -1,
+          "runs_pct": -2
         }
       },
       "explanations": [
