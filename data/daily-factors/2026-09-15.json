@@ -1,7 +1,7 @@
 {
   "date": "2026-09-15",
   "timezone": "Asia/Seoul",
-  "generated_at": "2026-09-15T17:40:31+09:00",
+  "generated_at": "2026-09-15T18:02:20+09:00",
   "sources": {
     "schedule": "Naver Sports schedule API",
     "weather": "open-meteo",
@@ -66,6 +66,70 @@
           "xbh_pct": 0,
           "single_pct": 0,
           "runs_pct": 2
+        }
+      },
+      "explanations": [
+        "평균 환경 대비 타구 결과 확률 합산으로 산출",
+        "날씨 영향은 중립에 가까움"
+      ],
+      "data_status": "complete"
+    },
+    {
+      "game_id": "2026-09-15-KT-HANWHA",
+      "start_time_local": "18:30",
+      "away_team": "KT",
+      "home_team": "한화",
+      "stadium": {
+        "id": "hanwha-life-ballpark",
+        "name_ko": "대전한화생명볼파크",
+        "city": "대전",
+        "type": "outdoor",
+        "orientation_deg": 109,
+        "baseline_evidence": {
+          "games": 114,
+          "prior_games": 150,
+          "raw_factors": {
+            "hr_pct": -10,
+            "xbh_pct": 0,
+            "single_pct": 0,
+            "runs_pct": 2
+          },
+          "adjusted_factors": {
+            "hr_pct": -4,
+            "xbh_pct": 0,
+            "single_pct": 0,
+            "runs_pct": 1
+          }
+        }
+      },
+      "weather": {
+        "label": "맑음",
+        "temperature_c": 23.1,
+        "humidity_pct": 52,
+        "pressure_hpa": 1009.4,
+        "precipitation_probability_pct": 2,
+        "weather_code": 0,
+        "wind_speed_mps": 1.7,
+        "wind_direction_deg": 332
+      },
+      "factors": {
+        "stadium_only": {
+          "hr_pct": -4,
+          "xbh_pct": 0,
+          "single_pct": 0,
+          "runs_pct": 1
+        },
+        "weather_only": {
+          "hr_pct": 0,
+          "xbh_pct": 0,
+          "single_pct": 0,
+          "runs_pct": 0
+        },
+        "combined": {
+          "hr_pct": -4,
+          "xbh_pct": 0,
+          "single_pct": 0,
+          "runs_pct": -1
         }
       },
       "explanations": [
@@ -194,70 +258,6 @@
           "xbh_pct": 0,
           "single_pct": 0,
           "runs_pct": 2
-        }
-      },
-      "explanations": [
-        "평균 환경 대비 타구 결과 확률 합산으로 산출",
-        "날씨 영향은 중립에 가까움"
-      ],
-      "data_status": "complete"
-    },
-    {
-      "game_id": "2026-09-15-KT-HANWHA",
-      "start_time_local": "18:30",
-      "away_team": "KT",
-      "home_team": "한화",
-      "stadium": {
-        "id": "hanwha-life-ballpark",
-        "name_ko": "대전한화생명볼파크",
-        "city": "대전",
-        "type": "outdoor",
-        "orientation_deg": 109,
-        "baseline_evidence": {
-          "games": 114,
-          "prior_games": 150,
-          "raw_factors": {
-            "hr_pct": -10,
-            "xbh_pct": 0,
-            "single_pct": 0,
-            "runs_pct": 2
-          },
-          "adjusted_factors": {
-            "hr_pct": -4,
-            "xbh_pct": 0,
-            "single_pct": 0,
-            "runs_pct": 1
-          }
-        }
-      },
-      "weather": {
-        "label": "맑음",
-        "temperature_c": 23.1,
-        "humidity_pct": 52,
-        "pressure_hpa": 1009.4,
-        "precipitation_probability_pct": 2,
-        "weather_code": 0,
-        "wind_speed_mps": 1.7,
-        "wind_direction_deg": 332
-      },
-      "factors": {
-        "stadium_only": {
-          "hr_pct": -4,
-          "xbh_pct": 0,
-          "single_pct": 0,
-          "runs_pct": 1
-        },
-        "weather_only": {
-          "hr_pct": 0,
-          "xbh_pct": 0,
-          "single_pct": 0,
-          "runs_pct": 0
-        },
-        "combined": {
-          "hr_pct": -4,
-          "xbh_pct": 0,
-          "single_pct": 0,
-          "runs_pct": -1
         }
       },
       "explanations": [
