@@ -1,7 +1,7 @@
 {
   "date": "2026-09-16",
   "timezone": "Asia/Seoul",
-  "generated_at": "2026-09-16T11:02:42+09:00",
+  "generated_at": "2026-09-16T13:02:55+09:00",
   "sources": {
     "schedule": "Naver Sports schedule API",
     "weather": "open-meteo",
@@ -416,7 +416,7 @@
         "temperature_c": 25.2,
         "humidity_pct": 68,
         "pressure_hpa": 1012.7,
-        "precipitation_probability_pct": 4,
+        "precipitation_probability_pct": 8,
         "weather_code": 1,
         "wind_speed_mps": 1.0,
         "wind_direction_deg": 264
