@@ -1,7 +1,7 @@
 {
   "date": "2026-09-22",
   "timezone": "Asia/Seoul",
-  "generated_at": "2026-09-22T22:05:32+09:00",
+  "generated_at": "2026-09-22T23:03:04+09:00",
   "sources": {
     "schedule": "Naver Sports schedule API",
     "weather": "open-meteo",
@@ -10,133 +10,6 @@
   },
   "warnings": [],
   "games": [
-    {
-      "game_id": "2026-09-22-NC-SAMSUNG",
-      "start_time_local": "18:30",
-      "away_team": "NC",
-      "home_team": "삼성",
-      "stadium": {
-        "id": "daegu-lions-park",
-        "name_ko": "대구삼성라이온즈파크",
-        "city": "대구",
-        "type": "outdoor",
-        "orientation_deg": 354,
-        "baseline_evidence": {
-          "games": 108,
-          "prior_games": 150,
-          "raw_factors": {
-            "hr_pct": 38,
-            "xbh_pct": 0,
-            "single_pct": 0,
-            "runs_pct": 10
-          },
-          "adjusted_factors": {
-            "hr_pct": 16,
-            "xbh_pct": 0,
-            "single_pct": 0,
-            "runs_pct": 4
-          }
-        }
-      },
-      "weather": {
-        "label": "맑음",
-        "temperature_c": 21.5,
-        "humidity_pct": 79,
-        "pressure_hpa": 1010.7,
-        "precipitation_probability_pct": 0,
-        "weather_code": 0,
-        "wind_speed_mps": 4.1,
-        "wind_direction_deg": 87
-      },
-      "factors": {
-        "stadium_only": {
-          "hr_pct": 16,
-          "xbh_pct": 0,
-          "single_pct": 0,
-          "runs_pct": 4
-        },
-        "weather_only": {
-          "hr_pct": 0,
-          "xbh_pct": 0,
-          "single_pct": 0,
-          "runs_pct": 0
-        },
-        "combined": {
-          "hr_pct": 16,
-          "xbh_pct": 0,
-          "single_pct": 0,
-          "runs_pct": 2
-        }
-      },
-      "explanations": [
-        "평균 환경 대비 타구 결과 확률 합산으로 산출",
-        "날씨 영향은 중립에 가까움"
-      ],
-      "data_status": "complete"
-    },
-    {
-      "game_id": "2026-09-22-DOOSAN-KIWOOM",
-      "start_time_local": "18:30",
-      "away_team": "두산",
-      "home_team": "키움",
-      "stadium": {
-        "id": "gocheok",
-        "name_ko": "고척스카이돔",
-        "city": "서울",
-        "type": "dome",
-        "orientation_deg": 45,
-        "baseline_evidence": {
-          "games": 119,
-          "prior_games": 150,
-          "raw_factors": {
-            "hr_pct": -13,
-            "xbh_pct": 0,
-            "single_pct": 0,
-            "runs_pct": -10
-          },
-          "adjusted_factors": {
-            "hr_pct": -6,
-            "xbh_pct": 0,
-            "single_pct": 0,
-            "runs_pct": -4
-          }
-        }
-      },
-      "weather": {
-        "label": "맑음",
-        "temperature_c": 26.0,
-        "humidity_pct": 55,
-        "pressure_hpa": 1014.7,
-        "precipitation_probability_pct": 0,
-        "weather_code": 1,
-        "wind_speed_mps": 0.78,
-        "wind_direction_deg": 230
-      },
-      "factors": {
-        "stadium_only": {
-          "hr_pct": -6,
-          "xbh_pct": 0,
-          "single_pct": 0,
-          "runs_pct": -4
-        },
-        "weather_only": {
-          "hr_pct": 0,
-          "xbh_pct": 0,
-          "single_pct": 0,
-          "runs_pct": 0
-        },
-        "combined": {
-          "hr_pct": -6,
-          "xbh_pct": 0,
-          "single_pct": 0,
-          "runs_pct": -4
-        }
-      },
-      "explanations": [
-        "돔 구장이라 외부 날씨 영향 제한"
-      ],
-      "data_status": "complete"
-    },
     {
       "game_id": "2026-09-22-KT-SSG",
       "start_time_local": "18:30",
@@ -262,6 +135,133 @@
       "explanations": [
         "평균 환경 대비 타구 결과 확률 합산으로 산출",
         "날씨 영향은 중립에 가까움"
+      ],
+      "data_status": "complete"
+    },
+    {
+      "game_id": "2026-09-22-NC-SAMSUNG",
+      "start_time_local": "18:30",
+      "away_team": "NC",
+      "home_team": "삼성",
+      "stadium": {
+        "id": "daegu-lions-park",
+        "name_ko": "대구삼성라이온즈파크",
+        "city": "대구",
+        "type": "outdoor",
+        "orientation_deg": 354,
+        "baseline_evidence": {
+          "games": 108,
+          "prior_games": 150,
+          "raw_factors": {
+            "hr_pct": 38,
+            "xbh_pct": 0,
+            "single_pct": 0,
+            "runs_pct": 10
+          },
+          "adjusted_factors": {
+            "hr_pct": 16,
+            "xbh_pct": 0,
+            "single_pct": 0,
+            "runs_pct": 4
+          }
+        }
+      },
+      "weather": {
+        "label": "맑음",
+        "temperature_c": 21.5,
+        "humidity_pct": 79,
+        "pressure_hpa": 1010.7,
+        "precipitation_probability_pct": 0,
+        "weather_code": 0,
+        "wind_speed_mps": 4.1,
+        "wind_direction_deg": 87
+      },
+      "factors": {
+        "stadium_only": {
+          "hr_pct": 16,
+          "xbh_pct": 0,
+          "single_pct": 0,
+          "runs_pct": 4
+        },
+        "weather_only": {
+          "hr_pct": 0,
+          "xbh_pct": 0,
+          "single_pct": 0,
+          "runs_pct": 0
+        },
+        "combined": {
+          "hr_pct": 16,
+          "xbh_pct": 0,
+          "single_pct": 0,
+          "runs_pct": 2
+        }
+      },
+      "explanations": [
+        "평균 환경 대비 타구 결과 확률 합산으로 산출",
+        "날씨 영향은 중립에 가까움"
+      ],
+      "data_status": "complete"
+    },
+    {
+      "game_id": "2026-09-22-DOOSAN-KIWOOM",
+      "start_time_local": "18:30",
+      "away_team": "두산",
+      "home_team": "키움",
+      "stadium": {
+        "id": "gocheok",
+        "name_ko": "고척스카이돔",
+        "city": "서울",
+        "type": "dome",
+        "orientation_deg": 45,
+        "baseline_evidence": {
+          "games": 119,
+          "prior_games": 150,
+          "raw_factors": {
+            "hr_pct": -13,
+            "xbh_pct": 0,
+            "single_pct": 0,
+            "runs_pct": -10
+          },
+          "adjusted_factors": {
+            "hr_pct": -6,
+            "xbh_pct": 0,
+            "single_pct": 0,
+            "runs_pct": -4
+          }
+        }
+      },
+      "weather": {
+        "label": "맑음",
+        "temperature_c": 26.0,
+        "humidity_pct": 55,
+        "pressure_hpa": 1014.7,
+        "precipitation_probability_pct": 0,
+        "weather_code": 1,
+        "wind_speed_mps": 0.78,
+        "wind_direction_deg": 230
+      },
+      "factors": {
+        "stadium_only": {
+          "hr_pct": -6,
+          "xbh_pct": 0,
+          "single_pct": 0,
+          "runs_pct": -4
+        },
+        "weather_only": {
+          "hr_pct": 0,
+          "xbh_pct": 0,
+          "single_pct": 0,
+          "runs_pct": 0
+        },
+        "combined": {
+          "hr_pct": -6,
+          "xbh_pct": 0,
+          "single_pct": 0,
+          "runs_pct": -4
+        }
+      },
+      "explanations": [
+        "돔 구장이라 외부 날씨 영향 제한"
       ],
       "data_status": "complete"
     },
