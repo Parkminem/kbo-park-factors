@@ -1,7 +1,7 @@
 {
   "date": "2026-09-24",
   "timezone": "Asia/Seoul",
-  "generated_at": "2026-09-24T16:03:09+09:00",
+  "generated_at": "2026-09-24T17:03:25+09:00",
   "sources": {
     "schedule": "Naver Sports schedule API",
     "weather": "open-meteo",
@@ -45,8 +45,8 @@
         "pressure_hpa": 1014.9,
         "precipitation_probability_pct": 0,
         "weather_code": 1,
-        "wind_speed_mps": 1.77,
-        "wind_direction_deg": 317
+        "wind_speed_mps": 2.25,
+        "wind_direction_deg": 328
       },
       "factors": {
         "stadium_only": {
@@ -109,8 +109,8 @@
         "pressure_hpa": 1009.8,
         "precipitation_probability_pct": 0,
         "weather_code": 3,
-        "wind_speed_mps": 1.35,
-        "wind_direction_deg": 312
+        "wind_speed_mps": 1.64,
+        "wind_direction_deg": 322
       },
       "factors": {
         "stadium_only": {
@@ -173,8 +173,8 @@
         "pressure_hpa": 1013.6,
         "precipitation_probability_pct": 0,
         "weather_code": 3,
-        "wind_speed_mps": 1.93,
-        "wind_direction_deg": 339
+        "wind_speed_mps": 2.5,
+        "wind_direction_deg": 344
       },
       "factors": {
         "stadium_only": {
@@ -291,8 +291,8 @@
         "pressure_hpa": 1013.9,
         "precipitation_probability_pct": 0,
         "weather_code": 2,
-        "wind_speed_mps": 0.85,
-        "wind_direction_deg": 111
+        "wind_speed_mps": 0.81,
+        "wind_direction_deg": 97
       },
       "factors": {
         "stadium_only": {
@@ -354,8 +354,8 @@
         "pressure_hpa": 1009.3,
         "precipitation_probability_pct": 0,
         "weather_code": 1,
-        "wind_speed_mps": 1.24,
-        "wind_direction_deg": 346
+        "wind_speed_mps": 0.95,
+        "wind_direction_deg": 342
       },
       "factors": {
         "stadium_only": {
@@ -417,8 +417,8 @@
         "pressure_hpa": 1010.4,
         "precipitation_probability_pct": 0,
         "weather_code": 2,
-        "wind_speed_mps": 0.89,
-        "wind_direction_deg": 297
+        "wind_speed_mps": 0.82,
+        "wind_direction_deg": 256
       },
       "factors": {
         "stadium_only": {
@@ -480,8 +480,8 @@
         "pressure_hpa": 1015.1,
         "precipitation_probability_pct": 0,
         "weather_code": 1,
-        "wind_speed_mps": 0.45,
-        "wind_direction_deg": 297
+        "wind_speed_mps": 0.81,
+        "wind_direction_deg": 210
       },
       "factors": {
         "stadium_only": {
@@ -543,8 +543,8 @@
         "pressure_hpa": 1013.8,
         "precipitation_probability_pct": 2,
         "weather_code": 2,
-        "wind_speed_mps": 2.25,
-        "wind_direction_deg": 328
+        "wind_speed_mps": 1.92,
+        "wind_direction_deg": 321
       },
       "factors": {
         "stadium_only": {
