@@ -1,0 +1,128 @@
+{
+  "date": "2026-09-26",
+  "summary": {
+    "predicted_games": 3,
+    "completed_games": 0,
+    "pending_games": 3,
+    "total_home_runs": 0,
+    "total_runs": 0,
+    "avg_predicted_hr_pct": 5,
+    "avg_predicted_runs_pct": 1
+  },
+  "games": [
+    {
+      "game_id": "2026-09-26-HANWHA-NC",
+      "matchup": {
+        "away_team": "한화",
+        "home_team": "NC"
+      },
+      "stadium": {
+        "id": "changwon-nc-park",
+        "name_ko": "창원NC파크",
+        "city": "창원",
+        "type": "outdoor",
+        "orientation_deg": 142,
+        "baseline_evidence": {
+          "games": 103,
+          "prior_games": 150,
+          "raw_factors": {
+            "hr_pct": 37,
+            "xbh_pct": 0,
+            "single_pct": 0,
+            "runs_pct": 16
+          },
+          "adjusted_factors": {
+            "hr_pct": 15,
+            "xbh_pct": 0,
+            "single_pct": 0,
+            "runs_pct": 7
+          }
+        }
+      },
+      "predicted": {
+        "hr_pct": 15,
+        "runs_pct": 2
+      },
+      "actual": null,
+      "status": "pending"
+    },
+    {
+      "game_id": "2026-09-26-LG-KIA",
+      "matchup": {
+        "away_team": "LG",
+        "home_team": "KIA"
+      },
+      "stadium": {
+        "id": "gwangju-kia-champions-field",
+        "name_ko": "광주-KIA챔피언스필드",
+        "city": "광주",
+        "type": "outdoor",
+        "orientation_deg": 56,
+        "baseline_evidence": {
+          "games": 113,
+          "prior_games": 150,
+          "raw_factors": {
+            "hr_pct": 14,
+            "xbh_pct": 0,
+            "single_pct": 0,
+            "runs_pct": -3
+          },
+          "adjusted_factors": {
+            "hr_pct": 6,
+            "xbh_pct": 0,
+            "single_pct": 0,
+            "runs_pct": -1
+          }
+        }
+      },
+      "predicted": {
+        "hr_pct": 6,
+        "runs_pct": 1
+      },
+      "actual": null,
+      "status": "pending"
+    },
+    {
+      "game_id": "2026-09-26-KIWOOM-KT",
+      "matchup": {
+        "away_team": "키움",
+        "home_team": "KT"
+      },
+      "stadium": {
+        "id": "suwon-kt-wiz-park",
+        "name_ko": "수원KT위즈파크",
+        "city": "수원",
+        "type": "outdoor",
+        "orientation_deg": 172,
+        "baseline_evidence": {
+          "games": 118,
+          "prior_games": 150,
+          "raw_factors": {
+            "hr_pct": -13,
+            "xbh_pct": 0,
+            "single_pct": 0,
+            "runs_pct": 2
+          },
+          "adjusted_factors": {
+            "hr_pct": -6,
+            "xbh_pct": 0,
+            "single_pct": 0,
+            "runs_pct": 1
+          }
+        }
+      },
+      "predicted": {
+        "hr_pct": -6,
+        "runs_pct": -1
+      },
+      "actual": null,
+      "status": "pending"
+    }
+  ],
+  "timezone": "Asia/Seoul",
+  "generated_at": "2026-09-26T01:03:22+09:00",
+  "sources": {
+    "predictions": "data/daily-factors/2026-09-26.json",
+    "actuals": "KBO official GameCenter"
+  }
+}
