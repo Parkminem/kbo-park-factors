@@ -1,7 +1,7 @@
 {
   "date": "2026-09-27",
   "timezone": "Asia/Seoul",
-  "generated_at": "2026-09-27T18:01:45+09:00",
+  "generated_at": "2026-09-27T19:58:13+09:00",
   "sources": {
     "schedule": "Naver Sports schedule API",
     "weather": "open-meteo",
@@ -130,70 +130,6 @@
           "xbh_pct": 0,
           "single_pct": 0,
           "runs_pct": -3
-        }
-      },
-      "explanations": [
-        "평균 환경 대비 타구 결과 확률 합산으로 산출",
-        "날씨 영향은 중립에 가까움"
-      ],
-      "data_status": "complete"
-    },
-    {
-      "game_id": "2026-09-27-LG-KIA",
-      "start_time_local": "17:00",
-      "away_team": "LG",
-      "home_team": "KIA",
-      "stadium": {
-        "id": "gwangju-kia-champions-field",
-        "name_ko": "광주-KIA챔피언스필드",
-        "city": "광주",
-        "type": "outdoor",
-        "orientation_deg": 56,
-        "baseline_evidence": {
-          "games": 113,
-          "prior_games": 150,
-          "raw_factors": {
-            "hr_pct": 14,
-            "xbh_pct": 0,
-            "single_pct": 0,
-            "runs_pct": -3
-          },
-          "adjusted_factors": {
-            "hr_pct": 6,
-            "xbh_pct": 0,
-            "single_pct": 0,
-            "runs_pct": -1
-          }
-        }
-      },
-      "weather": {
-        "label": "구름",
-        "temperature_c": 25.5,
-        "humidity_pct": 74,
-        "pressure_hpa": 1003.2,
-        "precipitation_probability_pct": 27,
-        "weather_code": 3,
-        "wind_speed_mps": 1.39,
-        "wind_direction_deg": 249
-      },
-      "factors": {
-        "stadium_only": {
-          "hr_pct": 6,
-          "xbh_pct": 0,
-          "single_pct": 0,
-          "runs_pct": -1
-        },
-        "weather_only": {
-          "hr_pct": 0,
-          "xbh_pct": 0,
-          "single_pct": 0,
-          "runs_pct": 0
-        },
-        "combined": {
-          "hr_pct": 6,
-          "xbh_pct": 0,
-          "single_pct": 0,
-          "runs_pct": 1
         }
       },
       "explanations": [
@@ -439,6 +375,69 @@
           "xbh_pct": 0,
           "single_pct": 0,
           "runs_pct": 0
+        }
+      },
+      "explanations": [
+        "해당 날짜 경기 없음 · 현행 홈구장 기준 표시"
+      ],
+      "data_status": "stadium_reference"
+    },
+    {
+      "game_id": "2026-09-27-gwangju-kia-champions-field-REFERENCE",
+      "start_time_local": "18:30",
+      "away_team": "",
+      "home_team": "광주-KIA챔피언스필드",
+      "stadium": {
+        "id": "gwangju-kia-champions-field",
+        "name_ko": "광주-KIA챔피언스필드",
+        "city": "광주",
+        "type": "outdoor",
+        "orientation_deg": 56,
+        "baseline_evidence": {
+          "games": 113,
+          "prior_games": 150,
+          "raw_factors": {
+            "hr_pct": 14,
+            "xbh_pct": 0,
+            "single_pct": 0,
+            "runs_pct": -3
+          },
+          "adjusted_factors": {
+            "hr_pct": 6,
+            "xbh_pct": 0,
+            "single_pct": 0,
+            "runs_pct": -1
+          }
+        }
+      },
+      "weather": {
+        "label": "구름",
+        "temperature_c": 24.2,
+        "humidity_pct": 83,
+        "pressure_hpa": 1003.6,
+        "precipitation_probability_pct": 22,
+        "weather_code": 3,
+        "wind_speed_mps": 1.7,
+        "wind_direction_deg": 298
+      },
+      "factors": {
+        "stadium_only": {
+          "hr_pct": 6,
+          "xbh_pct": 0,
+          "single_pct": 0,
+          "runs_pct": -1
+        },
+        "weather_only": {
+          "hr_pct": 0,
+          "xbh_pct": 0,
+          "single_pct": 0,
+          "runs_pct": 0
+        },
+        "combined": {
+          "hr_pct": 6,
+          "xbh_pct": 0,
+          "single_pct": 0,
+          "runs_pct": 1
         }
       },
       "explanations": [
