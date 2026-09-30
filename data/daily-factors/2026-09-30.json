@@ -1,7 +1,7 @@
 {
   "date": "2026-09-30",
   "timezone": "Asia/Seoul",
-  "generated_at": "2026-09-30T12:03:16+09:00",
+  "generated_at": "2026-09-30T13:02:01+09:00",
   "sources": {
     "schedule": "Naver Sports schedule API",
     "weather": "open-meteo",
@@ -167,11 +167,11 @@
         }
       },
       "weather": {
-        "label": "비 가능",
+        "label": "흐림",
         "temperature_c": 22.2,
         "humidity_pct": 87,
         "pressure_hpa": 1007.8,
-        "precipitation_probability_pct": 63,
+        "precipitation_probability_pct": 41,
         "weather_code": 51,
         "wind_speed_mps": 5.2,
         "wind_direction_deg": 247
@@ -184,21 +184,21 @@
           "runs_pct": -2
         },
         "weather_only": {
-          "hr_pct": -2,
+          "hr_pct": 0,
           "xbh_pct": 0,
-          "single_pct": -1,
-          "runs_pct": -1
+          "single_pct": 0,
+          "runs_pct": 0
         },
         "combined": {
-          "hr_pct": 11,
+          "hr_pct": 13,
           "xbh_pct": 0,
-          "single_pct": -1,
-          "runs_pct": 1
+          "single_pct": 0,
+          "runs_pct": 2
         }
       },
       "explanations": [
         "평균 환경 대비 타구 결과 확률 합산으로 산출",
-        "강수 가능성이 타구 질과 경기 흐름을 낮춤"
+        "날씨 영향은 중립에 가까움"
       ],
       "data_status": "complete"
     },
@@ -235,7 +235,7 @@
         "temperature_c": 21.9,
         "humidity_pct": 79,
         "pressure_hpa": 1009.3,
-        "precipitation_probability_pct": 39,
+        "precipitation_probability_pct": 24,
         "weather_code": 1,
         "wind_speed_mps": 4.0,
         "wind_direction_deg": 217
@@ -543,7 +543,7 @@
         "temperature_c": 21.1,
         "humidity_pct": 83,
         "pressure_hpa": 1004.6,
-        "precipitation_probability_pct": 18,
+        "precipitation_probability_pct": 6,
         "weather_code": 1,
         "wind_speed_mps": 2.83,
         "wind_direction_deg": 228
