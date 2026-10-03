@@ -1,0 +1,164 @@
+{
+  "date": "2026-09-16",
+  "summary": {
+    "predicted_games": 4,
+    "completed_games": 0,
+    "pending_games": 4,
+    "total_home_runs": 0,
+    "total_runs": 0,
+    "avg_predicted_hr_pct": -4,
+    "avg_predicted_runs_pct": -1
+  },
+  "games": [
+    {
+      "game_id": "2026-09-16-KT-HANWHA",
+      "matchup": {
+        "away_team": "KT",
+        "home_team": "한화"
+      },
+      "stadium": {
+        "id": "hanwha-life-ballpark",
+        "name_ko": "대전한화생명볼파크",
+        "city": "대전",
+        "type": "outdoor",
+        "orientation_deg": 109,
+        "baseline_evidence": {
+          "games": 114,
+          "prior_games": 150,
+          "raw_factors": {
+            "hr_pct": -10,
+            "xbh_pct": 0,
+            "single_pct": 0,
+            "runs_pct": 2
+          },
+          "adjusted_factors": {
+            "hr_pct": -4,
+            "xbh_pct": 0,
+            "single_pct": 0,
+            "runs_pct": 1
+          }
+        }
+      },
+      "predicted": {
+        "hr_pct": -4,
+        "runs_pct": -1
+      },
+      "actual": null,
+      "status": "pending"
+    },
+    {
+      "game_id": "2026-09-16-LG-NC",
+      "matchup": {
+        "away_team": "LG",
+        "home_team": "NC"
+      },
+      "stadium": {
+        "id": "changwon-nc-park",
+        "name_ko": "창원NC파크",
+        "city": "창원",
+        "type": "outdoor",
+        "orientation_deg": 142,
+        "baseline_evidence": {
+          "games": 103,
+          "prior_games": 150,
+          "raw_factors": {
+            "hr_pct": 37,
+            "xbh_pct": 0,
+            "single_pct": 0,
+            "runs_pct": 16
+          },
+          "adjusted_factors": {
+            "hr_pct": 15,
+            "xbh_pct": 0,
+            "single_pct": 0,
+            "runs_pct": 7
+          }
+        }
+      },
+      "predicted": {
+        "hr_pct": 15,
+        "runs_pct": 2
+      },
+      "actual": null,
+      "status": "pending"
+    },
+    {
+      "game_id": "2026-09-16-SSG-LOTTE",
+      "matchup": {
+        "away_team": "SSG",
+        "home_team": "롯데"
+      },
+      "stadium": {
+        "id": "sajik",
+        "name_ko": "사직야구장",
+        "city": "부산",
+        "type": "outdoor",
+        "orientation_deg": 166,
+        "baseline_evidence": {
+          "games": 114,
+          "prior_games": 150,
+          "raw_factors": {
+            "hr_pct": -17,
+            "xbh_pct": 0,
+            "single_pct": 0,
+            "runs_pct": 8
+          },
+          "adjusted_factors": {
+            "hr_pct": -7,
+            "xbh_pct": 0,
+            "single_pct": 0,
+            "runs_pct": 3
+          }
+        }
+      },
+      "predicted": {
+        "hr_pct": -7,
+        "runs_pct": -1
+      },
+      "actual": null,
+      "status": "pending"
+    },
+    {
+      "game_id": "2026-09-16-SAMSUNG-DOOSAN",
+      "matchup": {
+        "away_team": "삼성",
+        "home_team": "두산"
+      },
+      "stadium": {
+        "id": "jamsil",
+        "name_ko": "잠실야구장",
+        "city": "서울",
+        "type": "outdoor",
+        "orientation_deg": 195,
+        "baseline_evidence": {
+          "games": 230,
+          "prior_games": 150,
+          "raw_factors": {
+            "hr_pct": -29,
+            "xbh_pct": 0,
+            "single_pct": 0,
+            "runs_pct": -8
+          },
+          "adjusted_factors": {
+            "hr_pct": -18,
+            "xbh_pct": 0,
+            "single_pct": 0,
+            "runs_pct": -5
+          }
+        }
+      },
+      "predicted": {
+        "hr_pct": -18,
+        "runs_pct": -3
+      },
+      "actual": null,
+      "status": "pending"
+    }
+  ],
+  "timezone": "Asia/Seoul",
+  "generated_at": "2026-09-16T23:31:09+09:00",
+  "sources": {
+    "predictions": "data/daily-factors/2026-09-16.json",
+    "actuals": "KBO official GameCenter"
+  }
+}
