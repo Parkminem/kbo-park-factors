@@ -1,7 +1,7 @@
 {
   "date": "2026-10-04",
   "timezone": "Asia/Seoul",
-  "generated_at": "2026-10-04T17:01:40+09:00",
+  "generated_at": "2026-10-04T18:01:47+09:00",
   "sources": {
     "schedule": "Naver Sports schedule API",
     "weather": "open-meteo",
@@ -71,6 +71,70 @@
       "explanations": [
         "평균 환경 대비 타구 결과 확률 합산으로 산출",
         "홈 방향 바람이 장타를 억제"
+      ],
+      "data_status": "complete"
+    },
+    {
+      "game_id": "2026-10-04-DOOSAN-SAMSUNG",
+      "start_time_local": "14:00",
+      "away_team": "두산",
+      "home_team": "삼성",
+      "stadium": {
+        "id": "daegu-lions-park",
+        "name_ko": "대구삼성라이온즈파크",
+        "city": "대구",
+        "type": "outdoor",
+        "orientation_deg": 354,
+        "baseline_evidence": {
+          "games": 108,
+          "prior_games": 150,
+          "raw_factors": {
+            "hr_pct": 38,
+            "xbh_pct": 0,
+            "single_pct": 0,
+            "runs_pct": 10
+          },
+          "adjusted_factors": {
+            "hr_pct": 16,
+            "xbh_pct": 0,
+            "single_pct": 0,
+            "runs_pct": 4
+          }
+        }
+      },
+      "weather": {
+        "label": "맑음",
+        "temperature_c": 22.5,
+        "humidity_pct": 77,
+        "pressure_hpa": 1008.0,
+        "precipitation_probability_pct": 11,
+        "weather_code": 1,
+        "wind_speed_mps": 2.25,
+        "wind_direction_deg": 69
+      },
+      "factors": {
+        "stadium_only": {
+          "hr_pct": 16,
+          "xbh_pct": 0,
+          "single_pct": 0,
+          "runs_pct": 4
+        },
+        "weather_only": {
+          "hr_pct": 0,
+          "xbh_pct": 0,
+          "single_pct": 0,
+          "runs_pct": 0
+        },
+        "combined": {
+          "hr_pct": 16,
+          "xbh_pct": 0,
+          "single_pct": 0,
+          "runs_pct": 2
+        }
+      },
+      "explanations": [
+        "평균 환경 대비 타구 결과 확률 합산으로 산출",
+        "날씨 영향은 중립에 가까움"
       ],
       "data_status": "complete"
     },
@@ -194,70 +258,6 @@
           "xbh_pct": 0,
           "single_pct": 0,
           "runs_pct": -1
-        }
-      },
-      "explanations": [
-        "평균 환경 대비 타구 결과 확률 합산으로 산출",
-        "날씨 영향은 중립에 가까움"
-      ],
-      "data_status": "complete"
-    },
-    {
-      "game_id": "2026-10-04-DOOSAN-SAMSUNG",
-      "start_time_local": "14:00",
-      "away_team": "두산",
-      "home_team": "삼성",
-      "stadium": {
-        "id": "daegu-lions-park",
-        "name_ko": "대구삼성라이온즈파크",
-        "city": "대구",
-        "type": "outdoor",
-        "orientation_deg": 354,
-        "baseline_evidence": {
-          "games": 108,
-          "prior_games": 150,
-          "raw_factors": {
-            "hr_pct": 38,
-            "xbh_pct": 0,
-            "single_pct": 0,
-            "runs_pct": 10
-          },
-          "adjusted_factors": {
-            "hr_pct": 16,
-            "xbh_pct": 0,
-            "single_pct": 0,
-            "runs_pct": 4
-          }
-        }
-      },
-      "weather": {
-        "label": "맑음",
-        "temperature_c": 22.5,
-        "humidity_pct": 77,
-        "pressure_hpa": 1008.0,
-        "precipitation_probability_pct": 11,
-        "weather_code": 1,
-        "wind_speed_mps": 2.25,
-        "wind_direction_deg": 69
-      },
-      "factors": {
-        "stadium_only": {
-          "hr_pct": 16,
-          "xbh_pct": 0,
-          "single_pct": 0,
-          "runs_pct": 4
-        },
-        "weather_only": {
-          "hr_pct": 0,
-          "xbh_pct": 0,
-          "single_pct": 0,
-          "runs_pct": 0
-        },
-        "combined": {
-          "hr_pct": 16,
-          "xbh_pct": 0,
-          "single_pct": 0,
-          "runs_pct": 2
         }
       },
       "explanations": [
