@@ -1,7 +1,7 @@
 {
   "date": "2026-10-05",
   "timezone": "Asia/Seoul",
-  "generated_at": "2026-10-05T16:01:45+09:00",
+  "generated_at": "2026-10-05T17:03:22+09:00",
   "sources": {
     "schedule": "Naver Sports schedule API",
     "weather": "open-meteo",
@@ -40,13 +40,13 @@
       },
       "weather": {
         "label": "맑음",
-        "temperature_c": 19.3,
+        "temperature_c": 19.2,
         "humidity_pct": 62,
-        "pressure_hpa": 1010.1,
+        "pressure_hpa": 1010.0,
         "precipitation_probability_pct": 11,
         "weather_code": 1,
-        "wind_speed_mps": 5.06,
-        "wind_direction_deg": 288
+        "wind_speed_mps": 5.0,
+        "wind_direction_deg": 290
       },
       "factors": {
         "stadium_only": {
@@ -71,6 +71,134 @@
       "explanations": [
         "평균 환경 대비 타구 결과 확률 합산으로 산출",
         "날씨 영향은 중립에 가까움"
+      ],
+      "data_status": "complete"
+    },
+    {
+      "game_id": "2026-10-05-KIWOOM-HANWHA",
+      "start_time_local": "14:00",
+      "away_team": "키움",
+      "home_team": "한화",
+      "stadium": {
+        "id": "hanwha-life-ballpark",
+        "name_ko": "대전한화생명볼파크",
+        "city": "대전",
+        "type": "outdoor",
+        "orientation_deg": 109,
+        "baseline_evidence": {
+          "games": 114,
+          "prior_games": 150,
+          "raw_factors": {
+            "hr_pct": -10,
+            "xbh_pct": 0,
+            "single_pct": 0,
+            "runs_pct": 2
+          },
+          "adjusted_factors": {
+            "hr_pct": -4,
+            "xbh_pct": 0,
+            "single_pct": 0,
+            "runs_pct": 1
+          }
+        }
+      },
+      "weather": {
+        "label": "맑음",
+        "temperature_c": 20.1,
+        "humidity_pct": 58,
+        "pressure_hpa": 1005.4,
+        "precipitation_probability_pct": 6,
+        "weather_code": 1,
+        "wind_speed_mps": 3.77,
+        "wind_direction_deg": 292
+      },
+      "factors": {
+        "stadium_only": {
+          "hr_pct": -4,
+          "xbh_pct": 0,
+          "single_pct": 0,
+          "runs_pct": 1
+        },
+        "weather_only": {
+          "hr_pct": 4,
+          "xbh_pct": 2,
+          "single_pct": 0,
+          "runs_pct": 2
+        },
+        "combined": {
+          "hr_pct": 0,
+          "xbh_pct": 2,
+          "single_pct": 0,
+          "runs_pct": 1
+        }
+      },
+      "explanations": [
+        "평균 환경 대비 타구 결과 확률 합산으로 산출",
+        "외야 방향 바람이 장타를 도움"
+      ],
+      "data_status": "complete"
+    },
+    {
+      "game_id": "2026-10-05-SSG-NC",
+      "start_time_local": "14:00",
+      "away_team": "SSG",
+      "home_team": "NC",
+      "stadium": {
+        "id": "changwon-nc-park",
+        "name_ko": "창원NC파크",
+        "city": "창원",
+        "type": "outdoor",
+        "orientation_deg": 142,
+        "baseline_evidence": {
+          "games": 103,
+          "prior_games": 150,
+          "raw_factors": {
+            "hr_pct": 37,
+            "xbh_pct": 0,
+            "single_pct": 0,
+            "runs_pct": 16
+          },
+          "adjusted_factors": {
+            "hr_pct": 15,
+            "xbh_pct": 0,
+            "single_pct": 0,
+            "runs_pct": 7
+          }
+        }
+      },
+      "weather": {
+        "label": "맑음",
+        "temperature_c": 22.6,
+        "humidity_pct": 52,
+        "pressure_hpa": 1009.5,
+        "precipitation_probability_pct": 0,
+        "weather_code": 0,
+        "wind_speed_mps": 3.92,
+        "wind_direction_deg": 308
+      },
+      "factors": {
+        "stadium_only": {
+          "hr_pct": 15,
+          "xbh_pct": 0,
+          "single_pct": 0,
+          "runs_pct": 7
+        },
+        "weather_only": {
+          "hr_pct": 4,
+          "xbh_pct": 2,
+          "single_pct": 0,
+          "runs_pct": 2
+        },
+        "combined": {
+          "hr_pct": 20,
+          "xbh_pct": 2,
+          "single_pct": 0,
+          "runs_pct": 4
+        }
+      },
+      "explanations": [
+        "평균 환경 대비 타구 결과 확률 합산으로 산출",
+        "외야 방향 바람이 장타를 도움"
       ],
       "data_status": "complete"
     },
@@ -105,11 +233,11 @@
       "weather": {
         "label": "맑음",
         "temperature_c": 18.8,
-        "humidity_pct": 68,
+        "humidity_pct": 67,
         "pressure_hpa": 1005.1,
         "precipitation_probability_pct": 31,
         "weather_code": 0,
-        "wind_speed_mps": 5.06,
+        "wind_speed_mps": 4.93,
         "wind_direction_deg": 288
       },
       "factors": {
@@ -170,11 +298,11 @@
         "label": "맑음",
         "temperature_c": 21.3,
         "humidity_pct": 62,
-        "pressure_hpa": 1003.8,
+        "pressure_hpa": 1003.5,
         "precipitation_probability_pct": 0,
         "weather_code": 1,
-        "wind_speed_mps": 5.37,
-        "wind_direction_deg": 299
+        "wind_speed_mps": 5.56,
+        "wind_direction_deg": 300
       },
       "factors": {
         "stadium_only": {
@@ -199,134 +327,6 @@
       "explanations": [
         "평균 환경 대비 타구 결과 확률 합산으로 산출",
         "날씨 영향은 중립에 가까움"
-      ],
-      "data_status": "complete"
-    },
-    {
-      "game_id": "2026-10-05-SSG-NC",
-      "start_time_local": "14:00",
-      "away_team": "SSG",
-      "home_team": "NC",
-      "stadium": {
-        "id": "changwon-nc-park",
-        "name_ko": "창원NC파크",
-        "city": "창원",
-        "type": "outdoor",
-        "orientation_deg": 142,
-        "baseline_evidence": {
-          "games": 103,
-          "prior_games": 150,
-          "raw_factors": {
-            "hr_pct": 37,
-            "xbh_pct": 0,
-            "single_pct": 0,
-            "runs_pct": 16
-          },
-          "adjusted_factors": {
-            "hr_pct": 15,
-            "xbh_pct": 0,
-            "single_pct": 0,
-            "runs_pct": 7
-          }
-        }
-      },
-      "weather": {
-        "label": "맑음",
-        "temperature_c": 22.5,
-        "humidity_pct": 52,
-        "pressure_hpa": 1009.9,
-        "precipitation_probability_pct": 0,
-        "weather_code": 0,
-        "wind_speed_mps": 3.86,
-        "wind_direction_deg": 301
-      },
-      "factors": {
-        "stadium_only": {
-          "hr_pct": 15,
-          "xbh_pct": 0,
-          "single_pct": 0,
-          "runs_pct": 7
-        },
-        "weather_only": {
-          "hr_pct": 4,
-          "xbh_pct": 2,
-          "single_pct": 0,
-          "runs_pct": 2
-        },
-        "combined": {
-          "hr_pct": 20,
-          "xbh_pct": 2,
-          "single_pct": 0,
-          "runs_pct": 4
-        }
-      },
-      "explanations": [
-        "평균 환경 대비 타구 결과 확률 합산으로 산출",
-        "외야 방향 바람이 장타를 도움"
-      ],
-      "data_status": "complete"
-    },
-    {
-      "game_id": "2026-10-05-KIWOOM-HANWHA",
-      "start_time_local": "14:00",
-      "away_team": "키움",
-      "home_team": "한화",
-      "stadium": {
-        "id": "hanwha-life-ballpark",
-        "name_ko": "대전한화생명볼파크",
-        "city": "대전",
-        "type": "outdoor",
-        "orientation_deg": 109,
-        "baseline_evidence": {
-          "games": 114,
-          "prior_games": 150,
-          "raw_factors": {
-            "hr_pct": -10,
-            "xbh_pct": 0,
-            "single_pct": 0,
-            "runs_pct": 2
-          },
-          "adjusted_factors": {
-            "hr_pct": -4,
-            "xbh_pct": 0,
-            "single_pct": 0,
-            "runs_pct": 1
-          }
-        }
-      },
-      "weather": {
-        "label": "맑음",
-        "temperature_c": 20.0,
-        "humidity_pct": 58,
-        "pressure_hpa": 1005.6,
-        "precipitation_probability_pct": 6,
-        "weather_code": 1,
-        "wind_speed_mps": 3.62,
-        "wind_direction_deg": 294
-      },
-      "factors": {
-        "stadium_only": {
-          "hr_pct": -4,
-          "xbh_pct": 0,
-          "single_pct": 0,
-          "runs_pct": 1
-        },
-        "weather_only": {
-          "hr_pct": 4,
-          "xbh_pct": 2,
-          "single_pct": 0,
-          "runs_pct": 2
-        },
-        "combined": {
-          "hr_pct": 0,
-          "xbh_pct": 2,
-          "single_pct": 0,
-          "runs_pct": 1
-        }
-      },
-      "explanations": [
-        "평균 환경 대비 타구 결과 확률 합산으로 산출",
-        "외야 방향 바람이 장타를 도움"
       ],
       "data_status": "complete"
     },
@@ -416,11 +416,11 @@
         "label": "맑음",
         "temperature_c": 20.7,
         "humidity_pct": 60,
-        "pressure_hpa": 1008.3,
+        "pressure_hpa": 1008.5,
         "precipitation_probability_pct": 0,
         "weather_code": 1,
-        "wind_speed_mps": 1.52,
-        "wind_direction_deg": 293
+        "wind_speed_mps": 1.36,
+        "wind_direction_deg": 306
       },
       "factors": {
         "stadium_only": {
@@ -476,14 +476,14 @@
         }
       },
       "weather": {
-        "label": "구름",
+        "label": "맑음",
         "temperature_c": 18.1,
-        "humidity_pct": 72,
-        "pressure_hpa": 1010.1,
+        "humidity_pct": 71,
+        "pressure_hpa": 1010.5,
         "precipitation_probability_pct": 0,
-        "weather_code": 2,
-        "wind_speed_mps": 2.97,
-        "wind_direction_deg": 318
+        "weather_code": 1,
+        "wind_speed_mps": 3.2,
+        "wind_direction_deg": 321
       },
       "factors": {
         "stadium_only": {
@@ -542,11 +542,11 @@
         "label": "맑음",
         "temperature_c": 17.0,
         "humidity_pct": 57,
-        "pressure_hpa": 1009.1,
+        "pressure_hpa": 1009.4,
         "precipitation_probability_pct": 0,
         "weather_code": 0,
-        "wind_speed_mps": 6.02,
-        "wind_direction_deg": 318
+        "wind_speed_mps": 5.87,
+        "wind_direction_deg": 317
       },
       "factors": {
         "stadium_only": {
