@@ -1,7 +1,7 @@
 {
   "date": "2026-10-06",
   "timezone": "Asia/Seoul",
-  "generated_at": "2026-10-06T08:57:19+09:00",
+  "generated_at": "2026-10-06T10:08:01+09:00",
   "sources": {
     "schedule": "Naver Sports schedule API",
     "weather": "open-meteo",
@@ -45,8 +45,8 @@
         "pressure_hpa": 1014.7,
         "precipitation_probability_pct": 0,
         "weather_code": 0,
-        "wind_speed_mps": 1.14,
-        "wind_direction_deg": 255
+        "wind_speed_mps": 1.12,
+        "wind_direction_deg": 260
       },
       "factors": {
         "stadium_only": {
@@ -236,8 +236,8 @@
         "pressure_hpa": 1010.1,
         "precipitation_probability_pct": 0,
         "weather_code": 0,
-        "wind_speed_mps": 1.5,
-        "wind_direction_deg": 307
+        "wind_speed_mps": 1.56,
+        "wind_direction_deg": 310
       },
       "factors": {
         "stadium_only": {
@@ -300,8 +300,8 @@
         "pressure_hpa": 1013.7,
         "precipitation_probability_pct": 0,
         "weather_code": 0,
-        "wind_speed_mps": 2.3,
-        "wind_direction_deg": 326
+        "wind_speed_mps": 2.39,
+        "wind_direction_deg": 327
       },
       "factors": {
         "stadium_only": {
@@ -427,8 +427,8 @@
         "pressure_hpa": 1014.1,
         "precipitation_probability_pct": 0,
         "weather_code": 0,
-        "wind_speed_mps": 2.28,
-        "wind_direction_deg": 345
+        "wind_speed_mps": 2.18,
+        "wind_direction_deg": 344
       },
       "factors": {
         "stadium_only": {
@@ -553,8 +553,8 @@
         "pressure_hpa": 1012.8,
         "precipitation_probability_pct": 0,
         "weather_code": 0,
-        "wind_speed_mps": 3.81,
-        "wind_direction_deg": 293
+        "wind_speed_mps": 3.85,
+        "wind_direction_deg": 295
       },
       "factors": {
         "stadium_only": {
