@@ -54,7 +54,7 @@ def test_outdoor_missing_weather_keeps_stadium_baseline_and_explains_missing_dat
     groups = calculate_factor_groups(stadium, None)
 
     assert groups.weather_only == FactorSet(hr_pct=0, xbh_pct=0, single_pct=0, runs_pct=0)
-    assert groups.combined == stadium.baseline_factors
+    assert groups.combined == FactorSet(hr_pct=-8, xbh_pct=3, single_pct=1, runs_pct=0)
     assert any("날씨 데이터" in explanation for explanation in groups.explanations)
     assert all("돔 구장" not in explanation for explanation in groups.explanations)
 

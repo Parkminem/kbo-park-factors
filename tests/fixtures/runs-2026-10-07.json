@@ -1,0 +1,213 @@
+{
+  "source_commit": "cefc7c545363f7e83018a8f59d5e2f1f01e2ca42",
+  "date": "2026-10-07",
+  "games": [
+    {
+      "stadium": {
+        "id": "sajik",
+        "name_ko": "사직야구장",
+        "name_en": "Sajik Baseball Stadium",
+        "city": "부산",
+        "home_teams": [
+          "롯데"
+        ],
+        "latitude": 35.194,
+        "longitude": 129.0615,
+        "type": "outdoor",
+        "altitude_m": 13,
+        "outfield_size": "neutral",
+        "orientation_deg": 166,
+        "baseline_factors": {
+          "hr_pct": -7,
+          "xbh_pct": 0,
+          "single_pct": 0,
+          "runs_pct": 3
+        },
+        "baseline_evidence": {
+          "games": 114,
+          "prior_games": 150,
+          "raw_factors": {
+            "hr_pct": -17,
+            "xbh_pct": 0,
+            "single_pct": 0,
+            "runs_pct": 8
+          },
+          "adjusted_factors": {
+            "hr_pct": -7,
+            "xbh_pct": 0,
+            "single_pct": 0,
+            "runs_pct": 3
+          }
+        }
+      },
+      "weather": {
+        "label": "맑음",
+        "temperature_c": 20.6,
+        "humidity_pct": 51,
+        "pressure_hpa": 1018.6,
+        "precipitation_probability_pct": 0,
+        "weather_code": 0,
+        "wind_speed_mps": 0.71,
+        "wind_direction_deg": 98
+      },
+      "original_factors": {
+        "stadium_only": {
+          "hr_pct": -7,
+          "xbh_pct": 0,
+          "single_pct": 0,
+          "runs_pct": 3
+        },
+        "weather_only": {
+          "hr_pct": 0,
+          "xbh_pct": 0,
+          "single_pct": 0,
+          "runs_pct": 0
+        },
+        "combined": {
+          "hr_pct": -7,
+          "xbh_pct": 0,
+          "single_pct": 0,
+          "runs_pct": -1
+        }
+      }
+    },
+    {
+      "stadium": {
+        "id": "incheon-ssg-landers-field",
+        "name_ko": "인천SSG랜더스필드",
+        "name_en": "Incheon SSG Landers Field",
+        "city": "인천",
+        "home_teams": [
+          "SSG"
+        ],
+        "latitude": 37.4369,
+        "longitude": 126.6933,
+        "type": "outdoor",
+        "altitude_m": 28,
+        "outfield_size": "hitter",
+        "orientation_deg": 173,
+        "baseline_factors": {
+          "hr_pct": 13,
+          "xbh_pct": 0,
+          "single_pct": 0,
+          "runs_pct": -2
+        },
+        "baseline_evidence": {
+          "games": 112,
+          "prior_games": 150,
+          "raw_factors": {
+            "hr_pct": 30,
+            "xbh_pct": 0,
+            "single_pct": 0,
+            "runs_pct": -5
+          },
+          "adjusted_factors": {
+            "hr_pct": 13,
+            "xbh_pct": 0,
+            "single_pct": 0,
+            "runs_pct": -2
+          }
+        }
+      },
+      "weather": {
+        "label": "맑음",
+        "temperature_c": 18.3,
+        "humidity_pct": 57,
+        "pressure_hpa": 1018.2,
+        "precipitation_probability_pct": 0,
+        "weather_code": 0,
+        "wind_speed_mps": 2.33,
+        "wind_direction_deg": 280
+      },
+      "original_factors": {
+        "stadium_only": {
+          "hr_pct": 13,
+          "xbh_pct": 0,
+          "single_pct": 0,
+          "runs_pct": -2
+        },
+        "weather_only": {
+          "hr_pct": 0,
+          "xbh_pct": 0,
+          "single_pct": 0,
+          "runs_pct": 0
+        },
+        "combined": {
+          "hr_pct": 13,
+          "xbh_pct": 0,
+          "single_pct": 0,
+          "runs_pct": 2
+        }
+      }
+    },
+    {
+      "stadium": {
+        "id": "suwon-kt-wiz-park",
+        "name_ko": "수원KT위즈파크",
+        "name_en": "Suwon KT Wiz Park",
+        "city": "수원",
+        "home_teams": [
+          "KT"
+        ],
+        "latitude": 37.2998,
+        "longitude": 127.0097,
+        "type": "outdoor",
+        "altitude_m": 45,
+        "outfield_size": "hitter",
+        "orientation_deg": 172,
+        "baseline_factors": {
+          "hr_pct": -6,
+          "xbh_pct": 0,
+          "single_pct": 0,
+          "runs_pct": 1
+        },
+        "baseline_evidence": {
+          "games": 118,
+          "prior_games": 150,
+          "raw_factors": {
+            "hr_pct": -13,
+            "xbh_pct": 0,
+            "single_pct": 0,
+            "runs_pct": 2
+          },
+          "adjusted_factors": {
+            "hr_pct": -6,
+            "xbh_pct": 0,
+            "single_pct": 0,
+            "runs_pct": 1
+          }
+        }
+      },
+      "weather": {
+        "label": "맑음",
+        "temperature_c": 16.7,
+        "humidity_pct": 73,
+        "pressure_hpa": 1014.6,
+        "precipitation_probability_pct": 0,
+        "weather_code": 0,
+        "wind_speed_mps": 1.88,
+        "wind_direction_deg": 295
+      },
+      "original_factors": {
+        "stadium_only": {
+          "hr_pct": -6,
+          "xbh_pct": 0,
+          "single_pct": 0,
+          "runs_pct": 1
+        },
+        "weather_only": {
+          "hr_pct": 0,
+          "xbh_pct": 0,
+          "single_pct": 0,
+          "runs_pct": 0
+        },
+        "combined": {
+          "hr_pct": -6,
+          "xbh_pct": 0,
+          "single_pct": 0,
+          "runs_pct": -1
+        }
+      }
+    }
+  ]
+}

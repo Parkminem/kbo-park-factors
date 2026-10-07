@@ -430,9 +430,9 @@ function FactorEvidence({ game, factors }: { game: Game; factors: FactorSet }) {
         </div>
         {evidence ? (
           <p>
-            구장 기준값은 KBO 공식 GameCenter {evidence.games}경기 raw HR {formatPct(evidence.raw_factors.hr_pct)}, Runs{" "}
+            관측 구장 기준값은 KBO 공식 GameCenter {evidence.games}경기 raw HR {formatPct(evidence.raw_factors.hr_pct)}, Runs{" "}
             {formatPct(evidence.raw_factors.runs_pct)}를 {evidence.prior_games}경기 prior로 평균회귀해 HR{" "}
-            {formatPct(evidence.adjusted_factors.hr_pct)}, Runs {formatPct(evidence.adjusted_factors.runs_pct)}로 사용합니다.
+            {formatPct(evidence.adjusted_factors.hr_pct)}, Runs {formatPct(evidence.adjusted_factors.runs_pct)}로 보존합니다. 표시 Runs는 별도의 중립 타구 포트폴리오 득점 가치 변화율입니다.
           </p>
         ) : (
           <p>구장 기준값 근거 메타데이터가 없는 행입니다.</p>
