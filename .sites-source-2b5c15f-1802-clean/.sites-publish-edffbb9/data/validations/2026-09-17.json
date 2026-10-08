@@ -1,0 +1,92 @@
+{
+  "date": "2026-09-17",
+  "summary": {
+    "predicted_games": 2,
+    "completed_games": 0,
+    "pending_games": 2,
+    "total_home_runs": 0,
+    "total_runs": 0,
+    "avg_predicted_hr_pct": 10,
+    "avg_predicted_runs_pct": 2
+  },
+  "games": [
+    {
+      "game_id": "2026-09-17-SSG-NC",
+      "matchup": {
+        "away_team": "SSG",
+        "home_team": "NC"
+      },
+      "stadium": {
+        "id": "changwon-nc-park",
+        "name_ko": "창원NC파크",
+        "city": "창원",
+        "type": "outdoor",
+        "orientation_deg": 142,
+        "baseline_evidence": {
+          "games": 103,
+          "prior_games": 150,
+          "raw_factors": {
+            "hr_pct": 37,
+            "xbh_pct": 0,
+            "single_pct": 0,
+            "runs_pct": 16
+          },
+          "adjusted_factors": {
+            "hr_pct": 15,
+            "xbh_pct": 0,
+            "single_pct": 0,
+            "runs_pct": 7
+          }
+        }
+      },
+      "predicted": {
+        "hr_pct": 15,
+        "runs_pct": 2
+      },
+      "actual": null,
+      "status": "pending"
+    },
+    {
+      "game_id": "2026-09-17-KIWOOM-KIA",
+      "matchup": {
+        "away_team": "키움",
+        "home_team": "KIA"
+      },
+      "stadium": {
+        "id": "gwangju-kia-champions-field",
+        "name_ko": "광주-KIA챔피언스필드",
+        "city": "광주",
+        "type": "outdoor",
+        "orientation_deg": 56,
+        "baseline_evidence": {
+          "games": 113,
+          "prior_games": 150,
+          "raw_factors": {
+            "hr_pct": 14,
+            "xbh_pct": 0,
+            "single_pct": 0,
+            "runs_pct": -3
+          },
+          "adjusted_factors": {
+            "hr_pct": 6,
+            "xbh_pct": 0,
+            "single_pct": 0,
+            "runs_pct": -1
+          }
+        }
+      },
+      "predicted": {
+        "hr_pct": 6,
+        "runs_pct": 1
+      },
+      "actual": null,
+      "status": "pending"
+    }
+  ],
+  "timezone": "Asia/Seoul",
+  "generated_at": "2026-09-17T23:32:37+09:00",
+  "sources": {
+    "predictions": "data/daily-factors/2026-09-17.json",
+    "actuals": "KBO official GameCenter"
+  }
+}
