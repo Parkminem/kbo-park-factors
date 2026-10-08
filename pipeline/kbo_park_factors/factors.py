@@ -52,7 +52,7 @@ _RUN_VALUES = ProbabilityTotals(hr=1.40, xbh=0.78, single=0.47, runs=0.0)
 
 
 def calculate_factor_groups(stadium: Stadium, weather: WeatherSnapshot | None) -> FactorGroups:
-    stadium_only = stadium.baseline_factors
+    stadium_only = _with_portfolio_runs(stadium.baseline_factors)
     if weather is None:
         return FactorGroups(
             stadium_only=stadium_only,
@@ -85,51 +85,51 @@ def _weather_factor_set(stadium: Stadium, weather: WeatherSnapshot) -> tuple[Fac
     hr = 0
     xbh = 0
     single = 0
-    runs = 0
     explanations: list[str] = []
 
     if weather.temperature_c >= 28:
         hr += 4
         xbh += 1
-        runs += 2
         explanations.append("따뜻한 기온이 비거리와 득점 환경을 올림")
     elif weather.temperature_c <= 12:
         hr -= 3
         xbh -= 1
-        runs -= 2
         explanations.append("낮은 기온이 비거리와 득점 환경을 낮춤")
 
     if weather.pressure_hpa <= 1002:
         hr += 2
-        runs += 1
         explanations.append("낮은 기압이 타구 비거리에 우호적")
     elif weather.pressure_hpa >= 1020:
         hr -= 2
-        runs -= 1
         explanations.append("높은 기압이 타구 비거리를 누름")
 
     wind_alignment = _wind_alignment(stadium.orientation_deg, weather.wind_direction_deg)
     if weather.wind_speed_mps >= 3.0 and wind_alignment == "out":
         hr += 4
         xbh += 2
-        runs += 2
         explanations.append("외야 방향 바람이 장타를 도움")
     elif weather.wind_speed_mps >= 3.0 and wind_alignment == "in":
         hr -= 4
         xbh -= 1
-        runs -= 2
         explanations.append("홈 방향 바람이 장타를 억제")
 
     if weather.precipitation_probability_pct >= 50:
         hr -= 2
         single -= 1
-        runs -= 1
         explanations.append("강수 가능성이 타구 질과 경기 흐름을 낮춤")
 
-    weather_only = FactorSet(hr_pct=hr, xbh_pct=xbh, single_pct=single, runs_pct=runs)
+    weather_only = _with_portfolio_runs(FactorSet(hr_pct=hr, xbh_pct=xbh, single_pct=single, runs_pct=0))
     if not explanations:
         explanations.append("날씨 영향은 중립에 가까움")
     return weather_only, explanations
+
+
+def _with_portfolio_runs(factors: FactorSet) -> FactorSet:
+    # Preserve the existing HR/XBH/single adjustments. Only Runs is expressed
+    # as neutral-portfolio run value, like combined, rather than an observed
+    # scoring rate or a separate weather rule.
+    runs_pct = _combine_probability_ratios(factors, _ZERO_FACTORS).runs_pct
+    return factors.model_copy(update={"runs_pct": runs_pct})
 
 
 def _combine_probability_ratios(stadium: FactorSet, weather: FactorSet) -> FactorSet:

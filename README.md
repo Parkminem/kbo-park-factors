@@ -84,11 +84,19 @@ Outdoor parks receive rule-based adjustments for temperature, surface pressure, 
 
 야외 구장은 기온, 지상 기압, 강수 확률, 바람을 반영합니다. 기상 데이터의 풍향을 실제 바람이 향하는 방향으로 변환해 구장 중견수 방향과 비교하며, 돔구장은 외부 날씨 영향을 중립으로 처리합니다.
 
-### 4. Combined factors · 최종 보정치
+### 4. Comparable Runs factors · 동일 척도의 Runs 보정치
 
 Park and weather percentages are not simply added. A neutral portfolio of representative contact types is evaluated in the average environment and again in the selected environment. HR, extra-base-hit, and single probabilities are converted to run value, and the percentage change from neutral becomes the displayed factor.
 
 구장 보정치와 날씨 보정치를 단순히 더하지 않습니다. 대표적인 타구 유형으로 구성한 중립 포트폴리오를 평균 환경과 선택 환경에서 각각 계산합니다. 홈런, 장타, 단타 확률을 득점 가치로 환산한 뒤 중립 환경 대비 변화율을 표시합니다.
+
+All three `factors.*.runs_pct` fields use the same neutral-portfolio run-value change: `stadium_only` applies park adjustments alone, `weather_only` applies weather adjustments alone, and `combined` applies both. Run value is `1.40 × HR + 0.78 × XBH + 0.47 × single`. Dome parks and missing-weather rows use portfolio Runs for the park and combined groups, with zero weather effect. HR behavior is unchanged; the three Runs values need not add because probability ratios interact and percentages are rounded.
+
+세 그룹의 `factors.*.runs_pct`는 모두 같은 중립 타구 포트폴리오의 득점 가치 변화율입니다. `stadium_only`는 구장만, `weather_only`는 날씨만, `combined`는 둘 다 적용하며 득점 가치는 `1.40 × HR + 0.78 × 장타 + 0.47 × 단타`로 계산합니다. 돔·날씨 누락 시에도 구장/최종 Runs는 이 척도를 사용하고 날씨 효과는 0입니다. HR 동작은 유지하며 확률 비율의 상호작용과 반올림 때문에 세 Runs를 단순 합산할 수는 없습니다.
+
+Observed per-game scoring factors remain in the stadium catalog's `baseline_factors.runs_pct` and `baseline_evidence.raw_factors/adjusted_factors.runs_pct`. They are evidence, not the displayed portfolio Runs, and are not inputs to the portfolio run-value calculation. Historical daily artifacts generated before this change retain their old semantics; regenerate from their original park/weather inputs before comparing their Runs groups.
+
+실제 경기당 득점 비율은 카탈로그의 `baseline_factors.runs_pct`와 `baseline_evidence.raw_factors/adjusted_factors.runs_pct`에 관측 근거로 보존합니다. 표시되는 포트폴리오 Runs와는 다른 지표이며 포트폴리오 득점 가치 계산의 입력이 아닙니다. 패치 이전 일일 산출물은 이전 의미를 유지하므로 Runs 그룹을 비교하려면 당시 구장·날씨 입력으로 다시 생성해야 합니다.
 
 ### 5. Validation · 사후 검증
 
