@@ -1,0 +1,92 @@
+{
+  "date": "2099-07-15",
+  "timezone": "Asia/Seoul",
+  "generated_at": "2099-07-15T13:00:00+09:00",
+  "sources": {
+    "schedule": "fixture",
+    "weather": "fixture",
+    "stadiums": "fixture",
+    "baselines": "fixture"
+  },
+  "warnings": [],
+  "games": [
+    {
+      "game_id": "2099-07-15-LG-SAMSUNG",
+      "start_time_local": "18:30",
+      "away_team": "LG",
+      "home_team": "삼성",
+      "stadium": {
+        "id": "daegu-lions-park",
+        "name_ko": "대구삼성라이온즈파크",
+        "city": "대구",
+        "type": "outdoor",
+        "orientation_deg": 42,
+        "baseline_evidence": {
+          "games": 108,
+          "prior_games": 150,
+          "raw_factors": { "hr_pct": 38, "xbh_pct": 0, "single_pct": 0, "runs_pct": 10 },
+          "adjusted_factors": { "hr_pct": 16, "xbh_pct": 0, "single_pct": 0, "runs_pct": 4 }
+        }
+      },
+      "weather": {
+        "label": "맑음",
+        "temperature_c": 29.2,
+        "humidity_pct": 72,
+        "pressure_hpa": 998.4,
+        "precipitation_probability_pct": 10,
+        "weather_code": 1,
+        "wind_speed_mps": 4.2,
+        "wind_direction_deg": 220
+      },
+      "factors": {
+        "stadium_only": { "hr_pct": 16, "xbh_pct": 0, "single_pct": 0, "runs_pct": 4 },
+        "weather_only": { "hr_pct": 10, "xbh_pct": 3, "single_pct": 0, "runs_pct": 5 },
+        "combined": { "hr_pct": 28, "xbh_pct": 2, "single_pct": 0, "runs_pct": 5 }
+      },
+      "explanations": [
+        "평균 환경 대비 타구 결과 확률 합산으로 산출",
+        "외야 방향 바람이 장타를 도움"
+      ],
+      "data_status": "complete"
+    },
+    {
+      "game_id": "2099-07-15-SSG-DOOSAN",
+      "start_time_local": "18:30",
+      "away_team": "SSG",
+      "home_team": "두산",
+      "stadium": {
+        "id": "jamsil",
+        "name_ko": "잠실야구장",
+        "city": "서울",
+        "type": "outdoor",
+        "orientation_deg": 45,
+        "baseline_evidence": {
+          "games": 230,
+          "prior_games": 150,
+          "raw_factors": { "hr_pct": -29, "xbh_pct": 0, "single_pct": 0, "runs_pct": -8 },
+          "adjusted_factors": { "hr_pct": -18, "xbh_pct": 0, "single_pct": 0, "runs_pct": -5 }
+        }
+      },
+      "weather": {
+        "label": "비 가능",
+        "temperature_c": 26.4,
+        "humidity_pct": 88,
+        "pressure_hpa": 1004.1,
+        "precipitation_probability_pct": 55,
+        "weather_code": 51,
+        "wind_speed_mps": 3.6,
+        "wind_direction_deg": 45
+      },
+      "factors": {
+        "stadium_only": { "hr_pct": -18, "xbh_pct": 0, "single_pct": 0, "runs_pct": -5 },
+        "weather_only": { "hr_pct": -6, "xbh_pct": -1, "single_pct": -1, "runs_pct": -3 },
+        "combined": { "hr_pct": -23, "xbh_pct": -1, "single_pct": -1, "runs_pct": -5 }
+      },
+      "explanations": [
+        "평균 환경 대비 타구 결과 확률 합산으로 산출",
+        "홈 방향 바람이 장타를 억제"
+      ],
+      "data_status": "complete"
+    }
+  ]
+}
