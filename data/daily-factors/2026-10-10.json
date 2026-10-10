@@ -1,17 +1,14 @@
 {
   "date": "2026-10-10",
   "timezone": "Asia/Seoul",
-  "generated_at": "2026-10-10T13:00:44+09:00",
+  "generated_at": "2026-10-10T13:01:42+09:00",
   "sources": {
     "schedule": "Naver Sports schedule API",
     "weather": "open-meteo",
     "stadiums": "local-catalog",
     "baselines": "KBO official GameCenter"
   },
-  "warnings": [
-    "weather_missing:2026-10-10-jamsil-REFERENCE:503 Server Error: Service Unavailable for url: https://api.open-meteo.com/v1/forecast?latitude=37.5122&longitude=127.0719&hourly=temperature_2m%2Crelative_humidity_2m%2Csurface_pressure%2Cprecipitation_probability%2Cweather_code%2Cwind_speed_10m%2Cwind_direction_10m&timezone=Asia%2FSeoul&wind_speed_unit=ms&start_date=2026-10-10&end_date=2026-10-10",
-    "weather_missing:2026-10-10-daegu-lions-park-REFERENCE:503 Server Error: Service Unavailable for url: https://api.open-meteo.com/v1/forecast?latitude=35.841&longitude=128.6816&hourly=temperature_2m%2Crelative_humidity_2m%2Csurface_pressure%2Cprecipitation_probability%2Cweather_code%2Cwind_speed_10m%2Cwind_direction_10m&timezone=Asia%2FSeoul&wind_speed_unit=ms&start_date=2026-10-10&end_date=2026-10-10"
-  ],
+  "warnings": [],
   "games": [
     {
       "game_id": "2026-10-10-LG-LOTTE",
@@ -233,7 +230,16 @@
           }
         }
       },
-      "weather": null,
+      "weather": {
+        "label": "맑음",
+        "temperature_c": 21.8,
+        "humidity_pct": 61,
+        "pressure_hpa": 1016.3,
+        "precipitation_probability_pct": 0,
+        "weather_code": 1,
+        "wind_speed_mps": 1.79,
+        "wind_direction_deg": 297
+      },
       "factors": {
         "stadium_only": {
           "hr_pct": -18,
@@ -257,7 +263,7 @@
       "explanations": [
         "해당 날짜 경기 없음 · 현행 홈구장 기준 표시"
       ],
-      "data_status": "stadium_reference_weather_missing"
+      "data_status": "stadium_reference"
     },
     {
       "game_id": "2026-10-10-gocheok-REFERENCE",
@@ -341,7 +347,16 @@
           }
         }
       },
-      "weather": null,
+      "weather": {
+        "label": "구름",
+        "temperature_c": 23.3,
+        "humidity_pct": 84,
+        "pressure_hpa": 1010.4,
+        "precipitation_probability_pct": 16,
+        "weather_code": 2,
+        "wind_speed_mps": 0.22,
+        "wind_direction_deg": 27
+      },
       "factors": {
         "stadium_only": {
           "hr_pct": 16,
@@ -365,7 +380,7 @@
       "explanations": [
         "해당 날짜 경기 없음 · 현행 홈구장 기준 표시"
       ],
-      "data_status": "stadium_reference_weather_missing"
+      "data_status": "stadium_reference"
     },
     {
       "game_id": "2026-10-10-changwon-nc-park-REFERENCE",
