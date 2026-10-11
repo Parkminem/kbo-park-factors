@@ -1,7 +1,7 @@
 {
   "date": "2026-10-11",
   "timezone": "Asia/Seoul",
-  "generated_at": "2026-10-11T13:09:09+09:00",
+  "generated_at": "2026-10-11T14:03:29+09:00",
   "sources": {
     "schedule": "Naver Sports schedule API",
     "weather": "open-meteo",
@@ -107,7 +107,7 @@
         "temperature_c": 26.5,
         "humidity_pct": 61,
         "pressure_hpa": 1014.1,
-        "precipitation_probability_pct": 26,
+        "precipitation_probability_pct": 8,
         "weather_code": 1,
         "wind_speed_mps": 1.97,
         "wind_direction_deg": 150
@@ -167,11 +167,11 @@
         }
       },
       "weather": {
-        "label": "비 가능",
+        "label": "맑음",
         "temperature_c": 23.8,
         "humidity_pct": 72,
         "pressure_hpa": 1016.5,
-        "precipitation_probability_pct": 57,
+        "precipitation_probability_pct": 4,
         "weather_code": 1,
         "wind_speed_mps": 0.86,
         "wind_direction_deg": 306
@@ -184,15 +184,15 @@
           "runs_pct": -3
         },
         "weather_only": {
-          "hr_pct": -2,
+          "hr_pct": 0,
           "xbh_pct": 0,
-          "single_pct": -1,
-          "runs_pct": -1
+          "single_pct": 0,
+          "runs_pct": 0
         },
         "combined": {
-          "hr_pct": -20,
+          "hr_pct": -18,
           "xbh_pct": 0,
-          "single_pct": -1,
+          "single_pct": 0,
           "runs_pct": -3
         }
       },
@@ -288,7 +288,7 @@
         "temperature_c": 23.1,
         "humidity_pct": 82,
         "pressure_hpa": 1016.1,
-        "precipitation_probability_pct": 14,
+        "precipitation_probability_pct": 4,
         "weather_code": 1,
         "wind_speed_mps": 1.75,
         "wind_direction_deg": 66
@@ -347,11 +347,11 @@
         }
       },
       "weather": {
-        "label": "비 가능",
+        "label": "구름",
         "temperature_c": 22.8,
         "humidity_pct": 77,
         "pressure_hpa": 1011.4,
-        "precipitation_probability_pct": 69,
+        "precipitation_probability_pct": 31,
         "weather_code": 2,
         "wind_speed_mps": 1.12,
         "wind_direction_deg": 63
@@ -364,15 +364,15 @@
           "runs_pct": -1
         },
         "weather_only": {
-          "hr_pct": -2,
+          "hr_pct": 0,
           "xbh_pct": 0,
-          "single_pct": -1,
-          "runs_pct": -1
+          "single_pct": 0,
+          "runs_pct": 0
         },
         "combined": {
-          "hr_pct": -6,
+          "hr_pct": -4,
           "xbh_pct": 0,
-          "single_pct": -1,
+          "single_pct": 0,
           "runs_pct": -1
         }
       },
@@ -414,7 +414,7 @@
         "temperature_c": 23.3,
         "humidity_pct": 81,
         "pressure_hpa": 1017.4,
-        "precipitation_probability_pct": 35,
+        "precipitation_probability_pct": 20,
         "weather_code": 2,
         "wind_speed_mps": 1.35,
         "wind_direction_deg": 132
@@ -473,11 +473,11 @@
         }
       },
       "weather": {
-        "label": "비 가능",
+        "label": "맑음",
         "temperature_c": 22.0,
         "humidity_pct": 87,
         "pressure_hpa": 1011.4,
-        "precipitation_probability_pct": 57,
+        "precipitation_probability_pct": 12,
         "weather_code": 1,
         "wind_speed_mps": 1.63,
         "wind_direction_deg": 317
@@ -490,16 +490,16 @@
           "runs_pct": -1
         },
         "weather_only": {
-          "hr_pct": -2,
+          "hr_pct": 0,
           "xbh_pct": 0,
-          "single_pct": -1,
-          "runs_pct": -1
+          "single_pct": 0,
+          "runs_pct": 0
         },
         "combined": {
-          "hr_pct": -8,
+          "hr_pct": -6,
           "xbh_pct": 0,
-          "single_pct": -1,
-          "runs_pct": -2
+          "single_pct": 0,
+          "runs_pct": -1
         }
       },
       "explanations": [
@@ -540,7 +540,7 @@
         "temperature_c": 21.7,
         "humidity_pct": 76,
         "pressure_hpa": 1015.0,
-        "precipitation_probability_pct": 18,
+        "precipitation_probability_pct": 0,
         "weather_code": 1,
         "wind_speed_mps": 1.8,
         "wind_direction_deg": 341
