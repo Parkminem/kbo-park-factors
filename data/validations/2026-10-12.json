@@ -47,42 +47,6 @@
       "status": "pending"
     },
     {
-      "game_id": "2026-10-12-LG-KIA",
-      "matchup": {
-        "away_team": "LG",
-        "home_team": "KIA"
-      },
-      "stadium": {
-        "id": "gwangju-kia-champions-field",
-        "name_ko": "광주-KIA챔피언스필드",
-        "city": "광주",
-        "type": "outdoor",
-        "orientation_deg": 56,
-        "baseline_evidence": {
-          "games": 113,
-          "prior_games": 150,
-          "raw_factors": {
-            "hr_pct": 14,
-            "xbh_pct": 0,
-            "single_pct": 0,
-            "runs_pct": -3
-          },
-          "adjusted_factors": {
-            "hr_pct": 6,
-            "xbh_pct": 0,
-            "single_pct": 0,
-            "runs_pct": -1
-          }
-        }
-      },
-      "predicted": {
-        "hr_pct": 6,
-        "runs_pct": 1
-      },
-      "actual": null,
-      "status": "pending"
-    },
-    {
       "game_id": "2026-10-12-LOTTE-DOOSAN",
       "matchup": {
         "away_team": "롯데",
@@ -117,10 +81,46 @@
       },
       "actual": null,
       "status": "pending"
+    },
+    {
+      "game_id": "2026-10-12-LG-KIA",
+      "matchup": {
+        "away_team": "LG",
+        "home_team": "KIA"
+      },
+      "stadium": {
+        "id": "gwangju-kia-champions-field",
+        "name_ko": "광주-KIA챔피언스필드",
+        "city": "광주",
+        "type": "outdoor",
+        "orientation_deg": 56,
+        "baseline_evidence": {
+          "games": 113,
+          "prior_games": 150,
+          "raw_factors": {
+            "hr_pct": 14,
+            "xbh_pct": 0,
+            "single_pct": 0,
+            "runs_pct": -3
+          },
+          "adjusted_factors": {
+            "hr_pct": 6,
+            "xbh_pct": 0,
+            "single_pct": 0,
+            "runs_pct": -1
+          }
+        }
+      },
+      "predicted": {
+        "hr_pct": 6,
+        "runs_pct": 1
+      },
+      "actual": null,
+      "status": "pending"
     }
   ],
   "timezone": "Asia/Seoul",
-  "generated_at": "2026-10-12T20:10:14+09:00",
+  "generated_at": "2026-10-12T21:22:39+09:00",
   "sources": {
     "predictions": "data/daily-factors/2026-10-12.json",
     "actuals": "KBO official GameCenter"
