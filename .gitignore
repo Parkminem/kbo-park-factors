@@ -10,3 +10,5 @@ __pycache__/
 tsconfig.tsbuildinfo
 *.pyc
 .DS_Store
+.sites-*.tar.gz
+.sites-*.tgz

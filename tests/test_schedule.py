@@ -1,6 +1,28 @@
 from kbo_park_factors.schedule import parse_daily_schedule_html, parse_naver_schedule_payload
 
 
+def test_parse_naver_schedule_payload_keeps_playoff_game():
+    payload = {"result": {"games": [{
+        "gameId": "33331020HTLG02026",
+        "gameDate": "2026-10-20",
+        "gameDateTime": "2026-10-20T18:30:00",
+        "stadium": "잠실",
+        "homeTeamName": "LG",
+        "awayTeamName": "KIA",
+        "statusCode": "READY",
+        "cancel": False,
+        "roundCode": "kbo_ps_sp",
+        "seriesGameNo": 3,
+    }]}}
+
+    games = parse_naver_schedule_payload(payload, "2026-10-20")
+
+    assert len(games) == 1
+    assert games[0].game_id == "2026-10-20-KIA-LG"
+    assert games[0].stadium_id == "jamsil"
+    assert games[0].start_time_local == "18:30"
+
+
 def test_parse_daily_schedule_html_extracts_game():
     html = """
     <table>
