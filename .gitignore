@@ -5,6 +5,7 @@ out/
 .vercel/
 .wrangler/
 .venv/
+*.egg-info/
 __pycache__/
 .pytest_cache/
 tsconfig.tsbuildinfo
