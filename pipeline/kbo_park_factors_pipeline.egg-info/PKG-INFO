@@ -1,0 +1,9 @@
+Metadata-Version: 2.4
+Name: kbo-park-factors-pipeline
+Version: 0.1.0
+Requires-Python: >=3.11
+Requires-Dist: beautifulsoup4>=4.12
+Requires-Dist: pydantic>=2.7
+Requires-Dist: requests>=2.32
+Provides-Extra: test
+Requires-Dist: pytest>=8.2; extra == "test"

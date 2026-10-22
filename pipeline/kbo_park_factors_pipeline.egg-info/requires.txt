@@ -1,0 +1,6 @@
+beautifulsoup4>=4.12
+pydantic>=2.7
+requests>=2.32
+
+[test]
+pytest>=8.2
