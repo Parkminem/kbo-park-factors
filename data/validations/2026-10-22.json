@@ -1,0 +1,19 @@
+{
+  "date": "2026-10-22",
+  "summary": {
+    "predicted_games": 0,
+    "completed_games": 0,
+    "pending_games": 0,
+    "total_home_runs": 0,
+    "total_runs": 0,
+    "avg_predicted_hr_pct": null,
+    "avg_predicted_runs_pct": null
+  },
+  "games": [],
+  "timezone": "Asia/Seoul",
+  "generated_at": "2026-10-22T16:00:18+09:00",
+  "sources": {
+    "predictions": "data/daily-factors/2026-10-22.json",
+    "actuals": "KBO official GameCenter"
+  }
+}
