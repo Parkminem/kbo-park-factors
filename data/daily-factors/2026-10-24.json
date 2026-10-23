@@ -1,7 +1,7 @@
 {
-  "date": "2026-10-23",
+  "date": "2026-10-24",
   "timezone": "Asia/Seoul",
-  "generated_at": "2026-10-23T10:04:13+09:00",
+  "generated_at": "2026-10-24T03:11:31+09:00",
   "sources": {
     "schedule": "Naver Sports schedule API",
     "weather": "open-meteo",
@@ -11,7 +11,7 @@
   "warnings": [],
   "games": [
     {
-      "game_id": "2026-10-23-jamsil-REFERENCE",
+      "game_id": "2026-10-24-jamsil-REFERENCE",
       "start_time_local": "18:30",
       "away_team": "",
       "home_team": "잠실야구장",
@@ -39,14 +39,14 @@
         }
       },
       "weather": {
-        "label": "맑음",
-        "temperature_c": 17.6,
-        "humidity_pct": 71,
-        "pressure_hpa": 1019.0,
-        "precipitation_probability_pct": 0,
-        "weather_code": 0,
-        "wind_speed_mps": 0.1,
-        "wind_direction_deg": 90
+        "label": "구름",
+        "temperature_c": 16.7,
+        "humidity_pct": 85,
+        "pressure_hpa": 1014.8,
+        "precipitation_probability_pct": 22,
+        "weather_code": 3,
+        "wind_speed_mps": 1.61,
+        "wind_direction_deg": 330
       },
       "factors": {
         "stadium_only": {
@@ -74,7 +74,7 @@
       "data_status": "stadium_reference"
     },
     {
-      "game_id": "2026-10-23-gocheok-REFERENCE",
+      "game_id": "2026-10-24-gocheok-REFERENCE",
       "start_time_local": "18:30",
       "away_team": "",
       "home_team": "고척스카이돔",
@@ -128,7 +128,7 @@
       "data_status": "stadium_reference"
     },
     {
-      "game_id": "2026-10-23-sajik-REFERENCE",
+      "game_id": "2026-10-24-sajik-REFERENCE",
       "start_time_local": "18:30",
       "away_team": "",
       "home_team": "사직야구장",
@@ -157,13 +157,13 @@
       },
       "weather": {
         "label": "비 가능",
-        "temperature_c": 19.2,
-        "humidity_pct": 75,
-        "pressure_hpa": 1017.6,
-        "precipitation_probability_pct": 71,
-        "weather_code": 3,
-        "wind_speed_mps": 2.16,
-        "wind_direction_deg": 77
+        "temperature_c": 19.6,
+        "humidity_pct": 94,
+        "pressure_hpa": 1011.8,
+        "precipitation_probability_pct": 100,
+        "weather_code": 65,
+        "wind_speed_mps": 3.05,
+        "wind_direction_deg": 41
       },
       "factors": {
         "stadium_only": {
@@ -191,7 +191,7 @@
       "data_status": "stadium_reference"
     },
     {
-      "game_id": "2026-10-23-daegu-lions-park-REFERENCE",
+      "game_id": "2026-10-24-daegu-lions-park-REFERENCE",
       "start_time_local": "18:30",
       "away_team": "",
       "home_team": "대구삼성라이온즈파크",
@@ -219,14 +219,14 @@
         }
       },
       "weather": {
-        "label": "구름",
-        "temperature_c": 16.8,
-        "humidity_pct": 87,
-        "pressure_hpa": 1013.3,
-        "precipitation_probability_pct": 24,
-        "weather_code": 3,
-        "wind_speed_mps": 2.24,
-        "wind_direction_deg": 100
+        "label": "비 가능",
+        "temperature_c": 17.7,
+        "humidity_pct": 98,
+        "pressure_hpa": 1007.8,
+        "precipitation_probability_pct": 100,
+        "weather_code": 61,
+        "wind_speed_mps": 1.71,
+        "wind_direction_deg": 83
       },
       "factors": {
         "stadium_only": {
@@ -236,15 +236,15 @@
           "runs_pct": 2
         },
         "weather_only": {
-          "hr_pct": 0,
+          "hr_pct": -2,
           "xbh_pct": 0,
-          "single_pct": 0,
-          "runs_pct": 0
+          "single_pct": -1,
+          "runs_pct": -1
         },
         "combined": {
-          "hr_pct": 16,
+          "hr_pct": 14,
           "xbh_pct": 0,
-          "single_pct": 0,
+          "single_pct": -1,
           "runs_pct": 2
         }
       },
@@ -254,7 +254,7 @@
       "data_status": "stadium_reference"
     },
     {
-      "game_id": "2026-10-23-hanwha-life-ballpark-REFERENCE",
+      "game_id": "2026-10-24-hanwha-life-ballpark-REFERENCE",
       "start_time_local": "18:30",
       "away_team": "",
       "home_team": "대전한화생명볼파크",
@@ -282,14 +282,14 @@
         }
       },
       "weather": {
-        "label": "구름",
-        "temperature_c": 18.3,
-        "humidity_pct": 76,
-        "pressure_hpa": 1013.3,
-        "precipitation_probability_pct": 2,
-        "weather_code": 3,
-        "wind_speed_mps": 1.7,
-        "wind_direction_deg": 90
+        "label": "비 가능",
+        "temperature_c": 16.4,
+        "humidity_pct": 98,
+        "pressure_hpa": 1008.9,
+        "precipitation_probability_pct": 100,
+        "weather_code": 61,
+        "wind_speed_mps": 1.41,
+        "wind_direction_deg": 98
       },
       "factors": {
         "stadium_only": {
@@ -299,15 +299,15 @@
           "runs_pct": -1
         },
         "weather_only": {
-          "hr_pct": 0,
+          "hr_pct": -2,
           "xbh_pct": 0,
-          "single_pct": 0,
-          "runs_pct": 0
+          "single_pct": -1,
+          "runs_pct": -1
         },
         "combined": {
-          "hr_pct": -4,
+          "hr_pct": -6,
           "xbh_pct": 0,
-          "single_pct": 0,
+          "single_pct": -1,
           "runs_pct": -1
         }
       },
@@ -317,7 +317,7 @@
       "data_status": "stadium_reference"
     },
     {
-      "game_id": "2026-10-23-changwon-nc-park-REFERENCE",
+      "game_id": "2026-10-24-changwon-nc-park-REFERENCE",
       "start_time_local": "18:30",
       "away_team": "",
       "home_team": "창원NC파크",
@@ -346,13 +346,13 @@
       },
       "weather": {
         "label": "비 가능",
-        "temperature_c": 18.5,
-        "humidity_pct": 72,
-        "pressure_hpa": 1019.2,
-        "precipitation_probability_pct": 73,
-        "weather_code": 2,
-        "wind_speed_mps": 2.1,
-        "wind_direction_deg": 65
+        "temperature_c": 19.0,
+        "humidity_pct": 95,
+        "pressure_hpa": 1013.6,
+        "precipitation_probability_pct": 100,
+        "weather_code": 63,
+        "wind_speed_mps": 2.94,
+        "wind_direction_deg": 350
       },
       "factors": {
         "stadium_only": {
@@ -380,7 +380,7 @@
       "data_status": "stadium_reference"
     },
     {
-      "game_id": "2026-10-23-gwangju-kia-champions-field-REFERENCE",
+      "game_id": "2026-10-24-gwangju-kia-champions-field-REFERENCE",
       "start_time_local": "18:30",
       "away_team": "",
       "home_team": "광주-KIA챔피언스필드",
@@ -408,14 +408,14 @@
         }
       },
       "weather": {
-        "label": "구름",
-        "temperature_c": 17.9,
-        "humidity_pct": 77,
-        "pressure_hpa": 1015.7,
-        "precipitation_probability_pct": 47,
-        "weather_code": 3,
-        "wind_speed_mps": 1.32,
-        "wind_direction_deg": 9
+        "label": "비 가능",
+        "temperature_c": 18.2,
+        "humidity_pct": 98,
+        "pressure_hpa": 1011.1,
+        "precipitation_probability_pct": 100,
+        "weather_code": 61,
+        "wind_speed_mps": 1.49,
+        "wind_direction_deg": 20
       },
       "factors": {
         "stadium_only": {
@@ -425,16 +425,16 @@
           "runs_pct": 1
         },
         "weather_only": {
-          "hr_pct": 0,
+          "hr_pct": -2,
           "xbh_pct": 0,
-          "single_pct": 0,
-          "runs_pct": 0
+          "single_pct": -1,
+          "runs_pct": -1
         },
         "combined": {
-          "hr_pct": 6,
+          "hr_pct": 4,
           "xbh_pct": 0,
-          "single_pct": 0,
-          "runs_pct": 1
+          "single_pct": -1,
+          "runs_pct": 0
         }
       },
       "explanations": [
@@ -443,7 +443,7 @@
       "data_status": "stadium_reference"
     },
     {
-      "game_id": "2026-10-23-suwon-kt-wiz-park-REFERENCE",
+      "game_id": "2026-10-24-suwon-kt-wiz-park-REFERENCE",
       "start_time_local": "18:30",
       "away_team": "",
       "home_team": "수원KT위즈파크",
@@ -471,14 +471,14 @@
         }
       },
       "weather": {
-        "label": "맑음",
-        "temperature_c": 15.9,
+        "label": "구름",
+        "temperature_c": 16.0,
         "humidity_pct": 86,
-        "pressure_hpa": 1013.8,
-        "precipitation_probability_pct": 0,
-        "weather_code": 1,
-        "wind_speed_mps": 1.7,
-        "wind_direction_deg": 50
+        "pressure_hpa": 1009.4,
+        "precipitation_probability_pct": 33,
+        "weather_code": 3,
+        "wind_speed_mps": 1.43,
+        "wind_direction_deg": 12
       },
       "factors": {
         "stadium_only": {
@@ -506,7 +506,7 @@
       "data_status": "stadium_reference"
     },
     {
-      "game_id": "2026-10-23-incheon-ssg-landers-field-REFERENCE",
+      "game_id": "2026-10-24-incheon-ssg-landers-field-REFERENCE",
       "start_time_local": "18:30",
       "away_team": "",
       "home_team": "인천SSG랜더스필드",
@@ -534,14 +534,14 @@
         }
       },
       "weather": {
-        "label": "맑음",
-        "temperature_c": 16.2,
-        "humidity_pct": 79,
-        "pressure_hpa": 1017.3,
-        "precipitation_probability_pct": 0,
-        "weather_code": 0,
-        "wind_speed_mps": 1.66,
-        "wind_direction_deg": 65
+        "label": "구름",
+        "temperature_c": 16.4,
+        "humidity_pct": 83,
+        "pressure_hpa": 1013.0,
+        "precipitation_probability_pct": 16,
+        "weather_code": 3,
+        "wind_speed_mps": 2.35,
+        "wind_direction_deg": 12
       },
       "factors": {
         "stadium_only": {
