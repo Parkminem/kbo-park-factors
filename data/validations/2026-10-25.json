@@ -48,7 +48,7 @@
     }
   ],
   "timezone": "Asia/Seoul",
-  "generated_at": "2026-10-25T12:05:05+09:00",
+  "generated_at": "2026-10-25T13:04:09+09:00",
   "sources": {
     "predictions": "data/daily-factors/2026-10-25.json",
     "actuals": "KBO official GameCenter"
