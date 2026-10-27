@@ -1,7 +1,7 @@
 {
   "date": "2026-10-27",
   "timezone": "Asia/Seoul",
-  "generated_at": "2026-10-27T10:04:03+09:00",
+  "generated_at": "2026-10-27T10:41:03+09:00",
   "sources": {
     "schedule": "Naver Sports schedule API",
     "weather": "open-meteo",
@@ -20,7 +20,7 @@
         "name_ko": "대구삼성라이온즈파크",
         "city": "대구",
         "type": "outdoor",
-        "orientation_deg": 354,
+        "orientation_deg": 53,
         "baseline_evidence": {
           "games": 108,
           "prior_games": 150,
@@ -84,7 +84,7 @@
         "name_ko": "잠실야구장",
         "city": "서울",
         "type": "outdoor",
-        "orientation_deg": 195,
+        "orientation_deg": 196,
         "baseline_evidence": {
           "games": 230,
           "prior_games": 150,
@@ -201,7 +201,7 @@
         "name_ko": "사직야구장",
         "city": "부산",
         "type": "outdoor",
-        "orientation_deg": 166,
+        "orientation_deg": 169,
         "baseline_evidence": {
           "games": 114,
           "prior_games": 150,
@@ -264,7 +264,7 @@
         "name_ko": "대전한화생명볼파크",
         "city": "대전",
         "type": "outdoor",
-        "orientation_deg": 109,
+        "orientation_deg": 110,
         "baseline_evidence": {
           "games": 114,
           "prior_games": 150,
@@ -327,7 +327,7 @@
         "name_ko": "창원NC파크",
         "city": "창원",
         "type": "outdoor",
-        "orientation_deg": 142,
+        "orientation_deg": 135,
         "baseline_evidence": {
           "games": 103,
           "prior_games": 150,
@@ -390,7 +390,7 @@
         "name_ko": "광주-KIA챔피언스필드",
         "city": "광주",
         "type": "outdoor",
-        "orientation_deg": 56,
+        "orientation_deg": 57,
         "baseline_evidence": {
           "games": 113,
           "prior_games": 150,
@@ -453,7 +453,7 @@
         "name_ko": "수원KT위즈파크",
         "city": "수원",
         "type": "outdoor",
-        "orientation_deg": 172,
+        "orientation_deg": 169,
         "baseline_evidence": {
           "games": 118,
           "prior_games": 150,
@@ -516,7 +516,7 @@
         "name_ko": "인천SSG랜더스필드",
         "city": "인천",
         "type": "outdoor",
-        "orientation_deg": 173,
+        "orientation_deg": 170,
         "baseline_evidence": {
           "games": 112,
           "prior_games": 150,

@@ -13,7 +13,7 @@
     "type": "outdoor",
     "altitude_m": 25,
     "outfield_size": "large",
-    "orientation_deg": 195,
+    "orientation_deg": 196,
     "baseline_factors": {
       "hr_pct": -18,
       "xbh_pct": 0,
@@ -35,6 +35,23 @@
         "single_pct": 0,
         "runs_pct": -5
       }
+    },
+    "field_orientation": {
+      "home_plate": {
+        "latitude": 37.51253,
+        "longitude": 127.0720527
+      },
+      "center_field": {
+        "latitude": 37.5114897,
+        "longitude": 127.0716771
+      },
+      "measured_on": "2026-10-27",
+      "method": "north_up_imagery_digitization",
+      "estimated_error_deg": 3,
+      "source_urls": [
+        "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer"
+      ],
+      "notes": "Approximate image-digitized ground coordinates, not surveyed control points. Home identified from the infield and mound; center-field anchor follows the home/second-base axis to the fence. Imagery may have positional distortion; recheck with a current orthophoto before interpreting differences below 3 degrees."
     }
   },
   {
@@ -87,7 +104,7 @@
     "type": "outdoor",
     "altitude_m": 13,
     "outfield_size": "neutral",
-    "orientation_deg": 166,
+    "orientation_deg": 169,
     "baseline_factors": {
       "hr_pct": -7,
       "xbh_pct": 0,
@@ -109,6 +126,23 @@
         "single_pct": 0,
         "runs_pct": 3
       }
+    },
+    "field_orientation": {
+      "home_plate": {
+        "latitude": 35.1945398,
+        "longitude": 129.0614578
+      },
+      "center_field": {
+        "latitude": 35.1935096,
+        "longitude": 129.0617073
+      },
+      "measured_on": "2026-10-27",
+      "method": "north_up_imagery_digitization",
+      "estimated_error_deg": 3,
+      "source_urls": [
+        "https://www.google.com/maps/@?api=1&map_action=map&center=35.194,129.0615&zoom=19&basemap=satellite"
+      ],
+      "notes": "Approximate image-digitized ground coordinates, not surveyed control points. Home identified from the infield and mound; center-field anchor follows the home/second-base axis to the fence. Imagery may have positional distortion; recheck with a current orthophoto before interpreting differences below 3 degrees."
     }
   },
   {
@@ -124,7 +158,7 @@
     "type": "outdoor",
     "altitude_m": 70,
     "outfield_size": "hitter",
-    "orientation_deg": 354,
+    "orientation_deg": 53,
     "baseline_factors": {
       "hr_pct": 16,
       "xbh_pct": 0,
@@ -146,6 +180,23 @@
         "single_pct": 0,
         "runs_pct": 4
       }
+    },
+    "field_orientation": {
+      "home_plate": {
+        "latitude": 35.8407143,
+        "longitude": 128.6810991
+      },
+      "center_field": {
+        "latitude": 35.8413731,
+        "longitude": 128.6821935
+      },
+      "measured_on": "2026-10-27",
+      "method": "north_up_imagery_digitization",
+      "estimated_error_deg": 3,
+      "source_urls": [
+        "https://www.google.com/maps/@?api=1&map_action=map&center=35.841,128.6816&zoom=19&basemap=satellite"
+      ],
+      "notes": "Approximate image-digitized ground coordinates, not surveyed control points. Home identified from the infield and mound; center-field anchor follows the home/second-base axis to the fence. Imagery may have positional distortion; recheck with a current orthophoto before interpreting differences below 3 degrees."
     }
   },
   {
@@ -161,7 +212,7 @@
     "type": "outdoor",
     "altitude_m": 55,
     "outfield_size": "neutral",
-    "orientation_deg": 109,
+    "orientation_deg": 110,
     "baseline_factors": {
       "hr_pct": -4,
       "xbh_pct": 0,
@@ -183,6 +234,25 @@
         "single_pct": 0,
         "runs_pct": 1
       }
+    },
+    "field_orientation": {
+      "home_plate": {
+        "latitude": 36.316235,
+        "longitude": 127.431208
+      },
+      "center_field": {
+        "latitude": 36.3158819,
+        "longitude": 127.4324374
+      },
+      "measured_on": "2026-10-27",
+      "method": "mapped_home_second_base_axis_intersecting_center_field_fence",
+      "estimated_error_deg": 5,
+      "source_urls": [
+        "https://www.openstreetmap.org/way/1467519894",
+        "https://www.openstreetmap.org/way/1467519895",
+        "https://www.haeahn.com/ko/project/detail.do?prjctSeq=3183"
+      ],
+      "notes": "Current ballpark playing surface, not the old stadium. Home-circle center and second-base axis digitized from OSM; axis extended to mapped fence. Building/field arrangement cross-checked with architect's 2025 completion aerial."
     }
   },
   {
@@ -198,7 +268,7 @@
     "type": "outdoor",
     "altitude_m": 15,
     "outfield_size": "neutral",
-    "orientation_deg": 142,
+    "orientation_deg": 135,
     "baseline_factors": {
       "hr_pct": 15,
       "xbh_pct": 0,
@@ -220,6 +290,23 @@
         "single_pct": 0,
         "runs_pct": 7
       }
+    },
+    "field_orientation": {
+      "home_plate": {
+        "latitude": 35.2228432,
+        "longitude": 128.5819003
+      },
+      "center_field": {
+        "latitude": 35.2220785,
+        "longitude": 128.5828364
+      },
+      "measured_on": "2026-10-27",
+      "method": "north_up_imagery_digitization",
+      "estimated_error_deg": 3,
+      "source_urls": [
+        "https://www.google.com/maps/@?api=1&map_action=map&center=35.2226,128.5826&zoom=19&basemap=satellite"
+      ],
+      "notes": "Approximate image-digitized ground coordinates, not surveyed control points. Home identified from the infield and mound; center-field anchor follows the home/second-base axis to the fence. Imagery may have positional distortion; recheck with a current orthophoto before interpreting differences below 3 degrees."
     }
   },
   {
@@ -235,7 +322,7 @@
     "type": "outdoor",
     "altitude_m": 31,
     "outfield_size": "neutral",
-    "orientation_deg": 56,
+    "orientation_deg": 57,
     "baseline_factors": {
       "hr_pct": 6,
       "xbh_pct": 0,
@@ -257,6 +344,23 @@
         "single_pct": 0,
         "runs_pct": -1
       }
+    },
+    "field_orientation": {
+      "home_plate": {
+        "latitude": 35.1678775,
+        "longitude": 126.8886539
+      },
+      "center_field": {
+        "latitude": 35.1684607,
+        "longitude": 126.8897402
+      },
+      "measured_on": "2026-10-27",
+      "method": "north_up_imagery_digitization",
+      "estimated_error_deg": 3,
+      "source_urls": [
+        "https://www.google.com/maps/@?api=1&map_action=map&center=35.1683,126.8891&zoom=19&basemap=satellite"
+      ],
+      "notes": "Approximate image-digitized ground coordinates, not surveyed control points. Home identified from the infield and mound; center-field anchor follows the home/second-base axis to the fence. Imagery may have positional distortion; recheck with a current orthophoto before interpreting differences below 3 degrees."
     }
   },
   {
@@ -272,7 +376,7 @@
     "type": "outdoor",
     "altitude_m": 45,
     "outfield_size": "hitter",
-    "orientation_deg": 172,
+    "orientation_deg": 169,
     "baseline_factors": {
       "hr_pct": -6,
       "xbh_pct": 0,
@@ -294,6 +398,23 @@
         "single_pct": 0,
         "runs_pct": 1
       }
+    },
+    "field_orientation": {
+      "home_plate": {
+        "latitude": 37.3002305,
+        "longitude": 127.0096913
+      },
+      "center_field": {
+        "latitude": 37.2992127,
+        "longitude": 127.00993
+      },
+      "measured_on": "2026-10-27",
+      "method": "north_up_imagery_digitization",
+      "estimated_error_deg": 3,
+      "source_urls": [
+        "https://www.google.com/maps/@?api=1&map_action=map&center=37.2998,127.0097&zoom=19&basemap=satellite"
+      ],
+      "notes": "Approximate image-digitized ground coordinates, not surveyed control points. Home identified from the infield and mound; center-field anchor follows the home/second-base axis to the fence. Imagery may have positional distortion; recheck with a current orthophoto before interpreting differences below 3 degrees."
     }
   },
   {
@@ -309,7 +430,7 @@
     "type": "outdoor",
     "altitude_m": 28,
     "outfield_size": "hitter",
-    "orientation_deg": 173,
+    "orientation_deg": 170,
     "baseline_factors": {
       "hr_pct": 13,
       "xbh_pct": 0,
@@ -331,6 +452,23 @@
         "single_pct": 0,
         "runs_pct": -2
       }
+    },
+    "field_orientation": {
+      "home_plate": {
+        "latitude": 37.437231,
+        "longitude": 126.6932872
+      },
+      "center_field": {
+        "latitude": 37.4362236,
+        "longitude": 126.6935071
+      },
+      "measured_on": "2026-10-27",
+      "method": "north_up_imagery_digitization",
+      "estimated_error_deg": 3,
+      "source_urls": [
+        "https://www.google.com/maps/@?api=1&map_action=map&center=37.4369,126.6933&zoom=19&basemap=satellite"
+      ],
+      "notes": "Approximate image-digitized ground coordinates, not surveyed control points. Home identified from the infield and mound; center-field anchor follows the home/second-base axis to the fence. Imagery may have positional distortion; recheck with a current orthophoto before interpreting differences below 3 degrees."
     }
   }
 ]
