@@ -1,0 +1,56 @@
+{
+  "date": "2026-10-29",
+  "summary": {
+    "predicted_games": 1,
+    "completed_games": 0,
+    "pending_games": 1,
+    "total_home_runs": 0,
+    "total_runs": 0,
+    "avg_predicted_hr_pct": 6,
+    "avg_predicted_runs_pct": 1
+  },
+  "games": [
+    {
+      "game_id": "2026-10-29-SAMSUNG-KIA",
+      "matchup": {
+        "away_team": "삼성",
+        "home_team": "KIA"
+      },
+      "stadium": {
+        "id": "gwangju-kia-champions-field",
+        "name_ko": "광주-KIA챔피언스필드",
+        "city": "광주",
+        "type": "outdoor",
+        "orientation_deg": 57,
+        "baseline_evidence": {
+          "games": 113,
+          "prior_games": 150,
+          "raw_factors": {
+            "hr_pct": 14,
+            "xbh_pct": 0,
+            "single_pct": 0,
+            "runs_pct": -3
+          },
+          "adjusted_factors": {
+            "hr_pct": 6,
+            "xbh_pct": 0,
+            "single_pct": 0,
+            "runs_pct": -1
+          }
+        }
+      },
+      "predicted": {
+        "hr_pct": 6,
+        "runs_pct": 1
+      },
+      "actual": null,
+      "status": "pending"
+    }
+  ],
+  "timezone": "Asia/Seoul",
+  "generated_at": "2026-10-29T00:09:49+09:00",
+  "sources": {
+    "predictions": "data/daily-factors/2026-10-29.json",
+    "actuals": "KBO official GameCenter"
+  }
+}
