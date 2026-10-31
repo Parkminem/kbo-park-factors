@@ -1,16 +1,14 @@
 {
   "date": "2026-10-31",
   "timezone": "Asia/Seoul",
-  "generated_at": "2026-10-31T12:18:19+09:00",
+  "generated_at": "2026-10-31T12:35:27+09:00",
   "sources": {
     "schedule": "Naver Sports schedule API",
     "weather": "open-meteo",
     "stadiums": "local-catalog",
     "baselines": "KBO official GameCenter"
   },
-  "warnings": [
-    "weather_missing:2026-10-31-hanwha-life-ballpark-REFERENCE:HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=20)"
-  ],
+  "warnings": [],
   "games": [
     {
       "game_id": "2026-10-31-jamsil-REFERENCE",
@@ -283,7 +281,16 @@
           }
         }
       },
-      "weather": null,
+      "weather": {
+        "label": "맑음",
+        "temperature_c": 12.1,
+        "humidity_pct": 50,
+        "pressure_hpa": 1015.6,
+        "precipitation_probability_pct": 0,
+        "weather_code": 0,
+        "wind_speed_mps": 1.42,
+        "wind_direction_deg": 321
+      },
       "factors": {
         "stadium_only": {
           "hr_pct": -4,
@@ -307,7 +314,7 @@
       "explanations": [
         "해당 날짜 경기 없음 · 현행 홈구장 기준 표시"
       ],
-      "data_status": "stadium_reference_weather_missing"
+      "data_status": "stadium_reference"
     },
     {
       "game_id": "2026-10-31-changwon-nc-park-REFERENCE",
