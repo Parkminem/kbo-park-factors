@@ -6,8 +6,8 @@
     "pending_games": 1,
     "total_home_runs": 0,
     "total_runs": 0,
-    "avg_predicted_hr_pct": 14,
-    "avg_predicted_runs_pct": 2
+    "avg_predicted_hr_pct": 10,
+    "avg_predicted_runs_pct": 1
   },
   "games": [
     {
@@ -40,15 +40,15 @@
         }
       },
       "predicted": {
-        "hr_pct": 14,
-        "runs_pct": 2
+        "hr_pct": 10,
+        "runs_pct": 1
       },
       "actual": null,
       "status": "pending"
     }
   ],
   "timezone": "Asia/Seoul",
-  "generated_at": "2026-11-01T14:06:06+09:00",
+  "generated_at": "2026-11-01T16:22:45+09:00",
   "sources": {
     "predictions": "data/daily-factors/2026-11-01.json",
     "actuals": "KBO official GameCenter"
