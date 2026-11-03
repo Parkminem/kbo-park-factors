@@ -1,0 +1,56 @@
+{
+  "date": "2026-11-03",
+  "summary": {
+    "predicted_games": 1,
+    "completed_games": 0,
+    "pending_games": 1,
+    "total_home_runs": 0,
+    "total_runs": 0,
+    "avg_predicted_hr_pct": -9,
+    "avg_predicted_runs_pct": -2
+  },
+  "games": [
+    {
+      "game_id": "2026-11-03-SAMSUNG-KT",
+      "matchup": {
+        "away_team": "삼성",
+        "home_team": "KT"
+      },
+      "stadium": {
+        "id": "suwon-kt-wiz-park",
+        "name_ko": "수원KT위즈파크",
+        "city": "수원",
+        "type": "outdoor",
+        "orientation_deg": 169,
+        "baseline_evidence": {
+          "games": 118,
+          "prior_games": 150,
+          "raw_factors": {
+            "hr_pct": -13,
+            "xbh_pct": 0,
+            "single_pct": 0,
+            "runs_pct": 2
+          },
+          "adjusted_factors": {
+            "hr_pct": -6,
+            "xbh_pct": 0,
+            "single_pct": 0,
+            "runs_pct": 1
+          }
+        }
+      },
+      "predicted": {
+        "hr_pct": -9,
+        "runs_pct": -2
+      },
+      "actual": null,
+      "status": "pending"
+    }
+  ],
+  "timezone": "Asia/Seoul",
+  "generated_at": "2026-11-03T13:26:58+09:00",
+  "sources": {
+    "predictions": "data/daily-factors/2026-11-03.json",
+    "actuals": "KBO official GameCenter"
+  }
+}
