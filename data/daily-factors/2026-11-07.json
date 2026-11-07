@@ -1,7 +1,7 @@
 {
   "date": "2026-11-07",
   "timezone": "Asia/Seoul",
-  "generated_at": "2026-11-07T14:57:26+09:00",
+  "generated_at": "2026-11-07T16:03:24+09:00",
   "sources": {
     "schedule": "Naver Sports schedule API",
     "weather": "open-meteo",
@@ -40,13 +40,13 @@
       },
       "weather": {
         "label": "맑음",
-        "temperature_c": 10.4,
-        "humidity_pct": 39,
-        "pressure_hpa": 1024.4,
+        "temperature_c": 10.3,
+        "humidity_pct": 38,
+        "pressure_hpa": 1024.1,
         "precipitation_probability_pct": 0,
         "weather_code": 0,
-        "wind_speed_mps": 4.78,
-        "wind_direction_deg": 307
+        "wind_speed_mps": 4.42,
+        "wind_direction_deg": 308
       },
       "factors": {
         "stadium_only": {
@@ -105,13 +105,13 @@
       },
       "weather": {
         "label": "쌀쌀",
-        "temperature_c": 5.2,
-        "humidity_pct": 49,
-        "pressure_hpa": 1031.6,
+        "temperature_c": 5.3,
+        "humidity_pct": 47,
+        "pressure_hpa": 1031.8,
         "precipitation_probability_pct": 0,
         "weather_code": 0,
-        "wind_speed_mps": 2.64,
-        "wind_direction_deg": 307
+        "wind_speed_mps": 2.78,
+        "wind_direction_deg": 308
       },
       "factors": {
         "stadium_only": {
@@ -222,9 +222,9 @@
       },
       "weather": {
         "label": "쌀쌀",
-        "temperature_c": 9.3,
-        "humidity_pct": 42,
-        "pressure_hpa": 1029.6,
+        "temperature_c": 9.4,
+        "humidity_pct": 39,
+        "pressure_hpa": 1029.8,
         "precipitation_probability_pct": 0,
         "weather_code": 0,
         "wind_speed_mps": 1.36,
@@ -285,13 +285,13 @@
       },
       "weather": {
         "label": "쌀쌀",
-        "temperature_c": 6.0,
-        "humidity_pct": 57,
-        "pressure_hpa": 1026.6,
+        "temperature_c": 5.9,
+        "humidity_pct": 59,
+        "pressure_hpa": 1026.7,
         "precipitation_probability_pct": 0,
         "weather_code": 0,
-        "wind_speed_mps": 1.08,
-        "wind_direction_deg": 338
+        "wind_speed_mps": 1.14,
+        "wind_direction_deg": 345
       },
       "factors": {
         "stadium_only": {
@@ -350,11 +350,11 @@
         "label": "쌀쌀",
         "temperature_c": 9.2,
         "humidity_pct": 31,
-        "pressure_hpa": 1031.4,
+        "pressure_hpa": 1031.5,
         "precipitation_probability_pct": 0,
         "weather_code": 0,
-        "wind_speed_mps": 2.47,
-        "wind_direction_deg": 346
+        "wind_speed_mps": 2.57,
+        "wind_direction_deg": 347
       },
       "factors": {
         "stadium_only": {
@@ -412,12 +412,12 @@
       "weather": {
         "label": "쌀쌀",
         "temperature_c": 8.0,
-        "humidity_pct": 51,
+        "humidity_pct": 50,
         "pressure_hpa": 1029.7,
         "precipitation_probability_pct": 0,
         "weather_code": 0,
-        "wind_speed_mps": 1.91,
-        "wind_direction_deg": 6
+        "wind_speed_mps": 1.96,
+        "wind_direction_deg": 15
       },
       "factors": {
         "stadium_only": {
@@ -474,13 +474,13 @@
       },
       "weather": {
         "label": "쌀쌀",
-        "temperature_c": 3.4,
-        "humidity_pct": 64,
-        "pressure_hpa": 1026.1,
+        "temperature_c": 3.5,
+        "humidity_pct": 61,
+        "pressure_hpa": 1026.2,
         "precipitation_probability_pct": 0,
         "weather_code": 0,
-        "wind_speed_mps": 1.89,
-        "wind_direction_deg": 328
+        "wind_speed_mps": 1.97,
+        "wind_direction_deg": 330
       },
       "factors": {
         "stadium_only": {
@@ -537,13 +537,13 @@
       },
       "weather": {
         "label": "쌀쌀",
-        "temperature_c": 5.3,
-        "humidity_pct": 48,
-        "pressure_hpa": 1029.9,
+        "temperature_c": 5.4,
+        "humidity_pct": 47,
+        "pressure_hpa": 1030.2,
         "precipitation_probability_pct": 0,
         "weather_code": 0,
-        "wind_speed_mps": 3.11,
-        "wind_direction_deg": 354
+        "wind_speed_mps": 3.42,
+        "wind_direction_deg": 353
       },
       "factors": {
         "stadium_only": {
