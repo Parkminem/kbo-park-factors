@@ -1,7 +1,7 @@
 {
   "date": "2026-11-09",
   "timezone": "Asia/Seoul",
-  "generated_at": "2026-11-09T07:16:46+09:00",
+  "generated_at": "2026-11-09T08:05:37+09:00",
   "sources": {
     "schedule": "Naver Sports schedule API",
     "weather": "open-meteo",
@@ -160,7 +160,7 @@
         "temperature_c": 9.9,
         "humidity_pct": 92,
         "pressure_hpa": 1021.3,
-        "precipitation_probability_pct": 86,
+        "precipitation_probability_pct": 96,
         "weather_code": 51,
         "wind_speed_mps": 2.11,
         "wind_direction_deg": 329
@@ -223,7 +223,7 @@
         "temperature_c": 8.7,
         "humidity_pct": 93,
         "pressure_hpa": 1017.8,
-        "precipitation_probability_pct": 76,
+        "precipitation_probability_pct": 86,
         "weather_code": 51,
         "wind_speed_mps": 2.7,
         "wind_direction_deg": 272
@@ -286,7 +286,7 @@
         "temperature_c": 8.3,
         "humidity_pct": 82,
         "pressure_hpa": 1019.9,
-        "precipitation_probability_pct": 24,
+        "precipitation_probability_pct": 12,
         "weather_code": 0,
         "wind_speed_mps": 1.78,
         "wind_direction_deg": 322
@@ -349,7 +349,7 @@
         "temperature_c": 9.4,
         "humidity_pct": 91,
         "pressure_hpa": 1023.6,
-        "precipitation_probability_pct": 82,
+        "precipitation_probability_pct": 90,
         "weather_code": 51,
         "wind_speed_mps": 4.08,
         "wind_direction_deg": 343
@@ -408,11 +408,11 @@
         }
       },
       "weather": {
-        "label": "비 가능",
+        "label": "쌀쌀",
         "temperature_c": 7.7,
         "humidity_pct": 89,
         "pressure_hpa": 1023.4,
-        "precipitation_probability_pct": 65,
+        "precipitation_probability_pct": 41,
         "weather_code": 1,
         "wind_speed_mps": 1.48,
         "wind_direction_deg": 28
@@ -425,16 +425,16 @@
           "runs_pct": 1
         },
         "weather_only": {
-          "hr_pct": -7,
+          "hr_pct": -5,
           "xbh_pct": -1,
-          "single_pct": -1,
-          "runs_pct": -2
+          "single_pct": 0,
+          "runs_pct": -1
         },
         "combined": {
-          "hr_pct": -1,
+          "hr_pct": 1,
           "xbh_pct": -1,
-          "single_pct": -1,
-          "runs_pct": -1
+          "single_pct": 0,
+          "runs_pct": 0
         }
       },
       "explanations": [
