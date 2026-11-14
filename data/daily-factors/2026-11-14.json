@@ -1,14 +1,22 @@
 {
   "date": "2026-11-14",
   "timezone": "Asia/Seoul",
-  "generated_at": "2026-11-14T18:10:57+09:00",
+  "generated_at": "2026-11-14T19:20:10+09:00",
   "sources": {
     "schedule": "Naver Sports schedule API",
     "weather": "open-meteo",
     "stadiums": "local-catalog",
     "baselines": "KBO official GameCenter"
   },
-  "warnings": [],
+  "warnings": [
+    "weather_missing:2026-11-14-jamsil-REFERENCE:HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=20)",
+    "weather_missing:2026-11-14-sajik-REFERENCE:HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=20)",
+    "weather_missing:2026-11-14-daegu-lions-park-REFERENCE:HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=20)",
+    "weather_missing:2026-11-14-hanwha-life-ballpark-REFERENCE:HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=20)",
+    "weather_missing:2026-11-14-changwon-nc-park-REFERENCE:HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=20)",
+    "weather_missing:2026-11-14-gwangju-kia-champions-field-REFERENCE:HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=20)",
+    "weather_missing:2026-11-14-suwon-kt-wiz-park-REFERENCE:HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=20)"
+  ],
   "games": [
     {
       "game_id": "2026-11-14-jamsil-REFERENCE",
@@ -38,16 +46,7 @@
           }
         }
       },
-      "weather": {
-        "label": "비 가능",
-        "temperature_c": 10.7,
-        "humidity_pct": 93,
-        "pressure_hpa": 1013.5,
-        "precipitation_probability_pct": 88,
-        "weather_code": 3,
-        "wind_speed_mps": 2.05,
-        "wind_direction_deg": 43
-      },
+      "weather": null,
       "factors": {
         "stadium_only": {
           "hr_pct": -18,
@@ -56,22 +55,22 @@
           "runs_pct": -3
         },
         "weather_only": {
-          "hr_pct": -5,
-          "xbh_pct": -1,
-          "single_pct": -1,
-          "runs_pct": -2
+          "hr_pct": 0,
+          "xbh_pct": 0,
+          "single_pct": 0,
+          "runs_pct": 0
         },
         "combined": {
-          "hr_pct": -23,
-          "xbh_pct": -1,
-          "single_pct": -1,
-          "runs_pct": -4
+          "hr_pct": -18,
+          "xbh_pct": 0,
+          "single_pct": 0,
+          "runs_pct": -3
         }
       },
       "explanations": [
         "해당 날짜 경기 없음 · 현행 홈구장 기준 표시"
       ],
-      "data_status": "stadium_reference"
+      "data_status": "stadium_reference_weather_missing"
     },
     {
       "game_id": "2026-11-14-gocheok-REFERENCE",
@@ -155,16 +154,7 @@
           }
         }
       },
-      "weather": {
-        "label": "비 가능",
-        "temperature_c": 14.1,
-        "humidity_pct": 98,
-        "pressure_hpa": 1012.2,
-        "precipitation_probability_pct": 100,
-        "weather_code": 51,
-        "wind_speed_mps": 1.2,
-        "wind_direction_deg": 42
-      },
+      "weather": null,
       "factors": {
         "stadium_only": {
           "hr_pct": -7,
@@ -173,22 +163,22 @@
           "runs_pct": -1
         },
         "weather_only": {
-          "hr_pct": -2,
+          "hr_pct": 0,
           "xbh_pct": 0,
-          "single_pct": -1,
-          "runs_pct": -1
+          "single_pct": 0,
+          "runs_pct": 0
         },
         "combined": {
-          "hr_pct": -9,
+          "hr_pct": -7,
           "xbh_pct": 0,
-          "single_pct": -1,
-          "runs_pct": -2
+          "single_pct": 0,
+          "runs_pct": -1
         }
       },
       "explanations": [
         "해당 날짜 경기 없음 · 현행 홈구장 기준 표시"
       ],
-      "data_status": "stadium_reference"
+      "data_status": "stadium_reference_weather_missing"
     },
     {
       "game_id": "2026-11-14-daegu-lions-park-REFERENCE",
@@ -218,16 +208,7 @@
           }
         }
       },
-      "weather": {
-        "label": "비 가능",
-        "temperature_c": 11.4,
-        "humidity_pct": 99,
-        "pressure_hpa": 1008.3,
-        "precipitation_probability_pct": 100,
-        "weather_code": 51,
-        "wind_speed_mps": 1.34,
-        "wind_direction_deg": 117
-      },
+      "weather": null,
       "factors": {
         "stadium_only": {
           "hr_pct": 16,
@@ -236,22 +217,22 @@
           "runs_pct": 2
         },
         "weather_only": {
-          "hr_pct": -5,
-          "xbh_pct": -1,
-          "single_pct": -1,
-          "runs_pct": -2
+          "hr_pct": 0,
+          "xbh_pct": 0,
+          "single_pct": 0,
+          "runs_pct": 0
         },
         "combined": {
-          "hr_pct": 10,
-          "xbh_pct": -1,
-          "single_pct": -1,
-          "runs_pct": 1
+          "hr_pct": 16,
+          "xbh_pct": 0,
+          "single_pct": 0,
+          "runs_pct": 2
         }
       },
       "explanations": [
         "해당 날짜 경기 없음 · 현행 홈구장 기준 표시"
       ],
-      "data_status": "stadium_reference"
+      "data_status": "stadium_reference_weather_missing"
     },
     {
       "game_id": "2026-11-14-hanwha-life-ballpark-REFERENCE",
@@ -281,16 +262,7 @@
           }
         }
       },
-      "weather": {
-        "label": "비 가능",
-        "temperature_c": 12.0,
-        "humidity_pct": 97,
-        "pressure_hpa": 1008.0,
-        "precipitation_probability_pct": 100,
-        "weather_code": 3,
-        "wind_speed_mps": 1.99,
-        "wind_direction_deg": 108
-      },
+      "weather": null,
       "factors": {
         "stadium_only": {
           "hr_pct": -4,
@@ -299,22 +271,22 @@
           "runs_pct": -1
         },
         "weather_only": {
-          "hr_pct": -5,
-          "xbh_pct": -1,
-          "single_pct": -1,
-          "runs_pct": -2
+          "hr_pct": 0,
+          "xbh_pct": 0,
+          "single_pct": 0,
+          "runs_pct": 0
         },
         "combined": {
-          "hr_pct": -9,
-          "xbh_pct": -1,
-          "single_pct": -1,
-          "runs_pct": -2
+          "hr_pct": -4,
+          "xbh_pct": 0,
+          "single_pct": 0,
+          "runs_pct": -1
         }
       },
       "explanations": [
         "해당 날짜 경기 없음 · 현행 홈구장 기준 표시"
       ],
-      "data_status": "stadium_reference"
+      "data_status": "stadium_reference_weather_missing"
     },
     {
       "game_id": "2026-11-14-changwon-nc-park-REFERENCE",
@@ -344,16 +316,7 @@
           }
         }
       },
-      "weather": {
-        "label": "비 가능",
-        "temperature_c": 13.2,
-        "humidity_pct": 97,
-        "pressure_hpa": 1014.0,
-        "precipitation_probability_pct": 100,
-        "weather_code": 53,
-        "wind_speed_mps": 1.88,
-        "wind_direction_deg": 335
-      },
+      "weather": null,
       "factors": {
         "stadium_only": {
           "hr_pct": 15,
@@ -362,22 +325,22 @@
           "runs_pct": 2
         },
         "weather_only": {
-          "hr_pct": -2,
+          "hr_pct": 0,
           "xbh_pct": 0,
-          "single_pct": -1,
-          "runs_pct": -1
+          "single_pct": 0,
+          "runs_pct": 0
         },
         "combined": {
-          "hr_pct": 13,
+          "hr_pct": 15,
           "xbh_pct": 0,
-          "single_pct": -1,
+          "single_pct": 0,
           "runs_pct": 2
         }
       },
       "explanations": [
         "해당 날짜 경기 없음 · 현행 홈구장 기준 표시"
       ],
-      "data_status": "stadium_reference"
+      "data_status": "stadium_reference_weather_missing"
     },
     {
       "game_id": "2026-11-14-gwangju-kia-champions-field-REFERENCE",
@@ -407,16 +370,7 @@
           }
         }
       },
-      "weather": {
-        "label": "비 가능",
-        "temperature_c": 14.6,
-        "humidity_pct": 97,
-        "pressure_hpa": 1011.1,
-        "precipitation_probability_pct": 100,
-        "weather_code": 53,
-        "wind_speed_mps": 1.41,
-        "wind_direction_deg": 172
-      },
+      "weather": null,
       "factors": {
         "stadium_only": {
           "hr_pct": 6,
@@ -425,22 +379,22 @@
           "runs_pct": 1
         },
         "weather_only": {
-          "hr_pct": -2,
+          "hr_pct": 0,
           "xbh_pct": 0,
-          "single_pct": -1,
-          "runs_pct": -1
+          "single_pct": 0,
+          "runs_pct": 0
         },
         "combined": {
-          "hr_pct": 4,
+          "hr_pct": 6,
           "xbh_pct": 0,
-          "single_pct": -1,
-          "runs_pct": 0
+          "single_pct": 0,
+          "runs_pct": 1
         }
       },
       "explanations": [
         "해당 날짜 경기 없음 · 현행 홈구장 기준 표시"
       ],
-      "data_status": "stadium_reference"
+      "data_status": "stadium_reference_weather_missing"
     },
     {
       "game_id": "2026-11-14-suwon-kt-wiz-park-REFERENCE",
@@ -470,16 +424,7 @@
           }
         }
       },
-      "weather": {
-        "label": "비 가능",
-        "temperature_c": 10.3,
-        "humidity_pct": 94,
-        "pressure_hpa": 1007.8,
-        "precipitation_probability_pct": 88,
-        "weather_code": 51,
-        "wind_speed_mps": 2.68,
-        "wind_direction_deg": 63
-      },
+      "weather": null,
       "factors": {
         "stadium_only": {
           "hr_pct": -6,
@@ -488,22 +433,22 @@
           "runs_pct": -1
         },
         "weather_only": {
-          "hr_pct": -5,
-          "xbh_pct": -1,
-          "single_pct": -1,
-          "runs_pct": -2
+          "hr_pct": 0,
+          "xbh_pct": 0,
+          "single_pct": 0,
+          "runs_pct": 0
         },
         "combined": {
-          "hr_pct": -11,
-          "xbh_pct": -1,
-          "single_pct": -1,
-          "runs_pct": -2
+          "hr_pct": -6,
+          "xbh_pct": 0,
+          "single_pct": 0,
+          "runs_pct": -1
         }
       },
       "explanations": [
         "해당 날짜 경기 없음 · 현행 홈구장 기준 표시"
       ],
-      "data_status": "stadium_reference"
+      "data_status": "stadium_reference_weather_missing"
     },
     {
       "game_id": "2026-11-14-incheon-ssg-landers-field-REFERENCE",
