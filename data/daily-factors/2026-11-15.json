@@ -1,17 +1,14 @@
 {
   "date": "2026-11-15",
   "timezone": "Asia/Seoul",
-  "generated_at": "2026-11-15T11:59:01+09:00",
+  "generated_at": "2026-11-15T14:58:49+09:00",
   "sources": {
     "schedule": "Naver Sports schedule API",
     "weather": "open-meteo",
     "stadiums": "local-catalog",
     "baselines": "KBO official GameCenter"
   },
-  "warnings": [
-    "weather_missing:2026-11-15-jamsil-REFERENCE:HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=20)",
-    "weather_missing:2026-11-15-sajik-REFERENCE:HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=20)"
-  ],
+  "warnings": [],
   "games": [
     {
       "game_id": "2026-11-15-jamsil-REFERENCE",
@@ -41,7 +38,16 @@
           }
         }
       },
-      "weather": null,
+      "weather": {
+        "label": "맑음",
+        "temperature_c": 11.4,
+        "humidity_pct": 69,
+        "pressure_hpa": 1014.6,
+        "precipitation_probability_pct": 0,
+        "weather_code": 0,
+        "wind_speed_mps": 3.08,
+        "wind_direction_deg": 306
+      },
       "factors": {
         "stadium_only": {
           "hr_pct": -18,
@@ -50,14 +56,14 @@
           "runs_pct": -3
         },
         "weather_only": {
-          "hr_pct": 0,
-          "xbh_pct": 0,
+          "hr_pct": -3,
+          "xbh_pct": -1,
           "single_pct": 0,
-          "runs_pct": 0
+          "runs_pct": -1
         },
         "combined": {
-          "hr_pct": -18,
-          "xbh_pct": 0,
+          "hr_pct": -21,
+          "xbh_pct": -1,
           "single_pct": 0,
           "runs_pct": -3
         }
@@ -65,7 +71,7 @@
       "explanations": [
         "해당 날짜 경기 없음 · 현행 홈구장 기준 표시"
       ],
-      "data_status": "stadium_reference_weather_missing"
+      "data_status": "stadium_reference"
     },
     {
       "game_id": "2026-11-15-gocheok-REFERENCE",
@@ -149,7 +155,16 @@
           }
         }
       },
-      "weather": null,
+      "weather": {
+        "label": "맑음",
+        "temperature_c": 16.6,
+        "humidity_pct": 81,
+        "pressure_hpa": 1011.7,
+        "precipitation_probability_pct": 0,
+        "weather_code": 1,
+        "wind_speed_mps": 0.54,
+        "wind_direction_deg": 158
+      },
       "factors": {
         "stadium_only": {
           "hr_pct": -7,
@@ -173,7 +188,7 @@
       "explanations": [
         "해당 날짜 경기 없음 · 현행 홈구장 기준 표시"
       ],
-      "data_status": "stadium_reference_weather_missing"
+      "data_status": "stadium_reference"
     },
     {
       "game_id": "2026-11-15-daegu-lions-park-REFERENCE",
@@ -205,13 +220,13 @@
       },
       "weather": {
         "label": "맑음",
-        "temperature_c": 13.7,
+        "temperature_c": 13.9,
         "humidity_pct": 85,
-        "pressure_hpa": 1007.3,
+        "pressure_hpa": 1007.2,
         "precipitation_probability_pct": 0,
         "weather_code": 0,
-        "wind_speed_mps": 2.45,
-        "wind_direction_deg": 282
+        "wind_speed_mps": 2.33,
+        "wind_direction_deg": 280
       },
       "factors": {
         "stadium_only": {
@@ -269,7 +284,7 @@
       "weather": {
         "label": "맑음",
         "temperature_c": 12.6,
-        "humidity_pct": 81,
+        "humidity_pct": 80,
         "pressure_hpa": 1009.6,
         "precipitation_probability_pct": 0,
         "weather_code": 0,
@@ -331,13 +346,13 @@
       },
       "weather": {
         "label": "맑음",
-        "temperature_c": 16.1,
-        "humidity_pct": 76,
+        "temperature_c": 16.3,
+        "humidity_pct": 75,
         "pressure_hpa": 1013.4,
         "precipitation_probability_pct": 0,
         "weather_code": 0,
-        "wind_speed_mps": 2.15,
-        "wind_direction_deg": 338
+        "wind_speed_mps": 2.06,
+        "wind_direction_deg": 337
       },
       "factors": {
         "stadium_only": {
@@ -399,8 +414,8 @@
         "pressure_hpa": 1012.9,
         "precipitation_probability_pct": 0,
         "weather_code": 0,
-        "wind_speed_mps": 3.04,
-        "wind_direction_deg": 343
+        "wind_speed_mps": 2.88,
+        "wind_direction_deg": 340
       },
       "factors": {
         "stadium_only": {
@@ -456,14 +471,14 @@
         }
       },
       "weather": {
-        "label": "쌀쌀",
-        "temperature_c": 10.0,
+        "label": "맑음",
+        "temperature_c": 10.1,
         "humidity_pct": 86,
-        "pressure_hpa": 1009.3,
+        "pressure_hpa": 1009.2,
         "precipitation_probability_pct": 0,
         "weather_code": 0,
-        "wind_speed_mps": 1.98,
-        "wind_direction_deg": 315
+        "wind_speed_mps": 2.05,
+        "wind_direction_deg": 313
       },
       "factors": {
         "stadium_only": {
@@ -520,13 +535,13 @@
       },
       "weather": {
         "label": "맑음",
-        "temperature_c": 11.2,
-        "humidity_pct": 68,
-        "pressure_hpa": 1013.3,
+        "temperature_c": 11.4,
+        "humidity_pct": 69,
+        "pressure_hpa": 1013.2,
         "precipitation_probability_pct": 0,
         "weather_code": 0,
         "wind_speed_mps": 4.18,
-        "wind_direction_deg": 343
+        "wind_direction_deg": 339
       },
       "factors": {
         "stadium_only": {
