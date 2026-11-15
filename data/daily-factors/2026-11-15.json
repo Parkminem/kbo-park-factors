@@ -1,14 +1,17 @@
 {
   "date": "2026-11-15",
   "timezone": "Asia/Seoul",
-  "generated_at": "2026-11-15T10:59:25+09:00",
+  "generated_at": "2026-11-15T11:59:01+09:00",
   "sources": {
     "schedule": "Naver Sports schedule API",
     "weather": "open-meteo",
     "stadiums": "local-catalog",
     "baselines": "KBO official GameCenter"
   },
-  "warnings": [],
+  "warnings": [
+    "weather_missing:2026-11-15-jamsil-REFERENCE:HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=20)",
+    "weather_missing:2026-11-15-sajik-REFERENCE:HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=20)"
+  ],
   "games": [
     {
       "game_id": "2026-11-15-jamsil-REFERENCE",
@@ -38,16 +41,7 @@
           }
         }
       },
-      "weather": {
-        "label": "맑음",
-        "temperature_c": 11.4,
-        "humidity_pct": 69,
-        "pressure_hpa": 1014.7,
-        "precipitation_probability_pct": 0,
-        "weather_code": 0,
-        "wind_speed_mps": 3.06,
-        "wind_direction_deg": 308
-      },
+      "weather": null,
       "factors": {
         "stadium_only": {
           "hr_pct": -18,
@@ -56,14 +50,14 @@
           "runs_pct": -3
         },
         "weather_only": {
-          "hr_pct": -3,
-          "xbh_pct": -1,
+          "hr_pct": 0,
+          "xbh_pct": 0,
           "single_pct": 0,
-          "runs_pct": -1
+          "runs_pct": 0
         },
         "combined": {
-          "hr_pct": -21,
-          "xbh_pct": -1,
+          "hr_pct": -18,
+          "xbh_pct": 0,
           "single_pct": 0,
           "runs_pct": -3
         }
@@ -71,7 +65,7 @@
       "explanations": [
         "해당 날짜 경기 없음 · 현행 홈구장 기준 표시"
       ],
-      "data_status": "stadium_reference"
+      "data_status": "stadium_reference_weather_missing"
     },
     {
       "game_id": "2026-11-15-gocheok-REFERENCE",
@@ -155,16 +149,7 @@
           }
         }
       },
-      "weather": {
-        "label": "맑음",
-        "temperature_c": 16.0,
-        "humidity_pct": 81,
-        "pressure_hpa": 1011.6,
-        "precipitation_probability_pct": 0,
-        "weather_code": 0,
-        "wind_speed_mps": 1.17,
-        "wind_direction_deg": 329
-      },
+      "weather": null,
       "factors": {
         "stadium_only": {
           "hr_pct": -7,
@@ -188,7 +173,7 @@
       "explanations": [
         "해당 날짜 경기 없음 · 현행 홈구장 기준 표시"
       ],
-      "data_status": "stadium_reference"
+      "data_status": "stadium_reference_weather_missing"
     },
     {
       "game_id": "2026-11-15-daegu-lions-park-REFERENCE",
